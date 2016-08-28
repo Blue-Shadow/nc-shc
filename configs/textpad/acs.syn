@@ -327,6 +327,7 @@ CheckActorFloorTexture
 CheckActorInventory
 CheckActorProperty
 CheckActorState
+CheckClass
 CheckFlag
 CheckFont
 CheckInventory
