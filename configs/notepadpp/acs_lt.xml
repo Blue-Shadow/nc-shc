@@ -337,6 +337,7 @@
                 Cos
                 CountDBResults
                 CreateTranslation
+                DamageActor
                 Delay
                 DropInventory
                 DropItem
