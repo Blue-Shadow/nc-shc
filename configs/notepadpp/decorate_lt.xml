@@ -1361,6 +1361,7 @@
                 FRIGHTENED
                 FULLVOLACTIVE
                 FULLVOLDEATH
+                GETOWNER
                 GHOST
                 GRENADETRAIL
                 HARMFRIENDS

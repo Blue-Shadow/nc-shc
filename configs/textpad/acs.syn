@@ -474,6 +474,7 @@ SectorSound
 SetActivator
 SetActivatorToTarget
 SetActorAngle
+SetActorFlag
 SetActorPitch
 SetActorPosition
 SetActorProperty
