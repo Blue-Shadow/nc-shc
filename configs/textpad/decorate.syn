@@ -680,6 +680,7 @@ GetCrouchFactor
 GetCVar
 GetDistance
 GetGibHealth
+GetMissileDamage
 GetPlayerInput
 GetSpawnHealth
 GetSpriteAngle
