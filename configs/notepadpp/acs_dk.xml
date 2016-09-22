@@ -51,6 +51,7 @@
                 open
                 pickup
                 redreturn
+                reopen
                 respawn
                 restart
                 return
