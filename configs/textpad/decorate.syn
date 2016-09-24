@@ -535,6 +535,7 @@ A_SetUserArray
 A_SetUserArrayFloat
 A_SetUserVar
 A_SetUserVarFloat
+A_SetVisibleRotation
 A_ShedShard
 A_ShootGun
 A_ShowElectricFlash
@@ -922,6 +923,8 @@ TranslucentLine
 UsePuzzleItem
 
 [Keywords 2]
+ABSMASKANGLE
+ABSMASKPITCH
 ACTIVATEIMPACT
 ACTIVATEMCROSS
 ACTIVATEPCROSS
@@ -1064,6 +1067,7 @@ LAXTELEFRAGDMG
 LONGMELEERANGE
 LOOKALLAROUND
 LOWGRAVITY
+MASKROTATION
 MBFBOUNCER
 MELEEWEAPON
 MIRRORREFLECT
@@ -1656,6 +1660,12 @@ THINGSPEC_TriggerActs
 THINGSPEC_TriggerTargets
 TIF_NOTAKEINFINITE
 VAF_DMGTYPEAPPLYTODIRECT
+VRF_NOANGLE
+VRF_NOANGLEEND
+VRF_NOANGLESTART
+VRF_NOPITCH
+VRF_NOPITCHEND
+VRF_NOPITCHSTART
 WAF_NORANDOM
 WAF_USEPUFF
 WARPF_ABSOLUTEANGLE
@@ -1989,6 +1999,8 @@ UpSound
 UseRange
 UseSound
 ViewHeight
+VisibleAngles
+VisiblePitch
 VisibleToPlayerClass
 VisibleToTeam
 VSpeed
@@ -2025,6 +2037,10 @@ var
 velx
 vely
 velz
+visibleendangle
+visibleendpitch
+visiblestartangle
+visiblestartpitch
 waterlevel
 x
 y
