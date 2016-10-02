@@ -523,6 +523,7 @@
                 A_SetSpriteRotation
                 A_SetTeleFog
                 A_SetTics
+                A_SetTranslation
                 A_SetTranslucent
                 A_SetUserArray
                 A_SetUserArrayFloat

@@ -509,6 +509,7 @@
                 SetSkyScrollSpeed
                 SetTeamScore
                 SetThingSpecial
+                SetTranslation
                 SetUserArray
                 SetUserCVar
                 SetUserCVarString
