@@ -507,6 +507,7 @@
                 A_SetPitch
                 A_SetReflective
                 A_SetReflectiveInvulnerable
+                A_SetRenderStyle
                 A_SetRipMax
                 A_SetRipMin
                 A_SetRipperLevel
@@ -1934,6 +1935,20 @@
                 SPF_RELATIVE
                 SPF_RELPOS
                 SPF_RELVEL
+                STYLE_Add
+                STYLE_AddShaded
+                STYLE_AddStencil
+                STYLE_Fuzzy
+                STYLE_None
+                STYLE_Normal
+                STYLE_OptFuzzy
+                STYLE_Shaded
+                STYLE_Shadow
+                STYLE_SoulTrans
+                STYLE_Stencil
+                STYLE_Subtract
+                STYLE_Translucent
+                STYLE_TranslucentStencil
                 SWF_SELECTPRIORITY
                 SXF_ABSOLUTEANGLE
                 SXF_ABSOLUTEMOMENTUM
