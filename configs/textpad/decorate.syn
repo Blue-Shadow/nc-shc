@@ -690,6 +690,7 @@ GetSpriteAngle
 GetSpriteRotation
 GetZAt
 IsPointerEqual
+OverlayID
 VectorAngle
 abs
 acos
