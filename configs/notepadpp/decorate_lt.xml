@@ -501,6 +501,7 @@
                 A_SetFloorClip
                 A_SetGravity
                 A_SetHealth
+                A_SetInventory
                 A_SetInvulnerable
                 A_SetMass
                 A_SetPainThreshold
