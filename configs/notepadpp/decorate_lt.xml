@@ -1868,6 +1868,7 @@
                 PSPF_ADDBOB
                 PSPF_ADDWEAPON
                 PSPF_CVARFAST
+                PSPF_FLIP
                 PSPF_POWDOUBLE
                 PSP_FLASH
                 PSP_WEAPON
