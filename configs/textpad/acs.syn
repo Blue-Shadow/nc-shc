@@ -417,6 +417,7 @@ GetTeamProperty
 GetTeamScore
 GetThingUDMFFixed
 GetThingUDMFInt
+GetTimeProperty
 GetUserArray
 GetUserCVar
 GetUserCVarString
@@ -440,6 +441,7 @@ LocalSetMusic
 Log
 MorphActor
 Music_Change
+NamedRequestScriptPuke
 NamedScriptWait
 PickActor
 PlayActorSound
@@ -544,6 +546,7 @@ StopSound
 StrCaseCmp
 StrCmp
 StrCpy
+Strftime
 StrIcmp
 StrLeft
 StrLen
@@ -551,6 +554,7 @@ StrMid
 StrParam
 StrRight
 SwapActorTeleFog
+SystemTime
 TagWait
 TakeActorInventory
 TakeInventory
