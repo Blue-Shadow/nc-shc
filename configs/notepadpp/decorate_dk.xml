@@ -28,6 +28,13 @@
                 #include
             </Keywords>
             <Keywords name="Keywords2">
+                ACS_NamedExecute
+                ACS_NamedExecuteAlways
+                ACS_NamedExecuteWithResult
+                ACS_NamedLockedExecute
+                ACS_NamedLockedExecuteDoor
+                ACS_NamedSuspend
+                ACS_NamedTerminate
                 A_AccTeleGlitter
                 A_AcolyteBits
                 A_AcolyteDie
@@ -359,20 +366,6 @@
                 A_LoremasterChain
                 A_Lower
                 A_LowGravity
-                A_M_BFGsound
-                A_M_CheckAttack
-                A_M_FireBFG
-                A_M_FireCGun
-                A_M_FireMissile
-                A_M_FirePistol
-                A_M_FirePlasma
-                A_M_FireRailgun
-                A_M_FireShotgun
-                A_M_FireShotgun2
-                A_M_Punch
-                A_M_Refire
-                A_M_Saw
-                A_M_SawRefire
                 A_MaceBallImpact
                 A_MaceBallImpact2
                 A_MacePL1Check
@@ -402,6 +395,20 @@
                 A_MStaffPalette
                 A_MStaffTrack
                 A_Mushroom
+                A_M_BFGsound
+                A_M_CheckAttack
+                A_M_FireBFG
+                A_M_FireCGun
+                A_M_FireMissile
+                A_M_FirePistol
+                A_M_FirePlasma
+                A_M_FireRailgun
+                A_M_FireShotgun
+                A_M_FireShotgun2
+                A_M_Punch
+                A_M_Refire
+                A_M_Saw
+                A_M_SawRefire
                 A_NoBlocking
                 A_NoGravity
                 A_OpenShotgun2
@@ -660,13 +667,6 @@
                 A_XScream
                 A_ZapMimic
                 A_ZoomFactor
-                ACS_NamedExecute
-                ACS_NamedExecuteAlways
-                ACS_NamedExecuteWithResult
-                ACS_NamedLockedExecute
-                ACS_NamedLockedExecuteDoor
-                ACS_NamedSuspend
-                ACS_NamedTerminate
                 CallACS
                 CheckClass
                 CountInv
@@ -687,6 +687,7 @@
                 OverlayX
                 OverlayY
                 VectorAngle
+
                 abs
                 acos
                 asin
@@ -712,6 +713,7 @@
                 sqrt
                 tan
                 tanh
+
                 ACS_Execute
                 ACS_ExecuteAlways
                 ACS_ExecuteWithResult
@@ -759,6 +761,9 @@
                 Elevator_RaiseToNearest
                 Exit_Normal
                 Exit_Secret
+                FloorAndCeiling_LowerByValue
+                FloorAndCeiling_LowerRaise
+                FloorAndCeiling_RaiseByValue
                 Floor_CrushStop
                 Floor_Donut
                 Floor_LowerByValue
@@ -783,9 +788,6 @@
                 Floor_TransferNumeric
                 Floor_TransferTrigger
                 Floor_Waggle
-                FloorAndCeiling_LowerByValue
-                FloorAndCeiling_LowerRaise
-                FloorAndCeiling_RaiseByValue
                 ForceField
                 FS_Execute
                 Generic_Ceiling
@@ -885,15 +887,15 @@
                 Team_GivePoints
                 Team_Score
                 Teleport
+                TeleportGroup
+                TeleportInSector
+                TeleportOther
                 Teleport_EndGame
                 Teleport_Line
                 Teleport_NewMap
                 Teleport_NoFog
                 Teleport_NoStop
                 Teleport_ZombieChanger
-                TeleportGroup
-                TeleportInSector
-                TeleportOther
                 Thing_Activate
                 Thing_ChangeTID
                 Thing_Damage
@@ -921,85 +923,6 @@
                 UsePuzzleItem
             </Keywords>
             <Keywords name="Keywords3">
-                Action
-                Active
-                Actor
-                AltFire
-                AltFlash
-                AltHold
-                Bounce
-                Break
-                Bright
-                Burn
-                CanRaise
-                Ceiling
-                Const
-                Continue
-                Crash
-                Creature
-                Crush
-                DeadLowered
-                Death
-                Deselect
-                Disintegrate
-                Do
-                Drop
-                Else
-                Enum
-                Extreme
-                Fail
-                Fast
-                Fire
-                Flash
-                Floor
-                For
-                GenericCrush
-                GenericFreezeDeath
-                Goto
-                Greetings
-                Heal
-                Hold
-                Ice
-                Idle
-                If
-                Inactive
-                Light
-                LightDone
-                Loop
-                Melee
-                Missile
-                Native
-                No
-                NoDelay
-                Null
-                Offset
-                Pain
-                Pickup
-                Raise
-                Ready
-                Reload
-                Replaces
-                Return
-                See
-                Select
-                Slow
-                Spawn
-                Spray
-                States
-                Stop
-                Super
-                Use
-                User1
-                User2
-                User3
-                User4
-                Wait
-                Wall
-                While
-                Wound
-                XDeath
-                Yes
-                Zoom
                 Accuracy
                 Activation
                 ActiveSound
@@ -1231,12 +1154,10 @@
                 XScale
                 YAdjust
                 YScale
+
                 angle
-                bool
                 ceilingz
-                float
                 floorz
-                int
                 momx
                 momy
                 momz
@@ -1246,10 +1167,8 @@
                 scaley
                 score
                 special
-                state
                 tid
                 tidtohate
-                var
                 velx
                 vely
                 velz
@@ -1261,8 +1180,97 @@
                 x
                 y
                 z
+
+                Active
+                AltFire
+                AltFlash
+                AltHold
+                Bounce
+                Burn
+                Ceiling
+                Crash
+                Creature
+                Crush
+                DeadLowered
+                Death
+                Deselect
+                Disintegrate
+                Drop
+                Extreme
+                Fire
+                Flash
+                Floor
+                GenericCrush
+                GenericFreezeDeath
+                Greetings
+                Heal
+                Hold
+                Ice
+                Idle
+                Inactive
+                LightDone
+                Melee
+                Missile
+                No
+                Null
+                Pain
+                Pickup
+                Raise
+                Ready
+                Reload
+                See
+                Select
+                Spawn
+                Spray
+                Use
+                User1
+                User2
+                User3
+                User4
+                Wall
+                Wound
+                XDeath
+                Yes
+                Zoom
+
+                Bright
+                CanRaise
+                Fast
+                Light
+                NoDelay
+                Offset
+                Slow
+
+                Fail
+                Goto
+                Loop
+                Stop
+                Wait
             </Keywords>
             <Keywords name="Keywords4">
+                action
+                actor
+                bool
+                break
+                const
+                continue
+                do
+                else
+                enum
+                float
+                for
+                if
+                int
+                native
+                replaces
+                return
+                state
+                states
+                super
+                var
+                while
+            </Keywords>
+            <Keywords name="Keywords5">
                 ABSMASKANGLE
                 ABSMASKPITCH
                 ACTIVATEIMPACT
@@ -1271,27 +1279,17 @@
                 ACTLIKEBRIDGE
                 ADDITIVEPOISONDAMAGE
                 ADDITIVEPOISONDURATION
-                ADDITIVETIME
                 AIMREFLECT
                 ALLOWBOUNCEONACTORS
                 ALLOWPAIN
                 ALLOWPARTICLES
                 ALLOWTHRUFLAGS
-                ALT_AMMO_OPTIONAL
-                ALT_USES_BOTH
                 ALWAYSFAST
-                ALWAYSPICKUP
                 ALWAYSPUFF
                 ALWAYSRESPAWN
                 ALWAYSTELEFRAG
                 AMBUSH
-                AMMO_CHECKBOTH
-                AMMO_OPTIONAL
-                AUTOACTIVATE
                 AVOIDMELEE
-                AXEBLOOD
-                BFG
-                BIGPOWERUP
                 BLASTED
                 BLOCKEDBYSOLIDACTORS
                 BLOODLESSIMPACT
@@ -1313,24 +1311,20 @@
                 CANNOTPUSH
                 CANPASS
                 CANPUSHWALLS
-                CANSUPERMORPH
                 CANTLEAVEFLOORPIC
                 CANTSEEK
                 CANUSEWALLS
                 CAUSEPAIN
                 CEILINGHUGGER
-                CHEATNOTWEAPON
                 CLIENTSIDEONLY
                 CORPSE
                 COUNTITEM
                 COUNTKILL
                 COUNTSECRET
-                CROUCHABLEMORPH
                 DEFLECT
                 DEHEXPLOSION
                 DOHARMSPECIES
                 DONTBLAST
-                DONTBOB
                 DONTCORPSE
                 DONTDRAIN
                 DONTFALL
@@ -1354,9 +1348,7 @@
                 DROPPED
                 EXPLOCOUNT
                 EXPLODEONWATER
-                EXPLOSIVE
                 EXTREMEDEATH
-                FANCYPICKUPSOUND
                 FASTER
                 FASTMELEE
                 FIREDAMAGE
@@ -1387,29 +1379,22 @@
                 HITMASTER
                 HITTARGET
                 HITTRACER
-                HUBPOWER
                 ICECORPSE
                 ICEDAMAGE
                 ICESHATTER
-                IGNORESKILL
                 INCOMBAT
-                INTERHUBSTRIP
-                INVBAR
-                INVENTORY
                 INVISIBLE
                 INVULNERABLE
                 ISMONSTER
                 JUMPDOWN
                 JUSTATTACKED
                 JUSTHIT
-                KEEPDEPLETED
                 LAXTELEFRAGDMG
                 LONGMELEERANGE
                 LOOKALLAROUND
                 LOWGRAVITY
                 MASKROTATION
                 MBFBOUNCER
-                MELEEWEAPON
                 MIRRORREFLECT
                 MISSILE
                 MISSILEEVENMORE
@@ -1417,13 +1402,7 @@
                 MOVEWITHSECTOR
                 MTHRUSPECIES
                 NEVERFAST
-                NEVERRESPAWN
                 NEVERTARGET
-                NO_AUTO_SWITCH
-                NOALERT
-                NOATTENPICKUPSOUND
-                NOAUTOAIM
-                NOAUTOFIRE
                 NOBLOCKMAP
                 NOBLOCKMONST
                 NOBLOOD
@@ -1433,8 +1412,6 @@
                 NOCLIP
                 NODAMAGE
                 NODAMAGETHRUST
-                NODEATHDESELECT
-                NODEATHINPUT
                 NODECAL
                 NODROPOFF
                 NOEXPLODEFLOOR
@@ -1451,7 +1428,6 @@
                 NONSHOOTABLE
                 NOPAIN
                 NORADIUSDMG
-                NOSCREENFLASH
                 NOSECTOR
                 NOSKIN
                 NOSPLASHALERT
@@ -1462,36 +1438,24 @@
                 NOTELEFRAG
                 NOTELEOTHER
                 NOTELEPORT
-                NOTELEPORTFREEZE
                 NOTELESTOMP
-                NOTHRUSTWHENINVUL
                 NOTIMEFREEZE
                 NOTONAUTOMAP
-                NOTRAIL
                 NOTRIGGER
                 NOVERTICALMELEERANGE
                 NOWALLBOUNCESND
                 OLDRADIUSDMG
                 PAINLESS
-                PERSISTENTPOWER
                 PICKUP
-                PICKUPFLASH
                 PIERCEARMOR
-                PLAYERPAWN
-                POWERED_UP
-                POWERSPEED
-                PRIMARY_USES_BOTH
                 PUFFGETSOWNER
                 PUFFONACTORS
                 PUSHABLE
                 QUARTERGRAVITY
                 QUICKTORETALIATE
-                QUIET
                 RANDOMIZE
-                READYSNDHALF
                 REFLECTIVE
                 RELATIVETOFLOOR
-                RESTRICTABSOLUTELY
                 RIPPER
                 ROCKETTRAIL
                 ROLLCENTER
@@ -1516,7 +1480,6 @@
                 SPECIALFLOORCLIP
                 SPECTRAL
                 SPRITEANGLE
-                STAFF2_KICKBACK
                 STANDSTILL
                 STAYMORPHED
                 STEALTH
@@ -1531,61 +1494,108 @@
                 THRUGHOST
                 THRUREFLECT
                 THRUSPECIES
-                TOSSED
                 TOUCHY
-                TRANSFER
-                UNDROPPABLE
-                UNTOSSABLE
                 USEBOUNCESTATE
                 USEKILLSCRIPTS
                 USESPECIAL
                 VISIBILITYPULSE
                 VULNERABLE
                 WALLSPRITE
-                WEAPON
                 WEAPONSPAWN
-                WIMPY_WEAPON
                 WINDTHRUST
+
+                ADDITIVETIME
+                ALWAYSPICKUP
+                AUTOACTIVATE
+                BIGPOWERUP
+                FANCYPICKUPSOUND
+                HUBPOWER
+                IGNORESKILL
+                INTERHUBSTRIP
+                INVBAR
+                INVENTORY
+                KEEPDEPLETED
+                NEVERRESPAWN
+                NOATTENPICKUPSOUND
+                NOSCREENFLASH
+                NOTELEPORTFREEZE
+                PERSISTENTPOWER
+                PICKUPFLASH
+                QUIET
+                RESTRICTABSOLUTELY
+                TOSSED
+                TRANSFER
+                UNDROPPABLE
+                UNTOSSABLE
+
+                CANSUPERMORPH
+                CROUCHABLEMORPH
+                NOTHRUSTWHENINVUL
+                PLAYERPAWN
+
+                NOTRAIL
+                POWERSPEED
+
+                ALT_AMMO_OPTIONAL
+                ALT_USES_BOTH
+                AMMO_CHECKBOTH
+                AMMO_OPTIONAL
+                AXEBLOOD
+                BFG
+                CHEATNOTWEAPON
+                DONTBOB
+                EXPLOSIVE
+                MELEEWEAPON
+                NOALERT
+                NOAUTOAIM
+                NOAUTOFIRE
+                NODEATHDESELECT
+                NODEATHINPUT
+                NO_AUTO_SWITCH
+                POWERED_UP
+                PRIMARY_USES_BOTH
+                READYSNDHALF
+                STAFF2_KICKBACK
+                WEAPON
+                WIMPY_WEAPON
+
+                BeastAttack
+                BeastPuff
+                BoltSpark
+                CentaurDrop
                 Chex
+                ChunkFlags
                 Classic
+                ClinkAttack
+                DemonAttack1
                 Doom
                 DoomCompat
+                DropMace
+                EttinAttack
                 Grenade
                 Heretic
                 HereticCompat
                 Hexen
                 HexenCompat
-                Raven
-                Strife
-                BeastAttack
-                BeastPuff
-                BoltSpark
-                CentaurDrop
-                ChunkFlags
-                ClinkAttack
-                DemonAttack1
-                DropMace
-                EttinAttack
                 ImpMeAttack
                 MummyAttack
                 MummyAttack2
                 PeasantAttack
                 PigAttack
+                Raven
                 ReaverMelee
                 SpectreMelee
                 spectrespawn
                 StaffAttack
+                Strife
                 TeleGlitter
                 TeleGlitter2
-                FALSE
-                TRUE
+
                 AAPTR_DEFAULT
                 AAPTR_FRIENDPLAYER
                 AAPTR_LINETARGET
                 AAPTR_MASTER
                 AAPTR_NULL
-                AAPTR_PLAYER_GETCONVERSATION
-                AAPTR_PLAYER_GETTARGET
                 AAPTR_PLAYER1
                 AAPTR_PLAYER2
                 AAPTR_PLAYER3
@@ -1594,6 +1604,8 @@
                 AAPTR_PLAYER6
                 AAPTR_PLAYER7
                 AAPTR_PLAYER8
+                AAPTR_PLAYER_GETCONVERSATION
+                AAPTR_PLAYER_GETTARGET
                 AAPTR_TARGET
                 AAPTR_TRACER
                 AF_ClearSpecial
@@ -1696,11 +1708,11 @@
                 CLOFF_CHECKPARTIAL
                 CLOFF_FROMBASE
                 CLOFF_IGNOREGHOST
-                CLOFF_JUMP_ON_MISS
                 CLOFF_JUMPENEMY
                 CLOFF_JUMPFRIEND
                 CLOFF_JUMPNONHOSTILE
                 CLOFF_JUMPOBJECT
+                CLOFF_JUMP_ON_MISS
                 CLOFF_MUL_HEIGHT
                 CLOFF_MUL_WIDTH
                 CLOFF_MUSTBEGHOST
@@ -1763,6 +1775,7 @@
                 FAF_MIDDLE
                 FAF_NODISTFACTOR
                 FAF_TOP
+                FALSE
                 FBF_EXPLICITANGLE
                 FBF_NOFLASH
                 FBF_NOPITCH
@@ -2014,6 +2027,7 @@
                 THINGSPEC_TriggerActs
                 THINGSPEC_TriggerTargets
                 TIF_NOTAKEINFINITE
+                TRUE
                 VAF_DMGTYPEAPPLYTODIRECT
                 VRF_NOANGLE
                 VRF_NOANGLEEND
@@ -2060,7 +2074,6 @@
                 ZOOM_INSTANT
                 ZOOM_NOSCALETURNING
             </Keywords>
-            <Keywords name="Keywords5"></Keywords>
             <Keywords name="Keywords6"></Keywords>
             <Keywords name="Keywords7"></Keywords>
             <Keywords name="Keywords8"></Keywords>
@@ -2072,10 +2085,10 @@
             <WordsStyle name="LINE COMMENTS" fgColor="808024" bgColor="000000" fontName="" fontStyle="0" nesting="0" />
             <WordsStyle name="NUMBERS" fgColor="A0A0A0" bgColor="000000" fontName="" fontStyle="0" nesting="0" />
             <WordsStyle name="KEYWORDS1" fgColor="A04C63" bgColor="000000" fontName="" fontStyle="0" nesting="0" />
-            <WordsStyle name="KEYWORDS2" fgColor="0090FF" bgColor="000000" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="A578E7" bgColor="000000" fontName="" fontStyle="0" nesting="0" />
             <WordsStyle name="KEYWORDS3" fgColor="0090FF" bgColor="000000" fontName="" fontStyle="0" nesting="0" />
-            <WordsStyle name="KEYWORDS4" fgColor="902020" bgColor="000000" fontName="" fontStyle="0" nesting="0" />
-            <WordsStyle name="KEYWORDS5" fgColor="A0A0A0" bgColor="000000" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="0090FF" bgColor="000000" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="902020" bgColor="000000" fontName="" fontStyle="0" nesting="0" />
             <WordsStyle name="KEYWORDS6" fgColor="A0A0A0" bgColor="000000" fontName="" fontStyle="0" nesting="0" />
             <WordsStyle name="KEYWORDS7" fgColor="A0A0A0" bgColor="000000" fontName="" fontStyle="0" nesting="0" />
             <WordsStyle name="KEYWORDS8" fgColor="A0A0A0" bgColor="000000" fontName="" fontStyle="0" nesting="0" />
