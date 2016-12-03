@@ -25,6 +25,7 @@
             <Keywords name="Folders in comment, middle"></Keywords>
             <Keywords name="Folders in comment, close"></Keywords>
             <Keywords name="Keywords1">
+                #include
             </Keywords>
             <Keywords name="Keywords2">
                 absangle
@@ -751,7 +752,6 @@
                 Distance3D
                 DistanceBySpeed
                 DistanceTo
-                DoDropItem
                 DoEffect
                 DoFireSpell
                 DoSpecialDamage
