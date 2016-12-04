@@ -700,6 +700,7 @@
                 BulletSlope
                 CallACS
                 CallTryPickup
+                CanCollideWith
                 CanSeek
                 CastSorcererSpell
                 ChangeStatNum
