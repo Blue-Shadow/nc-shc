@@ -1535,6 +1535,7 @@
                 mStateType
 
                 angleFromSource
+                attackAngleFromSource
                 linetarget
                 unlinked
 
