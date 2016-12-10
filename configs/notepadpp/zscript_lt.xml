@@ -2763,6 +2763,7 @@
                 CPXF_SETTRACER
                 CVF_RELATIVE
                 CVF_REPLACE
+                DEFMELEERANGE
                 DMG_FOILBUDDHA
                 DMG_FOILINVUL
                 DMG_FORCED
@@ -2892,7 +2893,6 @@
                 LOF_NOSIGHTCHECK
                 LOF_NOSOUNDCHECK
                 MAXPLAYERS
-                MELEERANGE
                 MISSILERANGE
                 MODINPUT_BUTTONS
                 MODINPUT_FORWARDMOVE
