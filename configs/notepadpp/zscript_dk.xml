@@ -905,6 +905,7 @@
                 SinkMobj
                 Slam
                 SorcUpdateBallAngle
+                SoundAlert
                 SpawnBlood
                 SpawnDirt
                 SpawnHealth
