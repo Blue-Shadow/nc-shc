@@ -2604,11 +2604,14 @@
                 AAPTR_PLAYER_GETTARGET
                 AAPTR_TARGET
                 AAPTR_TRACER
+                AF_Activate
                 AF_ClearSpecial
+                AF_Deactivate
                 AF_Default
                 AF_MissileTrigger
                 AF_MonsterTrigger
                 AF_NoDeathSpecial
+                AF_Switch
                 AF_ThingActs
                 AF_ThingTargets
                 AF_TriggerActs
@@ -3190,6 +3193,7 @@
                 WEAPONBOTTOM
                 WEAPONTOP
                 WOF_ADD
+                WOF_INTERPOLATE
                 WOF_KEEPX
                 WOF_KEEPY
                 WRF_ALLOWRELOAD
