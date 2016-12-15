@@ -2564,8 +2564,10 @@
                 CANSUPERMORPH
                 CROUCHABLEMORPH
                 NOTHRUSTWHENINVUL
+                PLAYERPAWN
 
                 NOTRAIL
+                POWERSPEED
 
                 BeastAttack
                 BeastPuff
