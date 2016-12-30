@@ -261,6 +261,7 @@
                 A_FirePhoenixPL2
                 A_FirePistol
                 A_FirePlasma
+                A_FireProjectile
                 A_FireRailgun
                 A_FireRailgunLeft
                 A_FireRailgunRight
@@ -543,6 +544,7 @@
                 A_SetScale
                 A_SetShadow
                 A_SetShootable
+                A_SetSize
                 A_SetSolid
                 A_SetSpecial
                 A_SetSpecies
@@ -599,6 +601,7 @@
                 A_SpawnItemEx
                 A_SpawnParticle
                 A_SpawnProgrammerBase
+                A_SpawnProjectile
                 A_SpawnRippers
                 A_SpawnSingleItem
                 A_SpawnSound
@@ -777,6 +780,7 @@
                 GetBobOffset
                 GetCameraHeight
                 GetClass
+                GetClassName
                 GetCrouchFactor
                 GetCVar
                 GetDefaultByType
@@ -889,6 +893,7 @@
                 SetInvalid
                 SetLogNumber
                 SetLogText
+                SetMusicVolume
                 SetNull
                 SetOrigin
                 SetPsprite
@@ -1342,6 +1347,7 @@
                 RadiusDamageFactor
                 ReactionTime
                 ReadySound
+                RenderRadius
                 RenderStyle
                 Respawns
                 Respawntics
@@ -2742,6 +2748,7 @@
                 CMF_ABSOLUTEPITCH
                 CMF_AIMDIRECTION
                 CMF_AIMOFFSET
+                CMF_BADPITCH
                 CMF_CHECKTARGETDEAD
                 CMF_OFFSETPITCH
                 CMF_SAVEPITCH
