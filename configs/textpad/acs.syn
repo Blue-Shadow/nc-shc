@@ -495,6 +495,7 @@ SetCVarString
 SetDBEntry
 SetDBEntryString
 SetFloorTrigger
+SetFogDensity
 SetFont
 SetGravity
 SetHUDClipRect
@@ -514,6 +515,7 @@ SetPlayerLivesLeft
 SetPointer
 SetResultValue
 SetSectorDamage
+SetSectorGlow
 SetSectorTerrain
 SetSkyScrollSpeed
 SetTeamScore

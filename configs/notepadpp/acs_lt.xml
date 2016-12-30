@@ -488,6 +488,7 @@
                 SetDBEntry
                 SetDBEntryString
                 SetFloorTrigger
+                SetFogDensity
                 SetFont
                 SetGravity
                 SetHUDClipRect
@@ -507,6 +508,7 @@
                 SetPointer
                 SetResultValue
                 SetSectorDamage
+                SetSectorGlow
                 SetSectorTerrain
                 SetSkyScrollSpeed
                 SetTeamScore
