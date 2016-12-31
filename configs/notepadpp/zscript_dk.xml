@@ -763,6 +763,7 @@
                 DropInventory
                 DSparilTeleport
                 Effect
+                EndEffect
                 EndPowerup
                 Exists
                 ExplodeMissile
@@ -831,6 +832,7 @@
                 HitFriend
                 HitWater
                 Howl
+                InitEffect
                 InStateSequence
                 isFriend
                 isHostile
@@ -2694,6 +2696,31 @@
                 CBF_SETONPTR
                 CBF_SETTARGET
                 CBF_SETTRACER
+                CF_BUDDHA
+                CF_BUDDHA2
+                CF_CHASECAM
+                CF_DOUBLEFIRINGSPEED
+                CF_DRAIN
+                CF_EXTREMELYDEAD
+                CF_FLY
+                CF_FRIGHTENING
+                CF_FROZEN
+                CF_GODMODE
+                CF_GODMODE2
+                CF_HIGHJUMP
+                CF_INFINITEAMMO
+                CF_INSTANTWEAPSWITCH
+                CF_INTERPVIEW
+                CF_NOCLIP
+                CF_NOCLIP2
+                CF_NOTARGET
+                CF_NOVELOCITY
+                CF_PREDICTING
+                CF_PROSPERITY
+                CF_REFLECTION
+                CF_REVERTPLEASE
+                CF_STEPLEFT
+                CF_TOTALLYFROZEN
                 CHAN_5
                 CHAN_6
                 CHAN_7
