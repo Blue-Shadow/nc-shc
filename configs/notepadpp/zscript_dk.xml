@@ -47,6 +47,7 @@
                 AngleTo
                 AngleToVector
                 ApplyDamageFactor
+                ApplyDamageFactors
                 AttachToOwner
                 A_AccelBalls
                 A_AccTeleGlitter
@@ -851,7 +852,9 @@
                 LookForPlayers
                 LookForTid
                 MinotaurSlam
+                ModifyDamage
                 MonsterMove
+                MorphPlayer
                 MorphPlayerThink
                 MStaffSpawn2
                 NewChaseDir
@@ -1672,7 +1675,6 @@
 
                 SpeedFlags
 
-                bInUndoMorph
                 MorphedPlayer
 
                 PuzzleItemNumber
