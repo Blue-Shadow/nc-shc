@@ -913,6 +913,7 @@
                 SetZ
                 ShouldStay
                 SinkMobj
+                Size
                 Slam
                 SorcUpdateBallAngle
                 SoundAlert
@@ -1503,7 +1504,6 @@
                 heightsec
                 leakydamage
                 lightlevel
-                linecount
                 midmap
                 MoreFlags
                 movefactor
