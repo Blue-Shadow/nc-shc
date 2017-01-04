@@ -936,6 +936,8 @@
                 SpecialDropAction
                 SpecialMissileHit
                 S_ChangeMusic
+                S_PauseSound
+                S_ResumeSound
                 S_Sound
                 TakeSpecialDamage
                 TeleportMove
@@ -1441,6 +1443,7 @@
                 clusterflags
                 found_items
                 found_secrets
+                frozen
                 killed_monsters
                 LevelName
                 levelnum
