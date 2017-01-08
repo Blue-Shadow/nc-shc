@@ -39,6 +39,8 @@
                 ACS_NamedTerminate
                 Activate
                 AddInventory
+                AddXOffset
+                AddYOffset
                 AddZ
                 AdjustFloorClip
                 AdjustPlayerAngle
@@ -707,6 +709,11 @@
                 CanCollideWith
                 CanSeek
                 CastSorcererSpell
+                CenterCeiling
+                CenterFloor
+                ChangeFlags
+                ChangeHeight
+                ChangeLightLevel
                 ChangeStatNum
                 ChangeTid
                 CheckAmmo
@@ -726,6 +733,7 @@
                 CheckMissileRange
                 CheckMissileSpawn
                 CheckNumForName
+                CheckPortalPlane
                 CheckPosition
                 CheckProximity
                 CheckRange
@@ -734,6 +742,8 @@
                 ClearBounce
                 ClearCounters
                 ClearInventory
+                ClearPortal
+                ClearSecret
                 CopyFriendliness
                 CountInv
                 CountProximity
@@ -770,17 +780,35 @@
                 ExplodeMissile
                 FaceMovementDirection
                 FindFloorCeiling
+                FindHighestCeilingSurrounding
+                FindHighestFloorPoint
+                FindHighestFloorSurrounding
                 FindInventory
+                FindLowestCeilingPoint
+                FindLowestCeilingSurrounding
+                FindLowestFloorSurrounding
+                FindMinSurroundingLight
+                FindModelCeilingSector
+                FindModelFloorSector
+                FindNextHighestCeiling
+                FindNextHighestFloor
+                FindNextLowestCeiling
+                FindNextLowestFloor
                 FindPSprite
+                FindShortestTextureAround
+                FindShortestUpperAround
                 FindState
                 FindUniqueTid
                 GameType
+                GetAlpha
                 GetAltAtkState
                 GetAngle
                 GetAtkState
                 GetBlend
                 GetBobOffset
                 GetCameraHeight
+                GetCeilingLight
+                GetChangedHeight
                 GetClass
                 GetClassName
                 GetCrouchFactor
@@ -790,22 +818,33 @@
                 GetDistance
                 GetDownState
                 GetDropItems
+                GetFlags
+                GetFloorLight
                 GetFloorTerrain
                 GetFriction
                 GetGibHealth
                 GetGravity
+                GetHeightSec
+                GetLightLevel
                 GetMaxHealth
                 GetMissileDamage
                 GetModifiedDamage
                 GetNextInList
                 GetNoTeleportFreeze
                 GetNoTeleportFreeze
+                GetOppositePortalGroup
+                GetPlaneLight
+                GetPlaneTexZ
                 GetPlayerInput
                 GetPointer
+                GetPortalDisplacement
+                GetPortalPlaneZ
+                GetPortalType
                 GetPSprite
                 GetReadyState
                 GetSpawnableType
                 GetSpawnHealth
+                GetSpecial
                 GetSpecies
                 GetSpeedFactor
                 GetSpeedFactor
@@ -815,7 +854,14 @@
                 GetSpriteIndex
                 GetSpriteRotation
                 GetTag
+                GetTerrain
+                GetTexture
                 GetUpState
+                GetVisFlags
+                GetXOffset
+                GetXScale
+                GetYOffset
+                GetYScale
                 GetZAt
                 GiveAmmo
                 GiveBody
@@ -829,16 +875,22 @@
                 G_SkillPropertyFloat
                 G_SkillPropertyInt
                 HandlePickup
+                HeightDiff
+                HighestCeilingAt
                 HitFloor
                 HitFriend
                 HitWater
                 Howl
                 InitEffect
                 InStateSequence
+                isEqual
                 isFriend
                 isHostile
+                IsLinked
                 IsNull
                 IsPointerEqual
+                isSecret
+                isSlope
                 isTeammate
                 IsValid
                 IsVisible
@@ -851,20 +903,25 @@
                 LookForMonsters
                 LookForPlayers
                 LookForTid
+                LowestFloorAt
                 MinotaurSlam
                 ModifyDamage
                 MonsterMove
                 MorphPlayer
                 MorphPlayerThink
+                MoveCeiling
+                MoveFloor
                 MStaffSpawn2
                 NewChaseDir
                 Next
                 NextHighestCeilingAt
                 NextLowestFloorAt
+                NextSpecialSector
                 OldSpawnMissile
                 OverlayID
                 OverlayX
                 OverlayY
+                PlaneMoving
                 PlayActiveSound
                 PlayAttacking
                 PlayAttacking2
@@ -875,8 +932,15 @@
                 PlayRunning
                 PlaySpawnSound
                 PointInSector
+                PointOnSide
+                PointToDist
                 PoisonMobj
                 PoisonPlayer
+                PortalBlocksMovement
+                PortalBlocksSight
+                PortalBlocksSound
+                PortalBlocksView
+                PortalIsLinked
                 PostBeginPlay
                 RaiseMobj
                 RandomChaseDir
@@ -890,26 +954,38 @@
                 RestoreDamage
                 RotateVector
                 RoughMonsterSearch
+                SetAlpha
+                SetAngle
+                SetBase
                 SetColor
                 SetDamage
                 SetFade
                 SetFriendPlayer
                 SetIdle
                 SetInvalid
+                SetLightLevel
                 SetLogNumber
                 SetLogText
                 SetMusicVolume
                 SetNull
                 SetOrigin
+                SetPlaneLight
+                SetPlaneTexZ
                 SetPsprite
                 SetSafeFlash
                 SetShade
+                SetSpecial
                 SetSprite
                 SetState
                 SetStateLabel
                 SetTag
+                SetTexture
                 SetWeapon
+                SetXOffset
+                SetXScale
                 SetXYZ
+                SetYOffset
+                SetYScale
                 SetZ
                 ShouldStay
                 SinkMobj
@@ -948,6 +1024,7 @@
                 Touch
                 TraceBleed
                 TraceBleedAngle
+                TransferSpecial
                 TryMove
                 TryPickup
                 TryPickupRestricted
@@ -966,6 +1043,9 @@
                 VectorAngle
                 Vel3DFromAngle
                 VelFromAngle
+                wasSecret
+                ZatPoint
+                ZatPointDist
 
                 abs
                 acos
@@ -1492,6 +1572,8 @@
                 Tics
                 UseFlags
 
+                p
+
                 backsector
                 bbox
                 delta
@@ -1499,11 +1581,17 @@
                 locknumber
                 portalindex
 
+                D
+                Normal
+                negiC
+
                 bottommap
+                ceilingplane
                 centerspot
                 damageamount
                 damageinterval
                 Flags
+                floorplane
                 heightsec
                 leakydamage
                 lightlevel
@@ -2231,6 +2319,7 @@
                 replaces
                 return
                 self
+                short
                 sound
                 spriteid
                 state
@@ -3318,6 +3407,9 @@
                 CeilingScroll
                 FloorMove
                 FloorScroll
+                MOVE_CRUSHED
+                MOVE_OK
+                MOVE_PASTDEST
                 SECF_DAMAGEFLAGS
                 SECF_DMGTERRAINFX
                 SECF_ENDGODMODE
