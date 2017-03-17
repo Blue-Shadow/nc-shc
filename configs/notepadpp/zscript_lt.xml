@@ -38,6 +38,7 @@
                 ACS_NamedSuspend
                 ACS_NamedTerminate
                 Activate
+				AddChoice
                 AddInventory
                 AddXOffset
                 AddYOffset
@@ -412,6 +413,7 @@
                 A_MissileAttack
                 A_MLightningAttack
                 A_MntrFloorFire
+				A_Morph
                 A_MonsterRail
                 A_MonsterRefire
                 A_MStaffAttack
@@ -436,8 +438,10 @@
                 A_NoGravity
                 A_OpenShotgun2
                 A_Overlay
+				A_OverlayAlpha
                 A_OverlayFlags
                 A_OverlayOffset
+				A_OverlayRenderStyle
                 A_Pain
                 A_PainAttack
                 A_PainDie
@@ -535,6 +539,7 @@
                 A_SetInventory
                 A_SetInvulnerable
                 A_SetMass
+				A_SetMugshotState
                 A_SetPainThreshold
                 A_SetPitch
                 A_SetReflective
@@ -619,6 +624,7 @@
                 A_SPosAttack
                 A_SPosAttackUseAtkSound
                 A_SpotLightning
+				A_SprayDecal
                 A_Srcr1Attack
                 A_Srcr2Attack
                 A_Srcr2Decide
@@ -698,11 +704,18 @@
                 A_XScream
                 A_ZapMimic
                 A_ZoomFactor
+				AddTextureXOffset
+				AddTextureYOffset
+				AddTranslation
+				AppendFormat
+				AreModesSame
+				AreModesSameID
                 BAM
                 BecomeItem
                 BecomePickup
                 BeginPlay
                 BobSin
+				BreakLines
                 BulletSlope
                 CallACS
                 CallTryPickup
@@ -716,11 +729,14 @@
                 ChangeLightLevel
                 ChangeStatNum
                 ChangeTid
+				CharAt
+				CharCodeAt
                 CheckAmmo
                 CheckArmorType
                 CheckBlock
                 CheckBossDeath
                 CheckClass
+				CheckForTexture
                 CheckIfCloser
                 CheckIfInTargetLOS
                 CheckIfSeen
@@ -732,6 +748,7 @@
                 CheckMeleeRange2
                 CheckMissileRange
                 CheckMissileSpawn
+				CheckNoDelay
                 CheckNumForName
                 CheckPortalPlane
                 CheckPosition
@@ -739,12 +756,18 @@
                 CheckRange
                 CheckSight
                 CheckSightOrRange
+				CheckSoundSequence
+				Clear
                 ClearBounce
                 ClearCounters
                 ClearInventory
+				ClearLastRipped
                 ClearPortal
                 ClearSecret
                 CopyFriendliness
+				ClearInterpolation
+				Copy
+				Count
                 CountInv
                 CountProximity
                 CountsAsKill
@@ -759,18 +782,26 @@
                 DamageMobj
                 Deactivate
                 deltaangle
+				Delete
                 DepleteAmmo
                 Destroy
                 DetachFromOwner
                 Die
+				Dim
                 Distance2D
                 Distance3D
                 DistanceBySpeed
                 DistanceTo
+				DoAttack
                 DoEffect
                 DoFireSpell
                 DoSpecialDamage
+				DrawChar
+				DrawFrame
+				DrawHUDTexture
                 DrawSplash
+				DrawText
+				DrawTexture
                 DropInventory
                 DSparilTeleport
                 Effect
@@ -779,7 +810,12 @@
                 Exists
                 ExplodeMissile
                 FaceMovementDirection
+				Filter
+				FindCVar
                 FindFloorCeiling
+				Find
+				FindFont
+				FindFontColor
                 FindHighestCeilingSurrounding
                 FindHighestFloorPoint
                 FindHighestFloorSurrounding
@@ -799,32 +835,41 @@
                 FindShortestUpperAround
                 FindState
                 FindUniqueTid
+				Format
                 GameType
                 GetAlpha
                 GetAltAtkState
                 GetAngle
                 GetAtkState
                 GetBlend
+				GetBloodType
                 GetBobOffset
                 GetCameraHeight
                 GetCeilingLight
                 GetChangedHeight
+				GetCharWidth
                 GetClass
                 GetClassName
                 GetCrouchFactor
+				GetCursor
                 GetCVar
+				GetDeathHeight
                 GetDefaultByType
                 GetDefaultSpeed
                 GetDistance
                 GetDownState
                 GetDropItems
                 GetFlags
+				GetFloat
                 GetFloorLight
                 GetFloorTerrain
+				GetFont
                 GetFriction
                 GetGibHealth
                 GetGravity
+				GetHeight
                 GetHeightSec
+				GetInt
                 GetLightLevel
                 GetMaxHealth
                 GetMissileDamage
@@ -832,6 +877,7 @@
                 GetNextInList
                 GetNoTeleportFreeze
                 GetNoTeleportFreeze
+				GetObituary
                 GetOppositePortalGroup
                 GetPlaneLight
                 GetPlaneTexZ
@@ -841,7 +887,14 @@
                 GetPortalPlaneZ
                 GetPortalType
                 GetPSprite
+				GetRealType
                 GetReadyState
+				GetReplacee
+				GetReplacement
+				GetScaledSize
+				GetSequenceName
+				GetSequenceSlot
+				GetSize
                 GetSpawnableType
                 GetSpawnHealth
                 GetSpecial
@@ -853,11 +906,21 @@
                 GetSpriteAngle
                 GetSpriteIndex
                 GetSpriteRotation
+				GetSpriteTexture
+				GetString
                 GetTag
                 GetTerrain
                 GetTexture
+				GetTextureXOffset
+				GetTextureYOffset
+				GetTextureXScale
+				GetTextureYScale
+				GetUDMFFloat
+				GetUDMFInt
+				GetUDMFString
                 GetUpState
                 GetVisFlags
+				GetWidth
                 GetXOffset
                 GetXScale
                 GetYOffset
@@ -865,28 +928,40 @@
                 GetZAt
                 GiveAmmo
                 GiveBody
+				GiveInventory
                 GiveInventoryType
                 GiveSecret
                 GiveSigilPiece
                 GoAwayAndDie
+				Grow
                 GunShot
                 G_PickDeathmatchStart
                 G_PickPlayerStart
                 G_SkillPropertyFloat
                 G_SkillPropertyInt
+				getPortalAlignment
+				getPortalDestination
                 HandlePickup
+				HandleSpawnFlags
                 HeightDiff
+				HideConsole
                 HighestCeilingAt
                 HitFloor
                 HitFriend
                 HitWater
                 Howl
+				IgnoreArmor
+				Index
                 InitEffect
+				Insert
                 InStateSequence
+				IsZeroDamage
                 isEqual
                 isFriend
                 isHostile
+				isLinePortal
                 IsLinked
+				IsMakingLoopingSound
                 IsNull
                 IsPointerEqual
                 isSecret
@@ -894,7 +969,9 @@
                 isTeammate
                 IsValid
                 IsVisible
+				isVisualPortal
                 KoraxFire
+				Left
                 Length
                 LineAttack
                 LinkToWorld
@@ -904,23 +981,37 @@
                 LookForPlayers
                 LookForTid
                 LowestFloorAt
+				MarkPrecacheSounds
+				MakeID
+				MidPrint
                 MinotaurSlam
                 ModifyDamage
                 MonsterMove
+				MorphMonster
                 MorphPlayer
                 MorphPlayerThink
+				Move
                 MoveCeiling
                 MoveFloor
+				MultiplyTextureXScale
+				MultiplyTextureYScale
                 MStaffSpawn2
+				MSTime
+				Mid
                 NewChaseDir
                 Next
+				NextCompat
                 NextHighestCeilingAt
                 NextLowestFloorAt
                 NextSpecialSector
+				Normalize180
+				ObtainInventory
                 OldSpawnMissile
+				OnDestroy
                 OverlayID
                 OverlayX
                 OverlayY
+				PaletteColor
                 PlaneMoving
                 PlayActiveSound
                 PlayAttacking
@@ -936,32 +1027,47 @@
                 PointToDist
                 PoisonMobj
                 PoisonPlayer
+				Pop
                 PortalBlocksMovement
                 PortalBlocksSight
                 PortalBlocksSound
                 PortalBlocksView
                 PortalIsLinked
+				PosRelative
                 PostBeginPlay
+				Push
+				Printf
                 RaiseMobj
                 RandomChaseDir
+				ReceivedWeapon
                 Reinit
                 RemoveForceField
                 RemoveFromHash
                 RemoveInventory
                 Replace
+				ReplaceTextures
                 ResetAirSupply
+				ResetToDefault
                 ResolveState
                 RestoreDamage
+				Reserve
+				Resize
                 RotateVector
                 RoughMonsterSearch
                 SetAlpha
                 SetAngle
                 SetBase
+				SetCamera
                 SetColor
                 SetDamage
+				SetEnvironment
+				SetEnvironmentID
                 SetFade
+				SetFloat
                 SetFriendPlayer
                 SetIdle
+				SetInt
+				SetInterpolation
                 SetInvalid
                 SetLightLevel
                 SetLogNumber
@@ -971,6 +1077,7 @@
                 SetOrigin
                 SetPlaneLight
                 SetPlaneTexZ
+				SetPlayerTranslation
                 SetPsprite
                 SetSafeFlash
                 SetShade
@@ -978,8 +1085,13 @@
                 SetSprite
                 SetState
                 SetStateLabel
+				SetString
                 SetTag
                 SetTexture
+				SetTextureXOffset
+				SetTextureYOffset
+				SetTextureXScale
+				SetTextureYScale
                 SetWeapon
                 SetXOffset
                 SetXScale
@@ -988,6 +1100,7 @@
                 SetYScale
                 SetZ
                 ShouldStay
+				ShrinkToFit
                 SinkMobj
                 Size
                 Slam
@@ -1011,10 +1124,18 @@
                 SpecialBlastHandling
                 SpecialDropAction
                 SpecialMissileHit
+				StartSlideshow
+				StartSoundSequenceID
+				StartSoundSequence
+				StopInterpolation
+				StopSoundSequence
+				StringAt
+				StringWidth
                 S_ChangeMusic
                 S_PauseSound
                 S_ResumeSound
                 S_Sound
+				TakeInventory
                 TakeSpecialDamage
                 TeleportMove
                 TestMobjLocation
@@ -1025,6 +1146,7 @@
                 TraceBleed
                 TraceBleedAngle
                 TransferSpecial
+				Truncate
                 TryMove
                 TryPickup
                 TryPickupRestricted
@@ -1032,7 +1154,12 @@
                 UndoPlayerMorph
                 Unit
                 UnlinkFromWorld
+				UpdateWaterLevel
+				Used
                 UseInventory
+				V1
+				V2
+				ValidateSpriteFrame
                 Vec2Angle
                 Vec2Offset
                 Vec2OffsetZ
@@ -1118,6 +1245,7 @@
                 Elevator_LowerToNearest
                 Elevator_MoveToFloor
                 Elevator_RaiseToNearest
+				ExecuteSpecial
                 Exit_Normal
                 Exit_Secret
                 FloorAndCeiling_LowerByValue
@@ -1280,6 +1408,91 @@
                 ThrustThingZ
                 TranslucentLine
                 UsePuzzleItem
+
+				ConsoleProcess
+				InputProcess
+				NetworkProcess
+				OnRegister
+				OnUnregister
+				PlayerDied
+				PlayerDisconnected
+				PlayerEntered
+				PlayerRespawned
+				UiProcess
+				UiTick
+				SendNetworkEvent
+				SetOrder
+				WorldLightning
+				WorldLoaded
+				WorldThingSpawned
+				WorldThingDied
+				WorldThingRevived
+				WorldThingDamaged
+				WorldThingDestroyed
+				WorldTick
+				WorldUnloaded
+
+				NameKeys
+				GetKeysForCommand
+				SetBind
+				UnbindACommand
+				GetCount
+				GetText
+				GetValue
+				GetTextValue
+				GetSensitivity
+				SetSensitivity
+				GetAxisScale
+				SetAxisScale
+				GetAxisDeadZone
+				SetAxisDeadZone
+				GetAxisMap
+				SetAxisMap
+				GetName
+				GetNumAxes
+				GetAxisName
+				MenuTime
+				SetVideoMode
+				GetCurrentMenu
+				SetMenu
+				StartMessage
+				SetMouseCapture
+				Close
+				ActivateMenu
+				Init
+				MenuEvent
+				OnUIEvent
+				MenuSound
+				MouseEvent
+				MouseEventBack
+				SetCapture
+				OnInputEvent
+				Drawer
+				TranslateKeyboardEvents
+				SetFocus
+				CheckFocus
+				ReleaseFocus
+				ResetColor
+				Ticker
+				DrawConText
+				GetDescriptor
+				CheckCoordinate
+				Selectable
+				GetAction
+				SetValue
+				Enable
+				CheckHotkey
+				GetIndent
+				Draw
+				OffsetPositionY
+				GetY
+				GetX
+				SetX
+				OnMenuCreated
+				Reset
+				DrawSelector
+				InitDirect
+
             </Keywords>
             <Keywords name="Keywords3">
                 Accuracy
@@ -1306,6 +1519,7 @@
                 BackpackAmount
                 BackpackMaxAmount
                 BloodColor
+				BloodTranslation
                 BloodType
                 BobRangeX
                 BobRangeY
@@ -1338,6 +1552,7 @@
                 Decal
                 DefaultAlpha
                 DefaultKickback
+				DefaultStateUsage
                 DefMaxAmount
                 DefThreshold
                 DesignatedTeam
@@ -1360,6 +1575,7 @@
                 FloatSpeed
                 ForbiddenTo
                 ForwardMove
+				fountaincolor
                 Friction
                 GibHealth
                 GiveQuest
@@ -1450,6 +1666,7 @@
                 ScoreIcon
                 SeeSound
                 SelectionOrder
+				SelfDamageFactor
                 SideMove
                 SisterWeapon
                 Skip_Super
@@ -1463,6 +1680,7 @@
                 SpriteRotation
                 Stamina
                 StartItem
+				StealthAlpha
                 StencilColor
                 Strength
                 Tag
@@ -1499,11 +1717,97 @@
                 g
                 r
 
+				AllActorClasses
+				AutomapBindings
+				Bindings
                 consoleplayer
+				deh
+				demoplayback
                 gameaction
+				gameinfo
+				gamestate
+				gametic
+				globalfreeze
+				multiplayer
+				PlayerClasses
+				PlayerSkins
                 playeringame
                 players
+				skyflatnum
+				Teams
                 WP_NOCHANGE
+
+				Sectors
+				Lines
+				Sides
+				Vertexes
+				SectorPortals
+
+				backpacktype
+				Armor2Percent
+				ArmorIcon1
+				ArmorIcon2
+				gametype
+				norandomplayerclass
+				infoPages
+				mBackButton
+				mStatscreenMapNameFont
+				mStatscreenEnteringFont
+				mStatscreenFinishedFont
+				gibfactor
+
+				menuactive
+
+				mParentMenu
+				mMouseCapture
+				mBackbuttonSelected
+				DontDim
+				mMenuName
+				mNetgameMessage
+				mClass
+				mXpos
+				mYpos
+				mAction
+				mParam
+				mEnabled
+				mSelectedItem
+				mSelectOfsX
+				mSelectOfsY
+				mSelector
+				mDisplayTop
+				mWLeft
+				mWRight
+				mLinespacing
+				mAutoselect
+				mFont
+				mFontColor
+				mFontColor2
+				mCenter
+				mText
+				mFont
+				mColor
+				mColorSelected
+				mHotkey
+				mTexture
+
+				bigfont
+				confont
+				intermissionfont
+				smallfont
+				smallfont2
+
+				CleanXFac
+				CleanYFac
+				CleanWidth
+				CleanHeight
+				CleanXFac_1
+				CleanYFac_1
+				CleanWidth_1
+				CleanHeight_1
+
+				OptionMenuSettings
+				BackbuttonAlpha
+				BackbuttonTime
 
                 bDestroyed
 
@@ -1521,9 +1825,11 @@
                 checkswitchrange
                 cluster
                 clusterflags
+				F1Pic
                 found_items
                 found_secrets
                 frozen
+				infinite_flight
                 killed_monsters
                 LevelName
                 levelnum
@@ -1533,6 +1839,7 @@
                 missilesactivateimpact
                 monsterfallingdamage
                 monsterstelefrag
+				no_dlg_freeze
                 Music
                 musicorder
                 NextMap
@@ -1551,6 +1858,7 @@
                 total_secrets
 
                 BFGCells
+				BlueAC
                 ExplosionAlpha
                 ExplosionStyle
                 MaxSoulsphere
@@ -1580,6 +1888,7 @@
                 frontsector
                 locknumber
                 portalindex
+				portaltransferred
 
                 D
                 Normal
@@ -1603,9 +1912,10 @@
                 Portals
                 prevsec
                 SecActTarget
+				secplane
                 sectornum
                 SeqName
-                seqType	
+                seqType
                 sky
                 SoundTarget
                 soundtraversed
@@ -1642,10 +1952,13 @@
                 linetarget
                 unlinked
 
+				abovemidtex
                 activationtype
                 Alternative
                 Angle
+				BlockingLine
                 BlockingMobj
+				ceilingline
                 ceilingpic
                 ceilingsector
                 CeilingZ
@@ -1653,15 +1966,18 @@
                 CurState
                 DamageTypeReceived
                 DecalGenerator
+				DoRipping
                 DropoffZ
                 FastChaseStrafeCount
                 fillcolor
+				floatok
                 FloorClip
                 floorpic
                 floorsector
                 floorterrain
                 FloorZ
                 FriendPlayer
+				FromPMove
                 goal
                 Inv
                 lastbump
@@ -1680,6 +1996,7 @@
                 movedir
                 picnum
                 Pitch
+				portalstep
                 PoisonDamageReceived
                 PoisonDamageTypeReceived
                 PoisonDuration
@@ -1689,11 +2006,14 @@
                 PoisonPeriodReceived
                 Pos
                 Prev
+				PushTime
+				render_list
                 Roll
                 ScaleX
                 ScaleY
                 Score
                 SeeState
+				sector_list
                 skillrespawncount
                 smokecounter
                 snext
@@ -1707,7 +2027,9 @@
                 specialf1
                 specialf2
                 StartHealth
+				stepthing
                 strafecount
+				touchmidtex
                 Target
                 TID
                 TIDtoHate
@@ -1901,6 +2223,46 @@
                 waiting
                 WeaponState
 
+				ViewPos
+				ViewAngle
+				ViewPitch
+				ViewRoll
+				FracTic
+
+				IsSaveGame
+				IsReopen
+				IsReturn
+				Inflictor
+				DamageSource
+				DamageFlags
+				DamageAngle
+
+				IsShift
+				IsCtrl
+				IsAlt
+				KeyScan
+				KeyString
+				KeyChar
+				MouseX
+				MouseY
+				IsManual
+				Order
+				IsUiProcessor
+				RequireMouse
+
+				mType
+				mFlags
+				mPartner
+				mPlane
+				mOrigin
+				mDestination
+				mDisplacement
+				mPlaneZ
+				mSkybox
+
+				linedef
+				sidedef
+
                 bARGSDEFINED
                 bARMED
                 bAVOIDINGDROPOFF
@@ -2025,7 +2387,7 @@
                 bDONTFALL
                 bDONTHARMCLASS
                 bEXTREMEDEATH
-                bFIXMAPTHINGPOS 
+                bFIXMAPTHINGPOS
                 bFORCERADIUSDMG
                 bFRIGHTENED
                 bINCOMBAT
@@ -2211,7 +2573,7 @@
 
                 Item
                 Overlay
-                
+
                 Active
                 AltFire
                 AltFlash
@@ -2284,6 +2646,7 @@
                 break
                 case
                 class
+				clearscope
                 const
                 continue
                 default
@@ -2309,10 +2672,12 @@
                 meta
                 name
                 native
+				new
                 null
                 optional
                 out
                 override
+				play
                 private
                 protected
                 readonly
@@ -2332,30 +2697,98 @@
                 switch
                 textureid
                 true
+				ui
                 uint
                 uint16
                 uint8
+				vararg
                 vector2
                 vector3
+				version
                 virtual
+				virtualscope
                 void
+				voidptr
                 while
 
+				ActorIterator
+				Array
+				BlockLinesIterator
+				BlockThingsIterator
+				BrokenLines
+				CVar
+				Console
+				ConsoleEvent
                 DehInfo
+				EDmgFlags
+				EventHandler
                 F3DFloor
+				Font
+				GIFont
+				GameInfoStruct
+				GenericMenu
+				InputEvent
                 LevelLocals
+				ListMenu
+				ListMenuDescriptor
+				ListMenuItem
+				ListMenuItemStaticPatch
+				ListMenuItemStaticPatchCentered
+				ListMenuItemStaticText
+				ListMenuItemStaticTextCentered
+				ListMenuItemSelectable
+				ListMenuItemTextItem
+				ListMenuItemPatchItem
                 Line
+				LinkContext
                 LookExParams
+				Menu
+				MenuDescriptor
+				MenuItemBase
+				Object
+				PlayerEvent
+				RenderEvent
+				Screen
                 Sector
+				SeqNode
+				StateProvider
+				StaticEventHandler
                 String
+				StringStruct
                 StringTable
                 TerrainDef
+				TexMan
+				Thinker
+				ThinkerIterator
+				UiEvent
                 Wads
+				WorldEvent
 
+				DInterpolation
+				FDynamicColormap
+				FRenderStyle
                 FStateParamInfo
                 FTranslatedLineTarget
 
+				LineIdIterator
+				SectorTagIterator
+
+				MenuItemBase
+				KeyBindings
+				OptionValues
+				JoystickConfig
+
+				SectorEffect
+
                 PlayerInfo
+
+				Property
+
+				StatusBar
+
+				SectorPortal
+				Vertex
+				Side
 
                 WeaponStates
             </Keywords>
@@ -2458,7 +2891,7 @@
                 DONTFALL
                 DONTHARMCLASS
                 EXTREMEDEATH
-                FIXMAPTHINGPOS 
+                FIXMAPTHINGPOS
                 FORCERADIUSDMG
                 FRIGHTENED
                 INCOMBAT
@@ -2824,6 +3257,8 @@
                 CHAN_LISTENERZ
                 CHAN_MAYBE_LOCAL
                 CHAN_NOPAUSE
+				CHAN_NOSTOP
+				CHAN_PICKUP
                 CHAN_UI
                 CHAN_VOICE
                 CHAN_WEAPON
@@ -2944,6 +3379,9 @@
                 FMDF_INTERPOLATE
                 FMDF_NOANGLE
                 FMDF_NOPITCH
+				FOGP_DENSITY
+				FOGP_OUTSIDEDENSITY
+				FOGP_SKYFOG
                 FPF_AIMATANGLE
                 FPF_NOAUTOAIM
                 FPF_TRANSFERTRANSLATION
@@ -2978,6 +3416,14 @@
                 ga_slideshow
                 ga_togglemap
                 ga_worlddone
+				GS_LEVEL
+				GS_INTERMISSION
+				GS_FINALE
+				GS_DEMOSCREEN
+				GS_FULLCONSOLE
+				GS_HIDECONSOLE
+				GS_STARTUP
+				GS_TITLELEVEL
                 GFF_NOEXTCHANGE
                 GZF_3DRESTRICT
                 GZF_ABSOLUTEANG
@@ -3026,6 +3472,7 @@
                 LOF_NOSEESOUND
                 LOF_NOSIGHTCHECK
                 LOF_NOSOUNDCHECK
+				MAXPLAYERNAME
                 MAXPLAYERS
                 MISSILERANGE
                 MODINPUT_BUTTONS
@@ -3042,12 +3489,14 @@
                 MRF_FULLHEALTH
                 MRF_LOSEACTUALWEAPON
                 MRF_NEWTIDBEHAVIOUR
+				MRF_STANDARDUNDOING
                 MRF_TRANSFERTRANSLATION
                 MRF_UNDOALWAYS
                 MRF_UNDOBYCHAOSDEVICE
                 MRF_UNDOBYDEATH
                 MRF_UNDOBYDEATHFORCED
                 MRF_UNDOBYDEATHSAVES
+				MRF_UNDOBYTIMEOUT
                 MRF_UNDOBYTOMEOFPOWER
                 MRF_WHENINVULNERABLE
                 MSF_Classic
@@ -3065,6 +3514,7 @@
                 MTF_SINGLE
                 MTF_STANDSTILL
                 MTF_STRIFESOMETHING
+				NO_COLOR
                 NO_REPLACE
                 PAF_AIMFACING
                 PAF_NOSKULLATTACK
@@ -3098,9 +3548,13 @@
                 PROP_WEAPONLEVEL2
                 PSPF_ADDBOB
                 PSPF_ADDWEAPON
+				PSPF_ALPHA
                 PSPF_CVARFAST
                 PSPF_FLIP
+				PSPF_FORCEALPHA
+				PSPF_FORCESTYLE
                 PSPF_POWDOUBLE
+				PSPF_RENDERSTYLE
                 PSP_FLASH
                 PSP_STRIFEHANDS
                 PSP_WEAPON
@@ -3114,6 +3568,8 @@
                 QF_SCALEUP
                 QF_WAVE
                 RDSF_BFGDAMAGE
+				RF_TRANSFERFRIENDLINESS
+				RF_NOCHECKPOSITION
                 RGF_CENTERZ
                 RGF_CORPSES
                 RGF_CUBE
@@ -3360,6 +3816,7 @@
                 STAT_DECAL
                 STAT_DECALTHINKER
                 STAT_DEFAULT
+				STAT_DLIGHT
                 STAT_EARTHQUAKE
                 STAT_FIRST_THINKING
                 STAT_INFO
@@ -3372,8 +3829,375 @@
                 STAT_SCRIPTS
                 STAT_SCROLLER
                 STAT_SECTOREFFECT
+				STAT_STATIC
                 STAT_TRAVELLING
                 TICRATE
+
+				Type_Any
+				Type_Autopage
+				Type_Build
+				Type_Decal
+				Type_FirstDefined
+				Type_Flat
+				Type_FontChar
+				Type_MiscPatch
+				Type_Null
+				Type_Override
+				Type_Sprite
+				Type_SkinGraphic
+				Type_SkinSprite
+				Type_Wall
+				Type_WallPatch
+
+				NOT_BOTTOM
+				NOT_MIDDLE
+				NOT_TOP
+				NOT_FLOOR
+				NOT_CEILING
+				NOT_WALL
+				NOT_FLAT
+
+				AllowSkins
+				DontCreate
+				Overridable
+				ReturnFirst
+				ShortNameOnly
+				TryAny
+
+				TAG_USER
+				DTA_Base
+				DTA_DestWidth
+				DTA_DestHeight
+				DTA_Alpha
+				DTA_FillColor
+				DTA_TranslationIndex
+				DTA_AlphaChannel
+				DTA_Clean
+				DTA_320x200
+				DTA_Bottom320x200
+				DTA_CleanNoMove
+				DTA_CleanNoMove_1
+				DTA_FlipX
+				DTA_ShadowColor
+				DTA_ShadowAlpha
+				DTA_Shadow
+				DTA_VirtualWidth
+				DTA_VirtualHeight
+				DTA_TopOffset
+				DTA_LeftOffset
+				DTA_CenterOffset
+				DTA_CenterBottomOffset
+				DTA_WindowLeft
+				DTA_WindowRight
+				DTA_ClipTop
+				DTA_ClipBottom
+				DTA_ClipLeft
+				DTA_ClipRight
+				DTA_Masked
+				DTA_HUDRules
+				DTA_HUDRulesC
+				DTA_KeepRatio
+				DTA_RenderStyle
+				DTA_ColorOverlay
+				DTA_Internal1
+				DTA_Internal2
+				DTA_Internal3
+				DTA_Fullscreen
+
+				DTA_DestWidthF
+				DTA_DestHeightF
+				DTA_TopOffsetF
+				DTA_LeftOffsetF
+				DTA_VirtualWidthF
+				DTA_VirtualHeightF
+				DTA_WindowLeftF
+				DTA_WindowRightF
+
+				DTA_TextLen
+				DTA_CellX
+				DTA_CellY
+
+				CR_UNDEFINED
+				CR_BRICK
+				CR_TAN
+				CR_GRAY
+				CR_GREY
+				CR_GREEN
+				CR_BROWN
+				CR_GOLD
+				CR_RED
+				CR_BLUE
+				CR_ORANGE
+				CR_WHITE
+				CR_YELLOW
+				CR_UNTRANSLATED
+				CR_BLACK
+				CR_LIGHTBLUE
+				CR_CREAM
+				CR_OLIVE
+				CR_DARKGREEN
+				CR_DARKRED
+				CR_DARKBROWN
+				CR_PURPLE
+				CR_DARKGRAY
+				CR_CYAN
+				NUM_TEXT_COLORS
+
+				TEXTCOLOR_BRICK
+				TEXTCOLOR_TAN
+				TEXTCOLOR_GRAY
+				TEXTCOLOR_GREY
+				TEXTCOLOR_GREEN
+				TEXTCOLOR_BROWN
+				TEXTCOLOR_GOLD
+				TEXTCOLOR_RED
+				TEXTCOLOR_BLUE
+				TEXTCOLOR_ORANGE
+				TEXTCOLOR_WHITE
+				TEXTCOLOR_YELLOW
+				TEXTCOLOR_UNTRANSLATED
+				TEXTCOLOR_BLACK
+				TEXTCOLOR_LIGHTBLUE
+				TEXTCOLOR_CREAM
+				TEXTCOLOR_OLIVE
+				TEXTCOLOR_DARKGREEN
+				TEXTCOLOR_DARKRED
+				TEXTCOLOR_DARKBROWN
+				TEXTCOLOR_PURPLE
+				TEXTCOLOR_DARKGRAY
+				TEXTCOLOR_CYAN
+				TEXTCOLOR_NORMAL
+				TEXTCOLOR_BOLD
+				TEXTCOLOR_CHAT
+				TEXTCOLOR_TEAMCHAT
+
+				CVAR_Bool
+				CVAR_Int
+				CVAR_Float
+				CVAR_String
+				CVAR_Color
+
+				UDMF_Line
+				UDMF_Side
+				UDMF_Sector
+				UDMF_Thing
+
+				Type_None
+				Type_KeyDown
+				Type_KeyRepeat
+				Type_KeyUp
+				Type_Char
+				Type_FirstMouseEvent
+				Type_MouseMove
+				Type_LButtonDown
+				Type_LButtonUp
+				Type_LButtonClick
+				Type_MButtonDown
+				Type_MButtonUp
+				Type_MButtonClick
+				Type_RButtonDown
+				Type_RButtonUp
+				Type_RButtonClick
+				Type_WheelUp
+				Type_WheelDown
+				Type_WheelRight
+				Type_WheelLeft
+				Type_BackButtonDown
+				Type_BackButtonUp
+				Type_FwdButtonDown
+				Type_FwdButtonUp
+				Type_LastMouseEvent
+
+				Type_Mouse
+				Type_GUI
+				Type_DeviceChange
+
+				Key_PgDn
+				Key_PgUp
+				Key_Home
+				Key_End
+				Key_Left
+				Key_Right
+				Key_Alert
+				Key_Backspace
+				Key_Tab
+				Key_LineFeed
+				Key_Down
+				Key_VTab
+				Key_Up
+				Key_FormFeed
+				Key_Return
+				Key_F1
+				Key_F2
+				Key_F3
+				Key_F4
+				Key_F5
+				Key_F6
+				Key_F7
+				Key_F8
+				Key_F9
+				Key_F10
+				Key_F11
+				Key_F12
+				Key_Del
+				Key_Escape
+				Key_Free1
+				Key_Free2
+				Key_Back
+				Key_CEscape
+
+				Key_Pause
+				Key_RightArrow
+				Key_LeftArrow
+				Key_UpArrow
+				Key_DownArrow
+				Key_Enter
+				Key_Space
+				Key_Grave
+
+				Key_Equals
+				Key_Minus
+
+				Key_LShift
+				Key_LCtrl
+				Key_LAlt
+
+				Key_RShift
+				Key_RCtrl
+				Key_RAlt
+
+				Key_Ins
+
+				Key_Mouse1
+				Key_Mouse2
+				Key_Mouse3
+				Key_Mouse4
+				Key_Mouse5
+				Key_Mouse6
+				Key_Mouse7
+				Key_Mouse8
+
+				Key_FirstJoyButton
+				Key_Joy1
+				Key_Joy2
+				Key_Joy3
+				Key_Joy4
+				Key_Joy5
+				Key_Joy6
+				Key_Joy7
+				Key_Joy8
+				Key_LastJoyButton
+				Key_JoyPOV1_Up
+				Key_JoyPOV1_Right
+				Key_JoyPOV1_Down
+				Key_JoyPOV1_Left
+				Key_JoyPOV2_Up
+				Key_JoyPOV3_Up
+				Key_JoyPOV4_Up
+
+				Key_MWheelUp
+				Key_MWheelDown
+				Key_MWheelRight
+				Key_MWheelLeft
+
+				Key_JoyAxis1Plus
+				Key_JoyAxis1Minus
+				Key_JoyAxis2Plus
+				Key_JoyAxis2Minus
+				Key_JoyAxis3Plus
+				Key_JoyAxis3Minus
+				Key_JoyAxis4Plus
+				Key_JoyAxis4Minus
+				Key_JoyAxis5Plus
+				Key_JoyAxis5Minus
+				Key_JoyAxis6Plus
+				Key_JoyAxis6Minus
+				Key_JoyAxis7Plus
+				Key_JoyAxis7Minus
+				Key_JoyAxis8Plus
+				Key_JoyAxis8Minus
+				Num_JoyAxisButtons
+
+				Key_Pad_LThumb_Right
+				Key_Pad_LThumb_Left
+				Key_Pad_LThumb_Down
+				Key_Pad_LThumb_Up
+
+				Key_Pad_RThumb_Right
+				Key_Pad_RThumb_Left
+				Key_Pad_RThumb_Down
+				Key_Pad_RThumb_Up
+
+				Key_Pad_DPad_Up
+				Key_Pad_DPad_Down
+				Key_Pad_DPad_Left
+				Key_Pad_DPad_Right
+				Key_Pad_Start
+				Key_Pad_Back
+				Key_Pad_LThumb
+				Key_Pad_RThumb
+				Key_Pad_LShoulder
+				Key_Pad_RShoulder
+				Key_Pad_LTrigger
+				Key_Pad_RTrigger
+				Key_Pad_A
+				Key_Pad_B
+				Key_Pad_X
+				Key_Pad_Y
+				Num_Keys
+
+				JOYAXIS_None
+				JOYAXIS_Yaw
+				JOYAXIS_Pitch
+				JOYAXIS_Forward
+				JOYAXIS_Side
+				JOYAXIS_Up
+				JOYAXIS_Roll
+				NUM_JOYAXIS
+				MKEY_Up
+				MKEY_Down
+				MKEY_Left
+				MKEY_Right
+				MKEY_PageUp
+				MKEY_PageDown
+				MKEY_Enter
+				MKEY_Back
+				MKEY_Clear
+				NUM_MKEYS
+				MKEY_Input
+				MKEY_Abort
+				MKEY_MBYes
+				MKEY_MBNo
+				MOUSE_Click
+				MOUSE_Move
+				MOUSE_Release
+				Off
+				On
+				WaitKey
+				OnNoPause
+
+				TYPE_SKYVIEWPOINT
+				TYPE_STACKEDSECTORTHING
+				TYPE_PORTAL
+				TYPE_LINKEDPORTAL
+				TYPE_PLANE
+				TYPE_HORIZON
+				FLAG_SKYFLATONLY
+				FLAG_INSKYBOX
+				WALLF_ABSLIGHTING
+				WALLF_NOAUTODECALS
+				WALLF_NOFAKECONTRAST
+				WALLF_SMOOTHLIGHTING
+				WALLF_CLIP_MIDTEX
+				WALLF_WRAP_MIDTEX
+				WALLF_POLYOBJ
+				WALLF_LIGHT_FOG
+
+				PLATFORM
+				DOOR
+				ENVIRONMENT
+				NUMSEQTYPES
+				NOTRANS
 
                 ML_3DMIDTEX
                 ML_3DMIDTEX_IMPASS
@@ -3455,6 +4279,8 @@
                 ns_sprites
                 ns_strifevoices
                 ns_voxels
+
+				none
 
                 buildStair
                 donutRaise
