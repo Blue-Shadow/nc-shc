@@ -288,6 +288,7 @@
 				ThrustThingZ
 				TranslucentLine
 				UsePuzzleItem
+
 				ACS_ExecuteWait
 				ACS_NamedExecute
 				ACS_NamedExecuteAlways
@@ -308,6 +309,7 @@
 				BlueTeamScore
 				CancelFade
 				CanRaiseActor
+				Ceil
 				ChangeActorAngle
 				ChangeActorPitch
 				ChangeActorRoll
@@ -348,12 +350,15 @@
 				FixedDiv
 				FixedMul
 				FixedSqrt
+				Floor
 				FreeDBResults
 				GameSkill
 				GameType
 				GetActorAngle
 				GetActorCeilingZ
 				GetActorClass
+				GetActorFloorTerrain
+				GetActorFloorTexture
 				GetActorFloorZ
 				GetActorLightLevel
 				GetActorPitch
@@ -464,6 +469,8 @@
 				ReplaceTextures
 				RequestScriptPuke
 				ResetMap
+				Round
+				ScriptCall
 				ScriptWait
 				SectorDamage
 				SectorSound
@@ -537,7 +544,9 @@
 				SpawnSpotFacingForced
 				SpawnSpotForced
 				Sqrt
+				StartSlideshow
 				StopSound
+				StrArg
 				StrCaseCmp
 				StrCmp
 				StrCpy
@@ -765,6 +774,7 @@
 				CSF_NOFAKEFLOORS
 				DAMAGE_IN_AIR
 				DAMAGE_NONPLAYERS
+				DAMAGE_NO_ARMOR
 				DAMAGE_PLAYERS
 				DAMAGE_SUBCLASSES_PROTECT
 				DB_ORDER_ASC
@@ -1017,6 +1027,8 @@
 				PLAYERINFO_TEAM
 				PRINTNAME_LEVEL
 				PRINTNAME_LEVELNAME
+				PRINTNAME_NEXTLEVEL
+				PRINTNAME_NEXTSECRET
 				PRINTNAME_SKILL
 				PROP_ALLMAP
 				PROP_BUDDHA
