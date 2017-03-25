@@ -40,6 +40,9 @@
 				Activate
 				AddChoice
 				AddInventory
+				AddTextureXOffset
+				AddTextureYOffset
+				AddTranslation
 				AddXOffset
 				AddYOffset
 				AddZ
@@ -49,8 +52,11 @@
 				AimTarget
 				AngleTo
 				AngleToVector
+				AppendFormat
 				ApplyDamageFactor
 				ApplyDamageFactors
+				AreModesSame
+				AreModesSameID
 				AttachToOwner
 				A_AccelBalls
 				A_AccTeleGlitter
@@ -413,9 +419,9 @@
 				A_MissileAttack
 				A_MLightningAttack
 				A_MntrFloorFire
-				A_Morph
 				A_MonsterRail
 				A_MonsterRefire
+				A_Morph
 				A_MStaffAttack
 				A_MStaffPalette
 				A_MStaffTrack
@@ -704,12 +710,6 @@
 				A_XScream
 				A_ZapMimic
 				A_ZoomFactor
-				AddTextureXOffset
-				AddTextureYOffset
-				AddTranslation
-				AppendFormat
-				AreModesSame
-				AreModesSameID
 				BAM
 				BecomeItem
 				BecomePickup
@@ -760,13 +760,13 @@
 				Clear
 				ClearBounce
 				ClearCounters
+				ClearInterpolation
 				ClearInventory
 				ClearLastRipped
 				ClearPortal
 				ClearSecret
-				CopyFriendliness
-				ClearInterpolation
 				Copy
+				CopyFriendliness
 				Count
 				CountInv
 				CountProximity
@@ -781,8 +781,8 @@
 				DaggerAlert
 				DamageMobj
 				Deactivate
-				deltaangle
 				Delete
+				deltaangle
 				DepleteAmmo
 				Destroy
 				DetachFromOwner
@@ -811,9 +811,9 @@
 				ExplodeMissile
 				FaceMovementDirection
 				Filter
+				Find
 				FindCVar
 				FindFloorCeiling
-				Find
 				FindFont
 				FindFontColor
 				FindHighestCeilingSurrounding
@@ -883,12 +883,14 @@
 				GetPlaneTexZ
 				GetPlayerInput
 				GetPointer
+				getPortalAlignment
+				getPortalDestination
 				GetPortalDisplacement
 				GetPortalPlaneZ
 				GetPortalType
 				GetPSprite
-				GetRealType
 				GetReadyState
+				GetRealType
 				GetReplacee
 				GetReplacement
 				GetScaledSize
@@ -912,8 +914,8 @@
 				GetTerrain
 				GetTexture
 				GetTextureXOffset
-				GetTextureYOffset
 				GetTextureXScale
+				GetTextureYOffset
 				GetTextureYScale
 				GetUDMFFloat
 				GetUDMFInt
@@ -939,8 +941,6 @@
 				G_PickPlayerStart
 				G_SkillPropertyFloat
 				G_SkillPropertyInt
-				getPortalAlignment
-				getPortalDestination
 				HandlePickup
 				HandleSpawnFlags
 				HeightDiff
@@ -955,7 +955,6 @@
 				InitEffect
 				Insert
 				InStateSequence
-				IsZeroDamage
 				isEqual
 				isFriend
 				isHostile
@@ -970,6 +969,7 @@
 				IsValid
 				IsVisible
 				isVisualPortal
+				IsZeroDamage
 				KoraxFire
 				Left
 				Length
@@ -981,8 +981,9 @@
 				LookForPlayers
 				LookForTid
 				LowestFloorAt
-				MarkPrecacheSounds
 				MakeID
+				MarkPrecacheSounds
+				Mid
 				MidPrint
 				MinotaurSlam
 				ModifyDamage
@@ -993,11 +994,10 @@
 				Move
 				MoveCeiling
 				MoveFloor
-				MultiplyTextureXScale
-				MultiplyTextureYScale
 				MStaffSpawn2
 				MSTime
-				Mid
+				MultiplyTextureXScale
+				MultiplyTextureYScale
 				NewChaseDir
 				Next
 				NextCompat
@@ -1035,8 +1035,8 @@
 				PortalIsLinked
 				PosRelative
 				PostBeginPlay
-				Push
 				Printf
+				Push
 				RaiseMobj
 				RandomChaseDir
 				ReceivedWeapon
@@ -1046,12 +1046,12 @@
 				RemoveInventory
 				Replace
 				ReplaceTextures
+				Reserve
 				ResetAirSupply
 				ResetToDefault
+				Resize
 				ResolveState
 				RestoreDamage
-				Reserve
-				Resize
 				RotateVector
 				RoughMonsterSearch
 				SetAlpha
@@ -1089,8 +1089,8 @@
 				SetTag
 				SetTexture
 				SetTextureXOffset
-				SetTextureYOffset
 				SetTextureXScale
+				SetTextureYOffset
 				SetTextureYScale
 				SetWeapon
 				SetXOffset
@@ -1125,8 +1125,8 @@
 				SpecialDropAction
 				SpecialMissileHit
 				StartSlideshow
-				StartSoundSequenceID
 				StartSoundSequence
+				StartSoundSequenceID
 				StopInterpolation
 				StopSoundSequence
 				StringAt
@@ -1418,80 +1418,80 @@
 				PlayerDisconnected
 				PlayerEntered
 				PlayerRespawned
-				UiProcess
-				UiTick
 				SendNetworkEvent
 				SetOrder
+				UiProcess
+				UiTick
 				WorldLightning
 				WorldLoaded
-				WorldThingSpawned
-				WorldThingDied
-				WorldThingRevived
 				WorldThingDamaged
 				WorldThingDestroyed
+				WorldThingDied
+				WorldThingRevived
+				WorldThingSpawned
 				WorldTick
 				WorldUnloaded
 
-				NameKeys
-				GetKeysForCommand
-				SetBind
-				UnbindACommand
-				GetCount
-				GetText
-				GetValue
-				GetTextValue
-				GetSensitivity
-				SetSensitivity
-				GetAxisScale
-				SetAxisScale
+				ActivateMenu
+				CheckCoordinate
+				CheckFocus
+				CheckHotkey
+				Close
+				Draw
+				DrawConText
+				Drawer
+				DrawSelector
+				Enable
+				GetAction
 				GetAxisDeadZone
-				SetAxisDeadZone
 				GetAxisMap
-				SetAxisMap
+				GetAxisName
+				GetAxisScale
+				GetCount
+				GetCurrentMenu
+				GetDescriptor
+				GetIndent
+				GetKeysForCommand
 				GetName
 				GetNumAxes
-				GetAxisName
-				MenuTime
-				SetVideoMode
-				GetCurrentMenu
-				SetMenu
-				StartMessage
-				SetMouseCapture
-				Close
-				ActivateMenu
+				GetSensitivity
+				GetText
+				GetTextValue
+				GetValue
+				GetX
+				GetY
 				Init
+				InitDirect
 				MenuEvent
-				OnUIEvent
 				MenuSound
+				MenuTime
 				MouseEvent
 				MouseEventBack
-				SetCapture
-				OnInputEvent
-				Drawer
-				TranslateKeyboardEvents
-				SetFocus
-				CheckFocus
-				ReleaseFocus
-				ResetColor
-				Ticker
-				DrawConText
-				GetDescriptor
-				CheckCoordinate
-				Selectable
-				GetAction
-				SetValue
-				Enable
-				CheckHotkey
-				GetIndent
-				Draw
+				NameKeys
 				OffsetPositionY
-				GetY
-				GetX
-				SetX
+				OnInputEvent
 				OnMenuCreated
+				OnUIEvent
+				ReleaseFocus
 				Reset
-				DrawSelector
-				InitDirect
+				ResetColor
+				Selectable
+				SetAxisDeadZone
+				SetAxisMap
+				SetAxisScale
+				SetBind
+				SetCapture
+				SetFocus
+				SetMenu
+				SetMouseCapture
+				SetSensitivity
+				SetValue
+				SetVideoMode
+				SetX
+				StartMessage
+				Ticker
+				TranslateKeyboardEvents
+				UnbindACommand
 
 			</Keywords>
 			<Keywords name="Keywords3">
@@ -1730,65 +1730,65 @@
 				globalfreeze
 				multiplayer
 				PlayerClasses
-				PlayerSkins
 				playeringame
 				players
+				PlayerSkins
 				skyflatnum
 				Teams
 				WP_NOCHANGE
 
-				Sectors
 				Lines
+				SectorPortals
+				Sectors
 				Sides
 				Vertexes
-				SectorPortals
 
-				backpacktype
 				Armor2Percent
 				ArmorIcon1
 				ArmorIcon2
+				backpacktype
 				gametype
-				norandomplayerclass
+				gibfactor
 				infoPages
 				mBackButton
-				mStatscreenMapNameFont
 				mStatscreenEnteringFont
 				mStatscreenFinishedFont
-				gibfactor
+				mStatscreenMapNameFont
+				norandomplayerclass
 
 				menuactive
 
-				mParentMenu
-				mMouseCapture
-				mBackbuttonSelected
 				DontDim
-				mMenuName
-				mNetgameMessage
-				mClass
-				mXpos
-				mYpos
 				mAction
-				mParam
+				mAutoselect
+				mBackbuttonSelected
+				mCenter
+				mClass
+				mColor
+				mColorSelected
+				mDisplayTop
 				mEnabled
+				mFont
+				mFont
+				mFontColor
+				mFontColor2
+				mHotkey
+				mLinespacing
+				mMenuName
+				mMouseCapture
+				mNetgameMessage
+				mParam
+				mParentMenu
 				mSelectedItem
 				mSelectOfsX
 				mSelectOfsY
 				mSelector
-				mDisplayTop
+				mText
+				mTexture
 				mWLeft
 				mWRight
-				mLinespacing
-				mAutoselect
-				mFont
-				mFontColor
-				mFontColor2
-				mCenter
-				mText
-				mFont
-				mColor
-				mColorSelected
-				mHotkey
-				mTexture
+				mXpos
+				mYpos
 
 				bigfont
 				confont
@@ -1796,18 +1796,18 @@
 				smallfont
 				smallfont2
 
-				CleanXFac
-				CleanYFac
-				CleanWidth
 				CleanHeight
-				CleanXFac_1
-				CleanYFac_1
-				CleanWidth_1
 				CleanHeight_1
+				CleanWidth
+				CleanWidth_1
+				CleanXFac
+				CleanXFac_1
+				CleanYFac
+				CleanYFac_1
 
-				OptionMenuSettings
 				BackbuttonAlpha
 				BackbuttonTime
+				OptionMenuSettings
 
 				bDestroyed
 
@@ -1839,12 +1839,12 @@
 				missilesactivateimpact
 				monsterfallingdamage
 				monsterstelefrag
-				no_dlg_freeze
 				Music
 				musicorder
 				NextMap
 				NextSecretMap
 				nomonsters
+				no_dlg_freeze
 				partime
 				polygrind
 				sndseqtotalctrl
@@ -1996,7 +1996,6 @@
 				movedir
 				picnum
 				Pitch
-				portalstep
 				PoisonDamageReceived
 				PoisonDamageTypeReceived
 				PoisonDuration
@@ -2004,6 +2003,7 @@
 				Poisoner
 				PoisonPeriod
 				PoisonPeriodReceived
+				portalstep
 				Pos
 				Prev
 				PushTime
@@ -2012,8 +2012,8 @@
 				ScaleX
 				ScaleY
 				Score
-				SeeState
 				sector_list
+				SeeState
 				skillrespawncount
 				smokecounter
 				snext
@@ -2029,10 +2029,10 @@
 				StartHealth
 				stepthing
 				strafecount
-				touchmidtex
 				Target
 				TID
 				TIDtoHate
+				touchmidtex
 				Tracer
 				Vel
 				VelX
@@ -2223,42 +2223,42 @@
 				waiting
 				WeaponState
 
-				ViewPos
+				FracTic
 				ViewAngle
 				ViewPitch
+				ViewPos
 				ViewRoll
-				FracTic
 
-				IsSaveGame
+				DamageAngle
+				DamageFlags
+				DamageSource
+				Inflictor
 				IsReopen
 				IsReturn
-				Inflictor
-				DamageSource
-				DamageFlags
-				DamageAngle
+				IsSaveGame
 
-				IsShift
-				IsCtrl
 				IsAlt
+				IsCtrl
+				IsManual
+				IsShift
+				IsUiProcessor
+				KeyChar
 				KeyScan
 				KeyString
-				KeyChar
 				MouseX
 				MouseY
-				IsManual
 				Order
-				IsUiProcessor
 				RequireMouse
 
-				mType
-				mFlags
-				mPartner
-				mPlane
-				mOrigin
 				mDestination
 				mDisplacement
+				mFlags
+				mOrigin
+				mPartner
+				mPlane
 				mPlaneZ
 				mSkybox
+				mType
 
 				linedef
 				sidedef
@@ -2716,31 +2716,31 @@
 				BlockLinesIterator
 				BlockThingsIterator
 				BrokenLines
-				CVar
 				Console
 				ConsoleEvent
+				CVar
 				DehInfo
 				EDmgFlags
 				EventHandler
 				F3DFloor
 				Font
-				GIFont
 				GameInfoStruct
 				GenericMenu
+				GIFont
 				InputEvent
 				LevelLocals
+				Line
+				LinkContext
 				ListMenu
 				ListMenuDescriptor
 				ListMenuItem
+				ListMenuItemPatchItem
+				ListMenuItemSelectable
 				ListMenuItemStaticPatch
 				ListMenuItemStaticPatchCentered
 				ListMenuItemStaticText
 				ListMenuItemStaticTextCentered
-				ListMenuItemSelectable
 				ListMenuItemTextItem
-				ListMenuItemPatchItem
-				Line
-				LinkContext
 				LookExParams
 				Menu
 				MenuDescriptor
@@ -2773,10 +2773,10 @@
 				LineIdIterator
 				SectorTagIterator
 
-				MenuItemBase
-				KeyBindings
-				OptionValues
 				JoystickConfig
+				KeyBindings
+				MenuItemBase
+				OptionValues
 
 				SectorEffect
 
@@ -2787,8 +2787,8 @@
 				StatusBar
 
 				SectorPortal
-				Vertex
 				Side
+				Vertex
 
 				WeaponStates
 			</Keywords>
@@ -3416,15 +3416,15 @@
 				ga_slideshow
 				ga_togglemap
 				ga_worlddone
-				GS_LEVEL
-				GS_INTERMISSION
-				GS_FINALE
+				GFF_NOEXTCHANGE
 				GS_DEMOSCREEN
+				GS_FINALE
 				GS_FULLCONSOLE
 				GS_HIDECONSOLE
+				GS_INTERMISSION
+				GS_LEVEL
 				GS_STARTUP
 				GS_TITLELEVEL
-				GFF_NOEXTCHANGE
 				GZF_3DRESTRICT
 				GZF_ABSOLUTEANG
 				GZF_ABSOLUTEPOS
@@ -3568,8 +3568,8 @@
 				QF_SCALEUP
 				QF_WAVE
 				RDSF_BFGDAMAGE
-				RF_TRANSFERFRIENDLINESS
 				RF_NOCHECKPOSITION
+				RF_TRANSFERFRIENDLINESS
 				RGF_CENTERZ
 				RGF_CORPSES
 				RGF_CUBE
@@ -3843,19 +3843,19 @@
 				Type_MiscPatch
 				Type_Null
 				Type_Override
-				Type_Sprite
 				Type_SkinGraphic
 				Type_SkinSprite
+				Type_Sprite
 				Type_Wall
 				Type_WallPatch
 
 				NOT_BOTTOM
+				NOT_CEILING
+				NOT_FLAT
+				NOT_FLOOR
 				NOT_MIDDLE
 				NOT_TOP
-				NOT_FLOOR
-				NOT_CEILING
 				NOT_WALL
-				NOT_FLAT
 
 				AllowSkins
 				DontCreate
@@ -3864,170 +3864,166 @@
 				ShortNameOnly
 				TryAny
 
-				TAG_USER
-				DTA_Base
-				DTA_DestWidth
-				DTA_DestHeight
-				DTA_Alpha
-				DTA_FillColor
-				DTA_TranslationIndex
-				DTA_AlphaChannel
-				DTA_Clean
 				DTA_320x200
+				DTA_Alpha
+				DTA_AlphaChannel
+				DTA_Base
 				DTA_Bottom320x200
+				DTA_CenterBottomOffset
+				DTA_CenterOffset
+				DTA_Clean
 				DTA_CleanNoMove
 				DTA_CleanNoMove_1
-				DTA_FlipX
-				DTA_ShadowColor
-				DTA_ShadowAlpha
-				DTA_Shadow
-				DTA_VirtualWidth
-				DTA_VirtualHeight
-				DTA_TopOffset
-				DTA_LeftOffset
-				DTA_CenterOffset
-				DTA_CenterBottomOffset
-				DTA_WindowLeft
-				DTA_WindowRight
-				DTA_ClipTop
 				DTA_ClipBottom
 				DTA_ClipLeft
 				DTA_ClipRight
-				DTA_Masked
+				DTA_ClipTop
+				DTA_ColorOverlay
+				DTA_DestHeight
+				DTA_DestWidth
+				DTA_FillColor
+				DTA_FlipX
+				DTA_Fullscreen
 				DTA_HUDRules
 				DTA_HUDRulesC
-				DTA_KeepRatio
-				DTA_RenderStyle
-				DTA_ColorOverlay
 				DTA_Internal1
 				DTA_Internal2
 				DTA_Internal3
-				DTA_Fullscreen
+				DTA_KeepRatio
+				DTA_LeftOffset
+				DTA_Masked
+				DTA_RenderStyle
+				DTA_Shadow
+				DTA_ShadowAlpha
+				DTA_ShadowColor
+				DTA_TopOffset
+				DTA_TranslationIndex
+				DTA_VirtualHeight
+				DTA_VirtualWidth
+				DTA_WindowLeft
+				DTA_WindowRight
+				TAG_USER
 
-				DTA_DestWidthF
 				DTA_DestHeightF
-				DTA_TopOffsetF
+				DTA_DestWidthF
 				DTA_LeftOffsetF
-				DTA_VirtualWidthF
+				DTA_TopOffsetF
 				DTA_VirtualHeightF
+				DTA_VirtualWidthF
 				DTA_WindowLeftF
 				DTA_WindowRightF
 
-				DTA_TextLen
 				DTA_CellX
 				DTA_CellY
+				DTA_TextLen
 
-				CR_UNDEFINED
-				CR_BRICK
-				CR_TAN
-				CR_GRAY
-				CR_GREY
-				CR_GREEN
-				CR_BROWN
-				CR_GOLD
-				CR_RED
-				CR_BLUE
-				CR_ORANGE
-				CR_WHITE
-				CR_YELLOW
-				CR_UNTRANSLATED
 				CR_BLACK
-				CR_LIGHTBLUE
+				CR_BLUE
+				CR_BRICK
+				CR_BROWN
 				CR_CREAM
-				CR_OLIVE
+				CR_CYAN
+				CR_DARKBROWN
+				CR_DARKGRAY
 				CR_DARKGREEN
 				CR_DARKRED
-				CR_DARKBROWN
+				CR_GOLD
+				CR_GRAY
+				CR_GREEN
+				CR_GREY
+				CR_LIGHTBLUE
+				CR_OLIVE
+				CR_ORANGE
 				CR_PURPLE
-				CR_DARKGRAY
-				CR_CYAN
+				CR_RED
+				CR_TAN
+				CR_UNDEFINED
+				CR_UNTRANSLATED
+				CR_WHITE
+				CR_YELLOW
 				NUM_TEXT_COLORS
 
-				TEXTCOLOR_BRICK
-				TEXTCOLOR_TAN
-				TEXTCOLOR_GRAY
-				TEXTCOLOR_GREY
-				TEXTCOLOR_GREEN
-				TEXTCOLOR_BROWN
-				TEXTCOLOR_GOLD
-				TEXTCOLOR_RED
-				TEXTCOLOR_BLUE
-				TEXTCOLOR_ORANGE
-				TEXTCOLOR_WHITE
-				TEXTCOLOR_YELLOW
-				TEXTCOLOR_UNTRANSLATED
 				TEXTCOLOR_BLACK
-				TEXTCOLOR_LIGHTBLUE
+				TEXTCOLOR_BLUE
+				TEXTCOLOR_BOLD
+				TEXTCOLOR_BRICK
+				TEXTCOLOR_BROWN
+				TEXTCOLOR_CHAT
 				TEXTCOLOR_CREAM
-				TEXTCOLOR_OLIVE
+				TEXTCOLOR_CYAN
+				TEXTCOLOR_DARKBROWN
+				TEXTCOLOR_DARKGRAY
 				TEXTCOLOR_DARKGREEN
 				TEXTCOLOR_DARKRED
-				TEXTCOLOR_DARKBROWN
-				TEXTCOLOR_PURPLE
-				TEXTCOLOR_DARKGRAY
-				TEXTCOLOR_CYAN
+				TEXTCOLOR_GOLD
+				TEXTCOLOR_GRAY
+				TEXTCOLOR_GREEN
+				TEXTCOLOR_GREY
+				TEXTCOLOR_LIGHTBLUE
 				TEXTCOLOR_NORMAL
-				TEXTCOLOR_BOLD
-				TEXTCOLOR_CHAT
+				TEXTCOLOR_OLIVE
+				TEXTCOLOR_ORANGE
+				TEXTCOLOR_PURPLE
+				TEXTCOLOR_RED
+				TEXTCOLOR_TAN
 				TEXTCOLOR_TEAMCHAT
+				TEXTCOLOR_UNTRANSLATED
+				TEXTCOLOR_WHITE
+				TEXTCOLOR_YELLOW
 
 				CVAR_Bool
-				CVAR_Int
-				CVAR_Float
-				CVAR_String
 				CVAR_Color
+				CVAR_Float
+				CVAR_Int
+				CVAR_String
 
 				UDMF_Line
-				UDMF_Side
 				UDMF_Sector
+				UDMF_Side
 				UDMF_Thing
 
-				Type_None
+				Type_BackButtonDown
+				Type_BackButtonUp
+				Type_Char
+				Type_FirstMouseEvent
+				Type_FwdButtonDown
+				Type_FwdButtonUp
 				Type_KeyDown
 				Type_KeyRepeat
 				Type_KeyUp
-				Type_Char
-				Type_FirstMouseEvent
-				Type_MouseMove
+				Type_LastMouseEvent
+				Type_LButtonClick
 				Type_LButtonDown
 				Type_LButtonUp
-				Type_LButtonClick
+				Type_MButtonClick
 				Type_MButtonDown
 				Type_MButtonUp
-				Type_MButtonClick
+				Type_MouseMove
+				Type_None
+				Type_RButtonClick
 				Type_RButtonDown
 				Type_RButtonUp
-				Type_RButtonClick
-				Type_WheelUp
 				Type_WheelDown
-				Type_WheelRight
 				Type_WheelLeft
-				Type_BackButtonDown
-				Type_BackButtonUp
-				Type_FwdButtonDown
-				Type_FwdButtonUp
-				Type_LastMouseEvent
+				Type_WheelRight
+				Type_WheelUp
 
-				Type_Mouse
-				Type_GUI
 				Type_DeviceChange
+				Type_GUI
+				Type_Mouse
 
-				Key_PgDn
-				Key_PgUp
-				Key_Home
-				Key_End
-				Key_Left
-				Key_Right
 				Key_Alert
+				Key_Back
 				Key_Backspace
-				Key_Tab
-				Key_LineFeed
+				Key_CEscape
+				Key_Del
 				Key_Down
-				Key_VTab
-				Key_Up
-				Key_FormFeed
-				Key_Return
+				Key_End
+				Key_Escape
 				Key_F1
+				Key_F10
+				Key_F11
+				Key_F12
 				Key_F2
 				Key_F3
 				Key_F4
@@ -4036,35 +4032,39 @@
 				Key_F7
 				Key_F8
 				Key_F9
-				Key_F10
-				Key_F11
-				Key_F12
-				Key_Del
-				Key_Escape
+				Key_FormFeed
 				Key_Free1
 				Key_Free2
-				Key_Back
-				Key_CEscape
+				Key_Home
+				Key_Left
+				Key_LineFeed
+				Key_PgDn
+				Key_PgUp
+				Key_Return
+				Key_Right
+				Key_Tab
+				Key_Up
+				Key_VTab
 
-				Key_Pause
-				Key_RightArrow
-				Key_LeftArrow
-				Key_UpArrow
 				Key_DownArrow
 				Key_Enter
-				Key_Space
 				Key_Grave
+				Key_LeftArrow
+				Key_Pause
+				Key_RightArrow
+				Key_Space
+				Key_UpArrow
 
 				Key_Equals
 				Key_Minus
 
-				Key_LShift
-				Key_LCtrl
 				Key_LAlt
+				Key_LCtrl
+				Key_LShift
 
-				Key_RShift
-				Key_RCtrl
 				Key_RAlt
+				Key_RCtrl
+				Key_RShift
 
 				Key_Ins
 
@@ -4086,118 +4086,118 @@
 				Key_Joy6
 				Key_Joy7
 				Key_Joy8
-				Key_LastJoyButton
-				Key_JoyPOV1_Up
-				Key_JoyPOV1_Right
 				Key_JoyPOV1_Down
 				Key_JoyPOV1_Left
+				Key_JoyPOV1_Right
+				Key_JoyPOV1_Up
 				Key_JoyPOV2_Up
 				Key_JoyPOV3_Up
 				Key_JoyPOV4_Up
+				Key_LastJoyButton
 
-				Key_MWheelUp
 				Key_MWheelDown
-				Key_MWheelRight
 				Key_MWheelLeft
+				Key_MWheelRight
+				Key_MWheelUp
 
-				Key_JoyAxis1Plus
 				Key_JoyAxis1Minus
-				Key_JoyAxis2Plus
+				Key_JoyAxis1Plus
 				Key_JoyAxis2Minus
-				Key_JoyAxis3Plus
+				Key_JoyAxis2Plus
 				Key_JoyAxis3Minus
-				Key_JoyAxis4Plus
+				Key_JoyAxis3Plus
 				Key_JoyAxis4Minus
-				Key_JoyAxis5Plus
+				Key_JoyAxis4Plus
 				Key_JoyAxis5Minus
-				Key_JoyAxis6Plus
+				Key_JoyAxis5Plus
 				Key_JoyAxis6Minus
-				Key_JoyAxis7Plus
+				Key_JoyAxis6Plus
 				Key_JoyAxis7Minus
-				Key_JoyAxis8Plus
+				Key_JoyAxis7Plus
 				Key_JoyAxis8Minus
+				Key_JoyAxis8Plus
 				Num_JoyAxisButtons
 
-				Key_Pad_LThumb_Right
-				Key_Pad_LThumb_Left
 				Key_Pad_LThumb_Down
+				Key_Pad_LThumb_Left
+				Key_Pad_LThumb_Right
 				Key_Pad_LThumb_Up
 
-				Key_Pad_RThumb_Right
-				Key_Pad_RThumb_Left
 				Key_Pad_RThumb_Down
+				Key_Pad_RThumb_Left
+				Key_Pad_RThumb_Right
 				Key_Pad_RThumb_Up
 
-				Key_Pad_DPad_Up
+				Key_Pad_A
+				Key_Pad_B
+				Key_Pad_Back
 				Key_Pad_DPad_Down
 				Key_Pad_DPad_Left
 				Key_Pad_DPad_Right
-				Key_Pad_Start
-				Key_Pad_Back
-				Key_Pad_LThumb
-				Key_Pad_RThumb
+				Key_Pad_DPad_Up
 				Key_Pad_LShoulder
-				Key_Pad_RShoulder
+				Key_Pad_LThumb
 				Key_Pad_LTrigger
+				Key_Pad_RShoulder
+				Key_Pad_RThumb
 				Key_Pad_RTrigger
-				Key_Pad_A
-				Key_Pad_B
+				Key_Pad_Start
 				Key_Pad_X
 				Key_Pad_Y
 				Num_Keys
 
-				JOYAXIS_None
-				JOYAXIS_Yaw
-				JOYAXIS_Pitch
 				JOYAXIS_Forward
+				JOYAXIS_None
+				JOYAXIS_Pitch
+				JOYAXIS_Roll
 				JOYAXIS_Side
 				JOYAXIS_Up
-				JOYAXIS_Roll
-				NUM_JOYAXIS
-				MKEY_Up
-				MKEY_Down
-				MKEY_Left
-				MKEY_Right
-				MKEY_PageUp
-				MKEY_PageDown
-				MKEY_Enter
+				JOYAXIS_Yaw
+				MKEY_Abort
 				MKEY_Back
 				MKEY_Clear
-				NUM_MKEYS
+				MKEY_Down
+				MKEY_Enter
 				MKEY_Input
-				MKEY_Abort
-				MKEY_MBYes
+				MKEY_Left
 				MKEY_MBNo
+				MKEY_MBYes
+				MKEY_PageDown
+				MKEY_PageUp
+				MKEY_Right
+				MKEY_Up
 				MOUSE_Click
 				MOUSE_Move
 				MOUSE_Release
+				NUM_JOYAXIS
+				NUM_MKEYS
 				Off
 				On
-				WaitKey
 				OnNoPause
+				WaitKey
 
-				TYPE_SKYVIEWPOINT
-				TYPE_STACKEDSECTORTHING
-				TYPE_PORTAL
+				FLAG_INSKYBOX
+				FLAG_SKYFLATONLY
+				TYPE_HORIZON
 				TYPE_LINKEDPORTAL
 				TYPE_PLANE
-				TYPE_HORIZON
-				FLAG_SKYFLATONLY
-				FLAG_INSKYBOX
+				TYPE_PORTAL
+				TYPE_SKYVIEWPOINT
+				TYPE_STACKEDSECTORTHING
 				WALLF_ABSLIGHTING
+				WALLF_CLIP_MIDTEX
+				WALLF_LIGHT_FOG
 				WALLF_NOAUTODECALS
 				WALLF_NOFAKECONTRAST
-				WALLF_SMOOTHLIGHTING
-				WALLF_CLIP_MIDTEX
-				WALLF_WRAP_MIDTEX
 				WALLF_POLYOBJ
-				WALLF_LIGHT_FOG
+				WALLF_SMOOTHLIGHTING
+				WALLF_WRAP_MIDTEX
 
-				PLATFORM
 				DOOR
 				ENVIRONMENT
-				NUMSEQTYPES
 				NOTRANS
+				NUMSEQTYPES
+				PLATFORM
 
 				ML_3DMIDTEX
 				ML_3DMIDTEX_IMPASS
