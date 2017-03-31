@@ -400,6 +400,8 @@ GetLineActivation
 GetLineRowOffset
 GetLineUDMFFixed
 GetLineUDMFInt
+GetLineX
+GetLineY
 GetMaxInventory
 GetPlayerAccountName
 GetPlayerInfo
