@@ -112,6 +112,7 @@ Wait
 
 [Keywords 2]
 bool
+color
 double
 float
 int
@@ -1614,7 +1615,6 @@ WP_NOCHANGE
 colors
 
 
-color
 fontname
 
 

@@ -101,6 +101,7 @@
 			</Keywords>
 			<Keywords name="Keywords2">
 				bool
+				color
 				double
 				float
 				int
@@ -1603,7 +1604,6 @@
 				colors
 
 
-				color
 				fontname
 
 
