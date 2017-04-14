@@ -3516,6 +3516,7 @@
 			</Keywords>
 			<Keywords name="Keywords4">
 				GetClass
+				GetDefaultByType
 
 				CheckForTexture
 				CheckRealHeight
@@ -4141,6 +4142,7 @@
 				BeginPlay
 				BobSin
 				BulletSlope
+				CallACS
 				CanCollideWith
 				CanSeek
 				ChangeTid
@@ -5468,6 +5470,7 @@
 				sqrt
 				tan
 				tanh
+				VectorAngle
 
 
 				ACS_Execute

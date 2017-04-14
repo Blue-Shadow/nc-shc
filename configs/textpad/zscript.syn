@@ -3527,6 +3527,7 @@ WeaponSlot
 
 [Keywords 4]
 GetClass
+GetDefaultByType
 
 CheckForTexture
 CheckRealHeight
@@ -4152,6 +4153,7 @@ A_XScream
 BeginPlay
 BobSin
 BulletSlope
+CallACS
 CanCollideWith
 CanSeek
 ChangeTid
@@ -5479,6 +5481,7 @@ sinh
 sqrt
 tan
 tanh
+VectorAngle
 
 
 ACS_Execute
