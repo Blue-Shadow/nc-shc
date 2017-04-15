@@ -2590,6 +2590,9 @@
 				NoTrail
 
 
+				ReflectType
+
+
 				MorphedPlayer
 				MorphFlash
 				MorphStyle
@@ -3516,6 +3519,7 @@
 			</Keywords>
 			<Keywords name="Keywords4">
 				GetClass
+				GetClassName
 				GetDefaultByType
 
 				CheckForTexture
@@ -3553,6 +3557,7 @@
 
 
 				AddTranslation
+				GetID
 				MakeID
 				SetPlayerTranslation
 
@@ -3580,7 +3585,6 @@
 				BAM
 				C_MidPrint
 				Destroy
-				GetClassName
 				G_PickDeathmatchStart
 				G_PickPlayerStart
 				G_SkillName

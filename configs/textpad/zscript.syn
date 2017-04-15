@@ -2601,6 +2601,9 @@ HitCenterFrame
 NoTrail
 
 
+ReflectType
+
+
 MorphedPlayer
 MorphFlash
 MorphStyle
@@ -3527,6 +3530,7 @@ WeaponSlot
 
 [Keywords 4]
 GetClass
+GetClassName
 GetDefaultByType
 
 CheckForTexture
@@ -3564,6 +3568,7 @@ StringWidth
 
 
 AddTranslation
+GetID
 MakeID
 SetPlayerTranslation
 
@@ -3591,7 +3596,6 @@ SetString
 BAM
 C_MidPrint
 Destroy
-GetClassName
 G_PickDeathmatchStart
 G_PickPlayerStart
 G_SkillName
