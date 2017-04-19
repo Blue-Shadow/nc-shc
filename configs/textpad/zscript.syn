@@ -3539,6 +3539,7 @@ GetScaledOffset
 GetScaledSize
 GetSize
 ReplaceTextures
+SetCameraToTexture
 
 
 Clear

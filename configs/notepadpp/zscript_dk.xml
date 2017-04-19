@@ -3528,6 +3528,7 @@
 				GetScaledSize
 				GetSize
 				ReplaceTextures
+				SetCameraToTexture
 
 
 				Clear
