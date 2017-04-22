@@ -4685,7 +4685,6 @@ DoRespawn
 DrawPowerup
 GetBlend
 GetNoTeleportFreeze
-GetPowerupIcon
 GetSpeedFactor
 GiveQuestItem
 GoAway
@@ -4773,6 +4772,7 @@ GetParentAmmo
 
 
 EndEffect
+GetPowerupIcon
 InitEffect
 isBlinking
 

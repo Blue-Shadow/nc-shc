@@ -4674,7 +4674,6 @@
 				DrawPowerup
 				GetBlend
 				GetNoTeleportFreeze
-				GetPowerupIcon
 				GetSpeedFactor
 				GiveQuestItem
 				GoAway
@@ -4762,6 +4761,7 @@
 
 
 				EndEffect
+				GetPowerupIcon
 				InitEffect
 				isBlinking
 
