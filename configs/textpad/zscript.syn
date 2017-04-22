@@ -3532,6 +3532,17 @@ WeaponSlot
 GetClass
 GetClassName
 GetDefaultByType
+GetParentClass
+
+Exists
+IsNull
+IsValid
+SetInvalid
+SetNull
+
+Length
+Unit
+
 
 CheckForTexture
 CheckRealHeight
