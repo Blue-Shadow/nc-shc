@@ -61,7 +61,6 @@ is
 let
 meta
 native
-new
 null
 optional
 out
@@ -3533,6 +3532,7 @@ GetClass
 GetClassName
 GetDefaultByType
 GetParentClass
+new
 
 
 Exists
