@@ -3534,14 +3534,47 @@ GetClassName
 GetDefaultByType
 GetParentClass
 
+
 Exists
 IsNull
 IsValid
 SetInvalid
 SetNull
 
+
 Length
 Unit
+
+
+abs
+ceil
+clamp
+exp
+log
+log10
+max
+min
+sqrt
+
+
+acos
+asin
+atan
+atan2
+cos
+cosh
+sin
+sinh
+tan
+tanh
+VectorAngle
+
+
+frandom
+frandompick
+random
+random2
+randompick
 
 
 CheckForTexture
@@ -3831,7 +3864,6 @@ Delete
 Find
 Grow
 Insert
-Max
 Move
 Pop
 Push
@@ -5472,32 +5504,6 @@ A_SelectSigilDown
 A_SelectSigilView
 A_SigilCharge
 GiveSigilPiece
-
-
-abs
-acos
-asin
-atan
-atan2
-ceil
-clamp
-cos
-cosh
-exp
-frandom
-frandompick
-log
-log10
-min
-random
-random2
-randompick
-sin
-sinh
-sqrt
-tan
-tanh
-VectorAngle
 
 
 ACS_Execute
