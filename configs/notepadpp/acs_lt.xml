@@ -25,10 +25,9 @@
 			<Keywords name="Folders in comment, middle"></Keywords>
 			<Keywords name="Folders in comment, close"></Keywords>
 
-			<!-- ACC keywords -->
+			<!-- ACC + GDCC-ACC keywords -->
 			<Keywords name="Keywords1">
 				bluereturn
-				bool
 				break
 				case
 				clientside
@@ -44,7 +43,6 @@
 				function
 				global
 				if
-				int
 				kill
 				lightning
 				net
@@ -58,7 +56,6 @@
 				script
 				special
 				static
-				str
 				suspend
 				switch
 				terminate
@@ -68,19 +65,40 @@
 				while
 				whitereturn
 				world
+
+
+				begin
+				block_scope
+				define
+				end
+				enum
+				event
+				goto
+				local
+				module
+				more
+				opt
+				raw
+				restore
+				save
+				sizeof
+				state
+				struct
 			</Keywords>
 			<Keywords name="Keywords2">
-				#define
-				#encryptstrings
-				#import
-				#include
-				#libdefine
-				#library
-				#nocompact
-				#nowadauthor
-				#wadauthor
+				bool
+				int
+				str
+
+
+				char
+				fixed
+				fixed_literal
+				fixed_type
+				float
 			</Keywords>
-			<Keywords name="Keywords3">
+			<Keywords name="Keywords3"></Keywords>
+			<Keywords name="Keywords4">
 				ACS_Execute
 				ACS_ExecuteAlways
 				ACS_ExecuteWithResult
@@ -579,8 +597,85 @@
 				VectorAngle
 				VectorLength
 				Warp
+
+
+				ACS_PrintPropertyBase
+				BeginHudMessage
+				BeginHudMessageBold
+				BeginLog
+				BeginPrint
+				BeginPrintBold
+				BeginStrParam
+				CheckActorPropertyFixed
+				CheckActorPropertyString
+				CreateTranslationDesat
+				CreateTranslationEnd
+				CreateTranslationPalette
+				CreateTranslationRGB
+				CreateTranslationStart
+				EndHudMessage
+				EndHudMessageBold
+				EndHudMessageBoldX
+				EndHudMessageBoldXX
+				EndHudMessageBoldXXX
+				EndHudMessageX
+				EndHudMessageXX
+				EndHudMessageXXX
+				EndLog
+				EndPrint
+				EndPrintBold
+				EndStrParam
+				GetActorPropertyFixed
+				GetActorPropertyString
+				GetArmorInfoFixed
+				GetArmorInfoString
+				GetCVarFixed
+				GetDBEntryFixed
+				GetDBResultValueFixed
+				GetPlayerInputFixed
+				GetTeamPropertyFixed
+				GetTeamPropertyString
+				GetUserArrayFixed
+				GetUserCVarFixed
+				GetUserVariableFixed
+				IncrementDBEntryFixed
+				MoreHudMessage
+				OptHudMessage
+				OptHudMessageS
+				PrintBinary
+				PrintBind
+				PrintChar
+				PrintFixed
+				PrintGlobalCharArray
+				PrintGlobalCharRange
+				PrintHex
+				PrintInt
+				PrintLocalCharArray
+				PrintLocalCharRange
+				PrintLocalized
+				PrintModuleCharArray
+				PrintModuleCharRange
+				PrintName
+				PrintNumber
+				PrintRaw
+				PrintString
+				PrintWorldCharArray
+				PrintWorldCharRange
+				RandomFixed
+				SetActorPropertyFixed
+				SetActorPropertyString
+				SetCVarFixed
+				SetDBEntryFixed
+				SetResultValueFixed
+				SetUserArrayFixed
+				SetUserCVarFixed
+				SetUserVariableFixed
+				StrCpyToGlobalCharRange
+				StrCpyToLocalCharRange
+				StrCpyToModuleCharRange
+				StrCpyToWorldCharRange
 			</Keywords>
-			<Keywords name="Keywords4">
+			<Keywords name="Keywords5">
 				TRUE
 				FALSE
 				ON
@@ -1479,33 +1574,20 @@
 				WARPF_USEPTR
 				WARPF_WARPINTERPOLATION
 			</Keywords>
+			<Keywords name="Keywords6"></Keywords>
+			<Keywords name="Keywords7"></Keywords>
+			<Keywords name="Keywords8">
+				#define
+				#encryptstrings
+				#import
+				#include
+				#libdefine
+				#library
+				#nocompact
+				#nowadauthor
+				#wadauthor
 
-			<!-- GDCC-ACC keywords -->
-			<Keywords name="Keywords5">
-				begin
-				block_scope
-				char
-				define
-				end
-				enum
-				event
-				fixed
-				fixed_literal
-				fixed_type
-				float
-				goto
-				local
-				module
-				more
-				opt
-				raw
-				restore
-				save
-				sizeof
-				state
-				struct
-			</Keywords>
-			<Keywords name="Keywords6">
+
 				#elif
 				#else
 				#endif
@@ -1515,84 +1597,6 @@
 				#pragma
 				#undef
 			</Keywords>
-			<Keywords name="Keywords7">
-				ACS_PrintPropertyBase
-				BeginHudMessage
-				BeginHudMessageBold
-				BeginLog
-				BeginPrint
-				BeginPrintBold
-				BeginStrParam
-				CheckActorPropertyFixed
-				CheckActorPropertyString
-				CreateTranslationDesat
-				CreateTranslationEnd
-				CreateTranslationPalette
-				CreateTranslationRGB
-				CreateTranslationStart
-				EndHudMessage
-				EndHudMessageBold
-				EndHudMessageBoldX
-				EndHudMessageBoldXX
-				EndHudMessageBoldXXX
-				EndHudMessageX
-				EndHudMessageXX
-				EndHudMessageXXX
-				EndLog
-				EndPrint
-				EndPrintBold
-				EndStrParam
-				GetActorPropertyFixed
-				GetActorPropertyString
-				GetArmorInfoFixed
-				GetArmorInfoString
-				GetCVarFixed
-				GetDBEntryFixed
-				GetDBResultValueFixed
-				GetPlayerInputFixed
-				GetTeamPropertyFixed
-				GetTeamPropertyString
-				GetUserArrayFixed
-				GetUserCVarFixed
-				GetUserVariableFixed
-				IncrementDBEntryFixed
-				MoreHudMessage
-				OptHudMessage
-				OptHudMessageS
-				PrintBinary
-				PrintBind
-				PrintChar
-				PrintFixed
-				PrintGlobalCharArray
-				PrintGlobalCharRange
-				PrintHex
-				PrintInt
-				PrintLocalCharArray
-				PrintLocalCharRange
-				PrintLocalized
-				PrintModuleCharArray
-				PrintModuleCharRange
-				PrintName
-				PrintNumber
-				PrintRaw
-				PrintString
-				PrintWorldCharArray
-				PrintWorldCharRange
-				RandomFixed
-				SetActorPropertyFixed
-				SetActorPropertyString
-				SetCVarFixed
-				SetDBEntryFixed
-				SetResultValueFixed
-				SetUserArrayFixed
-				SetUserCVarFixed
-				SetUserVariableFixed
-				StrCpyToGlobalCharRange
-				StrCpyToLocalCharRange
-				StrCpyToModuleCharRange
-				StrCpyToWorldCharRange
-			</Keywords>
-			<Keywords name="Keywords8"></Keywords>
 			<Keywords name="Delimiters">00&quot; 01\ 02&quot; 03&apos; 04\ 05&apos; 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23</Keywords>
 		</KeywordLists>
 		<Styles>
@@ -1601,13 +1605,13 @@
 			<WordsStyle name="LINE COMMENTS" fgColor="00963C" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
 			<WordsStyle name="NUMBERS" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
 			<WordsStyle name="KEYWORDS1" fgColor="001EC8" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-			<WordsStyle name="KEYWORDS2" fgColor="0096C8" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-			<WordsStyle name="KEYWORDS3" fgColor="C8641E" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-			<WordsStyle name="KEYWORDS4" fgColor="B41EC8" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-			<WordsStyle name="KEYWORDS5" fgColor="A00080" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-			<WordsStyle name="KEYWORDS6" fgColor="808080" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-			<WordsStyle name="KEYWORDS7" fgColor="55AA00" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
-			<WordsStyle name="KEYWORDS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+			<WordsStyle name="KEYWORDS2" fgColor="0080FF" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+			<WordsStyle name="KEYWORDS3" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+			<WordsStyle name="KEYWORDS4" fgColor="C8641E" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+			<WordsStyle name="KEYWORDS5" fgColor="B41EC8" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+			<WordsStyle name="KEYWORDS6" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+			<WordsStyle name="KEYWORDS7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+			<WordsStyle name="KEYWORDS8" fgColor="0096C8" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
 			<WordsStyle name="OPERATORS" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
 			<WordsStyle name="FOLDER IN CODE1" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
 			<WordsStyle name="FOLDER IN CODE2" fgColor="0096C8" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />

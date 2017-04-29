@@ -31,21 +31,20 @@ CharEnd = '
 CharEsc = \
 
 [Preprocessor keywords]
-#define
-#encryptstrings
-#endregion
-#import
-#include
-#libdefine
-#library
-#nocompact
-#nowadauthor
-#region
-#wadauthor
+define
+encryptstrings
+endregion
+import
+include
+libdefine
+library
+nocompact
+nowadauthor
+region
+wadauthor
 
 [Keywords 1]
 bluereturn
-bool
 break
 case
 clientside
@@ -62,7 +61,6 @@ for
 function
 global
 if
-int
 kill
 lightning
 net
@@ -76,7 +74,6 @@ return
 script
 special
 static
-str
 suspend
 switch
 terminate
@@ -88,6 +85,11 @@ whitereturn
 world
 
 [Keywords 2]
+bool
+int
+str
+
+[Keywords 3]
 ACS_Execute
 ACS_ExecuteAlways
 ACS_ExecuteWithResult
@@ -586,7 +588,7 @@ VectorAngle
 VectorLength
 Warp
 
-[Keywords 3]
+[Keywords 4]
 TRUE
 FALSE
 ON
