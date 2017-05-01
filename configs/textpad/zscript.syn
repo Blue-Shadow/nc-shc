@@ -1594,6 +1594,7 @@ gametic
 globalfreeze
 intermissionfont
 level
+LocalViewPitch
 menuactive
 multiplayer
 Net_Arbitrator
@@ -1652,6 +1653,7 @@ actownspecial
 aircontrol
 airfriction
 airsupply
+allowrespawn
 checkswitchrange
 cluster
 clusterflags
@@ -2609,6 +2611,13 @@ MorphStyle
 UnMorphFlash
 
 
+buttons
+forwardmove
+sidemove
+upmove
+yaw
+
+
 AirCapacity
 AttackZOffset
 BonusHealth
@@ -2666,10 +2675,10 @@ BlendB
 BlendG
 BlendR
 bob
-buttons
 cheats
 chickenPeck
 cls
+cmd
 ConversationFaceTalker
 ConversationNPC
 ConversationNPCAngle
@@ -2708,6 +2717,7 @@ MUSINFOactor
 MUSINFOtics
 oldbuttons
 onground
+original_cmd
 original_oldbuttons
 PendingWeapon
 playerstate
@@ -3519,10 +3529,8 @@ ColorSetFile
 DamageScreenColor
 DisplayName
 FallingScreamSpeed
-ForwardMove
 HealRadiusType
 InvulnerabilityMode
-SideMove
 SpawnClass
 StartItem
 WeaponSlot
@@ -3683,6 +3691,9 @@ FormatMapName
 GetUDMFFloat
 GetUDMFInt
 GetUDMFString
+IsCrouchingAllowed
+IsFreelookAllowed
+IsJumpingAllowed
 RemoveAllBots
 SetInterMusic
 StartSlideshow
@@ -4230,6 +4241,7 @@ CheckSight
 CheckSightOrRange
 ClearBounce
 ClearCounters
+CheckFakeFloorTriggers
 ClearInterpolation
 ClearInventory
 CopyFriendliness
@@ -4820,21 +4832,51 @@ InitEffect
 isBlinking
 
 
+BestWeapon
+CalcHeight
+CanCrouch
 CheatGive
 CheatSuicide
 CheatTake
 CheatTakeType
+CheckAirSupply
+CheckCheats
+CheckCrouch
+CheckDegeneration
+CheckEnvironment
+CheckFOV
+CheckFrozen
+CheckJump
+CheckMoveUpDown
+CheckMusicChange
+CheckPitch
+CheckPoison
+CheckUndoMorph
+CheckUse
+CheckWeaponButtons
+CheckWeaponChange
+CheckWeaponFire
 CheckWeaponSwitch
+CrouchMove
+DeathThink
+FireWeapon
+FireWeaponAlt
+ForwardThrust
 GetEffectTicsForItem
 GetMaxHealth
 GetPrintableDisplayName
+HandleMovement
 MorphPlayerThink
+MovePlayer
 OnRespawn
 PlayAttacking
 PlayAttacking2
+PlayerThink
 PlayIdle
 PlayRunning
 ResetAirSupply
+TickPSprites
+TweakSpeeds
 
 
 BringUpWeapon
@@ -4852,6 +4894,7 @@ GetSkin
 GetTeam
 GetUserName
 HasWeaponsInSlot
+IsTotallyFrozen
 MorphPlayer
 PoisonPlayer
 Resurrect
@@ -4860,6 +4903,7 @@ SetLogNumber
 SetLogText
 SetPsprite
 SetSafeFlash
+Uncrouch
 UndoPlayerMorph
 
 
@@ -6946,6 +6990,8 @@ MAX_ANGLE_ADJUST
 MinVel
 ONCEILINGZ
 ONFLOORZ
+ORIG_FRICTION
+ORIG_FRICTION_FACTOR
 TELEFRAG_DAMAGE
 
 DI_EAST
@@ -7376,6 +7422,9 @@ SPECIALCOLORMAP_MASK
 ALL_NO
 ALL_YES
 ALL_YESYES
+
+CROUCHSPEED
+TURN180_TICKS
 
 
 FLASH

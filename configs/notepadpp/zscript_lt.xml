@@ -1583,6 +1583,7 @@
 				globalfreeze
 				intermissionfont
 				level
+				LocalViewPitch
 				menuactive
 				multiplayer
 				Net_Arbitrator
@@ -1641,6 +1642,7 @@
 				aircontrol
 				airfriction
 				airsupply
+				allowrespawn
 				checkswitchrange
 				cluster
 				clusterflags
@@ -2598,6 +2600,13 @@
 				UnMorphFlash
 
 
+				buttons
+				forwardmove
+				sidemove
+				upmove
+				yaw
+
+
 				AirCapacity
 				AttackZOffset
 				BonusHealth
@@ -2655,10 +2664,10 @@
 				BlendG
 				BlendR
 				bob
-				buttons
 				cheats
 				chickenPeck
 				cls
+				cmd
 				ConversationFaceTalker
 				ConversationNPC
 				ConversationNPCAngle
@@ -2697,6 +2706,7 @@
 				MUSINFOtics
 				oldbuttons
 				onground
+				original_cmd
 				original_oldbuttons
 				PendingWeapon
 				playerstate
@@ -3508,10 +3518,8 @@
 				DamageScreenColor
 				DisplayName
 				FallingScreamSpeed
-				ForwardMove
 				HealRadiusType
 				InvulnerabilityMode
-				SideMove
 				SpawnClass
 				StartItem
 				WeaponSlot
@@ -3672,6 +3680,9 @@
 				GetUDMFFloat
 				GetUDMFInt
 				GetUDMFString
+				IsCrouchingAllowed
+				IsFreelookAllowed
+				IsJumpingAllowed
 				RemoveAllBots
 				SetInterMusic
 				StartSlideshow
@@ -4219,6 +4230,7 @@
 				CheckSightOrRange
 				ClearBounce
 				ClearCounters
+				CheckFakeFloorTriggers
 				ClearInterpolation
 				ClearInventory
 				CopyFriendliness
@@ -4809,21 +4821,51 @@
 				isBlinking
 
 
+				BestWeapon
+				CalcHeight
+				CanCrouch
 				CheatGive
 				CheatSuicide
 				CheatTake
 				CheatTakeType
+				CheckAirSupply
+				CheckCheats
+				CheckCrouch
+				CheckDegeneration
+				CheckEnvironment
+				CheckFOV
+				CheckFrozen
+				CheckJump
+				CheckMoveUpDown
+				CheckMusicChange
+				CheckPitch
+				CheckPoison
+				CheckUndoMorph
+				CheckUse
+				CheckWeaponButtons
+				CheckWeaponChange
+				CheckWeaponFire
 				CheckWeaponSwitch
+				CrouchMove
+				DeathThink
+				FireWeapon
+				FireWeaponAlt
+				ForwardThrust
 				GetEffectTicsForItem
 				GetMaxHealth
 				GetPrintableDisplayName
+				HandleMovement
 				MorphPlayerThink
+				MovePlayer
 				OnRespawn
 				PlayAttacking
 				PlayAttacking2
+				PlayerThink
 				PlayIdle
 				PlayRunning
 				ResetAirSupply
+				TickPSprites
+				TweakSpeeds
 
 
 				BringUpWeapon
@@ -4841,6 +4883,7 @@
 				GetTeam
 				GetUserName
 				HasWeaponsInSlot
+				IsTotallyFrozen
 				MorphPlayer
 				PoisonPlayer
 				Resurrect
@@ -4849,6 +4892,7 @@
 				SetLogText
 				SetPsprite
 				SetSafeFlash
+				Uncrouch
 				UndoPlayerMorph
 
 
@@ -6935,6 +6979,8 @@
 				MinVel
 				ONCEILINGZ
 				ONFLOORZ
+				ORIG_FRICTION
+				ORIG_FRICTION_FACTOR
 				TELEFRAG_DAMAGE
 
 				DI_EAST
@@ -7365,6 +7411,9 @@
 				ALL_NO
 				ALL_YES
 				ALL_YESYES
+
+				CROUCHSPEED
+				TURN180_TICKS
 
 
 				FLASH
