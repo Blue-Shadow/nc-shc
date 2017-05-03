@@ -1284,6 +1284,27 @@
 				SuperShotgun
 				SurgeryCrab
 				SurgeryKit
+				SVEBlueChalice
+				SVEFlagSpotBlue
+				SVEFlagSpotRed
+				SVELight
+				SVELight7958
+				SVELight7959
+				SVELight7960
+				SVELight7961
+				SVELight7962
+				SVELight7964
+				SVELight7965
+				SVELight7971
+				SVELight7972
+				SVELight7973
+				SVELight7974
+				SVEOpenDoor225
+				SVEOreSpawner
+				SVETalismanBlue
+				SVETalismanGreen
+				SVETalismanPowerup
+				SVETalismanRed
 				SwitchableDecoration
 				SwitchingDecoration
 				TableShit1
@@ -1370,7 +1391,7 @@
 				WeaponSmith
 				WhirlwindKnight
 				WhiteParticleFountain
-				Wizard
+				Wizard 
 				WizardFX1
 				WolfensteinSS
 				WoodenBarrel
@@ -3133,6 +3154,14 @@
 				NOTHRUSTWHENINVUL
 
 
+				ADDITIVE
+				ATTENUATE
+				DONTLIGHTACTORS
+				DONTLIGHTSELF
+				NOSHADOWMAP
+				SUBTRACTIVE
+
+
 				bARGSDEFINED
 				bARMED
 				bAVOIDINGDROPOFF
@@ -3450,6 +3479,14 @@
 				bCANSUPERMORPH
 				bCROUCHABLEMORPH
 				bNOTHRUSTWHENINVUL
+
+
+				bADDITIVE
+				bATTENUATE
+				bDONTLIGHTACTORS
+				bDONTLIGHTSELF
+				bNOSHADOWMAP
+				bSUBTRACTIVE
 
 
 				bNOTRAIL
@@ -5537,6 +5574,9 @@
 				A_SelectSigilView
 				A_SigilCharge
 				GiveSigilPiece
+
+
+				A_OreSpawner
 
 
 				ACS_Execute
