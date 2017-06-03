@@ -554,6 +554,7 @@ HangTLookingDown
 HangTLookingUp
 HangTNoBrain
 HangTSkull
+HarmonyStatusBar
 HateTarget
 HeadFX1
 HeadFX2
@@ -1580,6 +1581,7 @@ TerrainDef
 TexMan
 Translation
 UiEvent
+UserCmd
 Vertex
 VisStyle
 Wads
@@ -1927,6 +1929,7 @@ FastChaseStrafeCount
 FastSpeed
 fillcolor
 FloatBobPhase
+FloatBobStrength
 FloatSpeed
 FloorClip
 fountaincolor
@@ -2490,6 +2493,9 @@ mYelFont
 PendingPop
 PopHeight
 PopHeightChange
+
+
+scalestate
 
 
 Invert
@@ -3626,6 +3632,7 @@ frandompick
 random
 random2
 randompick
+SetRandomSeed
 
 
 CheckForTexture
