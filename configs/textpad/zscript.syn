@@ -1571,6 +1571,7 @@ SecPlane
 SecSpecial
 Sector
 SectorPortal
+Shader
 Side
 StrifeDialogueNode
 StrifeDialogueReply
@@ -2804,6 +2805,9 @@ Range
 MaxPitchChange
 
 
+bVisited
+
+
 bActive
 bJustStepped
 CurrNode
@@ -3778,6 +3782,13 @@ CreateFloor
 
 
 CreateCeiling
+
+
+SetEnabled
+SetUniform1f
+SetUniform1i
+SetUniform2f
+SetUniform3f
 
 
 AddChoice
@@ -6719,6 +6730,7 @@ PSPF_CVARFAST
 PSPF_FLIP
 PSPF_FORCEALPHA
 PSPF_FORCESTYLE
+PSPF_MIRROR
 PSPF_POWDOUBLE
 PSPF_RENDERSTYLE
 
@@ -7473,6 +7485,10 @@ ZOOM_NOSCALETURNING
 
 
 SPECIALCOLORMAP_MASK
+
+
+POS_X
+POS_Y
 
 
 ALL_NO
