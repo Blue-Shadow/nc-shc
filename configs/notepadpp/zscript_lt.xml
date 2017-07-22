@@ -3762,6 +3762,8 @@
 				CharCodeAt
 				Filter
 				Format
+				IndexOf
+				LastIndexOf
 				Mid
 				Replace
 				Truncate
