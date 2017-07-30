@@ -1979,7 +1979,9 @@
 				Radius
 				RadiusDamageFactor
 				ReactionTime
+				RenderHidden
 				RenderRadius
+				RenderRequired
 				RipLevelMax
 				RipLevelMin
 				RipperLevel
@@ -7038,6 +7040,21 @@
 				WF_WEAPONRELOADOK
 				WF_WEAPONSWITCHOK
 				WF_WEAPONZOOMOK
+
+
+				RFF_BRIGHTMAP
+				RFF_COLORMAP
+				RFF_FLATSPRITES
+				RFF_MATSHADER
+				RFF_MODELS
+				RFF_POLYGONAL
+				RFF_POSTSHADER
+				RFF_ROLLSPRITES
+				RFF_SLOPE3DFLOORS
+				RFF_TILTPITCH
+				RFF_TRUECOLOR
+				RFF_UNCLIPPEDTEX
+				RFF_VOXELS
 
 
 				DEFAULT_HEALTH
