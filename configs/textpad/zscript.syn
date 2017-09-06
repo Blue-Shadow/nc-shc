@@ -1910,6 +1910,7 @@ bouncecount
 bouncefactor
 BounceSound
 BurnHeight
+CameraFOV
 CameraHeight
 CrushPainSound
 CurState
@@ -3749,6 +3750,7 @@ FormatMapName
 GetUDMFFloat
 GetUDMFInt
 GetUDMFString
+GiveSecret
 IsCrouchingAllowed
 IsFreelookAllowed
 IsJumpingAllowed
@@ -3779,6 +3781,10 @@ IndexOf
 LastIndexOf
 Mid
 Replace
+ToDouble
+ToInt
+ToLower
+ToUpper
 Truncate
 
 
@@ -4229,6 +4235,7 @@ A_SkelMissile
 A_SkelWhoosh
 A_SkullAttack
 A_SkullPop
+A_SoundVolume
 A_SpawnDebris
 A_SpawnFly
 A_SpawnItem
@@ -4301,6 +4308,7 @@ CheckMeleeRange2
 CheckMissileRange
 CheckMissileSpawn
 CheckNoDelay
+CheckPortalTransition
 CheckPosition
 CheckProximity
 CheckRange
@@ -4365,7 +4373,6 @@ GiveAmmo
 GiveBody
 GiveInventory
 GiveInventoryType
-GiveSecret
 HandleSpawnFlags
 HitFloor
 HitFriend
@@ -5985,6 +5992,7 @@ STAT_DEFAULT
 STAT_DLIGHT
 STAT_EARTHQUAKE
 STAT_FIRST_THINKING
+STAT_INFO
 STAT_INVENTORY
 STAT_LIGHT
 STAT_LIGHTNING
@@ -5996,7 +6004,8 @@ STAT_SCROLLER
 STAT_SECTOREFFECT
 STAT_STATIC
 STAT_TRAVELLING
-STAT_INFO
+STAT_USER
+STAT_USER_MAX
 
 TICRATE
 
