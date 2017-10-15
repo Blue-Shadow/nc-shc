@@ -1651,6 +1651,7 @@ gibfactor
 infoPages
 intermissioncounter
 mBackButton
+mSliderColor
 mStatscreenEnteringFont
 mStatscreenFinishedFont
 mStatscreenMapNameFont
