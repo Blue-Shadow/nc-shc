@@ -4947,6 +4947,7 @@
 				DropWeapon
 				FindPSprite
 				GetAutoaim
+				GetClassicFlight
 				GetColorSet
 				GetDisplayColor
 				GetGender
