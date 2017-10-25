@@ -3636,6 +3636,7 @@
 
 				CheckForTexture
 				CheckRealHeight
+				GetName
 				GetScaledOffset
 				GetScaledSize
 				GetSize
@@ -4527,7 +4528,6 @@
 				GetAxisMap
 				GetAxisName
 				GetAxisScale
-				GetName
 				GetNumAxes
 				GetSensitivity
 				SetAxisDeadZone

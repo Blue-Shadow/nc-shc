@@ -3647,6 +3647,7 @@ SetRandomSeed
 
 CheckForTexture
 CheckRealHeight
+GetName
 GetScaledOffset
 GetScaledSize
 GetSize
@@ -4538,7 +4539,6 @@ GetAxisDeadZone
 GetAxisMap
 GetAxisName
 GetAxisScale
-GetName
 GetNumAxes
 GetSensitivity
 SetAxisDeadZone
