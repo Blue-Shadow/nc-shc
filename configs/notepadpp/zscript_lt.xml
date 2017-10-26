@@ -3685,12 +3685,14 @@
 
 
 				FindCVar
+				GetBool
 				GetCVar
 				GetFloat
 				GetInt
 				GetRealType
 				GetString
 				ResetToDefault
+				SetBool
 				SetFloat
 				SetInt
 				SetString
