@@ -3785,6 +3785,7 @@ IndexOf
 LastIndexOf
 Mid
 Replace
+Split
 ToDouble
 ToInt
 ToLower
@@ -6050,6 +6051,10 @@ ns_voxels
 
 PPS_FORCERANDOM
 PPS_NOBLOCKINGCHECK
+
+
+TOK_KEEPEMPTY
+TOK_SKIPEMPTY
 
 
 buildStair

@@ -3774,6 +3774,7 @@
 				LastIndexOf
 				Mid
 				Replace
+				Split
 				ToDouble
 				ToInt
 				ToLower
@@ -6039,6 +6040,10 @@
 
 				PPS_FORCERANDOM
 				PPS_NOBLOCKINGCHECK
+
+
+				TOK_KEEPEMPTY
+				TOK_SKIPEMPTY
 
 
 				buildStair
