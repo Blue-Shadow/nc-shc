@@ -3773,7 +3773,10 @@ GetSpriteTexture
 ValidateSpriteFrame
 
 
+CheckNumForFullName
 CheckNumForName
+FindLump
+ReadLump
 
 
 AppendFormat
@@ -6047,6 +6050,9 @@ ns_specialzipdirectory
 ns_sprites
 ns_strifevoices
 ns_voxels
+
+AnyNamespace
+GlobalNamespace
 
 
 PPS_FORCERANDOM
