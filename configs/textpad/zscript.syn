@@ -3787,6 +3787,7 @@ Format
 IndexOf
 LastIndexOf
 Mid
+Remove
 Replace
 Split
 ToDouble
