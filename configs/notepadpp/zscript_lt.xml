@@ -3650,6 +3650,7 @@
 				DrawChar
 				DrawFrame
 				DrawHUDTexture
+				DrawLine
 				DrawText
 				DrawTexture
 				GetAspectRatio
