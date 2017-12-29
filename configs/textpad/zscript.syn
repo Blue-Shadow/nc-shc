@@ -1708,6 +1708,7 @@ nomonsters
 no_dlg_freeze
 outsidefogdensity
 partime
+pixelstretch
 polygrind
 SectorPortals
 Sectors
@@ -6935,6 +6936,7 @@ SKILLP_EasyKey
 SKILLP_FastMonsters
 SKILLP_Infight
 SKILLP_NoPain
+SKILLP_PlayerRespawn
 SKILLP_Respawn
 SKILLP_RespawnLimit
 SKILLP_SlowMonsters
