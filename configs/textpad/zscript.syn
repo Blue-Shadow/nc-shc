@@ -3764,6 +3764,8 @@ RemoveAllBots
 SetInterMusic
 StartSlideshow
 TimeFormatted
+Vec2Diff
+Vec3Diff
 WorldDone
 
 
@@ -4318,6 +4320,7 @@ CheckMeleeRange
 CheckMeleeRange2
 CheckMissileRange
 CheckMissileSpawn
+CheckMove
 CheckNoDelay
 CheckPortalTransition
 CheckPosition
@@ -6620,6 +6623,11 @@ WARPF_TOFLOOR
 WARPF_USECALLERANGLE
 WARPF_USETID
 WARPF_WARPINTERPOLATION
+
+
+PCM_DROPOFF
+PCM_NOACTORS
+PCM_NOLINES
 
 
 SPF_FORCECLAMP
