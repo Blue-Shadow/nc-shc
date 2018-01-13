@@ -2329,10 +2329,12 @@
 				DropType
 				Goodbye
 				ItemCheckNode
+				MenuClassName
 				SpeakerName
 				SpeakerType
 				SpeakerVoice
 				ThisNodeNum
+				UserData
 
 
 				ActionSpecial
