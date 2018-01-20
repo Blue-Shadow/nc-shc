@@ -829,10 +829,14 @@ OptionMenuItemMapControl
 OptionMenuItemNumberField
 OptionMenuItemOption
 OptionMenuItemOptionBase
+OptionMenuItemReverbOption
+OptionMenuItemReverbSaveSelect
+OptionMenuItemReverbSelect
 OptionMenuItemSafeCommand
 OptionMenuItemScaleSlider
 OptionMenuItemScreenResolution
 OptionMenuItemSlider
+OptionMenuItemSliderReverbEditOption
 OptionMenuItemStaticText
 OptionMenuItemStaticTextSwitchable
 OptionMenuItemSubmenu
@@ -1068,6 +1072,9 @@ RedTorch
 Revenant
 RevenantTracer
 RevenantTracerSmoke
+ReverbEdit
+ReverbSave
+ReverbSelect
 Ripper
 RipperBall
 Rock1
@@ -2185,6 +2192,9 @@ VisBottom
 mLabel
 
 
+mCloseOnSelect
+
+
 mPrompt
 
 
@@ -2370,6 +2380,12 @@ mShowGold
 mSpeaker
 ReplyWidth
 SpeechWidth
+
+
+mValIndex
+
+
+mEditValue
 
 
 fragcount
@@ -4616,6 +4632,7 @@ drawLabel
 
 
 GetSelection
+isGrayed
 SetSelection
 
 
@@ -4696,6 +4713,14 @@ FormatReplies
 FormatSpeakerMessage
 GetReplyNum
 SendConversationReply
+
+
+FillSaveMenu
+FillSelectMenu
+GetSaveSelection
+GetSelectedEnvironment
+GrayCheck
+ToggleSaveSelection
 
 
 drawBackground
