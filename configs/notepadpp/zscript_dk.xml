@@ -1109,6 +1109,10 @@
 				SectorPointLightAttenuated
 				SectorPointLightSubtractive
 				SectorSilencer
+				SectorSpotLight
+				SectorSpotLightAdditive
+				SectorSpotLightAttenuated
+				SectorSpotLightSubtractive
 				SectorTagIterator
 				SecurityCamera
 				SecurityKey
@@ -1231,6 +1235,22 @@
 				SpectralMonster
 				Spectre
 				SpiderMastermind
+				SpotLight
+				SpotLightAdditive
+				SpotLightAttenuated
+				SpotLightFlicker
+				SpotLightFlickerAdditive
+				SpotLightFlickerAttenuated
+				SpotLightFlickerRandom
+				SpotLightFlickerRandomAdditive
+				SpotLightFlickerRandomAttenuated
+				SpotLightFlickerRandomSubtractive
+				SpotLightFlickerSubtractive
+				SpotLightPulse
+				SpotLightPulseAdditive
+				SpotLightPulseAttenuated
+				SpotLightPulseSubtractive
+				SpotLightSubtractive
 				SpotState
 				SRock1
 				SRock2
@@ -1366,6 +1386,7 @@
 				ThrustFloorDown
 				ThrustFloorUp
 				TorchTree
+				Tracer
 				Tray
 				TreeDestructible
 				TreeStub
@@ -1538,6 +1559,7 @@
 				F3DFloor
 				FCheckPosition
 				FColormap
+				FLineTraceData
 				Font
 				FOptionMenuSettings
 				FStateParamInfo
@@ -1576,6 +1598,7 @@
 				Team
 				TerrainDef
 				TexMan
+				TraceResults
 				Translation
 				UiEvent
 				UserCmd
@@ -1663,6 +1686,28 @@
 
 
 				CurLine
+
+
+				Crossed3DWater
+				Crossed3DWaterPos
+				CrossedWater
+				CrossedWaterPos
+				Distance
+				Fraction
+				HitActor
+				HitLine
+				HitPos
+				HitSector
+				HitTexture
+				HitType
+				HitVector
+				SrcAngleFromTarget
+				SrcFromTarget
+				Tier
+				unlinked
+
+
+				Results
 
 
 				Amount
@@ -1863,7 +1908,6 @@
 				angleFromSource
 				attackAngleFromSource
 				linetarget
-				unlinked
 
 
 				abovemidtex
@@ -1885,6 +1929,14 @@
 				PushTime
 				stepthing
 				touchmidtex
+
+
+				Hit3DFloor
+				HitLocation
+				LinePart
+				LineSide
+				NumPortals
+				SectorPlane
 
 
 				render_list
@@ -2028,7 +2080,6 @@
 				Threshold
 				TID
 				TIDtoHate
-				Tracer
 				UseSound
 				Vel
 				VelX
@@ -2831,6 +2882,10 @@
 				activator
 
 
+				SpotInnerAngle
+				SpotOuterAngle
+
+
 				melee
 				missile
 
@@ -3197,6 +3252,7 @@
 				DONTLIGHTACTORS
 				DONTLIGHTSELF
 				NOSHADOWMAP
+				SPOT
 				SUBTRACTIVE
 
 
@@ -3528,6 +3584,7 @@
 				bDONTLIGHTACTORS
 				bDONTLIGHTSELF
 				bNOSHADOWMAP
+				bSPOT
 				bSUBTRACTIVE
 
 
@@ -3676,6 +3733,7 @@
 				GetAspectRatio
 				GetClipRect
 				GetHeight
+				GetViewWindow
 				GetWidth
 				PaletteColor
 				SetClipRect
@@ -3731,6 +3789,7 @@
 				OnDestroy
 				SetMusicVolume
 				S_ChangeMusic
+				S_GetLength
 				S_PauseSound
 				S_ResumeSound
 				S_Sound
@@ -3752,6 +3811,10 @@
 
 
 				CreateFromPos
+
+
+				Trace
+				TraceCallback
 
 
 				GetNextInList
@@ -4380,6 +4443,7 @@
 				GetObituary
 				GetPlayerInput
 				GetPointer
+				GetRadiusDamage
 				GetRenderStyle
 				GetReplacee
 				GetReplacement
@@ -4408,6 +4472,7 @@
 				IsVisible
 				IsZeroDamage
 				LineAttack
+				LineTrace
 				LinkToWorld
 				LookForEnemies
 				LookForMonsters
@@ -6050,6 +6115,31 @@
 				TICRATE
 
 
+				TRACE_Abort
+				TRACE_Continue
+				TRACE_Skip
+				TRACE_Stop
+
+
+				TRACE_NoSky
+				TRACE_PortalRestrict
+				TRACE_ReportPortals
+
+
+				TRACE_CrossingPortal
+				TRACE_HitActor
+				TRACE_HitCeiling
+				TRACE_HitFloor
+				TRACE_HitNone
+				TRACE_HitWall
+
+
+				TIER_FFloor
+				TIER_Lower
+				TIER_Middle
+				TIER_Upper
+
+
 				UDMF_Line
 				UDMF_Sector
 				UDMF_Side
@@ -6905,6 +6995,16 @@
 				LAF_TARGETISSOURCE
 
 
+				TRF_ABSOFFSET
+				TRF_ABSPOSITION
+				TRF_ALLACTORS
+				TRF_NOSKY
+				TRF_THRUACTORS
+				TRF_THRUBLOCK
+				TRF_THRUHITSCAN
+				TRF_THRUSPECIES
+
+
 				DEFMELEERANGE
 				MISSILERANGE
 				PLAYERMISSILERANGE
@@ -7642,12 +7742,12 @@
 
 				ColorFlickerLight
 				ColorPulseLight
+				DummyLight
 				FlickerLight
 				PulseLight
 				RandomColorFlickerLight
 				RandomFlickerLight
 				SectorLight
-				SpotLight
 
 
 				MARINE_PAIN_CHANCE
