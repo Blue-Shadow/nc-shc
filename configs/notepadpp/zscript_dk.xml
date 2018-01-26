@@ -1755,6 +1755,10 @@
 				Sectors
 				Sides
 				skyfog
+				skyspeed1
+				skyspeed2
+				skytexture1
+				skytexture2
 				sndseqtotalctrl
 				starttime
 				sucktime
@@ -3822,8 +3826,10 @@
 				GetSpotWithMinMaxDistance
 
 
+				ChangeSky
 				ExecuteSpecial
 				FormatMapName
+				GetChecksum
 				GetUDMFFloat
 				GetUDMFInt
 				GetUDMFString
