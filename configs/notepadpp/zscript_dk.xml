@@ -672,6 +672,7 @@
 				LightSilverFluorescent
 				LinearValueInterpolator
 				LineIdIterator
+				LineTracer
 				ListMenu
 				ListMenuDescriptor
 				ListMenuItem
@@ -1386,7 +1387,6 @@
 				ThrustFloorDown
 				ThrustFloorUp
 				TorchTree
-				Tracer
 				Tray
 				TreeDestructible
 				TreeStub
@@ -2084,6 +2084,7 @@
 				Threshold
 				TID
 				TIDtoHate
+				Tracer
 				UseSound
 				Vel
 				VelX

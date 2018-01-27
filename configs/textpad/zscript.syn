@@ -683,6 +683,7 @@ LightningZap
 LightSilverFluorescent
 LinearValueInterpolator
 LineIdIterator
+LineTracer
 ListMenu
 ListMenuDescriptor
 ListMenuItem
@@ -1397,7 +1398,6 @@ ThrustFloor
 ThrustFloorDown
 ThrustFloorUp
 TorchTree
-Tracer
 Tray
 TreeDestructible
 TreeStub
@@ -2095,6 +2095,7 @@ TelefogSourceType
 Threshold
 TID
 TIDtoHate
+Tracer
 UseSound
 Vel
 VelX
