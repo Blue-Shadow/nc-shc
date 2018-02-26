@@ -4062,6 +4062,7 @@
 				ACS_NamedLockedExecuteDoor
 				ACS_NamedSuspend
 				ACS_NamedTerminate
+				ACS_ScriptCall
 				Activate
 				AddInventory
 				AddZ
