@@ -4433,7 +4433,9 @@ Deactivate
 deltaangle
 Die
 Distance2D
+Distance2DSquared
 Distance3D
+Distance3DSquared
 DistanceBySpeed
 DoSpecialDamage
 DrawSplash
@@ -5915,6 +5917,7 @@ Stairs_BuildUpSync
 StartConversation
 Team_GivePoints
 Team_Score
+TeleportSpecial
 TeleportGroup
 TeleportInSector
 TeleportOther
