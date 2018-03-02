@@ -592,6 +592,7 @@
 				HornRodFX1
 				HornRodFX2
 				HUDFont
+				HUDMessageBase
 				HugeTorch
 				HWaterDrip
 				IceChunk
@@ -4824,7 +4825,11 @@
 				CreateNoBox
 
 
+				ScreenSizeChanged
+
+
 				AdjustPosition
+				AttachMessage
 				AttachToPlayer
 				BeginHUD
 				BeginStatusBar
@@ -4833,6 +4838,9 @@
 				CheckHealth
 				CheckWeaponPiece
 				CheckWeaponSelected
+				DetachAllMessages
+				DetachMessage
+				DetachMessageID
 				DoDrawAutomapHUD
 				DrawAutomapHUD
 				DrawBar
@@ -4877,7 +4885,6 @@
 				MustDrawLog
 				NewGame
 				ReceivedWeapon
-				ScreenSizeChanged
 				SetMugShotState
 				SetSize
 				ShowPop

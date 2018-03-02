@@ -603,6 +603,7 @@ HolyTailTrail
 HornRodFX1
 HornRodFX2
 HUDFont
+HUDMessageBase
 HugeTorch
 HWaterDrip
 IceChunk
@@ -4835,7 +4836,11 @@ updateStats
 CreateNoBox
 
 
+ScreenSizeChanged
+
+
 AdjustPosition
+AttachMessage
 AttachToPlayer
 BeginHUD
 BeginStatusBar
@@ -4844,6 +4849,9 @@ CheckDisplayName
 CheckHealth
 CheckWeaponPiece
 CheckWeaponSelected
+DetachAllMessages
+DetachMessage
+DetachMessageID
 DoDrawAutomapHUD
 DrawAutomapHUD
 DrawBar
@@ -4887,7 +4895,6 @@ isInventoryBarVisible
 isInvulnerable
 MustDrawLog
 NewGame
-ReceivedWeapon
 ScreenSizeChanged
 SetMugShotState
 SetSize
