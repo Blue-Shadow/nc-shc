@@ -816,6 +816,7 @@
 				OptionMenuItemInverter
 				OptionMenuItemJoyConfigMenu
 				OptionMenuItemJoyMap
+				OptionMenuItemLabeledSubmenu
 				OptionMenuItemMapControl
 				OptionMenuItemNumberField
 				OptionMenuItemOption
@@ -1875,11 +1876,14 @@
 
 
 				bottommap
+				ceilingdata
 				ceilingplane
 				centerspot
 				ColorMap
+				floordata
 				floorplane
 				heightsec
+				lightingdata
 				lightlevel
 				midmap
 				MoreFlags
@@ -1937,6 +1941,7 @@
 
 
 				Hit3DFloor
+				HitDir
 				HitLocation
 				LinePart
 				LineSide
@@ -2236,6 +2241,9 @@
 
 
 				mLabel
+
+
+				mLabelCVar
 
 
 				mCloseOnSelect
@@ -3878,6 +3886,9 @@
 				ToLower
 				ToUpper
 				Truncate
+
+
+				GetSector
 
 
 				CreateFloor
