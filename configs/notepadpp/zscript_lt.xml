@@ -7568,6 +7568,12 @@
 				HUD_None
 				HUD_StatusBar
 
+				HUDMSGLayer_Default
+				HUDMSGLayer_OverHUD
+				HUDMSGLayer_OverMap
+				HUDMSGLayer_UnderHUD
+				NUM_HUDMSGLAYERS
+
 				DI_ALPHAMAPPED
 				DI_ALTERNATEONFAIL
 				DI_ALTICONFIRST
