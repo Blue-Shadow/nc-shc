@@ -2133,6 +2133,7 @@ ViewPos
 ViewRoll
 
 
+ActivatedLine
 DamageAngle
 DamageFlags
 DamageSource
@@ -2592,6 +2593,7 @@ Invert
 RenderStyle
 
 
+AltHUDIcon
 bCreateCopyMoved
 bInitEffectFailed
 bPickupGood
@@ -3637,7 +3639,6 @@ XScale
 YScale
 
 
-AlthudIcon
 DefMaxamount
 ForbiddenTo
 PickupAnnouncerEntry
@@ -4604,11 +4605,13 @@ PlayerDied
 PlayerDisconnected
 PlayerEntered
 PlayerRespawned
+PostUiTick
 RenderOverlay
 SetOrder
 UiProcess
 UiTick
 WorldLightning
+WorldLineActivated
 WorldLoaded
 WorldThingDamaged
 WorldThingDestroyed
@@ -7616,6 +7619,7 @@ DI_ITEM_TOP
 DI_ITEM_VCENTER
 DI_ITEM_VMASK
 DI_ITEM_VOFFSET
+DI_MIRROR
 DI_NOSHADOW
 DI_SCREEN_AUTO
 DI_SCREEN_BOTTOM
