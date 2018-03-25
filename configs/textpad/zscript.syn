@@ -2140,6 +2140,7 @@ DamageSource
 Inflictor
 IsReopen
 IsSaveGame
+ShouldActivate
 
 
 IsReturn
@@ -4612,6 +4613,7 @@ UiProcess
 UiTick
 WorldLightning
 WorldLineActivated
+WorldLinePreActivated
 WorldLoaded
 WorldThingDamaged
 WorldThingDestroyed
