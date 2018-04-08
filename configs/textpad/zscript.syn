@@ -3945,10 +3945,12 @@ SetTextureYOffset
 SetTextureYScale
 
 
+Activate
 getPortalAlignment
 getPortalDestination
 isLinePortal
 isVisualPortal
+RemoteActivate
 
 
 ChangeHeight
@@ -4088,7 +4090,6 @@ ACS_NamedLockedExecuteDoor
 ACS_NamedSuspend
 ACS_NamedTerminate
 ACS_ScriptCall
-Activate
 AddInventory
 AddZ
 AdjustPlayerAngle
@@ -7278,6 +7279,20 @@ RFF_TILTPITCH
 RFF_TRUECOLOR
 RFF_UNCLIPPEDTEX
 RFF_VOXELS
+
+
+SPAC_AnyCross
+SPAC_Cross
+SPAC_Impact
+SPAC_MCross
+SPAC_MPush
+SPAC_MUse
+SPAC_PCross
+SPAC_PlayerActivate
+SPAC_Push
+SPAC_Use
+SPAC_UseBack
+SPAC_UseThrough
 
 
 DEFAULT_HEALTH
