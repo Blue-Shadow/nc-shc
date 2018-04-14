@@ -673,6 +673,7 @@ Leaf1
 Leaf2
 LeafSpawner
 LeatherArmor
+LevelCompatibility
 LightBrownFluorescent
 LightGlobe
 LightGoldFluorescent
@@ -4628,6 +4629,28 @@ WorldUnloaded
 SendNetworkEvent
 
 
+AddSectorTag
+Apply
+ClearLineSpecial
+ClearSectorTags
+OffsetSectorPlane
+SetLineActivation
+SetLineFlags
+SetLineSectorRef
+SetLineSpecial
+SetSectorLight
+SetSectorSpecial
+SetSectorTexture
+SetSectorTextureID
+SetThingFlags
+SetThingSkills
+SetThingZ
+SetVertex
+SetWallTexture
+SetWallTextureID
+SetWallYScale
+
+
 CheckCoordinate
 CheckHotkey
 Draw
@@ -6025,19 +6048,21 @@ DTA_ClipBottom
 DTA_ClipLeft
 DTA_ClipRight
 DTA_ClipTop
+DTA_Color
 DTA_ColorOverlay
+DTA_Desaturate
 DTA_DestHeight
 DTA_DestHeightF
 DTA_DestWidth
 DTA_DestWidthF
 DTA_FillColor
 DTA_FlipX
+DTA_FlipY
 DTA_Fullscreen
 DTA_HUDRules
 DTA_HUDRulesC
 DTA_Internal1
 DTA_Internal2
-DTA_Internal3
 DTA_KeepRatio
 DTA_LeftOffset
 DTA_LeftOffsetF
@@ -6046,6 +6071,10 @@ DTA_RenderStyle
 DTA_Shadow
 DTA_ShadowAlpha
 DTA_ShadowColor
+DTA_SrcHeight
+DTA_SrcWidth
+DTA_SrcX
+DTA_SrcY
 DTA_TextLen
 DTA_TopOffset
 DTA_TopOffsetF
@@ -6314,6 +6343,9 @@ WALLF_POLYOBJ
 WALLF_SMOOTHLIGHTING
 WALLF_WRAP_MIDTEX
 
+
+back
+front
 
 ML_3DMIDTEX
 ML_3DMIDTEX_IMPASS
