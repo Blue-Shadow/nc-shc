@@ -4645,6 +4645,7 @@ SetSectorTexture
 SetSectorTextureID
 SetThingFlags
 SetThingSkills
+SetThingXY
 SetThingZ
 SetVertex
 SetWallTexture
