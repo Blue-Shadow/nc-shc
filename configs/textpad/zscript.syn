@@ -4414,7 +4414,6 @@ CheckArmorType
 CheckBlock
 CheckBossDeath
 CheckClass
-CheckFlag
 CheckIfCloser
 CheckIfInTargetLOS
 CheckIfSeen
@@ -4628,29 +4627,6 @@ WorldUnloaded
 
 
 SendNetworkEvent
-
-
-AddSectorTag
-Apply
-ClearLineSpecial
-ClearSectorTags
-OffsetSectorPlane
-SetLineActivation
-SetLineFlags
-SetLineSectorRef
-SetLineSpecial
-SetSectorLight
-SetSectorSpecial
-SetSectorTexture
-SetSectorTextureID
-SetThingFlags
-SetThingSkills
-SetThingXY
-SetThingZ
-SetVertex
-SetWallTexture
-SetWallTextureID
-SetWallYScale
 
 
 CheckCoordinate
