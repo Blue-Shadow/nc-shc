@@ -3867,7 +3867,10 @@ SetInterMusic
 StartSlideshow
 TimeFormatted
 Vec2Diff
+Vec2Offset
+Vec2OffsetZ
 Vec3Diff
+Vec3Offset
 WorldDone
 
 
@@ -4414,6 +4417,7 @@ CheckArmorType
 CheckBlock
 CheckBossDeath
 CheckClass
+CheckFakeFloorTriggers
 CheckIfCloser
 CheckIfInTargetLOS
 CheckIfSeen
@@ -4436,7 +4440,6 @@ CheckSight
 CheckSightOrRange
 ClearBounce
 ClearCounters
-CheckFakeFloorTriggers
 ClearInterpolation
 ClearInventory
 CopyFriendliness
@@ -4588,11 +4591,8 @@ Used
 UseInventory
 UsePuzzleItem
 Vec2Angle
-Vec2Offset
-Vec2OffsetZ
 Vec2To
 Vec3Angle
-Vec3Offset
 Vec3To
 Vel3DFromAngle
 VelFromAngle

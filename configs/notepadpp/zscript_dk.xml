@@ -3856,7 +3856,10 @@
 				StartSlideshow
 				TimeFormatted
 				Vec2Diff
+				Vec2Offset
+				Vec2OffsetZ
 				Vec3Diff
+				Vec3Offset
 				WorldDone
 
 
@@ -4403,6 +4406,7 @@
 				CheckBlock
 				CheckBossDeath
 				CheckClass
+				CheckFakeFloorTriggers
 				CheckIfCloser
 				CheckIfInTargetLOS
 				CheckIfSeen
@@ -4425,7 +4429,6 @@
 				CheckSightOrRange
 				ClearBounce
 				ClearCounters
-				CheckFakeFloorTriggers
 				ClearInterpolation
 				ClearInventory
 				CopyFriendliness
@@ -4577,11 +4580,8 @@
 				UseInventory
 				UsePuzzleItem
 				Vec2Angle
-				Vec2Offset
-				Vec2OffsetZ
 				Vec2To
 				Vec3Angle
-				Vec3Offset
 				Vec3To
 				Vel3DFromAngle
 				VelFromAngle
