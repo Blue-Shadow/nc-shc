@@ -5858,6 +5858,8 @@
 				Light_StrobeDoom
 				Line_AlignCeiling
 				Line_AlignFloor
+				Line_SetAutomapFlags
+				Line_SetAutomapStyle
 				Line_SetBlocking
 				Line_SetPortalTarget
 				Line_SetTextureOffset
