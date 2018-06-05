@@ -3150,6 +3150,7 @@
 				USEKILLSCRIPTS
 				WEAPONSPAWN
 
+				BLOCKASPLAYER
 				FRIGHTENING
 
 				ABSMASKANGLE
@@ -3506,6 +3507,7 @@
 				bUSEKILLSCRIPTS
 				bWEAPONSPAWN
 
+				bBLOCKASPLAYER
 				bFRIGHTENING
 
 				bABSMASKANGLE
@@ -4515,6 +4517,7 @@
 				OkayToSwitchTarget
 				OldSpawnMissile
 				OnDrain
+				OnGiveSecret
 				OverlayAlpha
 				OverlayID
 				OverlayX
