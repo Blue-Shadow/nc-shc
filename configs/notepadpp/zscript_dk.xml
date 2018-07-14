@@ -1146,6 +1146,7 @@
 				SGShard8
 				SGShard9
 				ShadowArmor
+				Shape2D
 				Shell
 				ShellBox
 				ShortBlueTorch
@@ -3743,12 +3744,18 @@
 
 
 				Clear
+				PushCoord
+				PushTriangle
+				PushVertex
+
+
 				ClearClipRect
 				Dim
 				DrawChar
 				DrawFrame
 				DrawHUDTexture
 				DrawLine
+				DrawShape
 				DrawText
 				DrawTexture
 				GetAspectRatio
@@ -6062,6 +6069,11 @@
 				DTA_WindowRight
 				DTA_WindowRightF
 				TAG_USER
+
+
+				C_Coords
+				C_Indices
+				C_Verts
 
 
 				CR_BLACK
