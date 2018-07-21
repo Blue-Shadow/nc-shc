@@ -2366,7 +2366,9 @@
 				PlayerColorSets
 
 
+				mAddColor
 				mBackdrop
+				mBaseColor
 				mClassNum
 				mMode
 				mNoportrait
@@ -2376,7 +2378,6 @@
 				mRandomTimer
 				mSkin
 				mTranslate
-				mTranslation
 
 
 				mFrameSize
@@ -4690,7 +4691,6 @@
 				SetFocus
 				SetMenu
 				SetMouseCapture
-				SetVideoMode
 				StartMessage
 				TranslateKeyboardEvents
 
@@ -6047,6 +6047,7 @@
 				DTA_KeepRatio
 				DTA_LeftOffset
 				DTA_LeftOffsetF
+				DTA_LegacyRenderStyle
 				DTA_Masked
 				DTA_RenderStyle
 				DTA_Shadow
