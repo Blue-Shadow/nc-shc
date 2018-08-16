@@ -1075,6 +1075,7 @@ RedCrystalKey
 RedParticleFountain
 RedSkull
 RedTorch
+ReplaceEvent
 Revenant
 RevenantTracer
 RevenantTracerSmoke
@@ -2166,6 +2167,9 @@ KeyScan
 
 IsManual
 
+
+Replacee
+Replacement
 
 
 IsUiProcessor
@@ -4613,6 +4617,7 @@ VelFromAngle
 Warp
 
 
+CheckReplacement
 ConsoleProcess
 InputProcess
 NetworkProcess

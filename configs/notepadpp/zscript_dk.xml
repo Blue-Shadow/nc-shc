@@ -1064,6 +1064,7 @@
 				RedParticleFountain
 				RedSkull
 				RedTorch
+				ReplaceEvent
 				Revenant
 				RevenantTracer
 				RevenantTracerSmoke
@@ -2155,6 +2156,9 @@
 
 				IsManual
 
+
+				Replacee
+				Replacement
 
 
 				IsUiProcessor
@@ -4602,6 +4606,7 @@
 				Warp
 
 
+				CheckReplacement
 				ConsoleProcess
 				InputProcess
 				NetworkProcess
