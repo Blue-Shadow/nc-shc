@@ -3768,6 +3768,7 @@
 				DrawShape
 				DrawText
 				DrawTexture
+				DrawThickLine
 				GetAspectRatio
 				GetClipRect
 				GetHeight
