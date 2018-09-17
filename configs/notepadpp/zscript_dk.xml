@@ -4616,6 +4616,7 @@
 				ConsoleProcess
 				InputProcess
 				NetworkProcess
+				NewGame
 				OnRegister
 				OnUnregister
 				PlayerDied
@@ -4925,7 +4926,6 @@
 				isInventoryBarVisible
 				isInvulnerable
 				MustDrawLog
-				NewGame
 				ReceivedWeapon
 				SetMugShotState
 				SetSize
@@ -4978,6 +4978,7 @@
 				ModifyDamage
 				ModifyDropAmount
 				NextInv
+				OnDrop
 				OwnerDied
 				PlayPickupSound
 				PrintPickupMessage
@@ -7099,6 +7100,7 @@
 				SF_SEEPASTSHOOTABLELINES
 
 
+				DMG_EXPLOSION
 				DMG_FOILBUDDHA
 				DMG_FOILINVUL
 				DMG_FORCED

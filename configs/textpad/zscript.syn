@@ -4627,6 +4627,7 @@ CheckReplacement
 ConsoleProcess
 InputProcess
 NetworkProcess
+NewGame
 OnRegister
 OnUnregister
 PlayerDied
@@ -4936,7 +4937,6 @@ GetWeaponTag
 isInventoryBarVisible
 isInvulnerable
 MustDrawLog
-NewGame
 ScreenSizeChanged
 SetMugShotState
 SetSize
@@ -4989,6 +4989,7 @@ Hide
 ModifyDamage
 ModifyDropAmount
 NextInv
+OnDrop
 OwnerDied
 PlayPickupSound
 PrintPickupMessage
@@ -7110,6 +7111,7 @@ SF_SEEPASTBLOCKEVERYTHING
 SF_SEEPASTSHOOTABLELINES
 
 
+DMG_EXPLOSION
 DMG_FOILBUDDHA
 DMG_FOILINVUL
 DMG_FORCED
