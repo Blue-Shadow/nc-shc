@@ -514,6 +514,7 @@
 				Gibs
 				GlassJunk
 				GlassShard
+				GLTextureGLOptions
 				Gold10
 				Gold25
 				Gold300
@@ -4149,6 +4150,7 @@
 				A_CheckCeiling
 				A_CheckFlag
 				A_CheckFloor
+				A_CheckForResurrection
 				A_CheckLOF
 				A_CheckPlayerDone
 				A_CheckProximity
@@ -4298,6 +4300,7 @@
 				A_RadiusThrust
 				A_RaiseChildren
 				A_RaiseMaster
+				A_RaiseSelf
 				A_RaiseSiblings
 				A_RearrangePointers
 				A_ReaverRanged
@@ -4554,6 +4557,7 @@
 				RemoveInventory
 				ResolveState
 				RestoreDamage
+				Revive
 				RotateVector
 				RoughMonsterSearch
 				SetCamera
@@ -4932,6 +4936,7 @@
 				ShowPop
 				StatusbarToRealCoords
 				TransformRect
+				UpdateScreenGeometry
 				ValidateInvFirst
 				WeaponUsesAmmo
 				WeaponUsesAmmoType
@@ -5099,6 +5104,7 @@
 				MorphPlayerThink
 				MovePlayer
 				OnRespawn
+				PickNewWeapon
 				PlayAttacking
 				PlayAttacking2
 				PlayerThink
