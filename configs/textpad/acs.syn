@@ -192,6 +192,7 @@ Line_AlignFloor
 Line_SetAutomapFlags
 Line_SetAutomapStyle
 Line_SetBlocking
+Line_SetHealth
 Line_SetPortalTarget
 Line_SetTextureOffset
 Line_SetTextureScale
@@ -248,6 +249,7 @@ Sector_SetFloorScale
 Sector_SetFloorScale2
 Sector_SetFriction
 Sector_SetGravity
+Sector_SetHealth
 Sector_SetLink
 Sector_SetPlaneReflection
 Sector_SetRotation
@@ -401,6 +403,7 @@ GetInvasionState
 GetInvasionWave
 GetLevelInfo
 GetLineActivation
+GetLineHealth
 GetLineRowOffset
 GetLineUDMFFixed
 GetLineUDMFInt
@@ -417,6 +420,7 @@ GetScreenHeight
 GetScreenWidth
 GetSectorCeilingZ
 GetSectorFloorZ
+GetSectorHealth
 GetSectorLightLevel
 GetSectorUDMFFixed
 GetSectorUDMFInt
@@ -1085,6 +1089,8 @@ SECF_NORESPAWN
 SECF_PUSH
 SECF_SILENT
 SECF_SILENTMOVE
+SECPART_Ceiling
+SECPART_Floor
 SECSEQ_CEILING
 SECSEQ_FLOOR
 SECSEQ_FULLHEIGHT

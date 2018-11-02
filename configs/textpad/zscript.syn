@@ -1108,6 +1108,10 @@ SBarInfoWrapper
 Scanner
 ScoreItem
 ScriptedMarine
+SecActDamageCeiling
+SecActDamageFloor
+SecActDeathCeiling
+SecActDeathFloor
 SecActEnter
 SecActExit
 SecActEyesAboveC
@@ -1631,6 +1635,7 @@ WorldEvent
 
 [Keywords 3]
 AllActorClasses
+AllClasses
 automapactive
 AutomapBindings
 BackbuttonAlpha
@@ -1867,6 +1872,7 @@ backsector
 bbox
 delta
 frontsector
+healthgroup
 locknumber
 portalindex
 portaltransferred
@@ -1899,6 +1905,10 @@ centerspot
 ColorMap
 floordata
 floorplane
+healthceiling
+healthceilinggroup
+healthfloor
+healthfloorgroup
 heightsec
 lightingdata
 lightlevel
@@ -1976,6 +1986,8 @@ ActiveSound
 Alternative
 Angle
 AttackSound
+BlockingCeiling
+BlockingFloor
 BlockingLine
 BlockingMobj
 BloodColor
@@ -4624,6 +4636,7 @@ Vec3Angle
 Vec3To
 Vel3DFromAngle
 VelFromAngle
+VelIntercept
 Warp
 
 
@@ -7845,6 +7858,10 @@ YELLOWFOUNTAIN
 ORBIT_RADIUS
 
 
+SECSPAC_DamageCeiling
+SECSPAC_DamageFloor
+SECSPAC_DeathCeiling
+SECSPAC_DeathFloor
 SECSPAC_Enter
 SECSPAC_Exit
 SECSPAC_EyesAboveC
