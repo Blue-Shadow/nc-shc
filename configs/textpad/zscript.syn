@@ -6233,6 +6233,7 @@ TRACE_ReportPortals
 
 
 TRACE_CrossingPortal
+TRACE_HasHitSky
 TRACE_HitActor
 TRACE_HitCeiling
 TRACE_HitFloor
@@ -7285,6 +7286,7 @@ ga_togglemap
 ga_worlddone
 
 
+PF_HITSKY
 PF_HITTHING
 PF_HITTHINGBLEED
 PF_MELEERANGE
