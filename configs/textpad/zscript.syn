@@ -2101,6 +2101,7 @@ SpawnAngle
 SpawnFlags
 SpawnPoint
 SpawnState
+SpawnTime
 special1
 special2
 specialf1
@@ -4504,6 +4505,7 @@ FindInventory
 FindState
 FindUniqueTid
 FirstInv
+GetAge
 GetBloodType
 GetBobOffset
 GetCameraHeight
@@ -4516,6 +4518,7 @@ GetDropItems
 GetFloorTerrain
 GetGibHealth
 GetGravity
+GetLevelSpawnTime
 GetMissileDamage
 GetModifiedDamage
 GetObituary
