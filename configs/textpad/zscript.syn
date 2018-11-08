@@ -414,6 +414,7 @@ Demon2Chunk5
 Demon2FX1
 Demon2Mash
 DemonChunk
+Destructible
 Dirt1
 Dirt2
 Dirt3
@@ -566,6 +567,7 @@ HeadsOnAStick
 Health
 HealthBonus
 HealthFillup
+HealthGroup
 HealthPickup
 HealthTraining
 HeartColumn
@@ -1108,8 +1110,10 @@ SBarInfoWrapper
 Scanner
 ScoreItem
 ScriptedMarine
+SecActDamage3D
 SecActDamageCeiling
 SecActDamageFloor
+SecActDeath3D
 SecActDeathCeiling
 SecActDeathFloor
 SecActEnter
@@ -1872,7 +1876,6 @@ backsector
 bbox
 delta
 frontsector
-healthgroup
 locknumber
 portalindex
 portaltransferred
@@ -1986,6 +1989,7 @@ ActiveSound
 Alternative
 Angle
 AttackSound
+Blocking3DFloor
 BlockingCeiling
 BlockingFloor
 BlockingLine
@@ -2155,10 +2159,17 @@ ViewRoll
 ActivatedLine
 DamageAngle
 DamageFlags
+DamageIsRadius
+DamageLine
+DamageLineSide
+DamagePosition
+DamageSector
+DamageSectorPart
 DamageSource
 Inflictor
 IsReopen
 IsSaveGame
+NewDamage
 ShouldActivate
 
 
@@ -2190,6 +2201,9 @@ Replacement
 IsUiProcessor
 Order
 RequireMouse
+
+
+id
 
 
 mAction
@@ -2805,7 +2819,6 @@ bFlip
 bPowDouble
 Caller
 firstTic
-ID
 oldx
 oldy
 processPending
@@ -3988,11 +4001,13 @@ SetTextureYScale
 
 
 Activate
+GetHealth
 getPortalAlignment
 getPortalDestination
 isLinePortal
 isVisualPortal
 RemoteActivate
+SetHealth
 
 
 ChangeHeight
@@ -4661,8 +4676,10 @@ UiProcess
 UiTick
 WorldLightning
 WorldLineActivated
+WorldLineDamaged
 WorldLinePreActivated
 WorldLoaded
+WorldSectorDamaged
 WorldThingDamaged
 WorldThingDestroyed
 WorldThingDied
@@ -4673,6 +4690,15 @@ WorldUnloaded
 
 
 SendNetworkEvent
+
+
+CheckLinedefVulnerable
+CheckSectorVulnerable
+DamageLinedef
+GeometryLineAttack
+GeometryRadiusAttack
+ProjectileHitLinedef
+ProjectileHitPlane
 
 
 CheckCoordinate
@@ -7547,6 +7573,12 @@ Num_JoyAxisButtons
 Num_Keys
 
 
+SECPART_3D
+SECPART_Ceiling
+SECPART_Floor
+SECPART_None
+
+
 NO_COLOR
 
 
@@ -7863,8 +7895,10 @@ YELLOWFOUNTAIN
 ORBIT_RADIUS
 
 
+SECSPAC_Damage3D
 SECSPAC_DamageCeiling
 SECSPAC_DamageFloor
+SECSPAC_Death3D
 SECSPAC_DeathCeiling
 SECSPAC_DeathFloor
 SECSPAC_Enter
