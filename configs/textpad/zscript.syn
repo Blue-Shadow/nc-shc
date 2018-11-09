@@ -3910,6 +3910,7 @@ GiveSecret
 IsCrouchingAllowed
 IsFreelookAllowed
 IsJumpingAllowed
+IsPointInMap
 RemoveAllBots
 SetInterMusic
 SphericalCoords
