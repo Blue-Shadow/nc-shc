@@ -3994,6 +3994,7 @@ GetTextureYScale
 Index
 MultiplyTextureXScale
 MultiplyTextureYScale
+SetSpecialColor
 SetTexture
 SetTextureXOffset
 SetTextureXScale
@@ -4103,7 +4104,6 @@ SetLightLevel
 SetPlaneLight
 SetPlaneTexZ
 SetSpecial
-SetSpecialColor
 SetXOffset
 SetXScale
 SetYOffset
@@ -6396,6 +6396,9 @@ FLAG_SKYFLATONLY
 bottom
 top
 
+wallbottom
+walltop
+
 WALLF_ABSLIGHTING
 WALLF_CLIP_MIDTEX
 WALLF_LIGHT_FOG
@@ -6439,8 +6442,6 @@ ML_ZONEBOUNDARY
 
 
 sprites
-wallbottom
-walltop
 
 CeilingMove
 CeilingScroll

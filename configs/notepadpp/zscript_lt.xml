@@ -3983,6 +3983,7 @@
 				Index
 				MultiplyTextureXScale
 				MultiplyTextureYScale
+				SetSpecialColor
 				SetTexture
 				SetTextureXOffset
 				SetTextureXScale
@@ -4092,7 +4093,6 @@
 				SetPlaneLight
 				SetPlaneTexZ
 				SetSpecial
-				SetSpecialColor
 				SetXOffset
 				SetXScale
 				SetYOffset
@@ -6385,6 +6385,9 @@
 				bottom
 				top
 
+				wallbottom
+				walltop
+
 				WALLF_ABSLIGHTING
 				WALLF_CLIP_MIDTEX
 				WALLF_LIGHT_FOG
@@ -6428,8 +6431,6 @@
 
 
 				sprites
-				wallbottom
-				walltop
 
 				CeilingMove
 				CeilingScroll
