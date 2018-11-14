@@ -4455,6 +4455,7 @@
 				BulletSlope
 				CallACS
 				CanCollideWith
+				CanResurrect
 				CanSeek
 				ChangeTid
 				CheckArmorType
@@ -4582,6 +4583,7 @@
 				PlaySpawnSound
 				PoisonMobj
 				PosRelative
+				RaiseActor
 				RaiseMobj
 				RandomChaseDir
 				RemoveFromHash
