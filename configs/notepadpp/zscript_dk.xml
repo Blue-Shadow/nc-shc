@@ -1682,6 +1682,7 @@
 				ArmorIcon1
 				ArmorIcon2
 				backpacktype
+				defaultbloodcolor
 				gametype
 				gibfactor
 				infoPages
