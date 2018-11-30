@@ -4560,6 +4560,7 @@ GiveAmmo
 GiveBody
 GiveInventory
 GiveInventoryType
+Grind
 HandleSpawnFlags
 HitFloor
 HitFriend
