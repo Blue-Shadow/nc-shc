@@ -1,5 +1,5 @@
 <NotepadPlus>
-	<UserLang name="ZSCRIPT (LT)" ext="zsc zc" udlVersion="2.1">
+	<UserLang name="ZScript (Light)" ext="zsc zc zs" udlVersion="2.1">
 		<Settings>
 			<Global caseIgnored="yes" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
 			<Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
@@ -42,6 +42,7 @@
 				extend
 				false
 				final
+				flagdef
 				for
 				if
 				in
@@ -152,6 +153,7 @@
 				AlienSpectre5
 				AlienSpiderLight
 				Allmap
+				AltHud
 				AmbientSound
 				AmbientSoundNoGravity
 				Ammo
@@ -166,6 +168,7 @@
 				ArchvileFire
 				Armor
 				ArmorBonus
+				ArmoredFlemoidusBipedicus
 				Armorer
 				Arrow
 				ArtiBlastRadius
@@ -267,11 +270,14 @@
 				BlueSkull
 				BlueTorch
 				BlurSphere
+				Bootspoon
 				BossBrain
 				BossEye
 				BossSpot
 				BossTarget
 				Bot
+				BowlOfFruit
+				BowlOfVegetables
 				BoxOfBullets
 				BrainStem
 				BrassKey
@@ -314,6 +320,32 @@
 				Chainsaw
 				Chandelier
 				ChapelKey
+				ChexAppleTree
+				ChexArmor
+				ChexBananaTree
+				ChexBlueCard
+				ChexCavernColumn
+				ChexCavernStalagmite
+				ChexChemicalBurner
+				ChexChemicalFlask
+				ChexCivilian1
+				ChexCivilian2
+				ChexCivilian3
+				ChexFlagOnPole
+				ChexGasTank
+				ChexLandingLight
+				ChexLightColumn
+				ChexMineCart
+				ChexOrangeTree
+				ChexPlayer
+				ChexRedCard
+				ChexSlimeFountain
+				ChexSoul
+				ChexSpaceship
+				ChexSubmergedPlant
+				ChexTallFlower
+				ChexTallFlower2
+				ChexYellowCard
 				Chicken
 				ChickenPlayer
 				ChimneyStack
@@ -336,6 +368,7 @@
 				Communicator
 				CompatibilityMenu
 				Computer
+				ComputerAreaMap
 				ConversationMenu
 				CoopStatusScreen
 				CoreKey
@@ -403,7 +436,6 @@
 				Demon2FX1
 				Demon2Mash
 				DemonChunk
-				Destructible
 				Dirt1
 				Dirt2
 				Dirt3
@@ -486,6 +518,10 @@
 				FlameSmallTemp
 				FlameThrower
 				FlameThrowerParts
+				Flembrane
+				FlemoidusBipedicus
+				FlemoidusCommonus
+				FlemoidusCycloptisCommonus
 				FloatingSkull
 				Floor
 				FogPatchLarge
@@ -514,6 +550,7 @@
 				GibbedMarineExtra
 				Gibs
 				GlassJunk
+				GlassOfWater
 				GlassShard
 				GLTextureGLOptions
 				Gold10
@@ -548,6 +585,7 @@
 				HangTSkull
 				HarmonyStatusBar
 				HateTarget
+				HeadCandles
 				HeadFX1
 				HeadFX2
 				HeadFX3
@@ -556,7 +594,6 @@
 				Health
 				HealthBonus
 				HealthFillup
-				HealthGroup
 				HealthPickup
 				HealthTraining
 				HeartColumn
@@ -661,8 +698,13 @@
 				KoraxBolt
 				KoraxSpirit
 				LargeTorch
+				LargeZorcher
+				LargeZorchPack
+				LargeZorchRecharge
 				LavaSmoke
 				LavaSplash
+				LAZBall
+				LAZDevice
 				Leaf1
 				Leaf2
 				LeafSpawner
@@ -773,6 +815,9 @@
 				MiniMissileLauncher
 				MiniMissilePuff
 				MiniMissiles
+				MiniZorcher
+				MiniZorchPack
+				MiniZorchRecharge
 				Minotaur
 				MinotaurFriend
 				MinotaurFX1
@@ -784,7 +829,10 @@
 				MorphProjectile
 				Moss1
 				Moss2
+				Mover
 				MovingCamera
+				MovingCeiling
+				MovingFloor
 				Mug
 				Mummy
 				MummyFX1
@@ -801,6 +849,7 @@
 				MWeaponPiece3
 				MWeapWand
 				NewKey5
+				NewPlayerMenu
 				NonsolidMeat2
 				NonsolidMeat3
 				NonsolidMeat4
@@ -815,6 +864,7 @@
 				OptionMenuDescriptor
 				OptionMenuFieldBase
 				OptionMenuItem
+				OptionMenuItemAutoaimSlider
 				OptionMenuItemColorPicker
 				OptionMenuItemCommand
 				OptionMenuItemControl
@@ -827,6 +877,14 @@
 				OptionMenuItemNumberField
 				OptionMenuItemOption
 				OptionMenuItemOptionBase
+				OptionMenuItemPlayerClassItem
+				OptionMenuItemPlayerColorItem
+				OptionMenuItemPlayerColorSlider
+				OptionMenuItemPlayerGenderItem
+				OptionMenuItemPlayerNameField
+				OptionMenuItemPlayerSkinItem
+				OptionMenuItemPlayerSwitchOnPickupItem
+				OptionMenuItemPlayerTeamItem
 				OptionMenuItemReverbOption
 				OptionMenuItemReverbSaveSelect
 				OptionMenuItemReverbSelect
@@ -848,6 +906,10 @@
 				OracleKey
 				OraclePass
 				OrderKey
+				os_AnyOrAllOption
+				os_Menu
+				os_Query
+				os_SearchField
 				OutsideLamp
 				PainElemental
 				PalmTree
@@ -879,6 +941,10 @@
 				Peasant7
 				Peasant8
 				Peasant9
+				PhaseZorchMissile
+				PhasingZorch
+				PhasingZorcher
+				PhasingZorchPack
 				PhoenixFX1
 				PhoenixFX2
 				PhoenixPuff
@@ -909,6 +975,7 @@
 				PlatinumHelm
 				PlayerChunk
 				PlayerMenu
+				PlayerMenuPlayerDisplay
 				PlayerPawn
 				PlayerSpeedTrail
 				Pod
@@ -985,6 +1052,9 @@
 				Programmer
 				ProgrammerBase
 				ProjectileBlade
+				PropulsorMissile
+				PropulsorZorch
+				PropulsorZorchPack
 				PSprite
 				Puffy
 				PunchDagger
@@ -1046,6 +1116,7 @@
 				RainTracker
 				RaiseAlarm
 				RandomSpawner
+				RapidZorcher
 				RatBuddy
 				RavenStatusScreen
 				ReadThisMenu
@@ -1067,7 +1138,6 @@
 				RedParticleFountain
 				RedSkull
 				RedTorch
-				ReplaceEvent
 				Revenant
 				RevenantTracer
 				RevenantTracerSmoke
@@ -1099,6 +1169,7 @@
 				Scanner
 				ScoreItem
 				ScriptedMarine
+				ScriptUtil
 				SecActDamage3D
 				SecActDamageCeiling
 				SecActDamageFloor
@@ -1190,6 +1261,8 @@
 				SkyViewpoint
 				SlideshowStarter
 				SlimeChunk
+				SlimeProofSuit
+				SlimeRepellent
 				SlimeSplash
 				SludgeChunk
 				SludgeSplash
@@ -1325,6 +1398,10 @@
 				StrifeStatusBar
 				StrifeWeapon
 				SummoningDoll
+				SuperBootspork
+				SuperchargeBreakfast
+				SuperChexArmor
+				SuperLargeZorcher
 				SuperMap
 				SuperShotgun
 				SurgeryCrab
@@ -1436,7 +1513,7 @@
 				WeaponSmith
 				Whirlwind
 				WhiteParticleFountain
-				Wizard 
+				Wizard
 				WizardFX1
 				WolfensteinSS
 				WoodenBarrel
@@ -1486,6 +1563,8 @@
 				Zombie
 				ZombieMan
 				ZombieSpawner
+				Zorchpack
+				ZorchPropulsor
 				ZPoisonShroom
 				ZRock1
 				ZRock2
@@ -1566,11 +1645,13 @@
 				ZXmasTree
 
 
+				AutoUseHealthInfo
 				Console
 				ConsoleEvent
 				CVar
 				DamageTypeDefinition
 				DehInfo
+				Destructible
 				DropItem
 				F3DFloor
 				FCheckPosition
@@ -1578,10 +1659,12 @@
 				FLineTraceData
 				Font
 				FOptionMenuSettings
+				FRailParams
 				FStateParamInfo
 				FTranslatedLineTarget
 				GameInfoStruct
 				GIFont
+				HealthGroup
 				InputEvent
 				JoystickConfig
 				KeyBindings
@@ -1590,6 +1673,7 @@
 				LinkContext
 				LookExParams
 				MugShot
+				MusPlayingInfo
 				OptionValues
 				PatchInfo
 				PlayerClass
@@ -1597,6 +1681,8 @@
 				PlayerInfo
 				PlayerSkin
 				RenderEvent
+				ReplacedEvent
+				ReplaceEvent
 				SavegameManager
 				SaveGameNode
 				SBarInfo
@@ -1625,10 +1711,264 @@
 				WBStartStruct
 				WeaponSlots
 				WorldEvent
+
+				WeaponStates
+
+
+				EFlags
+				ETexReplaceFlags
+				EUseTypes
+
+
+				DrawTextureTags
+
+
+				EClearWhich
+
+
+				EColorRange
+
+
+				ECVarType
+
+
+				EStatnums
+
+
+				ELineTier
+				ETraceFlags
+				ETraceResult
+				ETraceStatus
+
+
+				EUDMF
+
+
+				FindLumpNamespace
+				WadNamespace
+
+
+				EmptyTokenType
+				EPickStart
+
+
+				EFloor
+
+
+				ECeiling
+				ECrushMode
+
+
+				ESeqType
+
+
+				EType
+
+
+				EColorPos
+				ETexpart
+				EWallFlags
+
+
+				ELineFlags
+				ESide
+
+
+				EInterpolationType
+				EMoveResult
+				EPlane
+				ESectorFlags
+				ESectorMoreFlags
+
+
+				ActorRenderFeatureFlag
+				Bobbing
+				EActivationFlags
+				EAimFlags
+				EAlertFlags
+				EAngleFlags
+				EBFGSprayFlags
+				EBlastFlags
+				EBlockFlags
+				EButtons
+				EChangeLevelFlags
+				EChangeVelocityFlags
+				EChaseFlags
+				ECheckBlockFlags
+				ECheckMoveFlags
+				ECompatFlags
+				ECopySpriteFrameFlags
+				ECustomBulletAttackFlags
+				ECustomMissileFlags
+				ECustomPunchFlags
+				EDamageFlags
+				EDmgFlags
+				EExplodeFlags
+				EFaceFlags
+				EFadeFlags
+				EFindFloorCeiling
+				EFinishLevelType
+				EFireBulletsFlags
+				EFireCustomMissileFlags
+				eFogParm
+				EFSkillProperty
+				EGameAction
+				EGameState
+				EGameType
+				EGetAngleFlags
+				EGunFlashFlags
+				EInputFlags
+				EJumpFlags
+				EKillFlags
+				ELineAttackFlags
+				ELineTraceFlags
+				ELOFFlags
+				ELookFlags
+				EMapThingFlags
+				EMaskRotationFlags
+				EMonospacing
+				EMorphFlags
+				EMovementFlags
+				EMushroomFlags
+				EPainAttackFlags
+				EParticleFlags
+				EPlayerCheats
+				EPlayerProperties
+				EPointerFlags
+				EPointerOperations
+				EProximityFlags
+				EPSPLayers
+				EPSpriteFlags
+				EPuffFlags
+				EQuakeFlags
+				ERadiusDamageSelfFlags
+				ERadiusGiveFlags
+				ERadiusThrustFlags
+				ERailFlags
+				ERaise
+				ERemoveFlags
+				ERenderStyle
+				EReplace
+				ERespawnFlags
+				ESawFlags
+				ESeekerMissileFlags
+				ESelectWeaponFlags
+				ESightFlags
+				ESkillProperty
+				ESoundFlags
+				ESpawnItemFlags
+				EStateType
+				EStateUseFlags
+				ETakeFlags
+				ETeleport
+				ETeleportFlags
+				ETranslationTable
+				EVileAttackFlags
+				EWarpFlags
+				EWeaponOffsetFlags
+				EWeaponPos
+				EWeaponReadyFlags
+				EWeaponState
+				EWolfAttackFlags
+				EZFlags
+				IntermissionSequenceType
+				PaletteFlashFlags
+				RadiusDamageFlags
+				SPAC
+
+
+				EGUIEvent
+				ESpecialGUIKeys
+
+
+				EDoomInputKeys
+				EGenericEvent
+
+
+				SectorPart
+
+
+				dirtype_t
+
+
+				EFireMode
+
+
+				EAll
+
+
+				PSPLayers
+
+
+				EPlayerGender
+				EPlayerState
+
+
+				EColor
+
+
+				EActivation
+
+
+				EArgs
+				ELightType
+
+
+				EMarineWeapon
+
+
+				ESorc
+
+
+				EJoyAxis
+
+
+				EMenuKey
+				EMenuMouse
+				EMenuState
+
+
+				MenudefColorRange
+
+
+				EValues
+
+
+				EPDFlags
+
+
+				ESPState
+				EState
+
+
+				StateFlags
+
+
+				AmmoModes
+				DI_Flags
+				EHudDraw
+				EHUDMSGLayer
+				EHudState
+				EMug
+				ENumFlags
+				EPop
+				EShade
+				HexArmorType
+				IconType
+
+
+				eImg
 			</Keywords>
 			<Keywords name="Keywords3">
+				a
+				b
+				g
+				r
+
+
 				AllActorClasses
 				AllClasses
+				AlternativeSmallFont
 				automapactive
 				AutomapBindings
 				BackbuttonAlpha
@@ -1651,14 +1991,21 @@
 				gameinfo
 				gamestate
 				gametic
+				generic_ui
 				globalfreeze
 				intermissionfont
-				level
+				Level
 				LocalViewPitch
 				menuactive
 				multiplayer
+				musplaying
+				netgame
 				Net_Arbitrator
+				NewConsoleFont
+				NewSmallFont
 				OptionMenuSettings
+				OriginalBigFont
+				OriginalSmallFont
 				PlayerClasses
 				playeringame
 				players
@@ -1672,6 +2019,9 @@
 				WP_NOCHANGE
 
 
+				baseorder
+
+
 				colors
 
 
@@ -1682,9 +2032,13 @@
 				ArmorIcon1
 				ArmorIcon2
 				backpacktype
+				berserkpic
 				defaultbloodcolor
+				defaultdropstyle
+				defKickback
 				gametype
 				gibfactor
+				healthpic
 				infoPages
 				intermissioncounter
 				mBackButton
@@ -1693,6 +2047,9 @@
 				mStatscreenFinishedFont
 				mStatscreenMapNameFont
 				norandomplayerclass
+				normforwardmove
+				normsidemove
+				telefogheight
 
 
 				bDestroyed
@@ -1741,6 +2098,9 @@
 				checkswitchrange
 				cluster
 				clusterflags
+				compatflags
+				compatflags2
+				deathsequence
 				F1Pic
 				fogdensity
 				found_items
@@ -1748,6 +2108,7 @@
 				frozen
 				gravity
 				infinite_flight
+				keepfullinventory
 				killed_monsters
 				LevelName
 				levelnum
@@ -1769,6 +2130,7 @@
 				partime
 				pixelstretch
 				polygrind
+				removeitems
 				SectorPortals
 				Sectors
 				Sides
@@ -1842,6 +2204,23 @@
 				seestate
 
 
+				angleoffset
+				color1
+				color2
+				damage
+				drift
+				duration
+				limit
+				maxdiff
+				offset_xy
+				offset_z
+				pitchoffset
+				puff
+				sparsity
+				spawnclass
+				SpiralOffset
+
+
 				mDestination
 				mDisplacement
 				mFlags
@@ -1891,6 +2270,7 @@
 				LightColor
 
 
+				AdditiveColors
 				bottommap
 				ceilingdata
 				ceilingplane
@@ -1939,6 +2319,67 @@
 				linetarget
 
 
+				Camera
+				FracTic
+				ViewAngle
+				ViewPitch
+				ViewPos
+				ViewRoll
+
+
+				ActivatedLine
+				ActivationType
+				DamageAngle
+				DamageFlags
+				DamageIsRadius
+				DamageLine
+				DamageLineSide
+				DamagePosition
+				DamageSector
+				DamageSectorPart
+				DamageSource
+				Inflictor
+				IsReopen
+				IsSaveGame
+				NewDamage
+				ShouldActivate
+
+
+				IsReturn
+				PlayerNumber
+
+
+				IsAlt
+				IsCtrl
+				IsShift
+				KeyChar
+				KeyString
+				MouseX
+				MouseY
+				Type
+
+
+				KeyScan
+
+
+				Args
+				IsManual
+				Player
+
+
+				IsFinal
+				Replacee
+				Replacement
+
+
+				IsUiProcessor
+				Order
+				RequireMouse
+
+
+				id
+
+
 				abovemidtex
 				ceilingline
 				ceilingpic
@@ -1974,7 +2415,6 @@
 
 
 				Accuracy
-				activationtype
 				ActiveSound
 				Alternative
 				Angle
@@ -1997,7 +2437,6 @@
 				CameraHeight
 				CrushPainSound
 				CurState
-				Damage
 				DamageFactor
 				DamageMultiply
 				DamageTypeReceived
@@ -2058,7 +2497,6 @@
 				PainType
 				picnum
 				Pitch
-				Player
 				PoisonDamage
 				PoisonDamageReceived
 				PoisonDamageType
@@ -2138,486 +2576,6 @@
 				Z
 
 
-				Camera
-				FracTic
-				ViewAngle
-				ViewPitch
-				ViewPos
-				ViewRoll
-
-
-				ActivatedLine
-				DamageAngle
-				DamageFlags
-				DamageIsRadius
-				DamageLine
-				DamageLineSide
-				DamagePosition
-				DamageSector
-				DamageSectorPart
-				DamageSource
-				Inflictor
-				IsReopen
-				IsSaveGame
-				NewDamage
-				ShouldActivate
-
-
-				IsReturn
-				PlayerNumber
-
-
-				IsAlt
-				IsCtrl
-				IsShift
-				KeyChar
-				KeyString
-				MouseX
-				MouseY
-				Type
-
-
-				KeyScan
-
-
-				IsManual
-
-
-				IsFinal
-				Replacee
-				Replacement
-
-
-				IsUiProcessor
-				Order
-				RequireMouse
-
-
-				id
-
-
-				mAction
-				mEnabled
-				mXpos
-				mYpos
-
-
-				DontDim
-				mBackbuttonSelected
-				mMouseCapture
-				mParentMenu
-
-
-				mClass
-				mMenuName
-				mNetgameMessage
-
-
-				Handler
-				messageSelection
-				mMessage
-				mMessageMode
-				mMouseLeft
-				mMouseRight
-				mMouseY
-
-
-				mAutoselect
-				mCenter
-				mDisplayTop
-				mFont
-				mFontColor
-				mFontColor2
-				mItems
-				mLinespacing
-				mSelectedItem
-				mSelectOfsX
-				mSelectOfsY
-				mSelector
-				mWLeft
-				mWRight
-
-
-				mDesc
-				mFocusControl
-
-
-				mCentered
-				mTexture
-
-
-				mColor
-				mText
-
-
-				mHeight
-				mHotkey
-				mParam
-
-
-				mColorSelected
-
-
-				mFontColorHeader
-				mFontColorHighlight
-				mFontColorMore
-				mFontColorSelection
-				mFontColorValue
-				mTitleColor
-
-
-				mDontDim
-				mDrawTop
-				mIndent
-				mPosition
-				mScrollPos
-				mScrollTop
-				mTitle
-
-
-				CanScrollDown
-				CanScrollUp
-				VisBottom
-
-
-				mLabel
-
-
-				mLabelCVar
-
-
-				mCloseOnSelect
-
-
-				mPrompt
-
-
-				mGrayCheck
-				mValues
-
-
-				mCVar
-
-
-				mOwner
-
-
-				mBindings
-				mInput
-				mWaiting
-
-
-				mAltText
-				mCurrent
-
-
-				mDrawX
-				mMax
-				mMin
-				mShowValue
-				mSliderShort
-				mStep
-
-
-				mHighlight
-				mMaxValid
-				mResTexts
-				mSelection
-
-
-				mEnter
-
-
-				mMaximum
-				mMinimum
-
-
-				mClickVal
-				TextNegOne
-				TextZero
-
-
-				mIndex
-
-
-				mBlue
-				mGreen
-				mGridPosX
-				mGridPosY
-				mRed
-				mStartItem
-
-
-				mJoy
-
-
-				mAxis
-				mNeg
-
-
-				bMissingWads
-				bNoDelete
-				bOldVersion
-				Filename
-				SaveTitle
-
-
-				quickSaveSlot
-				WindowSize
-
-
-				commentBottom
-				commentHeight
-				commentLeft
-				commentRight
-				commentTop
-				commentWidth
-				listboxBottom
-				listboxHeight
-				listboxLeft
-				listboxRight
-				listboxRows
-				listboxTop
-				listboxWidth
-				manager
-				mEntering
-				rowHeight
-				savepicHeight
-				savepicLeft
-				savepicTop
-				savepicWidth
-				Selected
-				TopItem
-
-
-				mSaveName
-
-
-				mPlayerClass
-				mPlayerSkins
-				mRotation
-				PlayerClassIndex
-				PlayerColorSets
-
-
-				mAddColor
-				mBackdrop
-				mBaseColor
-				mClassNum
-				mMode
-				mNoportrait
-				mPlayerState
-				mPlayerTics
-				mRandomClass
-				mRandomTimer
-				mSkin
-				mTranslate
-
-
-				mFrameSize
-				mPlayerName
-
-
-				mSelections
-
-
-				mMaxrange
-				mMinrange
-
-
-				AllowColors
-				InputGridX
-				InputGridY
-				mEnterPos
-				mEnterSize
-				mEnterString
-				mInputGridOkay
-				mSizeMode
-
-
-				mInfoTic
-				mScreen
-
-
-				Backdrop
-				Children
-				Dialogue
-				DropType
-				Goodbye
-				ItemCheckNode
-				MenuClassName
-				SpeakerName
-				SpeakerType
-				SpeakerVoice
-				ThisNodeNum
-				UserData
-
-
-				ActionSpecial
-				GiveType
-				LogNumber
-				LogString
-				NeedsGold
-				NextNode
-				PrintAmount
-				QuickNo
-				QuickYes
-				Reply
-
-
-				ConversationPauseTic
-				mCurNode
-				mDialogueLines
-				mPlayer
-				mResponseLines
-				mResponses
-				mShowGold
-				mSpeaker
-				ReplyWidth
-				SpeechWidth
-
-
-				mValIndex
-
-
-				mEditValue
-
-
-				fragcount
-				frags
-				sitems
-				skills
-				ssecret
-				stime
-
-
-				current
-				finished_ep
-				LName0
-				LName1
-				maxfrags
-				maxitems
-				maxkills
-				maxsecret
-				nextname
-				next_ep
-				plyr
-				pnum
-
-
-				mPatch
-
-
-				acceleratestage
-				bcnt
-				bg
-				cnt
-				cnt_deaths
-				cnt_frags
-				cnt_items
-				cnt_kills
-				cnt_par
-				cnt_pause
-				cnt_secret
-				cnt_time
-				cnt_total_time
-				dofrags
-				entering
-				finished
-				items
-				kills
-				lnametexts
-				me
-				ng_state
-				noautostartmap
-				par
-				playerready
-				player_deaths
-				Plrs
-				p_secret
-				secret
-				shadowalpha
-				snl_pointeron
-				sp_state
-				sucks
-				timepic
-				total_deaths
-				total_frags
-				wbs
-
-
-				textcolor
-
-
-				amountfont
-				arrowoffset
-				box
-				boxofs
-				boxsize
-				cr
-				innersize
-				itemalpha
-				left
-				right
-				selectofs
-				selector
-
-
-				artiflashTick
-				Centering
-				CompleteBorder
-				CPlayer
-				CrosshairSize
-				defaultScale
-				Displacement
-				drawClip
-				drawOffset
-				FixedOrigin
-				fullscreenOffsets
-				HorizontalResolution
-				itemflashFade
-				RelTop
-				ShowLog
-				VerticalResolution
-
-
-				mCurrentValue
-				mMaxChange
-
-
-				mChangeFactor
-				mMinChange
-
-
-				diparms
-				mAmountFont
-				mHUDFont
-				mIndexFont
-
-
-				diparms_sbar
-				mBigFont
-				mHealthInterpolator
-
-
-				mHealthInterpolator2
-
-
-				CurrentPop
-				CursorImage
-				Images
-				KeyPopPos
-				KeyPopScroll
-				mGrnFont
-				mYelFont
-				PendingPop
-				PopHeight
-				PopHeightChange
-
-
-				scalestate
-
-
 				Invert
 				RenderStyle
 
@@ -2651,7 +2609,6 @@
 				PuzzleItemNumber
 
 
-				AltProjectileType
 				Ammo1
 				Ammo2
 				AmmoGive1
@@ -2670,18 +2627,18 @@
 				FOVScale
 				GivenAsMorphWeapon
 				Kickback
+				LookScale
 				MinAmmo1
 				MinAmmo2
 				MinSelAmmo1
 				MinSelAmmo2
-				MoveCombatDist
-				ProjectileType
 				ReadySound
 				ReloadCounter
 				SelectionOrder
 				SisterWeapon
 				SisterWeaponType
 				SlotNumber
+				SlotPriority
 				UpSound
 				WeaponFlags
 				YAdjust
@@ -2772,6 +2729,7 @@
 				ColorRangeEnd
 				ColorRangeStart
 				crouchsprite
+				curBob
 				DamageFade
 				Face
 				FallingScreamMaxSpeed
@@ -2788,7 +2746,6 @@
 				JumpZ
 				MorphWeapon
 				MugShotMaxHealth
-				PlayerFlags
 				Portrait
 				RunHealth
 				ScoreIcon
@@ -2797,6 +2754,7 @@
 				Slot
 				SoundClass
 				SpawnMask
+				TeleportFreezeTime
 				UseRange
 				ViewBob
 				ViewHeight
@@ -2822,6 +2780,7 @@
 				BlendG
 				BlendR
 				bob
+				centering
 				cheats
 				chickenPeck
 				cls
@@ -2842,6 +2801,8 @@
 				extralight
 				fixedcolormap
 				fixedlightlevel
+				fragcount
+				frags
 				hazardcount
 				hazardinterval
 				hazardtype
@@ -2882,6 +2843,7 @@
 				timefreezer
 				turnticks
 				usedown
+				viewheight
 				viewz
 				waiting
 				weapons
@@ -2902,10 +2864,14 @@
 				mName
 
 
-				Duration
+				collectedHealth
+				collectedItems
+
+
 				MonsterClass
 
 
+				FlagsSave
 				UnmorphedMe
 				UnmorphTime
 
@@ -2975,17 +2941,463 @@
 				StopBall
 
 
-				AngleOffset
 				OldAngle
 
 
 				downpieces
 
 
-				a
-				b
-				g
-				r
+				mIndex
+
+
+				mBlue
+				mCVar
+				mGreen
+				mGridPosX
+				mGridPosY
+				mRed
+				mStartItem
+
+
+				Backdrop
+				Children
+				Dialogue
+				DropType
+				Goodbye
+				ItemCheckNode
+				MenuClassName
+				SpeakerName
+				SpeakerType
+				SpeakerVoice
+				ThisNodeNum
+				UserData
+
+
+				ActionSpecial
+				GiveType
+				LogNumber
+				LogString
+				NeedsGold
+				NextNode
+				PrintAmount
+				QuickNo
+				QuickYes
+				Reply
+
+
+				ConversationPauseTic
+				displayFont
+				displayHeight
+				displayWidth
+				fontScale
+				LineHeight
+				mCurNode
+				mDialogueLines
+				mPlayer
+				mResponseLines
+				mResponses
+				mSelection
+				mShowGold
+				mSpeaker
+				mYpos
+				refheight
+				refwidth
+				ReplyLineHeight
+				ReplyWidth
+				SpeechWidth
+
+
+				mJoy
+
+
+				mAxis
+				mNeg
+
+
+				mAutoselect
+				mCenter
+				mDisplayTop
+				mFont
+				mFontColor
+				mFontColor2
+				mItems
+				mLinespacing
+				mSelectedItem
+				mSelectOfsX
+				mSelectOfsY
+				mSelector
+				mWLeft
+				mWRight
+				mXpos
+
+
+				mDesc
+				mFocusControl
+
+
+				mCentered
+				mColor
+				mSubstitute
+				mTexture
+
+
+				mText
+
+
+				mHeight
+				mHotkey
+				mParam
+
+
+				mColorSelected
+
+
+				bMissingWads
+				bNoDelete
+				bOldVersion
+				Filename
+				SaveTitle
+
+
+				quickSaveSlot
+				SaveCommentString
+				WindowSize
+
+
+				BrokenSaveComment
+				commentBottom
+				commentHeight
+				commentLeft
+				commentRight
+				commentRows
+				commentTop
+				commentWidth
+				listboxBottom
+				listboxHeight
+				listboxLeft
+				listboxRight
+				listboxRows
+				listboxTop
+				listboxWidth
+				manager
+				mEntering
+				mInput
+				rowHeight
+				savepicHeight
+				savepicLeft
+				savepicTop
+				savepicWidth
+				Selected
+				TopItem
+
+
+				mSaveName
+
+
+				DontDim
+				mBackbuttonSelected
+				mMouseCapture
+				mParentMenu
+
+
+				mClass
+				mMenuName
+				mNetgameMessage
+
+
+				mAction
+				mEnabled
+
+
+				arrowFont
+				destHeight
+				destWidth
+				Handler
+				messageSelection
+				mMessage
+				mMessageMode
+				mMouseLeft
+				mMouseRight
+				mMouseY
+				selector
+				textFont
+
+
+				mFontColorHeader
+				mFontColorHighlight
+				mFontColorMore
+				mFontColorSelection
+				mFontColorValue
+				mTitleColor
+
+
+				mDontDim
+				mDrawTop
+				mIndent
+				mPosition
+				mScrollPos
+				mScrollTop
+				mTitle
+
+
+				CanScrollDown
+				CanScrollUp
+				VisBottom
+
+
+				mLabel
+
+
+				mLabelCVar
+
+
+				mCloseOnSelect
+
+
+				mPrompt
+
+
+				mGrayCheck
+				mValues
+
+
+				mOwner
+
+
+				mBindings
+				mWaiting
+
+
+				mAltText
+				mCurrent
+
+
+				mDrawX
+				mMax
+				mMin
+				mShowValue
+				mSliderShort
+				mStep
+
+
+				mEnter
+
+
+				mMaximum
+				mMinimum
+
+
+				mClickVal
+				TextNegOne
+				TextZero
+
+
+				mHighlight
+				mMaxValid
+				mResTexts
+
+
+				mChannel
+
+
+				mPlayerClass
+				mPlayerDisplay
+				mRotation
+
+
+				mFrameSize
+				mPlayerName
+
+
+				mSelections
+
+
+				mMaxrange
+				mMinrange
+
+
+				mAddColor
+				mBackdrop
+				mBaseColor
+				mClassNum
+				mMode
+				mNoportrait
+				mPlayerState
+				mPlayerTics
+				mRandomClass
+				mRandomTimer
+				mSkin
+				mTranslate
+
+
+				mPlayerSkins
+				PlayerClassIndex
+				PlayerColorSets
+
+
+				mInfoTic
+				mScreen
+
+
+				mValIndex
+
+
+				mEditValue
+
+
+				AllowColors
+				CursorSize
+				InputGridX
+				InputGridY
+				mEnterPos
+				mEnterSize
+				mEnterString
+				mInputGridOkay
+
+
+				mPatch
+
+
+				acceleratestage
+				bcnt
+				bg
+				cnt
+				cnt_deaths
+				cnt_frags
+				cnt_items
+				cnt_kills
+				cnt_par
+				cnt_pause
+				cnt_secret
+				cnt_time
+				cnt_total_time
+				dofrags
+				entering
+				enteringPatch
+				finished
+				finishedPatch
+				items
+				kills
+				lnametexts
+				me
+				ng_state
+				noautostartmap
+				par
+				playerready
+				player_deaths
+				Plrs
+				p_secret
+				secret
+				shadowalpha
+				snl_pointeron
+				sp_state
+				sucks
+				timepic
+				total_deaths
+				total_frags
+				wbs
+
+
+				textcolor
+
+
+				sitems
+				skills
+				ssecret
+				stime
+
+
+				current
+				finished_ep
+				LName0
+				LName1
+				maxfrags
+				maxitems
+				maxkills
+				maxsecret
+				nextname
+				next_ep
+				plyr
+				pnum
+				thisname
+
+
+				fragpic
+				hudheight
+				hudwidth
+				IndexFont
+				invgem_left
+				invgem_right
+				orderedammos
+				statspace
+				tnt1a0
+
+
+				diparms
+				mAmountFont
+				mHUDFont
+				mIndexFont
+
+
+				scaleFactor
+
+
+				diparms_sbar
+				mBigFont
+				mHealthInterpolator
+
+
+				mHealthInterpolator2
+
+
+				amountfont
+				arrowoffset
+				box
+				boxofs
+				boxsize
+				cr
+				innersize
+				itemalpha
+				left
+				right
+				selectofs
+
+
+				artiflashTick
+				CompleteBorder
+				CPlayer
+				CrosshairSize
+				defaultScale
+				Displacement
+				drawClip
+				drawOffset
+				FixedOrigin
+				fullscreenOffsets
+				HorizontalResolution
+				itemflashFade
+				RelTop
+				ShowLog
+				VerticalResolution
+
+
+				mCurrentValue
+				mMaxChange
+
+
+				mChangeFactor
+				mMinChange
+
+
+				CurrentPop
+				CursorImage
+				Images
+				KeyPopPos
+				KeyPopScroll
+				mGrnFont
+				mYelFont
+				PendingPop
+				PopHeight
+				PopHeightChange
 
 
 				AMBUSH
@@ -3015,331 +3427,6 @@
 				SPAWNSOUNDSOURCE
 				STEALTH
 				TELEPORT
-
-				ACTIVATEIMPACT
-				ACTIVATEMCROSS
-				ACTIVATEPCROSS
-				BLASTED
-				BOSS
-				CANNOTPUSH
-				CANPASS
-				CANPUSHWALLS
-				CANTLEAVEFLOORPIC
-				DONTREFLECT
-				DONTSEEKINVISIBLE
-				DONTTRANSLATE
-				DORMANT
-				FLOATBOB
-				INVULNERABLE
-				NODAMAGETHRUST
-				NONSHOOTABLE
-				NOTELEPORT
-				PUSHABLE
-				REFLECTIVE
-				RIPPER
-				SEEKERMISSILE
-				SLIDESONWALLS
-				SPAWNFLOAT
-				TELESTOMP
-				THRUACTORS
-				THRUGHOST
-				WINDTHRUST
-
-				ALWAYSPUFF
-				AVOIDMELEE
-				BLOODLESSIMPACT
-				CANBLAST
-				CEILINGHUGGER
-				DONTBLAST
-				DONTGIB
-				DONTMORPH
-				DONTOVERLAP
-				DONTSPLASH
-				DONTSQUASH
-				EXPLOCOUNT
-				FLOORHUGGER
-				FOILINVUL
-				FULLVOLACTIVE
-				FULLVOLDEATH
-				GHOST
-				ISMONSTER
-				NOBLOCKMONST
-				NOEXPLODEFLOOR
-				NORADIUSDMG
-				NOTARGET
-				NOTELEOTHER
-				PUFFONACTORS
-				SCREENSEEKER
-				SKYEXPLODE
-				SPECIALFLOORCLIP
-				STAYMORPHED
-
-				ACTLIKEBRIDGE
-				ALLOWPARTICLES
-				BOSSDEATH
-				CANUSEWALLS
-				DEFLECT
-				DONTFALL
-				DONTHARMCLASS
-				EXTREMEDEATH
-				FIXMAPTHINGPOS
-				FORCERADIUSDMG
-				FRIGHTENED
-				INCOMBAT
-				LOOKALLAROUND
-				MISSILEEVENMORE
-				MISSILEMORE
-				NOEXTREMEDEATH
-				NOICEDEATH
-				NOSKIN
-				NOSPLASHALERT
-				NOTARGETSWITCH
-				QUICKTORETALIATE
-				RANDOMIZE
-				SEESDAGGERS
-				SHIELDREFLECT
-				SPECTRAL
-				STANDSTILL
-				STRIFEDAMAGE
-				SYNCHRONIZED
-
-				ALWAYSFAST
-				ALWAYSRESPAWN
-				CANTSEEK
-				COUNTSECRET
-				DEHEXPLOSION
-				DONTDRAIN
-				DONTRIP
-				GETOWNER
-				MOVEWITHSECTOR
-				NEVERFAST
-				NEVERRESPAWN
-				NOBLOODDECALS
-				NODAMAGE
-				NODROPOFF
-				NOFORWARDFALL
-				NOINFIGHTING
-				NOINTERACTION
-				NOPAIN
-				NOTIMEFREEZE
-				NOVERTICALMELEERANGE
-				OLDRADIUSDMG
-				PAINLESS
-				PIERCEARMOR
-				PUFFGETSOWNER
-				SPECIALFIREDAMAGE
-				SUMMONEDMONSTER
-				USESPECIAL
-
-				ADDITIVEPOISONDAMAGE
-				ADDITIVEPOISONDURATION
-				BLOCKEDBYSOLIDACTORS
-				BUMPSPECIAL
-				CANJUMP
-				DOHARMSPECIES
-				DONTCORPSE
-				DONTHARMSPECIES
-				FORCEPAIN
-				JUMPDOWN
-				MTHRUSPECIES
-				NOBOSSRIP
-				NOFEAR
-				NOMENU
-				NOTAUTOAIMED
-				NOTELEFRAG
-				NOTONAUTOMAP
-				NOTRIGGER
-				POISONALWAYS
-				RELATIVETOFLOOR
-				SEEINVISIBLE
-				STEPMISSILE
-				THRUSPECIES
-				TOUCHY
-				VULNERABLE
-
-				AIMREFLECT
-				ALLOWPAIN
-				ALLOWTHRUFLAGS
-				ALWAYSTELEFRAG
-				BUDDHA
-				CAUSEPAIN
-				DONTTHRUST
-				FOILBUDDHA
-				FORCEDECAL
-				FORCEINFIGHTING
-				FORCEZERORADIUSDMG
-				HARMFRIENDS
-				HITMASTER
-				HITTARGET
-				HITTRACER
-				ICESHATTER
-				LAXTELEFRAGDMG
-				MIRRORREFLECT
-				NEVERTARGET
-				NODECAL
-				NOINFIGHTSPECIES
-				NOKILLSCRIPTS
-				NOSHIELDREFLECT
-				NOTELESTOMP
-				SMASHABLE
-				THRUREFLECT
-				USEKILLSCRIPTS
-				WEAPONSPAWN
-
-				BLOCKASPLAYER
-				DONTFACETALKER
-				FRIGHTENING
-				HITOWNER
-
-				ABSMASKANGLE
-				ABSMASKPITCH
-				DONTFLIP
-				DONTINTERPOLATE
-				FLATSPRITE
-				FORCEXYBILLBOARD
-				FORCEYBILLBOARD
-				GRENADETRAIL
-				INTERPOLATEANGLES
-				INVISIBLE
-				MASKROTATION
-				ROLLCENTER
-				ROLLSPRITE
-				SPRITEFLIP
-				VISIBILITYPULSE
-				WALLSPRITE
-				XFLIP
-				YFLIP
-				ZDOOMTRANS
-
-				ALLOWBOUNCEONACTORS
-				BOUNCEAUTOOFF
-				BOUNCEAUTOOFFFLOORONLY
-				BOUNCELIKEHERETIC
-				BOUNCEONACTORS
-				BOUNCEONCEILINGS
-				BOUNCEONFLOORS
-				BOUNCEONUNRIPPABLES
-				BOUNCEONWALLS
-				CANBOUNCEWATER
-				DONTBOUNCEONSHOOTABLES
-				EXPLODEONWATER
-				MBFBOUNCER
-				NOBOUNCESOUND
-				NOWALLBOUNCESND
-				USEBOUNCESTATE
-
-				DONTHURTSPECIES
-				DOOMBOUNCE
-				FIREDAMAGE
-				FIRERESIST
-				HERETICBOUNCE
-				HEXENBOUNCE
-				ICEDAMAGE
-				LONGMELEERANGE
-				LOWGRAVITY
-				QUARTERGRAVITY
-				SHORTMISSILERANGE
-
-				FASTER
-				FASTMELEE
-
-				ALLOWCLIENTSPAWN
-				CLIENTSIDEONLY
-				EXPLODEONDEATH
-				NONETID
-				SERVERSIDEONLY
-
-
-				ADDITIVETIME
-				ALWAYSPICKUP
-				AUTOACTIVATE
-				BIGPOWERUP
-				FANCYPICKUPSOUND
-				HUBPOWER
-				IGNORESKILL
-				INVBAR
-				ISARMOR
-				ISHEALTH
-				KEEPDEPLETED
-				NOATTENPICKUPSOUND
-				NOSCREENBLINK
-				NOSCREENFLASH
-				NOTELEPORTFREEZE
-				PERSISTENTPOWER
-				QUIET
-				RESTRICTABSOLUTELY
-				TOSSED
-				TRANSFER
-				UNDROPPABLE
-				UNTOSSABLE
-
-				INTERHUBSTRIP
-
-
-				ALT_AMMO_OPTIONAL
-				ALT_USES_BOTH
-				AMMO_CHECKBOTH
-				AMMO_OPTIONAL
-				BFG
-				CHEATNOTWEAPON
-				DONTBOB
-				EXPLOSIVE
-				MELEEWEAPON
-				NOALERT
-				NOAUTOAIM
-				NOAUTOFIRE
-				NODEATHDESELECT
-				NODEATHINPUT
-				NO_AUTO_SWITCH
-				POWERED_UP
-				PRIMARY_USES_BOTH
-				READYSNDHALF
-				STAFF2_KICKBACK
-				WIMPY_WEAPON
-
-				ALLOW_WITH_RESPAWN_INVUL
-				NOLMS
-
-
-				CANSUPERMORPH
-				CROUCHABLEMORPH
-				NOTHRUSTWHENINVUL
-
-
-				ADDITIVE
-				ATTENUATE
-				DONTLIGHTACTORS
-				DONTLIGHTSELF
-				NOSHADOWMAP
-				SPOT
-				SUBTRACTIVE
-
-
-				bARGSDEFINED
-				bARMED
-				bAVOIDINGDROPOFF
-				bBOSSCUBE
-				bBOSSSPAWNED
-				bCHASEGOAL
-				bCRASHED
-				bFALLING
-				bFLY
-				bFLYCHEAT
-				bHANDLENODELAY
-				bHUNTPLAYERS
-				bINCHASE
-				bINCONVERSATION
-				bINTRYMOVE
-				bKILLED
-				bLINEDONE
-				bNOHATEPLAYERS
-				bNOSIGHTCHECK
-				bONMOBJ
-				bSCROLLMOVE
-				bSHATTERING
-				bUNMORPHED
-				bVFRICTION
-				bWARNBOT
 
 				bAMBUSH
 				bCORPSE
@@ -3372,6 +3459,34 @@
 				bSTEALTH
 				bTELEPORT
 
+				ACTIVATEIMPACT
+				ACTIVATEMCROSS
+				ACTIVATEPCROSS
+				BLASTED
+				BOSS
+				CANNOTPUSH
+				CANPASS
+				CANPUSHWALLS
+				CANTLEAVEFLOORPIC
+				DONTREFLECT
+				DONTSEEKINVISIBLE
+				DONTTRANSLATE
+				DORMANT
+				FLOATBOB
+				INVULNERABLE
+				NODAMAGETHRUST
+				NONSHOOTABLE
+				NOTELEPORT
+				PUSHABLE
+				REFLECTIVE
+				SEEKERMISSILE
+				SLIDESONWALLS
+				SPAWNFLOAT
+				TELESTOMP
+				THRUACTORS
+				THRUGHOST
+				WINDTHRUST
+
 				bACTIVATEIMPACT
 				bACTIVATEMCROSS
 				bACTIVATEPCROSS
@@ -3402,6 +3517,35 @@
 				bTHRUGHOST
 				bWINDTHRUST
 
+				ALWAYSPUFF
+				AVOIDMELEE
+				BLOODLESSIMPACT
+				CANBLAST
+				CEILINGHUGGER
+				DONTBLAST
+				DONTGIB
+				DONTMORPH
+				DONTOVERLAP
+				DONTSPLASH
+				DONTSQUASH
+				EXPLOCOUNT
+				FLOORHUGGER
+				FOILINVUL
+				FULLVOLACTIVE
+				FULLVOLDEATH
+				GHOST
+				ISMONSTER
+				NOBLOCKMONST
+				NOEXPLODEFLOOR
+				NORADIUSDMG
+				NOTARGET
+				NOTELEOTHER
+				PUFFONACTORS
+				SCREENSEEKER
+				SKYEXPLODE
+				SPECIALFLOORCLIP
+				STAYMORPHED
+
 				bALWAYSPUFF
 				bAVOIDMELEE
 				bBLOODLESSIMPACT
@@ -3431,6 +3575,35 @@
 				bSPECIALFLOORCLIP
 				bSTAYMORPHED
 
+				ACTLIKEBRIDGE
+				ALLOWPARTICLES
+				BOSSDEATH
+				CANUSEWALLS
+				DEFLECT
+				DONTFALL
+				DONTHARMCLASS
+				EXTREMEDEATH
+				FIXMAPTHINGPOS
+				FORCERADIUSDMG
+				FRIGHTENED
+				INCOMBAT
+				LOOKALLAROUND
+				MISSILEEVENMORE
+				MISSILEMORE
+				NOEXTREMEDEATH
+				NOICEDEATH
+				NOSKIN
+				NOSPLASHALERT
+				NOTARGETSWITCH
+				QUICKTORETALIATE
+				RANDOMIZE
+				SEESDAGGERS
+				SHIELDREFLECT
+				SPECTRAL
+				STANDSTILL
+				STRIFEDAMAGE
+				SYNCHRONIZED
+
 				bACTLIKEBRIDGE
 				bALLOWPARTICLES
 				bBOSSDEATH
@@ -3459,6 +3632,34 @@
 				bSTANDSTILL
 				bSTRIFEDAMAGE
 				bSYNCHRONIZED
+
+				ALWAYSFAST
+				ALWAYSRESPAWN
+				CANTSEEK
+				COUNTSECRET
+				DEHEXPLOSION
+				DONTDRAIN
+				DONTRIP
+				GETOWNER
+				MOVEWITHSECTOR
+				NEVERFAST
+				NEVERRESPAWN
+				NOBLOODDECALS
+				NODAMAGE
+				NODROPOFF
+				NOFORWARDFALL
+				NOINFIGHTING
+				NOINTERACTION
+				NOPAIN
+				NOTIMEFREEZE
+				NOVERTICALMELEERANGE
+				OLDRADIUSDMG
+				PAINLESS
+				PIERCEARMOR
+				PUFFGETSOWNER
+				SPECIALFIREDAMAGE
+				SUMMONEDMONSTER
+				USESPECIAL
 
 				bALWAYSFAST
 				bALWAYSRESPAWN
@@ -3490,6 +3691,32 @@
 				bSUMMONEDMONSTER
 				bUSESPECIAL
 
+				ADDITIVEPOISONDAMAGE
+				ADDITIVEPOISONDURATION
+				BLOCKEDBYSOLIDACTORS
+				BUMPSPECIAL
+				CANJUMP
+				DOHARMSPECIES
+				DONTCORPSE
+				DONTHARMSPECIES
+				FORCEPAIN
+				JUMPDOWN
+				MTHRUSPECIES
+				NOBOSSRIP
+				NOFEAR
+				NOMENU
+				NOTAUTOAIMED
+				NOTELEFRAG
+				NOTONAUTOMAP
+				NOTRIGGER
+				POISONALWAYS
+				RELATIVETOFLOOR
+				SEEINVISIBLE
+				STEPMISSILE
+				THRUSPECIES
+				TOUCHY
+				VULNERABLE
+
 				bADDITIVEPOISONDAMAGE
 				bADDITIVEPOISONDURATION
 				bBLOCKEDBYSOLIDACTORS
@@ -3515,6 +3742,35 @@
 				bTHRUSPECIES
 				bTOUCHY
 				bVULNERABLE
+
+				AIMREFLECT
+				ALLOWPAIN
+				ALLOWTHRUFLAGS
+				ALWAYSTELEFRAG
+				BUDDHA
+				CAUSEPAIN
+				DONTTHRUST
+				FOILBUDDHA
+				FORCEDECAL
+				FORCEINFIGHTING
+				FORCEZERORADIUSDMG
+				HARMFRIENDS
+				HITMASTER
+				HITTARGET
+				HITTRACER
+				ICESHATTER
+				LAXTELEFRAGDMG
+				MIRRORREFLECT
+				NEVERTARGET
+				NODECAL
+				NOINFIGHTSPECIES
+				NOKILLSCRIPTS
+				NOSHIELDREFLECT
+				NOTELESTOMP
+				SMASHABLE
+				THRUREFLECT
+				USEKILLSCRIPTS
+				WEAPONSPAWN
 
 				bAIMREFLECT
 				bALLOWPAIN
@@ -3546,10 +3802,39 @@
 				bUSEKILLSCRIPTS
 				bWEAPONSPAWN
 
+				BLOCKASPLAYER
+				DONTFACETALKER
+				FRIGHTENING
+				HITOWNER
+				NOFRICTION
+				NOFRICTIONBOUNCE
+
 				bBLOCKASPLAYER
 				bDONTFACETALKER
 				bFRIGHTENING
 				bHITOWNER
+				bNOFRICTION
+				bNOFRICTIONBOUNCE
+
+				ABSMASKANGLE
+				ABSMASKPITCH
+				DONTFLIP
+				DONTINTERPOLATE
+				FLATSPRITE
+				FORCEXYBILLBOARD
+				FORCEYBILLBOARD
+				GRENADETRAIL
+				INTERPOLATEANGLES
+				INVISIBLE
+				MASKROTATION
+				ROLLCENTER
+				ROLLSPRITE
+				SPRITEFLIP
+				VISIBILITYPULSE
+				WALLSPRITE
+				XFLIP
+				YFLIP
+				ZDOOMTRANS
 
 				bABSMASKANGLE
 				bABSMASKPITCH
@@ -3572,6 +3857,24 @@
 				bYFLIP
 				bZDOOMTRANS
 
+				ALLOWBOUNCEONACTORS
+				BOUNCEAUTOOFF
+				BOUNCEAUTOOFFFLOORONLY
+				BOUNCELIKEHERETIC
+				BOUNCEONACTORS
+				BOUNCEONCEILINGS
+				BOUNCEONFLOORS
+				BOUNCEONUNRIPPABLES
+				BOUNCEONWALLS
+				CANBOUNCEWATER
+				DONTBOUNCEONSHOOTABLES
+				DONTBOUNCEONSKY
+				EXPLODEONWATER
+				MBFBOUNCER
+				NOBOUNCESOUND
+				NOWALLBOUNCESND
+				USEBOUNCESTATE
+
 				bALLOWBOUNCEONACTORS
 				bBOUNCEAUTOOFF
 				bBOUNCEAUTOOFFFLOORONLY
@@ -3583,12 +3886,79 @@
 				bBOUNCEONWALLS
 				bCANBOUNCEWATER
 				bDONTBOUNCEONSHOOTABLES
+				bDONTBOUNCEONSKY
 				bEXPLODEONWATER
 				bMBFBOUNCER
 				bNOBOUNCESOUND
 				bNOWALLBOUNCESND
 				bUSEBOUNCESTATE
 
+				DONTHURTSPECIES
+				DOOMBOUNCE
+				FASTER
+				FASTMELEE
+				FIREDAMAGE
+				FIRERESIST
+				HERETICBOUNCE
+				HEXENBOUNCE
+				ICEDAMAGE
+				LONGMELEERANGE
+				LOWGRAVITY
+				QUARTERGRAVITY
+				SHORTMISSILERANGE
+
+				bARGSDEFINED
+				bARMED
+				bAVOIDINGDROPOFF
+				bBOSSCUBE
+				bBOSSSPAWNED
+				bCHASEGOAL
+				bCRASHED
+				bFALLING
+				bFLY
+				bFLYCHEAT
+				bHANDLENODELAY
+				bHUNTPLAYERS
+				bINCHASE
+				bINCONVERSATION
+				bINTRYMOVE
+				bKILLED
+				bLINEDONE
+				bNOHATEPLAYERS
+				bNOSIGHTCHECK
+				bONMOBJ
+				bRESPAWNINVUL
+				bSCROLLMOVE
+				bSHATTERING
+				bUNMORPHED
+				bVFRICTION
+				bWARNBOT
+
+
+				ADDITIVETIME
+				ALWAYSPICKUP
+				AUTOACTIVATE
+				BIGPOWERUP
+				FANCYPICKUPSOUND
+				HUBPOWER
+				IGNORESKILL
+				INTERHUBSTRIP
+				INVBAR
+				ISARMOR
+				ISHEALTH
+				KEEPDEPLETED
+				NOATTENPICKUPSOUND
+				NOSCREENBLINK
+				NOSCREENFLASH
+				NOTELEPORTFREEZE
+				PERSISTENTPOWER
+				QUIET
+				RESTRICTABSOLUTELY
+				TOSSED
+				TRANSFER
+				UNCLEARABLE
+				UNDROPPABLE
+				UNTOSSABLE
 
 				bADDITIVETIME
 				bALWAYSPICKUP
@@ -3597,6 +3967,7 @@
 				bFANCYPICKUPSOUND
 				bHUBPOWER
 				bIGNORESKILL
+				bINTERHUBSTRIP
 				bINVBAR
 				bISARMOR
 				bISHEALTH
@@ -3606,23 +3977,42 @@
 				bNOSCREENFLASH
 				bNOTELEPORTFREEZE
 				bPERSISTENTPOWER
+				bPICKUPFLASH
 				bQUIET
 				bRESTRICTABSOLUTELY
 				bTOSSED
 				bTRANSFER
+				bUNCLEARABLE
 				bUNDROPPABLE
 				bUNTOSSABLE
 
+
+				ALT_AMMO_OPTIONAL
+				ALT_USES_BOTH
+				AMMO_CHECKBOTH
+				AMMO_OPTIONAL
+				CHEATNOTWEAPON
+				DONTBOB
+				MELEEWEAPON
+				NOALERT
+				NOAUTOAIM
+				NOAUTOFIRE
+				NODEATHDESELECT
+				NODEATHINPUT
+				NO_AUTO_SWITCH
+				POWERED_UP
+				PRIMARY_USES_BOTH
+				READYSNDHALF
+				STAFF2_KICKBACK
+				WIMPY_WEAPON
 
 				bALT_AMMO_OPTIONAL
 				bALT_USES_BOTH
 				bAMMO_CHECKBOTH
 				bAMMO_OPTIONAL
 				bAXEBLOOD
-				bBFG
 				bCHEATNOTWEAPON
 				bDONTBOB
-				bEXPLOSIVE
 				bMELEEWEAPON
 				bNOALERT
 				bNOAUTOAIM
@@ -3637,10 +4027,26 @@
 				bWIMPY_WEAPON
 
 
+
+				bNOTRAIL
+
+
+				CANSUPERMORPH
+				CROUCHABLEMORPH
+				NOTHRUSTWHENINVUL
+
 				bCANSUPERMORPH
 				bCROUCHABLEMORPH
 				bNOTHRUSTWHENINVUL
 
+
+				ADDITIVE
+				ATTENUATE
+				DONTLIGHTACTORS
+				DONTLIGHTSELF
+				NOSHADOWMAP
+				SPOT
+				SUBTRACTIVE
 
 				bADDITIVE
 				bATTENUATE
@@ -3649,9 +4055,6 @@
 				bNOSHADOWMAP
 				bSPOT
 				bSUBTRACTIVE
-
-
-				bNOTRAIL
 
 
 				BounceType
@@ -3675,14 +4078,13 @@
 				YScale
 
 
-				DefMaxamount
+				DefMaxAmount
 				ForbiddenTo
-				PickupAnnouncerEntry
 				PickupMessage
 				RestrictedTo
 
 
-				respawns
+				Respawns
 
 
 				FailMessage
@@ -3696,7 +4098,9 @@
 				MinSelectionAmmo1
 				MinSelectionAmmo2
 				PreferredSkin
-				SlotPriority
+
+
+				Number
 
 
 				MaxBonus
@@ -3718,7 +4122,6 @@
 				FallingScreamSpeed
 				HealRadiusType
 				InvulnerabilityMode
-				SpawnClass
 				StartItem
 				WeaponSlot
 			</Keywords>
@@ -3779,6 +4182,7 @@
 				GetScaledOffset
 				GetScaledSize
 				GetSize
+				OkForLocalization
 				ReplaceTextures
 				SetCameraToTexture
 
@@ -3810,8 +4214,10 @@
 
 
 				BreakLines
+				CanPrint
 				FindFont
 				FindFontColor
+				GetBottomAlignOffset
 				GetCharWidth
 				GetCursor
 				GetFont
@@ -3854,6 +4260,7 @@
 				G_SkillName
 				G_SkillPropertyFloat
 				G_SkillPropertyInt
+				MarkSound
 				MSTime
 				OnDestroy
 				SetMusicVolume
@@ -3886,26 +4293,40 @@
 				TraceCallback
 
 
-				GetNextInList
-				GetSpotState
-				GetSpotWithMinMaxDistance
-
-
 				ChangeSky
+				CreateActorIterator
+				CreateCeiling
+				CreateFloor
+				CreateLineIdIterator
+				CreateSectorTagIterator
 				ExecuteSpecial
+				FindHealthGroup
+				FindUniqueTid
 				FormatMapName
+				GetAutomapPosition
 				GetChecksum
+				GetSkyboxPortal
+				GetSpotState
 				GetUDMFFloat
 				GetUDMFInt
 				GetUDMFString
 				GiveSecret
 				IsCrouchingAllowed
 				IsFreelookAllowed
+				isFrozen
 				IsJumpingAllowed
+				IsPointInLevel
 				IsPointInMap
+				MakeAutoSave
+				MakeScreenShot
+				PickDeathmatchStart
+				PickPlayerStart
+				PointInSector
 				RemoveAllBots
+				setFrozen
 				SetInterMusic
 				SphericalCoords
+				StartIntermission
 				StartSlideshow
 				TimeFormatted
 				Vec2Diff
@@ -3921,6 +4342,7 @@
 
 				DistanceTo
 				GetSpriteTexture
+				InStateSequence
 				ValidateSpriteFrame
 
 
@@ -3930,13 +4352,22 @@
 				ReadLump
 
 
+				AppendCharacter
 				AppendFormat
+				ByteAt
 				CharAt
 				CharCodeAt
+				CharLower
+				CharUpper
+				CodePointCount
+				DeleteLastCharacter
 				Filter
 				Format
+				GetNextCodePoint
 				IndexOf
 				LastIndexOf
+				MakeLower
+				MakeUpper
 				Mid
 				Remove
 				Replace
@@ -3950,12 +4381,6 @@
 
 
 				GetSector
-
-
-				CreateFloor
-
-
-				CreateCeiling
 
 
 				SetEnabled
@@ -3973,19 +4398,21 @@
 				MarkPrecacheSounds
 
 
-				GetSkyboxPortal
+				Index
 
 
 				AddTextureXOffset
 				AddTextureYOffset
+				EnableAdditiveColor
+				GetAdditiveColor
 				GetTexture
 				GetTextureXOffset
 				GetTextureXScale
 				GetTextureYOffset
 				GetTextureYScale
-				Index
 				MultiplyTextureXScale
 				MultiplyTextureYScale
+				SetAdditiveColor
 				SetSpecialColor
 				SetTexture
 				SetTextureXOffset
@@ -4075,7 +4502,6 @@
 				NextLowestFloorAt
 				NextSpecialSector
 				PlaneMoving
-				PointInSector
 				PortalBlocksMovement
 				PortalBlocksSight
 				PortalBlocksSound
@@ -4127,6 +4553,76 @@
 				TraceBleed
 
 
+				CheckReplacee
+				CheckReplacement
+				ConsoleProcess
+				InputProcess
+				NetworkProcess
+				NewGame
+				OnRegister
+				OnUnregister
+				PlayerDied
+				PlayerDisconnected
+				PlayerEntered
+				PlayerRespawned
+				PostUiTick
+				RenderOverlay
+				SetOrder
+				UiProcess
+				UiTick
+				WorldLightning
+				WorldLineActivated
+				WorldLineDamaged
+				WorldLinePreActivated
+				WorldLoaded
+				WorldSectorDamaged
+				WorldThingDamaged
+				WorldThingDestroyed
+				WorldThingDied
+				WorldThingRevived
+				WorldThingSpawned
+				WorldTick
+				WorldUnloaded
+
+
+				SendNetworkEvent
+
+
+				CheckLinedefVulnerable
+				CheckSectorVulnerable
+				DamageLinedef
+				GeometryLineAttack
+				GeometryRadiusAttack
+				ProjectileHitLinedef
+				ProjectileHitPlane
+
+
+				AddLineID
+				AddSectorTag
+				Apply
+				ClearLineIDs
+				ClearLineSpecial
+				ClearSectorTags
+				GetDefaultActor
+				OffsetSectorPlane
+				SetLineActivation
+				SetLineFlags
+				SetLineSectorRef
+				SetLineSpecial
+				SetSectorLight
+				SetSectorSpecial
+				SetSectorTexture
+				SetSectorTextureID
+				SetThingFlags
+				SetThingSkills
+				SetThingXY
+				SetThingZ
+				SetVertex
+				SetWallTexture
+				SetWallTextureID
+				SetWallYScale
+
+
 				ClearLastRipped
 
 
@@ -4143,12 +4639,14 @@
 				AddInventory
 				AddZ
 				AdjustPlayerAngle
+				AimBulletMissile
 				AimLineAttack
 				AimTarget
 				AngleTo
 				AngleToVector
 				ApplyDamageFactor
 				ApplyDamageFactors
+				ApplyKickback
 				A_ActiveAndUnblock
 				A_ActiveSound
 				A_AlertMonsters
@@ -4460,12 +4958,15 @@
 				CanCollideWith
 				CanResurrect
 				CanSeek
+				CanTouchItem
 				ChangeTid
 				CheckArmorType
 				CheckBlock
 				CheckBossDeath
 				CheckClass
 				CheckFakeFloorTriggers
+				CheckFor3DCeilingHit
+				CheckFor3DFloorHit
 				CheckIfCloser
 				CheckIfInTargetLOS
 				CheckIfSeen
@@ -4478,6 +4979,7 @@
 				CheckMeleeRange2
 				CheckMissileRange
 				CheckMissileSpawn
+				CheckMonsterUseSpecials
 				CheckMove
 				CheckNoDelay
 				CheckPortalTransition
@@ -4486,6 +4988,7 @@
 				CheckRange
 				CheckSight
 				CheckSightOrRange
+				CheckSplash
 				ClearBounce
 				ClearCounters
 				ClearInterpolation
@@ -4498,13 +5001,17 @@
 				DamageMobj
 				Deactivate
 				deltaangle
+				DestroyAllInventory
 				Die
+				DisplayNameTag
 				Distance2D
 				Distance2DSquared
 				Distance3D
 				Distance3DSquared
 				DistanceBySpeed
+				DoGiveInventory
 				DoSpecialDamage
+				DoTakeInventory
 				DrawSplash
 				DropInventory
 				ExplodeMissile
@@ -4512,7 +5019,6 @@
 				FindFloorCeiling
 				FindInventory
 				FindState
-				FindUniqueTid
 				FirstInv
 				GetAge
 				GetBloodType
@@ -4528,6 +5034,7 @@
 				GetGibHealth
 				GetGravity
 				GetLevelSpawnTime
+				GetMaxHealth
 				GetMissileDamage
 				GetModifiedDamage
 				GetObituary
@@ -4555,7 +5062,7 @@
 				HitFriend
 				HitWater
 				Howl
-				InStateSequence
+				InitSpawnedItem
 				isFriend
 				isHostile
 				IsPointerEqual
@@ -4570,6 +5077,8 @@
 				LookForPlayers
 				LookForTid
 				MonsterMove
+				Morph
+				MorphedDeath
 				MorphMonster
 				NewChaseDir
 				Normalize180
@@ -4587,6 +5096,8 @@
 				PlaySpawnSound
 				PoisonMobj
 				PosRelative
+				RadiusAttack
+				RailAttack
 				RaiseActor
 				RaiseMobj
 				RandomChaseDir
@@ -4594,6 +5105,7 @@
 				RemoveInventory
 				ResolveState
 				RestoreDamage
+				RestoreRenderStyle
 				Revive
 				RotateVector
 				RoughMonsterSearch
@@ -4609,6 +5121,7 @@
 				SetTag
 				SetXYZ
 				SetZ
+				ShouldSpawn
 				SinkMobj
 				Slam
 				SoundAlert
@@ -4616,6 +5129,7 @@
 				SpawnBlood
 				SpawnDirt
 				SpawnHealth
+				SpawnLineAttackBlood
 				SpawnMissile
 				SpawnMissileAngle
 				SpawnMissileAngleZ
@@ -4629,17 +5143,21 @@
 				SpawnTeleportFog
 				SpecialBlastHandling
 				SpecialMissileHit
+				Substitute
 				TakeInventory
 				TakeSpecialDamage
 				TeleportMove
 				TestMobjLocation
 				TestMobjZ
 				Thrust
+				TossItem
 				Touch
 				TraceBleedAngle
+				TriggerPainChance
 				TryMove
 				TryWalk
 				UnlinkFromWorld
+				UnMorph
 				UpdateWaterLevel
 				Used
 				UseInventory
@@ -4652,355 +5170,6 @@
 				VelFromAngle
 				VelIntercept
 				Warp
-
-
-				CheckReplacement
-				ConsoleProcess
-				InputProcess
-				NetworkProcess
-				NewGame
-				OnRegister
-				OnUnregister
-				PlayerDied
-				PlayerDisconnected
-				PlayerEntered
-				PlayerRespawned
-				PostUiTick
-				RenderOverlay
-				SetOrder
-				UiProcess
-				UiTick
-				WorldLightning
-				WorldLineActivated
-				WorldLineDamaged
-				WorldLinePreActivated
-				WorldLoaded
-				WorldSectorDamaged
-				WorldThingDamaged
-				WorldThingDestroyed
-				WorldThingDied
-				WorldThingRevived
-				WorldThingSpawned
-				WorldTick
-				WorldUnloaded
-
-
-				SendNetworkEvent
-
-
-				CheckLinedefVulnerable
-				CheckSectorVulnerable
-				DamageLinedef
-				GeometryLineAttack
-				GeometryRadiusAttack
-				ProjectileHitLinedef
-				ProjectileHitPlane
-
-
-				CheckCoordinate
-				CheckHotkey
-				Draw
-				Drawer
-				Enable
-				GetAction
-				GetIndent
-				GetValue
-				GetX
-				GetY
-				Init
-				MenuEvent
-				MouseEvent
-				OffsetPositionY
-				OnMenuCreated
-				Selectable
-				SetValue
-				SetX
-				Ticker
-
-
-				GetKeysForCommand
-				NameKeys
-				SetBind
-				UnbindACommand
-
-
-				GetCount
-				GetText
-				GetTextValue
-
-
-				GetAxisDeadZone
-				GetAxisMap
-				GetAxisName
-				GetAxisScale
-				GetNumAxes
-				GetSensitivity
-				SetAxisDeadZone
-				SetAxisMap
-				SetAxisScale
-				SetSensitivity
-
-
-				ActivateMenu
-				CheckFocus
-				Close
-				DrawConText
-				GetCurrentMenu
-				MenuSound
-				MenuTime
-				MouseEventBack
-				OnInputEvent
-				OnReturn
-				OnUIEvent
-				ReleaseFocus
-				ResetColor
-				SetCapture
-				SetFocus
-				SetMenu
-				SetMouseCapture
-				StartMessage
-				TranslateKeyboardEvents
-
-
-				GetDescriptor
-
-
-				CallHandler
-				CloseSound
-				HandleResult
-
-
-				Reset
-
-
-				GetItem
-
-
-				DrawSelector
-
-
-				InitDirect
-
-
-				CalcIndent
-
-
-				FirstSelectable
-
-
-				CursorSpace
-				drawLabel
-
-
-				GetSelection
-				isGrayed
-				SetSelection
-
-
-				SendKey
-
-
-				DrawSlider
-				GetSliderValue
-				SetSliderValue
-
-
-				Represent
-
-
-				GetColor
-
-
-				SetController
-
-
-				ClearSaveStuff
-				DoSave
-				DrawSaveComment
-				DrawSavePic
-				ExtractSaveData
-				GetManager
-				GetSavegame
-				InsertNewSaveNode
-				LoadSavegame
-				ReadSaveStrings
-				RemoveNewSaveNode
-				RemoveSaveSlot
-				SavegameCount
-				SetFileInfo
-				UnloadSaveData
-
-
-				AlwaysRunChanged
-				AutoaimChanged
-				ChangeClass
-				ChangeSkin
-				ClassChanged
-				ColorChanged
-				ColorSetChanged
-				GenderChanged
-				PickPlayerClass
-				PlayerNameChanged
-				SendNewColor
-				SkinChanged
-				SwitchOnPickupChanged
-				TeamChanged
-				UpdateColorsets
-				UpdateSkins
-				UpdateTranslation
-
-
-				SetPlayerClass
-				UpdatePlayerClass
-
-
-				DrawBorder
-
-
-				Open
-
-
-				SetSelectedSize
-
-
-				ShouldSkipReply
-
-
-				DrawBackdrop
-				DrawGold
-				DrawReplies
-				DrawSpeakerText
-				FormatReplies
-				FormatSpeakerMessage
-				GetReplyNum
-				SendConversationReply
-
-
-				FillSaveMenu
-				FillSelectMenu
-				GetSaveSelection
-				GetSelectedEnvironment
-				GrayCheck
-				ToggleSaveSelection
-
-
-				drawBackground
-				LoadBackground
-				updateAnimatedBack
-
-
-				autoSkip
-				checkForAccelerate
-				DrawCharPatch
-				drawEL
-				drawLF
-				DrawName
-				drawNoState
-				drawNum
-				DrawPatchText
-				drawPercent
-				drawShowNextLoc
-				drawStats
-				drawTime
-				End
-				fragSum
-				GetPlayerWidths
-				GetRowColor
-				GetSortedPlayers
-				initNoState
-				initShowNextLoc
-				initStats
-				PlaySound
-				Start
-				StartMusic
-				updateNoState
-				updateShowNextLoc
-				updateStats
-
-
-				CreateNoBox
-
-
-				ScreenSizeChanged
-
-
-				AdjustPosition
-				AttachMessage
-				AttachToPlayer
-				BeginHUD
-				BeginStatusBar
-				CheckAspectRatio
-				CheckDisplayName
-				CheckHealth
-				CheckWeaponPiece
-				CheckWeaponSelected
-				DetachAllMessages
-				DetachMessage
-				DetachMessageID
-				DoDrawAutomapHUD
-				DrawAutomapHUD
-				DrawBar
-				DrawGem
-				DrawHexenArmor
-				DrawImage
-				DrawInventoryBar
-				DrawInventoryIcon
-				DrawMyPos
-				DrawPowerups
-				DrawShader
-				DrawString
-				Fill
-				FlashCrosshair
-				FlashItem
-				FormatNumber
-				GetAirTime
-				GetAmmoTag
-				GetAmount
-				GetArmorAmount
-				GetArmorSavePercent
-				GetCurrentAmmo
-				GetGlobalACSArrayString
-				GetGlobalACSArrayValue
-				GetGlobalACSString
-				GetGlobalACSValue
-				GetHUDScale
-				GetIcon
-				GetInventoryIcon
-				GetKeyCount
-				GetMaxAmount
-				GetMugshot
-				GetProtrusion
-				GetSelectedInventoryAmount
-				GetSelectedInventoryTag
-				GetTopOfStatusBar
-				GetTranslation
-				GetWeaponPieceMask
-				GetWeaponTag
-				isInventoryBarVisible
-				isInvulnerable
-				MustDrawLog
-				ReceivedWeapon
-				SetMugShotState
-				SetSize
-				ShowPop
-				StatusbarToRealCoords
-				TransformRect
-				UpdateScreenGeometry
-				ValidateInvFirst
-				WeaponUsesAmmo
-				WeaponUsesAmmoType
-
-
-				Update
-
-
-				DrawFullScreenStuff
-				DrawMainBar
-
-
-				DrawHealthBar
-				DrawPopScreen
-				DrINumber2
 
 
 				AbsorbDamage
@@ -5035,7 +5204,9 @@
 				OnDrop
 				OwnerDied
 				PlayPickupSound
+				PrevInv
 				PrintPickupMessage
+				SetGiveAmount
 				ShouldRespawn
 				ShouldStay
 				SpecialDropAction
@@ -5043,6 +5214,11 @@
 				TryPickup
 				TryPickupRestricted
 				Use
+				UseAll
+
+
+				GetKeyType
+				GetKeyTypeCount
 
 
 				A_BFGsound
@@ -5074,7 +5250,6 @@
 				A_ReFire
 				A_ResetReloadCounter
 				A_Saw
-				A_WeaponReady
 				GunShot
 
 
@@ -5082,6 +5257,7 @@
 				A_GunFlash
 				A_Lower
 				A_Raise
+				A_WeaponReady
 				CallStateChain
 
 
@@ -5090,18 +5266,29 @@
 				AddWeapon
 				A_SetCrosshair
 				A_ZoomFactor
+				CheckAddToSlots
 				CheckAmmo
 				DepleteAmmo
+				DoReadyWeaponDisableSwitch
+				DoReadyWeaponToBob
+				DoReadyWeaponToFire
+				DoReadyWeaponToSwitch
 				EndPowerup
 				GetAltAtkState
 				GetAtkState
+				GetButtonStateFlags
 				GetDownState
 				GetReadyState
 				GetUpState
 				PickupForAmmo
+				PlayUpSound
+				PostMorphWeapon
 
 
+				GetWeapon
 				LocateWeapon
+				SetupWeaponSlots
+				SlotSize
 
 
 				AddArmorToSlot
@@ -5116,13 +5303,21 @@
 				isBlinking
 
 
+				ActivateMorphWeapon
+				AutoUseHealth
+				AutoUseStrifeHealth
 				BestWeapon
+				BobWeapon
+				BringUpWeapon
 				CalcHeight
 				CanCrouch
 				CheatGive
+				CheatMorph
+				CheatSetInv
 				CheatSuicide
 				CheatTake
 				CheatTakeType
+				CheatTakeWeaps
 				CheckAirSupply
 				CheckCheats
 				CheckCrouch
@@ -5143,19 +5338,35 @@
 				CheckWeaponSwitch
 				CrouchMove
 				DeathThink
+				DropWeapon
+				EndAllPowerupEffects
+				FilterCoopRespawnInventory
+				FindMostRecentWeapon
 				FireWeapon
 				FireWeaponAlt
 				ForwardThrust
 				GetEffectTicsForItem
-				GetMaxHealth
+				GetFlechetteItem
+				GetPainFlash
 				GetPrintableDisplayName
+				GetTeleportFreezeTime
+				GiveDeathmatchInventory
+				GiveDefaultInventory
 				HandleMovement
+				InitAllPowerupEffects
+				InvNext
+				InvPrev
+				MarkPlayerSounds
 				MorphPlayerThink
 				MovePlayer
 				OnRespawn
 				PickNewWeapon
+				PickNextWeapon
+				PickPrevWeapon
+				PickWeapon
 				PlayAttacking
 				PlayAttacking2
+				PlayerFinishLevel
 				PlayerThink
 				PlayIdle
 				PlayRunning
@@ -5164,26 +5375,34 @@
 				TweakSpeeds
 
 
-				BringUpWeapon
-				DropWeapon
+				ResetInterpolation
+
+
 				FindPSprite
+				fragSum
 				GetAutoaim
 				GetClassicFlight
+				GetColor
 				GetColorSet
+				GetDeltaViewHeight
 				GetDisplayColor
 				GetGender
+				GetMoveBob
 				GetNeverSwitch
 				GetNoAutostartMap
 				GetPlayerClassNum
 				GetPSprite
 				GetSkin
+				GetStillBob
 				GetTeam
 				GetUserName
+				GetWBobSpeed
 				HasWeaponsInSlot
 				IsTotallyFrozen
 				MorphPlayer
 				PoisonPlayer
 				Resurrect
+				SendPitchLimits
 				SetFOV
 				SetLogNumber
 				SetLogText
@@ -5198,10 +5417,30 @@
 				GetColorsetName
 
 
+				AddItemToList
+				UseHealthItems
+
+
+				UndoMonsterMorph
+
+
+				SpawnDecal
+
+
+				MarkAmbientSounds
+
+
 				A_BridgeOrbit
 
 
 				A_BridgeInit
+
+
+				AddSpot
+				GetNextInList
+				GetRandomSpot
+				GetSpotWithMinMaxDistance
+				RemoveSpot
 
 
 				A_SpawnSingleItem
@@ -5231,9 +5470,9 @@
 				PostSpawn
 
 
-				A_MarineChase
-				A_MarineLook
-				A_MarineNoise
+				SetOffset
+
+
 				A_M_BFGsound
 				A_M_CheckAttack
 				A_M_FireBFG
@@ -5247,6 +5486,9 @@
 				A_M_Punch
 				A_M_Refire
 				A_M_SawRefire
+				A_MarineChase
+				A_MarineLook
+				A_MarineNoise
 				SetSprite
 				SetWeapon
 
@@ -5450,8 +5692,8 @@
 				A_LeafSpawn
 
 
-				A_LeafThrust
 				A_LeafCheck
+				A_LeafThrust
 
 
 				A_SoAExplode
@@ -5579,6 +5821,7 @@
 
 
 				A_MStaffTrack
+
 
 				A_FPunchAttack
 
@@ -5766,7 +6009,6 @@
 				A_ProgrammerDeath
 				A_ProgrammerMelee
 				A_SpawnProgrammerBase
-				A_SpotLightning
 
 
 				A_Beacon
@@ -5838,6 +6080,377 @@
 
 
 				A_OreSpawner
+
+
+				GetSliderValue
+				Init
+				SetSliderValue
+
+
+				Drawer
+				MenuEvent
+				MouseEvent
+				ResetColor
+
+
+				ShouldSkipReply
+
+
+				DrawBackdrop
+				DrawGold
+				DrawReplies
+				DrawSpeakerText
+				FormatReplies
+				FormatSpeakerMessage
+				GetReplyNum
+				OnUIEvent
+				SendConversationReply
+				Ticker
+
+
+				GetSelection
+				SetSelection
+
+
+				SetController
+
+
+				Reset
+
+
+				CheckFocus
+				GetItem
+				ReleaseFocus
+				SetFocus
+
+
+				DrawSelector
+
+
+				InitDirect
+
+
+				CheckCoordinate
+				CheckHotkey
+				GetAction
+				Selectable
+
+
+				ClearSaveStuff
+				DoSave
+				DrawSaveComment
+				DrawSavePic
+				ExtractSaveData
+				GetManager
+				GetSavegame
+				InsertNewSaveNode
+				LoadSavegame
+				ReadSaveStrings
+				RemoveNewSaveNode
+				RemoveSaveSlot
+				SavegameCount
+				SetFileInfo
+				UnloadSaveData
+
+
+				UpdateSaveComment
+
+
+				GetKeysForCommand
+				NameKeys
+				SetBind
+				UnbindACommand
+
+
+				GetCount
+				GetText
+				GetTextValue
+				GetValue
+
+
+				GetAxisDeadZone
+				GetAxisMap
+				GetAxisName
+				GetAxisScale
+				GetNumAxes
+				GetSensitivity
+				SetAxisDeadZone
+				SetAxisMap
+				SetAxisScale
+				SetSensitivity
+
+
+				ActivateMenu
+				Close
+				DrawConText
+				DrawOptionText
+				GetCurrentMenu
+				MenuSound
+				MenuTime
+				MouseEventBack
+				OnInputEvent
+				OnReturn
+				OptionFont
+				OptionHeight
+				OptionWidth
+				SetCapture
+				SetMenu
+				SetMouseCapture
+				StartMessage
+				TranslateKeyboardEvents
+				UpdateColorsets
+				UpdateSkinOptions
+
+
+				GetDescriptor
+
+
+				Draw
+				Enable
+				GetIndent
+				GetX
+				GetY
+				OffsetPositionY
+				OnMenuCreated
+				SetValue
+				SetX
+
+
+				CallHandler
+				CloseSound
+				HandleResult
+
+
+				CalcIndent
+
+
+				FirstSelectable
+
+
+				CursorSpace
+				drawLabel
+				drawValue
+
+
+				isGrayed
+
+
+				SendKey
+
+
+				DrawSlider
+
+
+				Represent
+
+
+				SetSelectedSize
+
+
+				GetPlayerClassIndex
+				PickPlayerClass
+				UpdateSkins
+				UpdateTranslation
+
+
+				DrawBorder
+
+
+				SetPlayerClass
+				UpdatePlayerClass
+
+
+				AlwaysRunChanged
+				AutoaimChanged
+				ChangeClass
+				ChangeSkin
+				ClassChanged
+				ColorChanged
+				ColorSetChanged
+				GenderChanged
+				PlayerNameChanged
+				SendNewColor
+				SkinChanged
+				SwitchOnPickupChanged
+				TeamChanged
+
+
+				FillSaveMenu
+				FillSelectMenu
+				GetSaveSelection
+				GetSelectedEnvironment
+				GrayCheck
+				ToggleSaveSelection
+
+
+				Open
+				OpenTextEnter
+
+
+				search
+
+
+				fromString
+				matches
+
+
+				drawBackground
+				LoadBackground
+				updateAnimatedBack
+
+
+				autoSkip
+				checkForAccelerate
+				DrawCharPatch
+				drawEL
+				drawLF
+				DrawName
+				drawNoState
+				drawNum
+				drawNumScaled
+				DrawPatchOrText
+				DrawPatchText
+				drawPercent
+				drawPercentScaled
+				drawShowNextLoc
+				drawStats
+				drawTextScaled
+				drawTime
+				drawTimeFont
+				End
+				GetPlayerWidths
+				GetRowColor
+				GetSortedPlayers
+				initNoState
+				initShowNextLoc
+				initStats
+				PlaySound
+				Start
+				StartMusic
+				updateNoState
+				updateShowNextLoc
+				updateStats
+
+
+				AddAmmoToList
+				DrawAmmo
+				DrawArmor
+				DrawAutomap
+				DrawCoordinateEntry
+				DrawCoordinates
+				DrawFrags
+				DrawHealth
+				DrawHudNumber
+				DrawHudText
+				DrawImageToBox
+				DrawInGame
+				DrawInventory
+				DrawKeys
+				DrawLatency
+				DrawOneKey
+				DrawOneWeapon
+				DrawPowerups
+				DrawStatLine
+				DrawStatus
+				DrawTimeString
+				DrawWeapons
+				GetAmmoTextLengths
+				GetDigitCount
+				GetLatency
+
+
+				DrawFullScreenStuff
+				DrawMainBar
+
+
+				GetProtrusion
+
+
+				AttachToPlayer
+				MustDrawLog
+				ShowPop
+
+
+				CreateNoBox
+
+
+				ScreenSizeChanged
+
+
+				AdjustPosition
+				AttachMessage
+				BeginHUD
+				BeginStatusBar
+				CheckAspectRatio
+				CheckDisplayName
+				CheckHealth
+				CheckWeaponPiece
+				CheckWeaponSelected
+				DetachAllMessages
+				DetachMessage
+				DetachMessageID
+				DoDrawAutomapHUD
+				DrawAutomapHUD
+				DrawBar
+				DrawGem
+				DrawHexenArmor
+				DrawImage
+				DrawInventoryBar
+				DrawInventoryIcon
+				DrawMyPos
+				DrawShader
+				DrawString
+				Fill
+				FlashCrosshair
+				FlashItem
+				FormatNumber
+				GetAirTime
+				GetAmmoTag
+				GetAmount
+				GetArmorAmount
+				GetArmorSavePercent
+				GetCurrentAmmo
+				GetGlobalACSArrayString
+				GetGlobalACSArrayValue
+				GetGlobalACSString
+				GetGlobalACSValue
+				GetHUDScale
+				GetIcon
+				GetInventoryIcon
+				GetKeyCount
+				GetMaxAmount
+				GetMugshot
+				GetSelectedInventoryAmount
+				GetSelectedInventoryTag
+				GetTopOfStatusBar
+				GetTranslation
+				GetWeaponPieceMask
+				GetWeaponTag
+				isInventoryBarVisible
+				isInvulnerable
+				ReceivedWeapon
+				SetMugShotState
+				SetSize
+				StatusbarToRealCoords
+				TransformRect
+				UpdateScreenGeometry
+				ValidateInvFirst
+				WeaponUsesAmmo
+				WeaponUsesAmmoType
+
+
+				Update
+
+
+				DrawHealthBar
+				DrawPopScreen
+				DrINumber2
+
+
+				PlayerAmmo
+				PlayerMaxAmmo
+				SetMarineSprite
+				SetMarineWeapon
 
 
 				ACS_Execute
@@ -6066,12 +6679,14 @@
 				Type_Wall
 				Type_WallPatch
 
+
 				AllowSkins
 				DontCreate
 				Overridable
 				ReturnFirst
 				ShortNameOnly
 				TryAny
+
 
 				NOT_BOTTOM
 				NOT_CEILING
@@ -6113,15 +6728,18 @@
 				DTA_HUDRulesC
 				DTA_Internal1
 				DTA_Internal2
+				DTA_Internal3
 				DTA_KeepRatio
 				DTA_LeftOffset
 				DTA_LeftOffsetF
 				DTA_LegacyRenderStyle
 				DTA_Masked
+				DTA_Monospace
 				DTA_RenderStyle
 				DTA_Shadow
 				DTA_ShadowAlpha
 				DTA_ShadowColor
+				DTA_Spacing
 				DTA_SrcHeight
 				DTA_SrcWidth
 				DTA_SrcX
@@ -6175,6 +6793,7 @@
 				CR_WHITE
 				CR_YELLOW
 				NUM_TEXT_COLORS
+
 
 				TEXTCOLOR_BLACK
 				TEXTCOLOR_BLUE
@@ -6243,6 +6862,7 @@
 				STAT_USER
 				STAT_USER_MAX
 
+
 				TICRATE
 
 
@@ -6252,6 +6872,7 @@
 				TRACE_Stop
 
 
+				TRACE_HitSky
 				TRACE_NoSky
 				TRACE_PortalRestrict
 				TRACE_ReportPortals
@@ -6277,6 +6898,9 @@
 				UDMF_Side
 
 
+				CLUSTER_HUB
+
+
 				ns_acslibrary
 				ns_bloodmisc
 				ns_bloodraw
@@ -6296,6 +6920,7 @@
 				ns_sprites
 				ns_strifevoices
 				ns_voxels
+
 
 				AnyNamespace
 				GlobalNamespace
@@ -6365,6 +6990,7 @@
 				genCeilingChg0
 				genCeilingChgT
 
+
 				crushDoom
 				crushHexen
 				crushSlowdown
@@ -6384,6 +7010,7 @@
 				TYPE_SKYVIEWPOINT
 				TYPE_STACKEDSECTORTHING
 
+
 				FLAG_INSKYBOX
 				FLAG_SKYFLATONLY
 
@@ -6391,8 +7018,10 @@
 				bottom
 				top
 
+
 				wallbottom
 				walltop
+
 
 				WALLF_ABSLIGHTING
 				WALLF_CLIP_MIDTEX
@@ -6406,6 +7035,7 @@
 
 				back
 				front
+
 
 				ML_3DMIDTEX
 				ML_3DMIDTEX_IMPASS
@@ -6438,10 +7068,12 @@
 
 				sprites
 
+
 				CeilingMove
 				CeilingScroll
 				FloorMove
 				FloorScroll
+
 
 				SECMF_CLIPFAKEPLANES
 				SECMF_DRAWN
@@ -6453,6 +7085,7 @@
 				SECMF_UNDERWATER
 				SECMF_UNDERWATERMASK
 
+
 				SECF_DAMAGEFLAGS
 				SECF_DMGTERRAINFX
 				SECF_ENDGODMODE
@@ -6460,6 +7093,7 @@
 				SECF_FLOORDROP
 				SECF_FRICTION
 				SECF_HAZARD
+				SECF_NOATTACK
 				SECF_NOFALLINGDAMAGE
 				SECF_NOMODIFY
 				SECF_NORESPAWN
@@ -6470,13 +7104,13 @@
 				SECF_SPECIALFLAGS
 				SECF_WASSECRET
 
+
 				MOVE_CRUSHED
 				MOVE_OK
 				MOVE_PASTDEST
 
 
 				FLAG_NO_CHANGE
-				MAXPLAYERNAME
 				MAXPLAYERS
 
 
@@ -6513,7 +7147,6 @@
 				CMF_ABSOLUTEPITCH
 				CMF_AIMDIRECTION
 				CMF_AIMOFFSET
-				CMF_BADPITCH
 				CMF_CHECKTARGETDEAD
 				CMF_OFFSETPITCH
 				CMF_SAVEPITCH
@@ -6673,6 +7306,7 @@
 				XF_HURTSOURCE
 				XF_NOSPLASH
 				XF_NOTMISSILE
+				XF_THRUSTZ
 
 
 				RTF_AFFECTSOURCE
@@ -7119,6 +7753,7 @@
 				ALF_CHECKNONSHOOTABLE
 				ALF_FORCENOSMART
 				ALF_NOFRIENDS
+				ALF_NOWEAPONCHECK
 				ALF_PORTALRESTRICT
 
 
@@ -7217,6 +7852,7 @@
 				SKILLP_DropAmmoFactor
 				SKILLP_FriendlyHealth
 				SKILLP_HealthFactor
+				SKILLP_KickbackFactor
 				SKILLP_MonsterHealth
 
 
@@ -7324,16 +7960,12 @@
 				CF_BUDDHA
 				CF_BUDDHA2
 				CF_CHASECAM
-				CF_DOUBLEFIRINGSPEED
-				CF_DRAIN
 				CF_EXTREMELYDEAD
 				CF_FLY
 				CF_FRIGHTENING
 				CF_FROZEN
 				CF_GODMODE
 				CF_GODMODE2
-				CF_HIGHJUMP
-				CF_INFINITEAMMO
 				CF_INSTANTWEAPSWITCH
 				CF_INTERPVIEW
 				CF_NOCLIP
@@ -7341,8 +7973,6 @@
 				CF_NOTARGET
 				CF_NOVELOCITY
 				CF_PREDICTING
-				CF_PROSPERITY
-				CF_REFLECTION
 				CF_REVERTPLEASE
 				CF_STEPLEFT
 				CF_TOTALLYFROZEN
@@ -7391,29 +8021,90 @@
 				SPAC_UseThrough
 
 
-				DEFAULT_HEALTH
-				DEFSKULLSPEED
-				FATSPREAD
-				FLOATRANDZ
-				LARGE_MASS
-				MAX_ANGLE_ADJUST
-				MinVel
-				ONCEILINGZ
-				ONFLOORZ
-				ORIG_FRICTION
-				ORIG_FRICTION_FACTOR
-				TELEFRAG_DAMAGE
+				RADF_HURTSOURCE
+				RADF_NODAMAGE
+				RADF_NOIMPACTDAMAGE
+				RADF_OLDRADIUSDAMAGE
+				RADF_SOURCEISSPOT
+				RADF_THRUSTZ
 
-				DI_EAST
-				DI_NODIR
-				DI_NORTH
-				DI_NORTHEAST
-				DI_NORTHWEST
-				DI_SOUTH
-				DI_SOUTHEAST
-				DI_SOUTHWEST
-				DI_WEST
-				NUMDIRS
+
+				FSTATE_ChangingLevel
+				FSTATE_EndingGame
+				FSTATE_InLevel
+
+
+				Bob_Alpha
+				Bob_Inverse
+				Bob_InverseAlpha
+				Bob_InverseSmooth
+				Bob_Normal
+				Bob_Smooth
+
+
+				FINISH_NextHub
+				FINISH_NoHub
+				FINISH_SameHub
+
+
+				CHANGELEVEL_CHANGESKILL
+				CHANGELEVEL_KEEPFACING
+				CHANGELEVEL_NOINTERMISSION
+				CHANGELEVEL_NOMONSTERS
+				CHANGELEVEL_PRERAISEWEAPON
+				CHANGELEVEL_RESETHEALTH
+				CHANGELEVEL_RESETINVENTORY
+
+
+				COMPATF2_BADANGLES
+				COMPATF2_CHECKSWITCHRANGE
+				COMPATF2_EXPLODE1
+				COMPATF2_EXPLODE2
+				COMPATF2_FLOORMOVE
+				COMPATF2_MULTIEXIT
+				COMPATF2_POINTONLINE
+				COMPATF2_PUSHWINDOW
+				COMPATF2_RAILING
+				COMPATF2_SOUNDCUTOFF
+				COMPATF2_TELEPORT
+				COMPATF_ANYBOSSDEATH
+				COMPATF_BOOMSCROLL
+				COMPATF_CORPSEGIBS
+				COMPATF_CROSSDROPOFF
+				COMPATF_DEHHEALTH
+				COMPATF_DROPOFF
+				COMPATF_HITSCAN
+				COMPATF_INVISIBILITY
+				COMPATF_LIGHT
+				COMPATF_LIMITPAIN
+				COMPATF_MAGICSILENCE
+				COMPATF_MASKEDMIDTEX
+				COMPATF_MBFMONSTERMOVE
+				COMPATF_MINOTAUR
+				COMPATF_MISSILECLIP
+				COMPATF_MUSHROOM
+				COMPATF_NOBLOCKFRIENDS
+				COMPATF_NODOORLIGHT
+				COMPATF_NOTOSSDROPS
+				COMPATF_NO_PASSMOBJ
+				COMPATF_POLYOBJ
+				COMPATF_RAVENSCROLL
+				COMPATF_SECTORSOUNDS
+				COMPATF_SHORTTEX
+				COMPATF_SILENTPICKUP
+				COMPATF_SILENT_INSTANT_FLOORS
+				COMPATF_SOUNDTARGET
+				COMPATF_SPRITESORT
+				COMPATF_STAIRINDEX
+				COMPATF_TRACE
+				COMPATF_USEBLOCKING
+				COMPATF_WALLRUN
+
+
+				Mono_CellCenter
+				Mono_CellLeft
+				Mono_CellRight
+				Mono_Off
 
 
 				Type_BackButtonDown
@@ -7441,6 +8132,7 @@
 				Type_WheelLeft
 				Type_WheelRight
 				Type_WheelUp
+
 
 				Key_Alert
 				Key_Back
@@ -7480,6 +8172,7 @@
 				Type_DeviceChange
 				Type_GUI
 				Type_Mouse
+
 
 				Key_DownArrow
 				Key_Enter
@@ -7577,254 +8270,31 @@
 				SECPART_None
 
 
-				NO_COLOR
+				DEFAULT_HEALTH
+				DEFMORPHTICS
+				DEFSKULLSPEED
+				FATSPREAD
+				FLOATRANDZ
+				LARGE_MASS
+				MAX_ANGLE_ADJUST
+				MinVel
+				ONCEILINGZ
+				ONFLOORZ
+				ORIG_FRICTION
+				ORIG_FRICTION_FACTOR
+				TELEFRAG_DAMAGE
 
 
-				JOYAXIS_Forward
-				JOYAXIS_None
-				JOYAXIS_Pitch
-				JOYAXIS_Side
-				JOYAXIS_Up
-				JOYAXIS_Yaw
-				NUM_JOYAXIS
-
-
-				MKEY_Abort
-				MKEY_Back
-				MKEY_Clear
-				MKEY_Down
-				MKEY_Enter
-				MKEY_Input
-				MKEY_Left
-				MKEY_MBNo
-				MKEY_MBYes
-				MKEY_PageDown
-				MKEY_PageUp
-				MKEY_Right
-				MKEY_Up
-				NUM_MKEYS
-
-				MOUSE_Click
-				MOUSE_Move
-				MOUSE_Release
-
-				Off
-				On
-				OnNoPause
-				WaitKey
-
-
-				OP_VALUES
-
-
-				CPF_RESET
-
-
-				SRL_HIGHLIGHT
-				SRL_INDEX
-				SRL_SELECTION
-
-
-				SAVESTRINGSIZE
-
-
-				PDF_CLASS
-				PDF_MODE
-				PDF_ROTATION
-				PDF_SKIN
-				PDF_TRANSLATE
-
-
-				INPUTGRID_HEIGHT
-				INPUTGRID_WIDTH
-
-				Chars
-
-
-				NUM_RANDOM_GOODBYES
-				NUM_RANDOM_LINES
-
-
-				NG_STATSY
-				SP_STATSX
-				SP_STATSY
-				SP_TIMEX
-				SP_TIMEY
-				TITLEY
-
-				LeavingIntermission
-				NoState
-				ShowNextLoc
-				StatCount
-
-				SP_FRAGS
-				SP_ITEMS
-				SP_KILLS
-				SP_SECRET
-				SP_TIME
-
-				SHOWNEXTLOCDELAY
-
-
-				ANIMATEDGODMODE
-				CUSTOM
-				DISABLEGRIN
-				DISABLEOUCH
-				DISABLEPAIN
-				DISABLERAMPAGE
-				STANDARD
-				XDEATHFACE
-
-
-				POP_Keys
-				POP_Log
-				POP_NoChange
-				POP_None
-				POP_Status
-
-				ST_DEADFACE
-				ST_EVILGRINOFFSET
-				ST_FACESTRIDE
-				ST_GODFACE
-				ST_NUMEXTRAFACES
-				ST_NUMFACES
-				ST_NUMPAINFACES
-				ST_NUMSPECIALFACES
-				ST_NUMSTRAIGHTFACES
-				ST_NUMTURNFACES
-				ST_OUCHOFFSET
-				ST_RAMPAGEOFFSET
-				ST_TURNOFFSET
-
-				HUD_AltHud
-				HUD_Fullscreen
-				HUD_None
-				HUD_StatusBar
-
-				HUDMSGLayer_Default
-				HUDMSGLayer_OverHUD
-				HUDMSGLayer_OverMap
-				HUDMSGLayer_UnderHUD
-				NUM_HUDMSGLAYERS
-
-				DI_ALPHAMAPPED
-				DI_ALTERNATEONFAIL
-				DI_ALTICONFIRST
-				DI_ALWAYSSHOWCOUNT
-				DI_ALWAYSSHOWCOUNTERS
-				DI_ARTIFLASH
-				DI_DIM
-				DI_DIMDEPLETED
-				DI_DONTANIMATE
-				DI_DRAWCURSORFIRST
-				DI_DRAWINBOX
-				DI_FORCEFILL
-				DI_FORCESCALE
-				DI_ITEM_AUTO
-				DI_ITEM_BOTTOM
-				DI_ITEM_CENTER
-				DI_ITEM_CENTER_BOTTOM
-				DI_ITEM_HCENTER
-				DI_ITEM_HMASK
-				DI_ITEM_HOFFSET
-				DI_ITEM_LEFT
-				DI_ITEM_LEFT_BOTTOM
-				DI_ITEM_LEFT_TOP
-				DI_ITEM_OFFSETS
-				DI_ITEM_RIGHT
-				DI_ITEM_RIGHT_BOTTOM
-				DI_ITEM_RIGHT_TOP
-				DI_ITEM_TOP
-				DI_ITEM_VCENTER
-				DI_ITEM_VMASK
-				DI_ITEM_VOFFSET
-				DI_MIRROR
-				DI_NOSHADOW
-				DI_SCREEN_AUTO
-				DI_SCREEN_BOTTOM
-				DI_SCREEN_CENTER
-				DI_SCREEN_CENTER_BOTTOM
-				DI_SCREEN_HCENTER
-				DI_SCREEN_HMASK
-				DI_SCREEN_HOFFSET
-				DI_SCREEN_LEFT
-				DI_SCREEN_LEFT_BOTTOM
-				DI_SCREEN_LEFT_TOP
-				DI_SCREEN_MANUAL_ALIGN
-				DI_SCREEN_OFFSETS
-				DI_SCREEN_RIGHT
-				DI_SCREEN_RIGHT_BOTTOM
-				DI_SCREEN_RIGHT_TOP
-				DI_SCREEN_TOP
-				DI_SCREEN_VCENTER
-				DI_SCREEN_VMASK
-				DI_SCREEN_VOFFSET
-				DI_SKIPALTICON
-				DI_SKIPICON
-				DI_SKIPREADY
-				DI_SKIPSPAWN
-				DI_TEXT_ALIGN
-				DI_TEXT_ALIGN_CENTER
-				DI_TEXT_ALIGN_LEFT
-				DI_TEXT_ALIGN_RIGHT
-				DI_TRANSLATABLE
-
-				ITYPE_AMMO1
-				ITYPE_AMMO2
-				ITYPE_ARMOR
-				ITYPE_PLAYERICON
-				ITYPE_SELECTEDINVENTORY
-				ITYPE_SIGIL
-				ITYPE_WEAPON
-				ITYPE_WEAPONSLOT
-
-				HEXENARMOR_AMULET
-				HEXENARMOR_ARMOR
-				HEXENARMOR_HELM
-				HEXENARMOR_SHIELD
-
-				AMMO_ANY
-				AMMO_BOTH
-				AMMO_PRIMARY
-				AMMO_SECONDARY
-
-				HUD_HorizCenter
-				HUD_Normal
-
-				FNF_FILLZEROS
-				FNF_WHENNOTZERO
-
-				SHADER_HORZ
-				SHADER_REVERSE
-				SHADER_VERT
-
-				POWERUPICONSIZE
-				XHAIRPICKUPSIZE
-				XHAIRSHRINKSIZE
-
-
-				KEY_TIME
-				POP_HEIGHT
-				POP_TIME
-
-				imgCURSOR01
-				imgFONY0
-				imgFONY1
-				imgFONY2
-				imgFONY3
-				imgFONY4
-				imgFONY5
-				imgFONY6
-				imgFONY7
-				imgFONY8
-				imgFONY9
-				imgFONY_PERCENT
-				imgINVCURS
-				imgINVPBAK
-				imgINVPBAK2
-				imgINVPOP
-				imgINVPOP2
-				imgNEGATIVE
+				DI_EAST
+				DI_NODIR
+				DI_NORTH
+				DI_NORTHEAST
+				DI_NORTHWEST
+				DI_SOUTH
+				DI_SOUTHEAST
+				DI_SOUTHWEST
+				DI_WEST
+				NUMDIRS
 
 
 				BLINKTHRESHOLD
@@ -7834,6 +8304,7 @@
 				AltFire
 				EitherFire
 				PrimaryFire
+
 
 				ZOOM_INSTANT
 				ZOOM_NOSCALETURNING
@@ -7846,12 +8317,15 @@
 				POS_Y
 
 
+				CROUCHSPEED
+				MAXBOB
+				NUM_WEAPON_SLOTS
+				TURN180_TICKS
+
+
 				ALL_NO
 				ALL_YES
 				ALL_YESYES
-
-				CROUCHSPEED
-				TURN180_TICKS
 
 
 				FLASH
@@ -7922,6 +8396,7 @@
 				LIGHT_SCALE
 				LIGHT_SECONDARY_INTENSITY
 
+
 				ColorFlickerLight
 				ColorPulseLight
 				DummyLight
@@ -7933,6 +8408,7 @@
 
 
 				MARINE_PAIN_CHANCE
+
 
 				WEAPON_BerserkFist
 				WEAPON_BFG
@@ -8022,6 +8498,7 @@
 				SORC_DEFENSE_HEIGHT
 				SORC_DEFENSE_TIME
 
+
 				SORC_ACCELERATE
 				SORC_DECELERATE
 				SORC_FIRESPELL
@@ -8030,9 +8507,282 @@
 				SORC_STOPPED
 				SORC_STOPPING
 
+
 				BALL1_ANGLEOFFSET
 				BALL2_ANGLEOFFSET
 				BALL3_ANGLEOFFSET
+
+
+				NUM_RANDOM_GOODBYES
+				NUM_RANDOM_LINES
+
+
+				JOYAXIS_Forward
+				JOYAXIS_None
+				JOYAXIS_Pitch
+				JOYAXIS_Side
+				JOYAXIS_Up
+				JOYAXIS_Yaw
+				NUM_JOYAXIS
+
+
+				MKEY_Abort
+				MKEY_Back
+				MKEY_Clear
+				MKEY_Down
+				MKEY_Enter
+				MKEY_Input
+				MKEY_Left
+				MKEY_MBNo
+				MKEY_MBYes
+				MKEY_PageDown
+				MKEY_PageUp
+				MKEY_Right
+				MKEY_Up
+				NUM_MKEYS
+
+
+				MOUSE_Click
+				MOUSE_Move
+				MOUSE_Release
+
+
+				Off
+				On
+				OnNoPause
+				WaitKey
+
+
+				NO_COLOR
+
+
+				OP_VALUES
+
+
+				CPF_RESET
+
+
+				SRL_HIGHLIGHT
+				SRL_INDEX
+				SRL_SELECTION
+
+
+				PLAYERDISPLAY_H
+				PLAYERDISPLAY_SPACE
+				PLAYERDISPLAY_W
+				PLAYERDISPLAY_X
+				PLAYERDISPLAY_Y
+
+
+				PDF_CLASS
+				PDF_MODE
+				PDF_ROTATION
+				PDF_SKIN
+				PDF_TRANSLATE
+
+
+				Chars
+				INPUTGRID_HEIGHT
+				INPUTGRID_WIDTH
+
+
+				NG_STATSY
+				SP_STATSX
+				SP_STATSY
+				SP_TIMEX
+				SP_TIMEY
+				TITLEY
+
+
+				LeavingIntermission
+				NoState
+				ShowNextLoc
+				StatCount
+
+
+				SP_FRAGS
+				SP_ITEMS
+				SP_KILLS
+				SP_SECRET
+				SP_TIME
+
+
+				SHOWNEXTLOCDELAY
+
+
+				POWERUPICONSIZE
+
+
+				ANIMATEDGODMODE
+				CUSTOM
+				DISABLEGRIN
+				DISABLEOUCH
+				DISABLEPAIN
+				DISABLERAMPAGE
+				STANDARD
+				XDEATHFACE
+
+
+				POP_Keys
+				POP_Log
+				POP_NoChange
+				POP_None
+				POP_Status
+
+
+				ST_DEADFACE
+				ST_EVILGRINOFFSET
+				ST_FACESTRIDE
+				ST_GODFACE
+				ST_NUMEXTRAFACES
+				ST_NUMFACES
+				ST_NUMPAINFACES
+				ST_NUMSPECIALFACES
+				ST_NUMSTRAIGHTFACES
+				ST_NUMTURNFACES
+				ST_OUCHOFFSET
+				ST_RAMPAGEOFFSET
+				ST_TURNOFFSET
+
+
+				HUD_AltHud
+				HUD_Fullscreen
+				HUD_None
+				HUD_StatusBar
+
+
+				HUDMSGLayer_Default
+				HUDMSGLayer_OverHUD
+				HUDMSGLayer_OverMap
+				HUDMSGLayer_UnderHUD
+				NUM_HUDMSGLAYERS
+
+
+				DI_ALPHAMAPPED
+				DI_ALTERNATEONFAIL
+				DI_ALTICONFIRST
+				DI_ALWAYSSHOWCOUNT
+				DI_ALWAYSSHOWCOUNTERS
+				DI_ARTIFLASH
+				DI_DIM
+				DI_DIMDEPLETED
+				DI_DONTANIMATE
+				DI_DRAWCURSORFIRST
+				DI_DRAWINBOX
+				DI_FORCEFILL
+				DI_FORCESCALE
+				DI_ITEM_AUTO
+				DI_ITEM_BOTTOM
+				DI_ITEM_CENTER
+				DI_ITEM_CENTER_BOTTOM
+				DI_ITEM_HCENTER
+				DI_ITEM_HMASK
+				DI_ITEM_HOFFSET
+				DI_ITEM_LEFT
+				DI_ITEM_LEFT_BOTTOM
+				DI_ITEM_LEFT_TOP
+				DI_ITEM_OFFSETS
+				DI_ITEM_RIGHT
+				DI_ITEM_RIGHT_BOTTOM
+				DI_ITEM_RIGHT_TOP
+				DI_ITEM_TOP
+				DI_ITEM_VCENTER
+				DI_ITEM_VMASK
+				DI_ITEM_VOFFSET
+				DI_MIRROR
+				DI_NOSHADOW
+				DI_SCREEN_AUTO
+				DI_SCREEN_BOTTOM
+				DI_SCREEN_CENTER
+				DI_SCREEN_CENTER_BOTTOM
+				DI_SCREEN_HCENTER
+				DI_SCREEN_HMASK
+				DI_SCREEN_HOFFSET
+				DI_SCREEN_LEFT
+				DI_SCREEN_LEFT_BOTTOM
+				DI_SCREEN_LEFT_TOP
+				DI_SCREEN_MANUAL_ALIGN
+				DI_SCREEN_OFFSETS
+				DI_SCREEN_RIGHT
+				DI_SCREEN_RIGHT_BOTTOM
+				DI_SCREEN_RIGHT_TOP
+				DI_SCREEN_TOP
+				DI_SCREEN_VCENTER
+				DI_SCREEN_VMASK
+				DI_SCREEN_VOFFSET
+				DI_SKIPALTICON
+				DI_SKIPICON
+				DI_SKIPREADY
+				DI_SKIPSPAWN
+				DI_TEXT_ALIGN
+				DI_TEXT_ALIGN_CENTER
+				DI_TEXT_ALIGN_LEFT
+				DI_TEXT_ALIGN_RIGHT
+				DI_TRANSLATABLE
+
+
+				ITYPE_AMMO1
+				ITYPE_AMMO2
+				ITYPE_ARMOR
+				ITYPE_PLAYERICON
+				ITYPE_SELECTEDINVENTORY
+				ITYPE_SIGIL
+				ITYPE_WEAPON
+				ITYPE_WEAPONSLOT
+
+
+				HEXENARMOR_AMULET
+				HEXENARMOR_ARMOR
+				HEXENARMOR_HELM
+				HEXENARMOR_SHIELD
+
+
+				AMMO_ANY
+				AMMO_BOTH
+				AMMO_PRIMARY
+				AMMO_SECONDARY
+
+
+				HUD_HorizCenter
+				HUD_Normal
+
+
+				FNF_FILLZEROS
+				FNF_WHENNOTZERO
+
+
+				SHADER_HORZ
+				SHADER_REVERSE
+				SHADER_VERT
+
+
+				XHAIRPICKUPSIZE
+				XHAIRSHRINKSIZE
+
+
+				KEY_TIME
+				POP_HEIGHT
+				POP_TIME
+
+
+				imgCURSOR01
+				imgFONY0
+				imgFONY1
+				imgFONY2
+				imgFONY3
+				imgFONY4
+				imgFONY5
+				imgFONY6
+				imgFONY7
+				imgFONY8
+				imgFONY9
+				imgFONY_PERCENT
+				imgINVCURS
+				imgINVPBAK
+				imgINVPBAK2
+				imgINVPOP
+				imgINVPOP2
+				imgNEGATIVE
 			</Keywords>
 			<Keywords name="Keywords6"></Keywords>
 			<Keywords name="Keywords7"></Keywords>
