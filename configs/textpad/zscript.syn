@@ -5419,6 +5419,7 @@ SetLogNumber
 SetLogText
 SetPsprite
 SetSafeFlash
+SetSubtitleNumber
 Uncrouch
 UndoPlayerMorph
 
