@@ -4152,6 +4152,7 @@
 				log10
 				max
 				min
+				round
 				sqrt
 
 
