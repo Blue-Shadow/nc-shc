@@ -1239,6 +1239,7 @@ SGShard8
 SGShard9
 ShadowArmor
 Shape2D
+Shape2DTransform
 Shell
 ShellBox
 ShortBlueTorch
@@ -4200,9 +4201,14 @@ SetCameraToTexture
 
 
 Clear
+Rotate
+Translate
+
+
 PushCoord
 PushTriangle
 PushVertex
+SetTransform
 
 
 ClearClipRect
