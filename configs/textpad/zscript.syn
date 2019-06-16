@@ -4318,6 +4318,7 @@ CreateFloor
 CreateLineIdIterator
 CreateSectorTagIterator
 ExecuteSpecial
+ExitLevel
 FindHealthGroup
 FindUniqueTid
 FormatMapName
@@ -4341,6 +4342,7 @@ PickDeathmatchStart
 PickPlayerStart
 PointInSector
 RemoveAllBots
+SecretExitLevel
 setFrozen
 SetInterMusic
 SphericalCoords

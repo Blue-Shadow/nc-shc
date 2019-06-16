@@ -4307,6 +4307,7 @@
 				CreateLineIdIterator
 				CreateSectorTagIterator
 				ExecuteSpecial
+				ExitLevel
 				FindHealthGroup
 				FindUniqueTid
 				FormatMapName
@@ -4330,6 +4331,7 @@
 				PickPlayerStart
 				PointInSector
 				RemoveAllBots
+				SecretExitLevel
 				setFrozen
 				SetInterMusic
 				SphericalCoords
