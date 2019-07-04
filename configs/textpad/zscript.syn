@@ -4587,6 +4587,7 @@ PlayerEntered
 PlayerRespawned
 PostUiTick
 RenderOverlay
+RenderUnderlay
 SetOrder
 UiProcess
 UiTick
