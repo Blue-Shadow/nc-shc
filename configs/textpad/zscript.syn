@@ -1924,6 +1924,7 @@ EActivation
 
 EArgs
 ELightType
+LightFlag
 
 
 EMarineWeapon
@@ -4671,6 +4672,8 @@ ApplyKickback
 A_ActiveAndUnblock
 A_ActiveSound
 A_AlertMonsters
+A_AttachLight
+A_AttachLightDef
 A_BabyMetal
 A_Bang4Cloud
 A_BarrelDestroy
@@ -4859,6 +4862,7 @@ A_Recoil
 A_Remove
 A_RemoveChildren
 A_RemoveForceField
+A_RemoveLight
 A_RemoveMaster
 A_RemoveSiblings
 A_RemoveTarget
@@ -8427,6 +8431,15 @@ PulseLight
 RandomColorFlickerLight
 RandomFlickerLight
 SectorLight
+
+
+LF_ADDITIVE
+LF_ATTENUATE
+LF_DONTLIGHTACTORS
+LF_DONTLIGHTSELF
+LF_NOSHADOWMAP
+LF_SPOT
+LF_SUBTRACTIVE
 
 
 MARINE_PAIN_CHANCE
