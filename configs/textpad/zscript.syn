@@ -594,7 +594,6 @@ HangTLookingDown
 HangTLookingUp
 HangTNoBrain
 HangTSkull
-HarmonyStatusBar
 HateTarget
 HeadCandles
 HeadFX1
@@ -2056,6 +2055,7 @@ infoPages
 intermissioncounter
 mBackButton
 mSliderColor
+mStatscreenContentFont
 mStatscreenEnteringFont
 mStatscreenFinishedFont
 mStatscreenMapNameFont
@@ -3284,6 +3284,7 @@ cnt_pause
 cnt_secret
 cnt_time
 cnt_total_time
+content
 dofrags
 entering
 enteringPatch
@@ -3350,9 +3351,6 @@ diparms
 mAmountFont
 mHUDFont
 mIndexFont
-
-
-scaleFactor
 
 
 diparms_sbar
@@ -4239,6 +4237,7 @@ FindFontColor
 GetBottomAlignOffset
 GetCharWidth
 GetCursor
+GetDisplacement
 GetFont
 StringWidth
 
@@ -6385,6 +6384,10 @@ GetDigitCount
 GetLatency
 
 
+DrawBarAmmo
+DrawBarKeys
+DrawBarWeapons
+DrawFullscreenKeys
 DrawFullScreenStuff
 DrawMainBar
 
