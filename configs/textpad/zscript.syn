@@ -2777,6 +2777,7 @@ bAddBob
 bAddWeapon
 bCVarFast
 bFlip
+bMirror
 bPowDouble
 Caller
 firstTic
