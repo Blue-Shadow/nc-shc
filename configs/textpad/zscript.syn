@@ -4928,6 +4928,7 @@ A_SkelMissile
 A_SkelWhoosh
 A_SkullAttack
 A_SkullPop
+A_SoundPitch
 A_SoundVolume
 A_SpawnDebris
 A_SpawnFly
