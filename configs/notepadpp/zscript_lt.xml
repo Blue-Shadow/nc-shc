@@ -2994,8 +2994,10 @@
 				displayWidth
 				fontScale
 				LineHeight
+				mConfineTextToBackdrop
 				mCurNode
 				mDialogueLines
+				mHasBackdrop
 				mPlayer
 				mResponseLines
 				mResponses
@@ -3007,6 +3009,7 @@
 				refwidth
 				ReplyLineHeight
 				ReplyWidth
+				speechDisplayWidth
 				SpeechWidth
 
 
