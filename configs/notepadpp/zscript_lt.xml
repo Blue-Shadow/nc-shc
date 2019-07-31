@@ -4232,6 +4232,7 @@
 				GetCursor
 				GetDisplacement
 				GetFont
+				GetMaxAscender
 				StringWidth
 
 
