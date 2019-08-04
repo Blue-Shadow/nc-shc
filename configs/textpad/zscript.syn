@@ -5321,6 +5321,9 @@ SetupWeaponSlots
 SlotSize
 
 
+GetSaveAmount
+
+
 AddArmorToSlot
 
 
