@@ -2055,6 +2055,7 @@ infoPages
 intermissioncounter
 mBackButton
 mSliderColor
+mStatscreenAuthorFont
 mStatscreenContentFont
 mStatscreenEnteringFont
 mStatscreenFinishedFont
@@ -2108,6 +2109,7 @@ aircontrol
 airfriction
 airsupply
 allowrespawn
+AuthorName
 checkswitchrange
 cluster
 clusterflags
@@ -3276,6 +3278,8 @@ mPatch
 
 
 acceleratestage
+author
+authortexts
 bcnt
 bg
 cnt
@@ -3333,10 +3337,12 @@ maxfrags
 maxitems
 maxkills
 maxsecret
+nextauthor
 nextname
 next_ep
 plyr
 pnum
+thisauthor
 thisname
 
 
