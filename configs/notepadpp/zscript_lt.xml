@@ -1836,6 +1836,7 @@
 				EPlayerProperties
 				EPointerFlags
 				EPointerOperations
+				EPrintLevel
 				EProximityFlags
 				EPSPLayers
 				EPSpriteFlags
@@ -6429,6 +6430,7 @@
 				DoDrawAutomapHUD
 				DrawAutomapHUD
 				DrawBar
+				DrawChat
 				DrawGem
 				DrawHexenArmor
 				DrawImage
@@ -6440,6 +6442,7 @@
 				Fill
 				FlashCrosshair
 				FlashItem
+				FlushNotify
 				FormatNumber
 				GetAirTime
 				GetAmmoTag
@@ -6465,6 +6468,8 @@
 				GetWeaponTag
 				isInventoryBarVisible
 				isInvulnerable
+				ProcessMidPrint
+				ProcessNotify
 				ReceivedWeapon
 				SetMugShotState
 				SetSize
@@ -8142,6 +8147,18 @@
 				Mono_CellLeft
 				Mono_CellRight
 				Mono_Off
+
+
+				PRINT_BOLD
+				PRINT_CHAT
+				PRINT_HIGH
+				PRINT_LOG
+				PRINT_LOW
+				PRINT_MEDIUM
+				PRINT_NOLOG
+				PRINT_NONOTIFY
+				PRINT_TEAMCHAT
+				PRINT_TYPES
 
 
 				Type_BackButtonDown
