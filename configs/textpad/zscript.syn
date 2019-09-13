@@ -1785,6 +1785,9 @@ ELineFlags
 ESide
 
 
+EF3DFloorFlags
+
+
 EInterpolationType
 EMoveResult
 EPlane
@@ -2083,6 +2086,7 @@ Crossed3DWaterPos
 CrossedWater
 CrossedWaterPos
 Distance
+ffloor
 Fraction
 HitActor
 HitLine
@@ -2273,6 +2277,13 @@ v2
 D
 negiC
 Normal
+
+
+bottom
+master
+model
+target
+top
 
 
 damageinterval
@@ -2488,7 +2499,6 @@ LastLookActor
 LastLookPlayerNumber
 lastpush
 Mass
-Master
 MaxDropoffHeight
 MaxStepHeight
 maxtargetrange
@@ -2562,7 +2572,6 @@ Stamina
 StartHealth
 StealthAlpha
 strafecount
-Target
 TelefogDestType
 TelefogSourceType
 Threshold
@@ -4503,8 +4512,12 @@ FindNextLowestCeiling
 FindNextLowestFloor
 FindShortestTextureAround
 FindShortestUpperAround
+Get3DFloor
+Get3DFloorCount
 GetAlpha
 GetAngle
+GetAttached
+GetAttachedCount
 GetCeilingLight
 GetFlags
 GetFloorLight
@@ -7068,10 +7081,6 @@ FLAG_INSKYBOX
 FLAG_SKYFLATONLY
 
 
-bottom
-top
-
-
 wallbottom
 walltop
 
@@ -7117,6 +7126,37 @@ ML_SOUNDBLOCK
 ML_TWOSIDED
 ML_WRAP_MIDTEX
 ML_ZONEBOUNDARY
+
+
+FF_ADDITIVETRANS
+FF_ALLSIDES
+FF_BOTHPLANES
+FF_CLIPPED
+FF_DOUBLESHADOW
+FF_DYNAMIC
+FF_EXISTS
+FF_FADEWALLS
+FF_FIX
+FF_FLOOD
+FF_FOG
+FF_INVERTPLANES
+FF_INVERTSECTOR
+FF_INVERTSIDES
+FF_LOWERTEXTURE
+FF_NOSHADE
+FF_RENDERALL
+FF_RENDERPLANES
+FF_RENDERSIDES
+FF_RESET
+FF_SCROLLY
+FF_SEETHROUGH
+FF_SHOOTTHROUGH
+FF_SOLID
+FF_SWIMMABLE
+FF_THINFLOOR
+FF_THISINSIDE
+FF_TRANSLUCENT
+FF_UPPERTEXTURE
 
 
 sprites

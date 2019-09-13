@@ -1774,6 +1774,9 @@
 				ESide
 
 
+				EF3DFloorFlags
+
+
 				EInterpolationType
 				EMoveResult
 				EPlane
@@ -2072,6 +2075,7 @@
 				CrossedWater
 				CrossedWaterPos
 				Distance
+				ffloor
 				Fraction
 				HitActor
 				HitLine
@@ -2262,6 +2266,13 @@
 				D
 				negiC
 				Normal
+
+
+				bottom
+				master
+				model
+				target
+				top
 
 
 				damageinterval
@@ -2477,7 +2488,6 @@
 				LastLookPlayerNumber
 				lastpush
 				Mass
-				Master
 				MaxDropoffHeight
 				MaxStepHeight
 				maxtargetrange
@@ -2551,7 +2561,6 @@
 				StartHealth
 				StealthAlpha
 				strafecount
-				Target
 				TelefogDestType
 				TelefogSourceType
 				Threshold
@@ -4492,8 +4501,12 @@
 				FindNextLowestFloor
 				FindShortestTextureAround
 				FindShortestUpperAround
+				Get3DFloor
+				Get3DFloorCount
 				GetAlpha
 				GetAngle
+				GetAttached
+				GetAttachedCount
 				GetCeilingLight
 				GetFlags
 				GetFloorLight
@@ -7057,10 +7070,6 @@
 				FLAG_SKYFLATONLY
 
 
-				bottom
-				top
-
-
 				wallbottom
 				walltop
 
@@ -7106,6 +7115,37 @@
 				ML_TWOSIDED
 				ML_WRAP_MIDTEX
 				ML_ZONEBOUNDARY
+
+
+				FF_ADDITIVETRANS
+				FF_ALLSIDES
+				FF_BOTHPLANES
+				FF_CLIPPED
+				FF_DOUBLESHADOW
+				FF_DYNAMIC
+				FF_EXISTS
+				FF_FADEWALLS
+				FF_FIX
+				FF_FLOOD
+				FF_FOG
+				FF_INVERTPLANES
+				FF_INVERTSECTOR
+				FF_INVERTSIDES
+				FF_LOWERTEXTURE
+				FF_NOSHADE
+				FF_RENDERALL
+				FF_RENDERPLANES
+				FF_RENDERSIDES
+				FF_RESET
+				FF_SCROLLY
+				FF_SEETHROUGH
+				FF_SHOOTTHROUGH
+				FF_SOLID
+				FF_SWIMMABLE
+				FF_THINFLOOR
+				FF_THISINSIDE
+				FF_TRANSLUCENT
+				FF_UPPERTEXTURE
 
 
 				sprites
