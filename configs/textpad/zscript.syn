@@ -721,6 +721,7 @@ Leaf2
 LeafSpawner
 LeatherArmor
 LevelCompatibility
+LevelPostProcessor
 LightBrownFluorescent
 LightGlobe
 LightGoldFluorescent
@@ -4650,11 +4651,23 @@ ProjectileHitPlane
 
 AddLineID
 AddSectorTag
+AddThing
 Apply
 ClearLineIDs
 ClearLineSpecial
 ClearSectorTags
+FlipLine
 GetDefaultActor
+GetThingAngle
+GetThingArgument
+GetThingCount
+GetThingEdNum
+GetThingFlags
+GetThingID
+GetThingPos
+GetThingSkills
+GetThingSpecial
+GetThingStringArgument
 OffsetSectorPlane
 SetLineActivation
 SetLineFlags
@@ -4664,8 +4677,14 @@ SetSectorLight
 SetSectorSpecial
 SetSectorTexture
 SetSectorTextureID
+SetThingAngle
+SetThingArgument
+SetThingEdNum
 SetThingFlags
+SetThingID
 SetThingSkills
+SetThingSpecial
+SetThingStringArgument
 SetThingXY
 SetThingZ
 SetVertex
@@ -8374,6 +8393,10 @@ SECPART_3D
 SECPART_Ceiling
 SECPART_Floor
 SECPART_None
+
+
+MODES_ALL
+SKILLS_ALL
 
 
 DEFAULT_HEALTH
