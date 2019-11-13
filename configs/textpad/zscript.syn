@@ -4673,6 +4673,7 @@ SetLineActivation
 SetLineFlags
 SetLineSectorRef
 SetLineSpecial
+SetLineVertexes
 SetSectorLight
 SetSectorSpecial
 SetSectorTexture
