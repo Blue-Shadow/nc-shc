@@ -4657,6 +4657,7 @@ ClearLineIDs
 ClearLineSpecial
 ClearSectorTags
 FlipLine
+FlipLineSideRefs
 GetDefaultActor
 GetThingAngle
 GetThingArgument
@@ -4672,6 +4673,7 @@ OffsetSectorPlane
 SetLineActivation
 SetLineFlags
 SetLineSectorRef
+SetLineSideRefs
 SetLineSpecial
 SetLineVertexes
 SetSectorLight

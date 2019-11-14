@@ -4646,6 +4646,7 @@
 				ClearLineSpecial
 				ClearSectorTags
 				FlipLine
+				FlipLineSideRefs
 				GetDefaultActor
 				GetThingAngle
 				GetThingArgument
@@ -4661,6 +4662,7 @@
 				SetLineActivation
 				SetLineFlags
 				SetLineSectorRef
+				SetLineSideRefs
 				SetLineSpecial
 				SetLineVertexes
 				SetSectorLight
