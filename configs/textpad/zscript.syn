@@ -4673,7 +4673,6 @@ OffsetSectorPlane
 SetLineActivation
 SetLineFlags
 SetLineSectorRef
-SetLineSideRefs
 SetLineSpecial
 SetLineVertexes
 SetSectorLight
