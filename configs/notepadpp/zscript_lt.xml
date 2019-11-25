@@ -4645,8 +4645,9 @@
 				ClearLineIDs
 				ClearLineSpecial
 				ClearSectorTags
-				FlipLine
+				FlipLineCompletely
 				FlipLineSideRefs
+				FlipLineVertexes
 				GetDefaultActor
 				GetThingAngle
 				GetThingArgument
