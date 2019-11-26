@@ -4384,6 +4384,10 @@
 				CheckNumForFullName
 				CheckNumForName
 				FindLump
+				GetLumpFullName
+				GetLumpName
+				GetLumpNamespace
+				GetNumLumps
 				ReadLump
 
 
