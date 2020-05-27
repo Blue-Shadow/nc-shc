@@ -419,6 +419,112 @@
 				Decal
 				DegninOre
 				DehackedPickup
+				Deh_Actor_145
+				Deh_Actor_146
+				Deh_Actor_147
+				Deh_Actor_148
+				Deh_Actor_149
+				Deh_Actor_150
+				Deh_Actor_151
+				Deh_Actor_152
+				Deh_Actor_153
+				Deh_Actor_154
+				Deh_Actor_155
+				Deh_Actor_156
+				Deh_Actor_157
+				Deh_Actor_158
+				Deh_Actor_159
+				Deh_Actor_160
+				Deh_Actor_161
+				Deh_Actor_162
+				Deh_Actor_163
+				Deh_Actor_164
+				Deh_Actor_165
+				Deh_Actor_166
+				Deh_Actor_167
+				Deh_Actor_168
+				Deh_Actor_169
+				Deh_Actor_170
+				Deh_Actor_171
+				Deh_Actor_172
+				Deh_Actor_173
+				Deh_Actor_174
+				Deh_Actor_175
+				Deh_Actor_176
+				Deh_Actor_177
+				Deh_Actor_178
+				Deh_Actor_179
+				Deh_Actor_180
+				Deh_Actor_181
+				Deh_Actor_182
+				Deh_Actor_183
+				Deh_Actor_184
+				Deh_Actor_185
+				Deh_Actor_186
+				Deh_Actor_187
+				Deh_Actor_188
+				Deh_Actor_189
+				Deh_Actor_190
+				Deh_Actor_191
+				Deh_Actor_192
+				Deh_Actor_193
+				Deh_Actor_194
+				Deh_Actor_195
+				Deh_Actor_196
+				Deh_Actor_197
+				Deh_Actor_198
+				Deh_Actor_199
+				Deh_Actor_200
+				Deh_Actor_201
+				Deh_Actor_202
+				Deh_Actor_203
+				Deh_Actor_204
+				Deh_Actor_205
+				Deh_Actor_206
+				Deh_Actor_207
+				Deh_Actor_208
+				Deh_Actor_209
+				Deh_Actor_210
+				Deh_Actor_211
+				Deh_Actor_212
+				Deh_Actor_213
+				Deh_Actor_214
+				Deh_Actor_215
+				Deh_Actor_216
+				Deh_Actor_217
+				Deh_Actor_218
+				Deh_Actor_219
+				Deh_Actor_220
+				Deh_Actor_221
+				Deh_Actor_222
+				Deh_Actor_223
+				Deh_Actor_224
+				Deh_Actor_225
+				Deh_Actor_226
+				Deh_Actor_227
+				Deh_Actor_228
+				Deh_Actor_229
+				Deh_Actor_230
+				Deh_Actor_231
+				Deh_Actor_232
+				Deh_Actor_233
+				Deh_Actor_234
+				Deh_Actor_235
+				Deh_Actor_236
+				Deh_Actor_237
+				Deh_Actor_238
+				Deh_Actor_239
+				Deh_Actor_240
+				Deh_Actor_241
+				Deh_Actor_242
+				Deh_Actor_243
+				Deh_Actor_244
+				Deh_Actor_245
+				Deh_Actor_246
+				Deh_Actor_247
+				Deh_Actor_248
+				Deh_Actor_249
+				Deh_Actor_250
 				Demon
 				Demon1
 				Demon1Chunk1
@@ -437,6 +543,8 @@
 				Demon2FX1
 				Demon2Mash
 				DemonChunk
+				Dictionary
+				DictionaryIterator
 				Dirt1
 				Dirt2
 				Dirt3
@@ -2132,6 +2240,7 @@
 				monsterstelefrag
 				Music
 				musicorder
+				MusicVolume
 				NextMap
 				NextSecretMap
 				noinventorybar
@@ -2190,6 +2299,7 @@
 				AllowProtection
 				DamageAmount
 				DamageMOD
+				DamageOnLand
 				DamageTimeMask
 				FootClip
 				Friction
@@ -2781,6 +2891,7 @@
 				bCVarFast
 				bFlip
 				bMirror
+				bPlayerTranslated
 				bPowDouble
 				Caller
 				firstTic
@@ -3832,6 +3943,7 @@
 				NOFRICTION
 				NOFRICTIONBOUNCE
 				RETARGETAFTERSLAM
+				STOPRAILS
 
 				bBLOCKASPLAYER
 				bDONTFACETALKER
@@ -3840,6 +3952,7 @@
 				bNOFRICTION
 				bNOFRICTIONBOUNCE
 				bRETARGETAFTERSLAM
+				bSTOPRAILS
 
 				ABSMASKANGLE
 				ABSMASKPITCH
@@ -4302,6 +4415,7 @@
 				S_PauseSound
 				S_ResumeSound
 				S_Sound
+				S_StartSound
 				ThrowAbortException
 
 
@@ -4452,6 +4566,7 @@
 				MultiplyTextureXScale
 				MultiplyTextureYScale
 				SetAdditiveColor
+				SetColorization
 				SetSpecialColor
 				SetTexture
 				SetTextureXOffset
@@ -4687,6 +4802,14 @@
 				SetWallTexture
 				SetWallTextureID
 				SetWallYScale
+
+
+				At
+				FromString
+				ToString
+
+
+				Value
 
 
 				ClearLastRipped
@@ -4986,9 +5109,12 @@
 				A_SPosAttackUseAtkSound
 				A_SprayDecal
 				A_StartFire
+				A_StartSound
 				A_Stop
+				A_StopAllSounds
 				A_StopSound
 				A_StopSoundEx
+				A_StopSounds
 				A_SwapTeleFog
 				A_TakeFromChildren
 				A_TakeFromSiblings
@@ -5063,6 +5189,7 @@
 				ClearCounters
 				ClearInterpolation
 				ClearInventory
+				CopyBloodColor
 				CopyFriendliness
 				CountInv
 				CountProximity
@@ -5080,6 +5207,7 @@
 				Distance3DSquared
 				DistanceBySpeed
 				DoGiveInventory
+				DoMissileDamage
 				DoSpecialDamage
 				DoTakeInventory
 				DrawSplash
@@ -5133,6 +5261,7 @@
 				HitWater
 				Howl
 				InitSpawnedItem
+				IsActorPlayingSound
 				isFriend
 				isHostile
 				IsPointerEqual
@@ -5166,6 +5295,10 @@
 				PlaySpawnSound
 				PoisonMobj
 				PosRelative
+				PostMorph
+				PostUnmorph
+				PreMorph
+				PreUnmorph
 				RadiusAttack
 				RailAttack
 				RaiseActor
@@ -5213,7 +5346,6 @@
 				SpawnTeleportFog
 				SpecialBlastHandling
 				SpecialMissileHit
-				Substitute
 				TakeInventory
 				TakeSpecialDamage
 				TeleportMove
@@ -6364,7 +6496,6 @@
 				search
 
 
-				fromString
 				matches
 
 
@@ -6806,6 +6937,7 @@
 				DTA_FlipX
 				DTA_FlipY
 				DTA_Fullscreen
+				DTA_FullscreenEx
 				DTA_HUDRules
 				DTA_HUDRulesC
 				DTA_Internal1
@@ -6917,6 +7049,9 @@
 				CVAR_String
 
 
+				TICRATE
+
+
 				MAX_STATNUM
 				STAT_ACTORMOVER
 				STAT_AUTODECAL
@@ -6943,9 +7078,6 @@
 				STAT_TRAVELLING
 				STAT_USER
 				STAT_USER_MAX
-
-
-				TICRATE
 
 
 				TRACE_Abort
@@ -7159,6 +7291,7 @@
 				FF_INVERTSECTOR
 				FF_INVERTSIDES
 				FF_LOWERTEXTURE
+				FF_NODAMAGE
 				FF_NOSHADE
 				FF_RENDERALL
 				FF_RENDERPLANES
@@ -7520,6 +7653,16 @@
 				TIF_NOTAKEINFINITE
 
 
+				CHANF_DEFAULT
+				CHANF_LISTENERZ
+				CHANF_LOCAL
+				CHANF_LOOP
+				CHANF_LOOPING
+				CHANF_MAYBE_LOCAL
+				CHANF_NOPAUSE
+				CHANF_NOSTOP
+				CHANF_OVERLAP
+				CHANF_UI
 				CHAN_5
 				CHAN_6
 				CHAN_7
@@ -7531,6 +7674,7 @@
 				CHAN_MAYBE_LOCAL
 				CHAN_NOPAUSE
 				CHAN_NOSTOP
+				CHAN_OVERLAP
 				CHAN_PICKUP
 				CHAN_UI
 				CHAN_VOICE
@@ -7766,6 +7910,7 @@
 				PSPF_FORCEALPHA
 				PSPF_FORCESTYLE
 				PSPF_MIRROR
+				PSPF_PLAYERTRANSLATED
 				PSPF_POWDOUBLE
 				PSPF_RENDERSTYLE
 
@@ -7839,13 +7984,18 @@
 				STYLE_Add
 				STYLE_AddShaded
 				STYLE_AddStencil
+				STYLE_ColorAdd
+				STYLE_ColorBlend
 				STYLE_Fuzzy
+				STYLE_InverseMultiply
+				STYLE_Multiply
 				STYLE_None
 				STYLE_Normal
 				STYLE_OptFuzzy
 				STYLE_Shaded
 				STYLE_Shadow
 				STYLE_SoulTrans
+				STYLE_Source
 				STYLE_Stencil
 				STYLE_Subtract
 				STYLE_Translucent
@@ -7931,6 +8081,7 @@
 				MTF_DEATHMATCH
 				MTF_DORMANT
 				MTF_FRIENDLY
+				MTF_NOCOUNT
 				MTF_NOINFIGHTING
 				MTF_SECRET
 				MTF_SHADOW
