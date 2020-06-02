@@ -5612,6 +5612,7 @@ GetSkin
 GetStillBob
 GetTeam
 GetUserName
+GetWBobFire
 GetWBobSpeed
 HasWeaponsInSlot
 IsTotallyFrozen
