@@ -6950,6 +6950,7 @@ DTA_FlipX
 DTA_FlipY
 DTA_Fullscreen
 DTA_FullscreenEx
+DTA_FullscreenScale
 DTA_HUDRules
 DTA_HUDRulesC
 DTA_Internal1
