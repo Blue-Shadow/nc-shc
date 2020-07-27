@@ -1,5 +1,5 @@
 <NotepadPlus>
-	<UserLang name="ACS (LT)" ext="acs" udlVersion="2.1">
+	<UserLang name="ACS" ext="acs" udlVersion="2.1">
 		<Settings>
 			<Global caseIgnored="yes" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
 			<Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
@@ -715,6 +715,24 @@
 				ACTOR_PLAYER
 				ACTOR_VOODOODOLL
 				ACTOR_WORLD
+				AMLF_DontDraw
+				AMLF_Mapped
+				AMLF_Revealed
+				AMLF_Secret
+				AMLS_CeilingDiff
+				AMLS_Default
+				AMLS_ExtraFloor
+				AMLS_FloorDiff
+				AMLS_InterTeleport
+				AMLS_IntraTeleport
+				AMLS_Locked
+				AMLS_NotSeen
+				AMLS_OneSided
+				AMLS_Portal
+				AMLS_Secret
+				AMLS_Special
+				AMLS_TwoSided
+				AMLS_UnexploredSecret
 				APROP_Accuracy
 				APROP_ActiveSound
 				APROP_Alpha
