@@ -1818,6 +1818,7 @@ StrifeDialogueNode
 StrifeDialogueReply
 StringStruct
 StringTable
+SystemTime
 Team
 TerrainDef
 TexMan
@@ -2679,6 +2680,7 @@ specialf2
 Species
 Speed
 spriteAngle
+SpriteOffset
 spriteRotation
 Stamina
 StartHealth
@@ -3411,6 +3413,7 @@ cnt_deaths
 cnt_frags
 cnt_items
 cnt_kills
+cnt_otherkills
 cnt_par
 cnt_pause
 cnt_secret
@@ -3428,6 +3431,7 @@ lnametexts
 me
 ng_state
 noautostartmap
+otherkills
 par
 playerready
 player_deaths
@@ -3468,6 +3472,7 @@ plyr
 pnum
 thisauthor
 thisname
+totalkills
 
 
 fragpic
@@ -3947,6 +3952,7 @@ bTHRUREFLECT
 bUSEKILLSCRIPTS
 bWEAPONSPAWN
 
+ABSVIEWANGLES
 BLOCKASPLAYER
 DONTFACETALKER
 FRIGHTENING
@@ -3956,6 +3962,7 @@ NOFRICTIONBOUNCE
 RETARGETAFTERSLAM
 STOPRAILS
 
+bABSVIEWANGLES
 bBLOCKASPLAYER
 bDONTFACETALKER
 bFRIGHTENING
@@ -4409,6 +4416,10 @@ SetInt
 SetString
 
 
+Format
+Now
+
+
 BAM
 C_MidPrint
 Destroy
@@ -4526,7 +4537,6 @@ CharUpper
 CodePointCount
 DeleteLastCharacter
 Filter
-Format
 GetNextCodePoint
 IndexOf
 LastIndexOf
@@ -4735,6 +4745,7 @@ PlayerDied
 PlayerDisconnected
 PlayerEntered
 PlayerRespawned
+PlayerSpawned
 PostUiTick
 RenderOverlay
 RenderUnderlay
@@ -5099,6 +5110,9 @@ A_SetUserArray
 A_SetUserArrayFloat
 A_SetUserVar
 A_SetUserVarFloat
+A_SetViewAngle
+A_SetViewPitch
+A_SetViewRoll
 A_SetVisibleRotation
 A_ShootGun
 A_SkelFist
@@ -5119,6 +5133,7 @@ A_SpidRefire
 A_SPosAttack
 A_SPosAttackUseAtkSound
 A_SprayDecal
+A_SpriteOffset
 A_StartFire
 A_StartSound
 A_Stop
@@ -5307,8 +5322,10 @@ PlaySpawnSound
 PoisonMobj
 PosRelative
 PostMorph
+PostTeleport
 PostUnmorph
 PreMorph
+PreTeleport
 PreUnmorph
 RadiusAttack
 RailAttack
@@ -6534,6 +6551,7 @@ drawStats
 drawTextScaled
 drawTime
 drawTimeFont
+drawTimeScaled
 End
 GetPlayerWidths
 GetRowColor
