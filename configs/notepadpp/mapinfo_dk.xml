@@ -242,6 +242,7 @@
 				precacheclasses
 				precachesounds
 				precachetextures
+				propermonsterfallingdamage
 				randomplayerstarts
 				redirect
 				rememberstate
