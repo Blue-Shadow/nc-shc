@@ -8291,6 +8291,8 @@
 
 				SPAC_AnyCross
 				SPAC_Cross
+				SPAC_Damage
+				SPAC_Death
 				SPAC_Impact
 				SPAC_MCross
 				SPAC_MPush
