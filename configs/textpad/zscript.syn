@@ -6952,6 +6952,7 @@ DTA_CellX
 DTA_CellY
 DTA_CenterBottomOffset
 DTA_CenterOffset
+DTA_CenterOffsetRel
 DTA_Clean
 DTA_CleanNoMove
 DTA_CleanNoMove_1
@@ -6967,6 +6968,7 @@ DTA_DestHeightF
 DTA_DestWidth
 DTA_DestWidthF
 DTA_FillColor
+DTA_FlipOffsets
 DTA_FlipX
 DTA_FlipY
 DTA_Fullscreen
@@ -6974,6 +6976,7 @@ DTA_FullscreenEx
 DTA_FullscreenScale
 DTA_HUDRules
 DTA_HUDRulesC
+DTA_Indexed
 DTA_Internal1
 DTA_Internal2
 DTA_Internal3
@@ -6983,7 +6986,11 @@ DTA_LeftOffsetF
 DTA_LegacyRenderStyle
 DTA_Masked
 DTA_Monospace
+DTA_Pin
 DTA_RenderStyle
+DTA_Rotate
+DTA_ScaleX
+DTA_ScaleY
 DTA_Shadow
 DTA_ShadowAlpha
 DTA_ShadowColor
@@ -6993,9 +7000,14 @@ DTA_SrcWidth
 DTA_SrcX
 DTA_SrcY
 DTA_TextLen
+DTA_TopLeft
 DTA_TopOffset
 DTA_TopOffsetF
 DTA_TranslationIndex
+DTA_ViewportHeight
+DTA_ViewportWidth
+DTA_ViewportX
+DTA_ViewportY
 DTA_VirtualHeight
 DTA_VirtualHeightF
 DTA_VirtualWidth
@@ -7987,6 +7999,7 @@ BT_MOVERIGHT
 BT_MOVEUP
 BT_RELOAD
 BT_RIGHT
+BT_RUN
 BT_SHOWSCORES
 BT_SPEED
 BT_STRAFE
