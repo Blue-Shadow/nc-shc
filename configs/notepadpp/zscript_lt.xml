@@ -2602,6 +2602,7 @@
 				lastpush
 				Mass
 				MaxDropoffHeight
+				MaxSlopeSteepness
 				MaxStepHeight
 				maxtargetrange
 				MeleeDamage
@@ -3397,6 +3398,7 @@
 				authortexts
 				bcnt
 				bg
+				cHeight
 				cnt
 				cnt_deaths
 				cnt_frags
@@ -3409,6 +3411,7 @@
 				cnt_time
 				cnt_total_time
 				content
+				cWidth
 				dofrags
 				entering
 				enteringPatch
@@ -3426,6 +3429,9 @@
 				player_deaths
 				Plrs
 				p_secret
+				scaleFactorX
+				scaleFactorY
+				scalemode
 				secret
 				shadowalpha
 				snl_pointeron
@@ -3435,6 +3441,7 @@
 				total_deaths
 				total_frags
 				wbs
+				wrapwidth
 
 
 				textcolor
@@ -8596,6 +8603,7 @@
 				ONFLOORZ
 				ORIG_FRICTION
 				ORIG_FRICTION_FACTOR
+				STEEPSLOPE
 				TELEFRAG_DAMAGE
 
 
