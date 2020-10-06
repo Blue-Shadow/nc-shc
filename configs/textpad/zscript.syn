@@ -1842,6 +1842,9 @@ ETexReplaceFlags
 EUseTypes
 
 
+EScaleMode
+
+
 DrawTextureTags
 
 
@@ -2048,6 +2051,9 @@ ESorc
 
 
 EJoyAxis
+
+
+EScale
 
 
 EMenuKey
@@ -2887,6 +2893,7 @@ JumpZ
 MorphWeapon
 MugShotMaxHealth
 Portrait
+prevBob
 RunHealth
 ScoreIcon
 SideMove1
@@ -3171,6 +3178,8 @@ mSelectedItem
 mSelectOfsX
 mSelectOfsY
 mSelector
+mVirtHeight
+mVirtWidth
 mWLeft
 mWRight
 mXpos
@@ -4376,6 +4385,7 @@ DrawTexture
 DrawThickLine
 GetAspectRatio
 GetClipRect
+GetFullscreenRect
 GetHeight
 GetViewWindow
 GetWidth
@@ -6369,6 +6379,7 @@ ReleaseFocus
 SetFocus
 
 
+Draw
 DrawSelector
 
 
@@ -6401,7 +6412,9 @@ UnloadSaveData
 UpdateSaveComment
 
 
+GetAllKeysForCommand
 GetKeysForCommand
+NameAllKeys
 NameKeys
 SetBind
 UnbindACommand
@@ -6443,14 +6456,11 @@ SetMenu
 SetMouseCapture
 StartMessage
 TranslateKeyboardEvents
-UpdateColorsets
-UpdateSkinOptions
 
 
 GetDescriptor
 
 
-Draw
 Enable
 GetIndent
 GetX
@@ -6494,6 +6504,8 @@ SetSelectedSize
 
 GetPlayerClassIndex
 PickPlayerClass
+UpdateColorsets
+UpdateSkinOptions
 UpdateSkins
 UpdateTranslation
 
@@ -6570,6 +6582,7 @@ initNoState
 initShowNextLoc
 initStats
 PlaySound
+SetSize
 Start
 StartMusic
 updateNoState
@@ -6683,7 +6696,6 @@ ProcessMidPrint
 ProcessNotify
 ReceivedWeapon
 SetMugShotState
-SetSize
 StatusbarToRealCoords
 TransformRect
 UpdateScreenGeometry
@@ -6950,6 +6962,24 @@ NOT_TOP
 NOT_WALL
 
 
+FSMode_Fit320x200
+FSMode_Fit320x200Top
+FSMode_Fit320x240
+FSMode_Fit640x400
+FSMode_Fit640x480
+FSMode_Max
+FSMode_None
+FSMode_Predefined
+FSMode_Predefined_Max
+FSMode_ScaleToFill
+FSMode_ScaleToFit
+FSMode_ScaleToFit43
+FSMode_ScaleToFit43Bottom
+FSMode_ScaleToFit43Top
+FSMode_ScaleToHeight
+FSMode_ScaleToScreen
+
+
 DTA_320x200
 DTA_Alpha
 DTA_AlphaChannel
@@ -6963,6 +6993,7 @@ DTA_CenterOffsetRel
 DTA_Clean
 DTA_CleanNoMove
 DTA_CleanNoMove_1
+DTA_CleanTop
 DTA_ClipBottom
 DTA_ClipLeft
 DTA_ClipRight
@@ -7425,6 +7456,7 @@ VAF_DMGTYPEAPPLYTODIRECT
 
 SF_NOPULLIN
 SF_NORANDOM
+SF_NORANDOMPUFFZ
 SF_NOTURN
 SF_NOUSEAMMO
 SF_NOUSEAMMOMISS
@@ -8866,6 +8898,10 @@ JOYAXIS_Side
 JOYAXIS_Up
 JOYAXIS_Yaw
 NUM_JOYAXIS
+
+
+CleanScale
+OptCleanScale
 
 
 MKEY_Abort

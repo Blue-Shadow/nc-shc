@@ -1831,6 +1831,9 @@
 				EUseTypes
 
 
+				EScaleMode
+
+
 				DrawTextureTags
 
 
@@ -2037,6 +2040,9 @@
 
 
 				EJoyAxis
+
+
+				EScale
 
 
 				EMenuKey
@@ -2876,6 +2882,7 @@
 				MorphWeapon
 				MugShotMaxHealth
 				Portrait
+				prevBob
 				RunHealth
 				ScoreIcon
 				SideMove1
@@ -3160,6 +3167,8 @@
 				mSelectOfsX
 				mSelectOfsY
 				mSelector
+				mVirtHeight
+				mVirtWidth
 				mWLeft
 				mWRight
 				mXpos
@@ -4365,6 +4374,7 @@
 				DrawThickLine
 				GetAspectRatio
 				GetClipRect
+				GetFullscreenRect
 				GetHeight
 				GetViewWindow
 				GetWidth
@@ -6358,6 +6368,7 @@
 				SetFocus
 
 
+				Draw
 				DrawSelector
 
 
@@ -6390,7 +6401,9 @@
 				UpdateSaveComment
 
 
+				GetAllKeysForCommand
 				GetKeysForCommand
+				NameAllKeys
 				NameKeys
 				SetBind
 				UnbindACommand
@@ -6432,14 +6445,11 @@
 				SetMouseCapture
 				StartMessage
 				TranslateKeyboardEvents
-				UpdateColorsets
-				UpdateSkinOptions
 
 
 				GetDescriptor
 
 
-				Draw
 				Enable
 				GetIndent
 				GetX
@@ -6483,6 +6493,8 @@
 
 				GetPlayerClassIndex
 				PickPlayerClass
+				UpdateColorsets
+				UpdateSkinOptions
 				UpdateSkins
 				UpdateTranslation
 
@@ -6559,6 +6571,7 @@
 				initShowNextLoc
 				initStats
 				PlaySound
+				SetSize
 				Start
 				StartMusic
 				updateNoState
@@ -6672,7 +6685,6 @@
 				ProcessNotify
 				ReceivedWeapon
 				SetMugShotState
-				SetSize
 				StatusbarToRealCoords
 				TransformRect
 				UpdateScreenGeometry
@@ -6939,6 +6951,24 @@
 				NOT_WALL
 
 
+				FSMode_Fit320x200
+				FSMode_Fit320x200Top
+				FSMode_Fit320x240
+				FSMode_Fit640x400
+				FSMode_Fit640x480
+				FSMode_Max
+				FSMode_None
+				FSMode_Predefined
+				FSMode_Predefined_Max
+				FSMode_ScaleToFill
+				FSMode_ScaleToFit
+				FSMode_ScaleToFit43
+				FSMode_ScaleToFit43Bottom
+				FSMode_ScaleToFit43Top
+				FSMode_ScaleToHeight
+				FSMode_ScaleToScreen
+
+
 				DTA_320x200
 				DTA_Alpha
 				DTA_AlphaChannel
@@ -6952,6 +6982,7 @@
 				DTA_Clean
 				DTA_CleanNoMove
 				DTA_CleanNoMove_1
+				DTA_CleanTop
 				DTA_ClipBottom
 				DTA_ClipLeft
 				DTA_ClipRight
@@ -7414,6 +7445,7 @@
 
 				SF_NOPULLIN
 				SF_NORANDOM
+				SF_NORANDOMPUFFZ
 				SF_NOTURN
 				SF_NOUSEAMMO
 				SF_NOUSEAMMOMISS
@@ -8855,6 +8887,10 @@
 				JOYAXIS_Up
 				JOYAXIS_Yaw
 				NUM_JOYAXIS
+
+
+				CleanScale
+				OptCleanScale
 
 
 				MKEY_Abort
