@@ -5041,6 +5041,7 @@ A_OverlayAlpha
 A_OverlayFlags
 A_OverlayOffset
 A_OverlayRenderStyle
+A_OverlayTranslation
 A_Pain
 A_PainAttack
 A_PainDie
