@@ -567,6 +567,7 @@ DoomBuilderCamera
 DoomImp
 DoomImpBall
 DoomKey
+DoomMenuDelegate
 DoomPlayer
 DoomStatusBar
 DoomStatusScreen
@@ -845,6 +846,7 @@ LineTracer
 ListMenu
 ListMenuDescriptor
 ListMenuItem
+ListMenuItemCaptionItem
 ListMenuItemPatchItem
 ListMenuItemPlayerDisplay
 ListMenuItemPlayerNameBox
@@ -922,6 +924,7 @@ MedPatch
 Megasphere
 MegasphereHealth
 Menu
+MenuDelegateBase
 MenuDescriptor
 MenuItemBase
 Merchant
@@ -1823,6 +1826,7 @@ Team
 TerrainDef
 TexMan
 TraceResults
+Translate
 Translation
 UiEvent
 UserCmd
@@ -2101,6 +2105,7 @@ r
 
 AllActorClasses
 AllClasses
+AlternativeBigFont
 AlternativeSmallFont
 automapactive
 AutomapBindings
@@ -2124,18 +2129,21 @@ gameaction
 gameinfo
 gamestate
 gametic
+GameTicRate
 generic_ui
 globalfreeze
 intermissionfont
 Level
 LocalViewPitch
 menuactive
+menuDelegate
 multiplayer
 musplaying
 netgame
 Net_Arbitrator
 NewConsoleFont
 NewSmallFont
+NotifyFontScale
 OptionMenuSettings
 OriginalBigFont
 OriginalSmallFont
@@ -2696,6 +2704,7 @@ strafecount
 TelefogDestType
 TelefogSourceType
 Threshold
+ThruBits
 TID
 TIDtoHate
 Tracer
@@ -3166,6 +3175,7 @@ mAxis
 mNeg
 
 
+mAnimatedTransition
 mAutoselect
 mCenter
 mDisplayTop
@@ -3219,14 +3229,11 @@ WindowSize
 
 
 BrokenSaveComment
-commentBottom
 commentHeight
 commentLeft
-commentRight
 commentRows
 commentTop
 commentWidth
-listboxBottom
 listboxHeight
 listboxLeft
 listboxRight
@@ -3248,6 +3255,8 @@ TopItem
 mSaveName
 
 
+Animated
+AnimatedTransition
 DontBlur
 DontDim
 mBackbuttonSelected
@@ -4364,7 +4373,6 @@ SetCameraToTexture
 
 Clear
 Rotate
-Translate
 
 
 PushCoord
@@ -4379,6 +4387,7 @@ DrawChar
 DrawFrame
 DrawHUDTexture
 DrawLine
+DrawLineFrame
 DrawShape
 DrawText
 DrawTexture
@@ -4391,6 +4400,7 @@ GetViewWindow
 GetWidth
 PaletteColor
 SetClipRect
+SetOffset
 VirtualToRealCoords
 
 
@@ -4403,6 +4413,7 @@ GetCharWidth
 GetCursor
 GetDisplacement
 GetFont
+GetGlyphHeight
 GetMaxAscender
 StringWidth
 
@@ -5726,9 +5737,6 @@ ChooseSpawn
 PostSpawn
 
 
-SetOffset
-
-
 A_M_BFGsound
 A_M_CheckAttack
 A_M_FireBFG
@@ -6480,6 +6488,7 @@ HandleResult
 CalcIndent
 
 
+DrawCaption
 FirstSelectable
 
 
@@ -6717,6 +6726,10 @@ PlayerAmmo
 PlayerMaxAmmo
 SetMarineSprite
 SetMarineWeapon
+
+
+MenuDismissed
+PickFont
 
 
 ACS_Execute
@@ -7025,6 +7038,7 @@ DTA_LeftOffsetF
 DTA_LegacyRenderStyle
 DTA_Masked
 DTA_Monospace
+DTA_NoOffset
 DTA_Pin
 DTA_RenderStyle
 DTA_Rotate

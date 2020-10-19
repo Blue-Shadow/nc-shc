@@ -556,6 +556,7 @@
 				DoomImp
 				DoomImpBall
 				DoomKey
+				DoomMenuDelegate
 				DoomPlayer
 				DoomStatusBar
 				DoomStatusScreen
@@ -834,6 +835,7 @@
 				ListMenu
 				ListMenuDescriptor
 				ListMenuItem
+				ListMenuItemCaptionItem
 				ListMenuItemPatchItem
 				ListMenuItemPlayerDisplay
 				ListMenuItemPlayerNameBox
@@ -911,6 +913,7 @@
 				Megasphere
 				MegasphereHealth
 				Menu
+				MenuDelegateBase
 				MenuDescriptor
 				MenuItemBase
 				Merchant
@@ -1812,6 +1815,7 @@
 				TerrainDef
 				TexMan
 				TraceResults
+				Translate
 				Translation
 				UiEvent
 				UserCmd
@@ -2090,6 +2094,7 @@
 
 				AllActorClasses
 				AllClasses
+				AlternativeBigFont
 				AlternativeSmallFont
 				automapactive
 				AutomapBindings
@@ -2113,18 +2118,21 @@
 				gameinfo
 				gamestate
 				gametic
+				GameTicRate
 				generic_ui
 				globalfreeze
 				intermissionfont
 				Level
 				LocalViewPitch
 				menuactive
+				menuDelegate
 				multiplayer
 				musplaying
 				netgame
 				Net_Arbitrator
 				NewConsoleFont
 				NewSmallFont
+				NotifyFontScale
 				OptionMenuSettings
 				OriginalBigFont
 				OriginalSmallFont
@@ -2685,6 +2693,7 @@
 				TelefogDestType
 				TelefogSourceType
 				Threshold
+				ThruBits
 				TID
 				TIDtoHate
 				Tracer
@@ -3155,6 +3164,7 @@
 				mNeg
 
 
+				mAnimatedTransition
 				mAutoselect
 				mCenter
 				mDisplayTop
@@ -3208,14 +3218,11 @@
 
 
 				BrokenSaveComment
-				commentBottom
 				commentHeight
 				commentLeft
-				commentRight
 				commentRows
 				commentTop
 				commentWidth
-				listboxBottom
 				listboxHeight
 				listboxLeft
 				listboxRight
@@ -3237,6 +3244,8 @@
 				mSaveName
 
 
+				Animated
+				AnimatedTransition
 				DontBlur
 				DontDim
 				mBackbuttonSelected
@@ -4353,7 +4362,6 @@
 
 				Clear
 				Rotate
-				Translate
 
 
 				PushCoord
@@ -4368,6 +4376,7 @@
 				DrawFrame
 				DrawHUDTexture
 				DrawLine
+				DrawLineFrame
 				DrawShape
 				DrawText
 				DrawTexture
@@ -4380,6 +4389,7 @@
 				GetWidth
 				PaletteColor
 				SetClipRect
+				SetOffset
 				VirtualToRealCoords
 
 
@@ -4392,6 +4402,7 @@
 				GetCursor
 				GetDisplacement
 				GetFont
+				GetGlyphHeight
 				GetMaxAscender
 				StringWidth
 
@@ -5715,9 +5726,6 @@
 				PostSpawn
 
 
-				SetOffset
-
-
 				A_M_BFGsound
 				A_M_CheckAttack
 				A_M_FireBFG
@@ -6469,6 +6477,7 @@
 				CalcIndent
 
 
+				DrawCaption
 				FirstSelectable
 
 
@@ -6706,6 +6715,10 @@
 				PlayerMaxAmmo
 				SetMarineSprite
 				SetMarineWeapon
+
+
+				MenuDismissed
+				PickFont
 
 
 				ACS_Execute
@@ -7014,6 +7027,7 @@
 				DTA_LegacyRenderStyle
 				DTA_Masked
 				DTA_Monospace
+				DTA_NoOffset
 				DTA_Pin
 				DTA_RenderStyle
 				DTA_Rotate
