@@ -757,6 +757,11 @@
 				IceShard
 				IDBadge
 				IDCard
+				ImageScrollerDescriptor
+				ImageScrollerMenu
+				ImageScrollerPage
+				ImageScrollerPageImageItem
+				ImageScrollerPageTextItem
 				Info
 				Infrared
 				Inquisitor
@@ -981,6 +986,7 @@
 				OptionMenuItemCommand
 				OptionMenuItemControl
 				OptionMenuItemControlBase
+				OptionMenuItemFlagOption
 				OptionMenuItemInverter
 				OptionMenuItemJoyConfigMenu
 				OptionMenuItemJoyMap
@@ -1884,6 +1890,7 @@
 
 
 				EColorPos
+				EPartFlags
 				ETexpart
 				EWallFlags
 
@@ -1979,6 +1986,7 @@
 				ESkillProperty
 				ESoundFlags
 				ESpawnItemFlags
+				EPSpriteAlign
 				EStateType
 				EStateUseFlags
 				ETakeFlags
@@ -2472,6 +2480,7 @@
 
 				ActivatedLine
 				ActivationType
+				CrushedState
 				DamageAngle
 				DamageFlags
 				DamageIsRadius
@@ -2909,14 +2918,25 @@
 				bAddWeapon
 				bCVarFast
 				bFlip
+				bInterpolate
 				bMirror
+				bPivotPercent
 				bPlayerTranslated
 				bPowDouble
 				Caller
+				Coord0
+				Coord1
+				Coord2
+				Coord3
 				firstTic
+				HAlign
+				InterpolateTic
 				oldx
 				oldy
+				pivot
 				processPending
+				rotation
+				VAlign
 
 
 				air_finished
@@ -3564,6 +3584,27 @@
 				PopHeightChange
 
 
+				textBackground
+				textBackgroundBrightness
+				textScale
+				virtHeight
+				virtWidth
+
+
+				mBrightness
+				mTextScale
+
+
+				dir
+				index
+				length
+				previous
+				start
+
+
+				mBitShift
+
+
 				AMBUSH
 				CORPSE
 				COUNTITEM
@@ -3967,6 +4008,7 @@
 				bWEAPONSPAWN
 
 				ABSVIEWANGLES
+				ALLOWTHRUBITS
 				BLOCKASPLAYER
 				DONTFACETALKER
 				FALLDAMAGE
@@ -3978,6 +4020,7 @@
 				STOPRAILS
 
 				bABSVIEWANGLES
+				bALLOWTHRUBITS
 				bBLOCKASPLAYER
 				bDONTFACETALKER
 				bFALLDAMAGE
@@ -4312,7 +4355,6 @@
 				SetNull
 
 
-				Length
 				Unit
 
 
@@ -4592,14 +4634,13 @@
 				MarkPrecacheSounds
 
 
-				Index
-
-
 				AddTextureXOffset
 				AddTextureYOffset
+				ChangeTextureFlags
 				EnableAdditiveColor
 				GetAdditiveColor
 				GetTexture
+				GetTextureFlags
 				GetTextureXOffset
 				GetTextureXScale
 				GetTextureYOffset
@@ -4781,6 +4822,7 @@
 				WorldThingDamaged
 				WorldThingDestroyed
 				WorldThingDied
+				WorldThingGround
 				WorldThingRevived
 				WorldThingSpawned
 				WorldTick
@@ -5040,8 +5082,13 @@
 				A_OverlayAlpha
 				A_OverlayFlags
 				A_OverlayOffset
+				A_OverlayPivot
+				A_OverlayPivotAlign
 				A_OverlayRenderStyle
+				A_OverlayRotate
+				A_OverlayScale
 				A_OverlayTranslation
+				A_OverlayVertexOffset
 				A_Pain
 				A_PainAttack
 				A_PainDie
@@ -5534,6 +5581,7 @@
 				PickupForAmmo
 				PlayUpSound
 				PostMorphWeapon
+				ResetPSprite
 
 
 				GetWeapon
@@ -6582,7 +6630,6 @@
 				initStats
 				PlaySound
 				SetSize
-				Start
 				StartMusic
 				updateNoState
 				updateShowNextLoc
@@ -6719,6 +6766,10 @@
 
 				MenuDismissed
 				PickFont
+
+
+				OnEndPage
+				OnStartPage
 
 
 				ACS_Execute
@@ -7329,6 +7380,13 @@
 				WALLF_POLYOBJ
 				WALLF_SMOOTHLIGHTING
 				WALLF_WRAP_MIDTEX
+
+
+				ClampGradient
+				FlipGradient
+				NoGradient
+				UseOwnAdditiveColor
+				UseOwnSpecialColors
 
 
 				back
@@ -7989,6 +8047,8 @@
 				WOF_INTERPOLATE
 				WOF_KEEPX
 				WOF_KEEPY
+				WOF_RELATIVE
+				WOF_ZEROY
 
 
 				PSPF_ADDBOB
@@ -7998,10 +8058,19 @@
 				PSPF_FLIP
 				PSPF_FORCEALPHA
 				PSPF_FORCESTYLE
+				PSPF_INTERPOLATE
 				PSPF_MIRROR
+				PSPF_PIVOTPERCENT
 				PSPF_PLAYERTRANSLATED
 				PSPF_POWDOUBLE
 				PSPF_RENDERSTYLE
+
+
+				PSPA_BOTTOM
+				PSPA_CENTER
+				PSPA_LEFT
+				PSPA_RIGHT
+				PSPA_TOP
 
 
 				PSP_FLASH
