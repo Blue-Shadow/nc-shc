@@ -1496,6 +1496,7 @@ StateProvider
 StaticEventHandler
 Statue
 StatueRuined
+StatusBarCore
 StatusScreen
 StealthArachnotron
 StealthArchvile
@@ -8273,6 +8274,7 @@ SKILLP_Respawn
 SKILLP_RespawnLimit
 SKILLP_SlowMonsters
 SKILLP_SpawnFilter
+SKILLP_SpawnMulti
 
 
 SKILLP_Aggressiveness
