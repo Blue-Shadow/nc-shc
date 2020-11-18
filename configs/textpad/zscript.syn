@@ -2192,6 +2192,7 @@ healthpic
 infoPages
 intermissioncounter
 mBackButton
+mSliderBackColor
 mSliderColor
 mStatscreenAuthorFont
 mStatscreenContentFont
