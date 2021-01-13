@@ -8269,6 +8269,7 @@ SKILLP_EasyBossBrain
 SKILLP_EasyKey
 SKILLP_FastMonsters
 SKILLP_Infight
+SKILLP_InstantReaction
 SKILLP_NoPain
 SKILLP_PlayerRespawn
 SKILLP_Respawn
