@@ -2181,6 +2181,7 @@
 				infoPages
 				intermissioncounter
 				mBackButton
+				mHideParTimes
 				mSliderBackColor
 				mSliderColor
 				mStatscreenAuthorFont
