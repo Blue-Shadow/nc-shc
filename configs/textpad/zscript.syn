@@ -4359,6 +4359,7 @@ GetClass
 GetClassName
 GetDefaultByType
 GetParentClass
+IsAbstract
 new
 
 
@@ -8089,6 +8090,9 @@ PSPA_TOP
 
 PSP_FLASH
 PSP_STRIFEHANDS
+PSP_TARGETCENTER
+PSP_TARGETLEFT
+PSP_TARGETRIGHT
 PSP_WEAPON
 
 
