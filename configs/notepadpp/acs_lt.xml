@@ -544,6 +544,7 @@
 				SetSectorGlow
 				SetSectorTerrain
 				SetSkyScrollSpeed
+				SetSubtitleNumber
 				SetTeamScore
 				SetThingSpecial
 				SetTranslation
