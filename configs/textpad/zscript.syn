@@ -5331,6 +5331,7 @@ GetAge
 GetBloodType
 GetBobOffset
 GetCameraHeight
+GetCharacterName
 GetCrouchFactor
 GetCVarString
 GetDeathHeight
