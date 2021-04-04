@@ -5160,6 +5160,7 @@ A_SetFloat
 A_SetFloatBobPhase
 A_SetFloatSpeed
 A_SetFloorClip
+A_SetFriendly
 A_SetGravity
 A_SetHealth
 A_SetInventory
