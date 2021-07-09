@@ -632,6 +632,7 @@
 				elighttype
 				elineattackflags
 				elineflags
+				elineflags2
 				elinetier
 				elinetraceflags
 				elofflags
@@ -2238,6 +2239,11 @@
 				bdormant
 				bdropoff
 				bdropped
+				be1m8boss
+				be2m8boss
+				be3m8boss
+				be4m6boss
+				be4m8boss
 				berserkpic
 				bexplocount
 				bexplodeonwater
@@ -2271,6 +2277,7 @@
 				bfullbright
 				bfullvolactive
 				bfullvoldeath
+				bfullvolsee
 				bg
 				bgetowner
 				bghost
@@ -2333,6 +2340,8 @@
 				bloodtype3
 				blookallaround
 				blueac
+				bmap07boss1
+				bmap07boss2
 				bmaskrotation
 				bmbfbouncer
 				bmeleeweapon
@@ -2351,6 +2360,7 @@
 				bnoattenpickupsound
 				bnoautoaim
 				bnoautofire
+				bnoautoswitchto
 				bnoblockmap
 				bnoblockmonst
 				bnoblood
@@ -2769,6 +2779,11 @@
 				droptime
 				droptype
 				duration
+				e1m8boss
+				e2m8boss
+				e3m8boss
+				e4m6boss
+				e4m8boss
 				effecttics
 				entering
 				enteringpatch
@@ -2869,6 +2884,7 @@
 				fullscreenoffsets
 				fullvolactive
 				fullvoldeath
+				fullvolsee
 				fullweapon
 				g
 				gameaction
@@ -2910,6 +2926,7 @@
 				heightsec
 				hereticbounce
 				hexenbounce
+				highermprob
 				hit3dfloor
 				hitactor
 				hitcenterframe
@@ -2943,6 +2960,7 @@
 				inconsistent
 				index
 				indexfont
+				infightinggroup
 				infinite_flight
 				inflictor
 				infloat
@@ -3056,6 +3074,8 @@
 				mamountfont
 				manager
 				manimatedtransition
+				map07boss1
+				map07boss2
 				mapname
 				maptime
 				maptype
@@ -3349,6 +3369,7 @@
 				noautofire
 				noautofreeze
 				noautostartmap
+				noautoswitchto
 				noblockmap
 				noblockmonst
 				noblood
@@ -3512,6 +3533,7 @@
 				probability
 				processpending
 				projectile
+				projectilegroup
 				projectilekickback
 				projectilepassheight
 				psprites
@@ -3580,6 +3602,7 @@
 				riplevelmax
 				riplevelmin
 				ripperlevel
+				ripsound
 				roll
 				rollcenter
 				rollsprite
@@ -3705,6 +3728,7 @@
 				speed
 				spiraloffset
 				splash
+				splashgroup
 				spot
 				spotinnerangle
 				spotouterangle
@@ -4051,6 +4075,7 @@
 				a_clearshadow
 				a_clearsoundtarget
 				a_cleartarget
+				a_cleartracer
 				a_clericattack
 				a_closeshotgun2
 				a_cmaceattack
@@ -4137,6 +4162,7 @@
 				a_fhammerattack
 				a_fhammerthrow
 				a_fighterattack
+				a_findtracer
 				a_fire
 				a_firearrow
 				a_fireassaultgun
@@ -4340,6 +4366,7 @@
 				a_m_sawrefire
 				a_noblocking
 				a_nogravity
+				a_noisealert
 				a_openshotgun2
 				a_orespawner
 				a_overlay
@@ -4608,6 +4635,7 @@
 				a_wakeoraclespectre
 				a_wander
 				a_warp
+				a_weaponalert
 				a_weaponoffset
 				a_weaponready
 				a_weave
@@ -5334,6 +5362,27 @@
 				marksound
 				matches
 				max
+				mbf21_addflags
+				mbf21_checkammo
+				mbf21_consumeammo
+				mbf21_gunflashto
+				mbf21_healchase
+				mbf21_jumpifflagsset
+				mbf21_jumpifhealthbelow
+				mbf21_jumpiftargetcloser
+				mbf21_jumpiftargetinsight
+				mbf21_jumpiftracercloser
+				mbf21_jumpiftracerinsight
+				mbf21_monsterbulletattack
+				mbf21_monstermeleeattack
+				mbf21_monsterprojectile
+				mbf21_refireto
+				mbf21_removeflags
+				mbf21_spawnobject
+				mbf21_weaponbulletattack
+				mbf21_weaponjump
+				mbf21_weaponmeleeattack
+				mbf21_weaponprojectile
 				menudismissed
 				menuevent
 				menusound
@@ -5414,6 +5463,7 @@
 				pickprevweapon
 				pickupforammo
 				pickweapon
+				pitchfromvel
 				planemoving
 				playactivesound
 				playattacking
@@ -7145,6 +7195,7 @@
 				mkey_pageup
 				mkey_right
 				mkey_up
+				ml2_blocklandmonsters
 				ml_3dmidtex
 				ml_3dmidtex_impass
 				ml_addtrans

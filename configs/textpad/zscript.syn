@@ -643,6 +643,7 @@ elevelflags
 elighttype
 elineattackflags
 elineflags
+elineflags2
 elinetier
 elinetraceflags
 elofflags
@@ -2249,6 +2250,11 @@ bdonttranslate
 bdormant
 bdropoff
 bdropped
+be1m8boss
+be2m8boss
+be3m8boss
+be4m6boss
+be4m8boss
 berserkpic
 bexplocount
 bexplodeonwater
@@ -2282,6 +2288,7 @@ bfrightening
 bfullbright
 bfullvolactive
 bfullvoldeath
+bfullvolsee
 bg
 bgetowner
 bghost
@@ -2344,6 +2351,8 @@ bloodtype2
 bloodtype3
 blookallaround
 blueac
+bmap07boss1
+bmap07boss2
 bmaskrotation
 bmbfbouncer
 bmeleeweapon
@@ -2362,6 +2371,7 @@ bnoalert
 bnoattenpickupsound
 bnoautoaim
 bnoautofire
+bnoautoswitchto
 bnoblockmap
 bnoblockmonst
 bnoblood
@@ -2780,6 +2790,11 @@ droppedbymonster
 droptime
 droptype
 duration
+e1m8boss
+e2m8boss
+e3m8boss
+e4m6boss
+e4m8boss
 effecttics
 entering
 enteringpatch
@@ -2880,6 +2895,7 @@ fullheight
 fullscreenoffsets
 fullvolactive
 fullvoldeath
+fullvolsee
 fullweapon
 g
 gameaction
@@ -2921,6 +2937,7 @@ height
 heightsec
 hereticbounce
 hexenbounce
+highermprob
 hit3dfloor
 hitactor
 hitcenterframe
@@ -2954,6 +2971,7 @@ incombat
 inconsistent
 index
 indexfont
+infightinggroup
 infinite_flight
 inflictor
 infloat
@@ -3067,6 +3085,8 @@ malttext
 mamountfont
 manager
 manimatedtransition
+map07boss1
+map07boss2
 mapname
 maptime
 maptype
@@ -3360,6 +3380,7 @@ noautoaim
 noautofire
 noautofreeze
 noautostartmap
+noautoswitchto
 noblockmap
 noblockmonst
 noblood
@@ -3523,6 +3544,7 @@ printamount
 probability
 processpending
 projectile
+projectilegroup
 projectilekickback
 projectilepassheight
 psprites
@@ -3591,6 +3613,7 @@ rightstepsound
 riplevelmax
 riplevelmin
 ripperlevel
+ripsound
 roll
 rollcenter
 rollsprite
@@ -3716,6 +3739,7 @@ speechwidth
 speed
 spiraloffset
 splash
+splashgroup
 spot
 spotinnerangle
 spotouterangle
@@ -4062,6 +4086,7 @@ a_clearrefire
 a_clearshadow
 a_clearsoundtarget
 a_cleartarget
+a_cleartracer
 a_clericattack
 a_closeshotgun2
 a_cmaceattack
@@ -4148,6 +4173,7 @@ a_feathers
 a_fhammerattack
 a_fhammerthrow
 a_fighterattack
+a_findtracer
 a_fire
 a_firearrow
 a_fireassaultgun
@@ -4351,6 +4377,7 @@ a_m_saw
 a_m_sawrefire
 a_noblocking
 a_nogravity
+a_noisealert
 a_openshotgun2
 a_orespawner
 a_overlay
@@ -4619,6 +4646,7 @@ a_volcballimpact
 a_wakeoraclespectre
 a_wander
 a_warp
+a_weaponalert
 a_weaponoffset
 a_weaponready
 a_weave
@@ -5345,6 +5373,27 @@ markprecachesounds
 marksound
 matches
 max
+mbf21_addflags
+mbf21_checkammo
+mbf21_consumeammo
+mbf21_gunflashto
+mbf21_healchase
+mbf21_jumpifflagsset
+mbf21_jumpifhealthbelow
+mbf21_jumpiftargetcloser
+mbf21_jumpiftargetinsight
+mbf21_jumpiftracercloser
+mbf21_jumpiftracerinsight
+mbf21_monsterbulletattack
+mbf21_monstermeleeattack
+mbf21_monsterprojectile
+mbf21_refireto
+mbf21_removeflags
+mbf21_spawnobject
+mbf21_weaponbulletattack
+mbf21_weaponjump
+mbf21_weaponmeleeattack
+mbf21_weaponprojectile
 menudismissed
 menuevent
 menusound
@@ -5425,6 +5474,7 @@ pickplayerstart
 pickprevweapon
 pickupforammo
 pickweapon
+pitchfromvel
 planemoving
 playactivesound
 playattacking
@@ -7156,6 +7206,7 @@ mkey_pagedown
 mkey_pageup
 mkey_right
 mkey_up
+ml2_blocklandmonsters
 ml_3dmidtex
 ml_3dmidtex_impass
 ml_addtrans
