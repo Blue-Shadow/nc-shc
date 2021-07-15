@@ -163,6 +163,7 @@
 				cyberdemonspecial
 				deathsequence
 				defaultenvironment
+				disableshadowmap
 				disableskyboxao
 				doublesky
 				dsparilspecial
@@ -172,6 +173,7 @@
 				e4m6special
 				e4m8special
 				edata
+				enableshadowmap
 				enableskyboxao
 				endofgame
 				enterpic
