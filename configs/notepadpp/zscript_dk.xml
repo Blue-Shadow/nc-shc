@@ -6163,6 +6163,7 @@
 				bf_affectbosses
 				bf_dontwarn
 				bf_noimpactdamage
+				bf_onlyvisiblethings
 				bf_useammo
 				blackfountain
 				blinkthreshold
