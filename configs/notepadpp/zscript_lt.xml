@@ -5088,6 +5088,8 @@
 				getdisplacement
 				getdisplaycolor
 				getdistance
+				getdouble
+				getdoubleui
 				getdownstate
 				getdropitems
 				geteffectticsforitem
@@ -5117,6 +5119,7 @@
 				getid
 				getindent
 				getint
+				getintui
 				getinventoryicon
 				getitem
 				getkeycount
@@ -5148,6 +5151,8 @@
 				getnumaxes
 				getnumlumps
 				getobituary
+				getobject
+				getobjectui
 				getoppositeportalgroup
 				getpainflash
 				getparentammo
@@ -5208,6 +5213,7 @@
 				getspritetexture
 				getstillbob
 				getstring
+				getstringui
 				gettag
 				getteam
 				getteleportfreezetime
