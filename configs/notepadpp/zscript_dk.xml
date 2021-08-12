@@ -1770,6 +1770,7 @@
 				svetalismanred
 				switchabledecoration
 				switchingdecoration
+				system
 				systemtime
 				tableshit1
 				tableshit10
@@ -4691,6 +4692,7 @@
 				changeheight
 				changelevel
 				changelightlevel
+				changelinespacing
 				changeskin
 				changesky
 				changestatnum
@@ -5081,6 +5083,7 @@
 				getdeathheight
 				getdefaultactor
 				getdefaultbytype
+				getdefaultkerning
 				getdefaultspeed
 				getdeltaviewheight
 				getdescriptor
@@ -5236,6 +5239,7 @@
 				getthingskills
 				getthingspecial
 				getthingstringargument
+				gettimefrac
 				gettopofstatusbar
 				gettranslation
 				getudmffloat
@@ -5415,6 +5419,7 @@
 				mstime
 				multiplytexturexscale
 				multiplytextureyscale
+				musicenabled
 				mustdrawlog
 				nameallkeys
 				namekeys
@@ -5693,6 +5698,7 @@
 				setxoffset
 				setxscale
 				setxyz
+				sety
 				setyoffset
 				setyscale
 				setz
@@ -5710,6 +5716,7 @@
 				slotsize
 				sorcupdateballangle
 				soundalert
+				soundenabled
 				spawn
 				spawnblood
 				spawndecal
@@ -5730,6 +5737,7 @@
 				spawnteleportfog
 				specialblasthandling
 				specialdropaction
+				specialkeyevent
 				specialmissilehit
 				sphericalcoords
 				splerp
@@ -5742,9 +5750,12 @@
 				startsoundsequence
 				startsoundsequenceid
 				statusbartorealcoords
+				stopallsounds
+				stopmusic
 				stopsoundsequence
 				stringat
 				stringwidth
+				stripright
 				substitute
 				switchonpickupchanged
 				s_changemusic
@@ -6824,11 +6835,13 @@
 				gff_noextchange
 				globalnamespace
 				greenfountain
+				gs_cutscene
 				gs_demoscreen
 				gs_finale
 				gs_fullconsole
 				gs_hideconsole
 				gs_intermission
+				gs_intro
 				gs_level
 				gs_menuscreen
 				gs_startup
