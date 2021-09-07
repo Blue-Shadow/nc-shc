@@ -117,6 +117,7 @@ allowmonstertelefrags
 allowrespawn
 author
 autosequences
+avoidmelee
 baronspecial
 bordertexture
 brightfog
@@ -132,6 +133,7 @@ checkswitchrange
 clipmidtextures
 cluster
 compat_anybossdeath
+compat_avoidhazards
 compat_badangles
 compat_boomscroll
 compat_checkswitchrange
@@ -168,6 +170,7 @@ compat_soundcutoff
 compat_soundtarget
 compat_spritesort
 compat_stairs
+compat_stayonlift
 compat_teleport
 compat_trace
 compat_useblocking

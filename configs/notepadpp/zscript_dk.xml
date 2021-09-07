@@ -2110,6 +2110,7 @@
 				automapbindings
 				autouse
 				autousemode
+				avoidhazards
 				avoidmelee
 				b
 				babsmaskangle
@@ -2156,6 +2157,7 @@
 				baseorder
 				battenuate
 				bautoactivate
+				bavoidhazards
 				bavoidingdropoff
 				bavoidmelee
 				baxeblood
@@ -2509,6 +2511,7 @@
 				bstaff2_kickback
 				bstandstill
 				bstaymorphed
+				bstayonlift
 				bstealth
 				bstepmissile
 				bstoprails
@@ -3755,6 +3758,7 @@
 				statspace
 				statusbar
 				staymorphed
+				stayonlift
 				stealth
 				stealthalpha
 				stencilcolor
