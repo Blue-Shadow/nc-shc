@@ -3088,6 +3088,7 @@ maddcolor
 malttext
 mamountfont
 manager
+manimated
 manimatedtransition
 map07boss1
 map07boss2
@@ -6474,6 +6475,7 @@ cr_green
 cr_grey
 cr_ice
 cr_lightblue
+cr_nativepal
 cr_olive
 cr_orange
 cr_purple
@@ -7214,6 +7216,7 @@ max_angle_adjust
 max_gen_pods
 max_randomspawners_recursion
 max_statnum
+meleedelta
 minotaur_look_dist
 minvel
 missilerange
