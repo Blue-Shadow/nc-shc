@@ -4381,6 +4381,7 @@ a_m_punch
 a_m_refire
 a_m_saw
 a_m_sawrefire
+a_nailbomb
 a_noblocking
 a_nogravity
 a_noisealert
@@ -4425,6 +4426,7 @@ a_punch
 a_quake
 a_quakeex
 a_queuecorpse
+a_radiusdamage
 a_radiusdamageself
 a_radiusgive
 a_radiusthrust
