@@ -5524,6 +5524,7 @@
 				postunmorph
 				premorph
 				preteleport
+				pretravelled
 				preunmorph
 				previnv
 				printf
