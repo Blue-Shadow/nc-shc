@@ -4938,6 +4938,7 @@ drawoneweapon
 drawoptiontext
 drawpatchortext
 drawpatchtext
+drawpaused
 drawpercent
 drawpercentscaled
 drawpopscreen
