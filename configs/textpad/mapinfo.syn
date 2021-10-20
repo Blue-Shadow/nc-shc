@@ -403,12 +403,14 @@ forcenogfxsubstitution
 forcetextinmenus
 fullscreenautoaspect
 gibfactor
+helpmenuclass
 hidepartimes
 infopage
 intermissioncounter
 intermissionmusic
 maparrow
 menubackbutton
+menudelegateclass
 menufontcolor_action
 menufontcolor_header
 menufontcolor_highlight
