@@ -727,6 +727,7 @@
 				eusetypes
 				evalues
 				eventhandler
+				eviewposflags
 				evileattackflags
 				evileye
 				evilsceptre
@@ -1355,6 +1356,7 @@
 				powerup
 				powerupgiver
 				powerweaponlevel2
+				ppshader
 				prisonkey
 				prisonpass
 				proglevelender
@@ -1851,6 +1853,7 @@
 				vector3
 				vertex
 				videomodemenu
+				viewposition
 				visstyle
 				voidptr
 				volcano
@@ -2155,6 +2158,7 @@
 				bargsdefined
 				barmed
 				baseorder
+				basescale
 				battenuate
 				bautoactivate
 				bavoidhazards
@@ -3894,6 +3898,8 @@
 				weaponflags
 				weaponlevel2ended
 				weapons
+				weaponscalex
+				weaponscaley
 				weaponslot
 				weaponspawn
 				weaponspecial
@@ -5397,6 +5403,7 @@
 				mbf21_monsterprojectile
 				mbf21_refireto
 				mbf21_removeflags
+				mbf21_seektracer
 				mbf21_spawnobject
 				mbf21_weaponbulletattack
 				mbf21_weaponjump
@@ -5606,6 +5613,7 @@
 				setbind
 				setbool
 				setcamera
+				setcameratextureaspectratio
 				setcameratotexture
 				setcapture
 				setcliprect
@@ -5700,6 +5708,7 @@
 				setupweaponslots
 				setvalue
 				setvertex
+				setviewpos
 				setwalltexture
 				setwalltextureid
 				setwallyscale
@@ -7983,6 +7992,8 @@
 				useownadditivecolor
 				useownspecialcolors
 				vaf_dmgtypeapplytodirect
+				vpsf_absoluteoffset
+				vpsf_absolutepos
 				vrf_noangle
 				vrf_noangleend
 				vrf_noanglestart
