@@ -5500,6 +5500,7 @@
 				playerdisconnected
 				playerentered
 				playerfinishlevel
+				playerlandedmakegruntsound
 				playermaxammo
 				playernamechanged
 				playerrespawned

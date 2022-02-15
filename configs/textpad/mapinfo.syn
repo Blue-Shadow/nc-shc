@@ -155,6 +155,7 @@ compat_multiexit
 compat_mushroom
 compat_noblockfriends
 compat_nodoorlight
+compat_nombf21
 compat_nopassover
 compat_notossdrops
 compat_pointonline
