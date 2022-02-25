@@ -3794,6 +3794,7 @@
 				telestomp
 				terrainname
 				terrainnum
+				terrains
 				textbackground
 				textbackgroundbrightness
 				textcolor
@@ -4598,6 +4599,7 @@
 				a_stalkerwalk
 				a_startfire
 				a_startsound
+				a_startsoundifnotsame
 				a_stop
 				a_stopallsounds
 				a_stopballs
