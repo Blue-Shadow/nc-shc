@@ -713,6 +713,7 @@ APROP_ScaleX
 APROP_ScaleY
 APROP_Score
 APROP_SeeSound
+APROP_SoundClass
 APROP_SpawnHealth
 APROP_Species
 APROP_Speed
