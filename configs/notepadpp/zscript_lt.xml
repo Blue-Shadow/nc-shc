@@ -6343,6 +6343,7 @@
 				chan_voice
 				chan_weapon
 				chars
+				chf_dontidle
 				chf_dontmove
 				chf_dontturn
 				chf_fastchase
