@@ -2228,6 +2228,7 @@
 				bdontfacetalker
 				bdontfall
 				bdontflip
+				bdontfollowplayers
 				bdontgib
 				bdontharmclass
 				bdontharmspecies
@@ -2755,6 +2756,7 @@
 				dontfacetalker
 				dontfall
 				dontflip
+				dontfollowplayers
 				dontgib
 				dontharmclass
 				dontharmspecies
