@@ -218,6 +218,7 @@
 				bishoppainblur
 				bishoppuff
 				blackparticlefountain
+				blackscreen
 				blasteffect
 				blaster
 				blasterammo
@@ -538,6 +539,7 @@
 				dirtype_t
 				di_flags
 				doombuildercamera
+				doomcutscenes
 				doomimp
 				doomimpball
 				doomkey
@@ -623,6 +625,8 @@
 				eimg
 				einputflags
 				einterpolationtype
+				ejobflags
+				ejobstate
 				ejoyaxis
 				ejumpflags
 				ekillflags
@@ -647,6 +651,7 @@
 				emorphflags
 				emovementflags
 				emoveresult
+				emovieflags
 				emptytokentype
 				emug
 				emushroomflags
@@ -689,6 +694,7 @@
 				erenderstyle
 				ereplace
 				erespawnflags
+				erunstate
 				esawflags
 				escale
 				escalemode
@@ -925,6 +931,7 @@
 				icontype
 				idbadge
 				idcard
+				imagescreen
 				imagescrollerdescriptor
 				imagescrollermenu
 				imagescrollerpage
@@ -940,6 +947,8 @@
 				int16
 				int8
 				interbackground
+				intermissioncontroller
+				intermissionscreenjob
 				intermissionsequencetype
 				interpolationpoint
 				interpolationspecial
@@ -1129,6 +1138,8 @@
 				moss1
 				moss2
 				mover
+				movieplayer
+				movieplayerjob
 				movingcamera
 				movingceiling
 				movingfloor
@@ -1488,6 +1499,8 @@
 				scanner
 				scoreitem
 				screen
+				screenjob
+				screenjobrunner
 				scriptedmarine
 				scriptutil
 				secactdamage3d
@@ -1578,6 +1591,7 @@
 				sigilbanner
 				silverkey
 				silvershield
+				skippablescreenjob
 				skullcolumn
 				skullhang35
 				skullhang45
@@ -2025,6 +2039,7 @@
 				acceleratestage
 				accuracy
 				actionspecial
+				actionstate
 				activatedline
 				activateimpact
 				activatemcross
@@ -2041,6 +2056,7 @@
 				additivepoisondamage
 				additivepoisonduration
 				additivetime
+				advance
 				aimreflect
 				aircapacity
 				aircontrol
@@ -2490,6 +2506,7 @@
 				bsameframe
 				bscreenseeker
 				bscrollmove
+				bseefriendlymonsters
 				bseeinvisible
 				bseekermissile
 				bseesdaggers
@@ -2601,7 +2618,9 @@
 				cleanxfac_1
 				cleanyfac
 				cleanyfac_1
+				clearbefore
 				clearcolorset
+				cleared
 				clearflags
 				cls
 				cluster
@@ -2640,6 +2659,7 @@
 				confont
 				consoleplayer
 				content
+				controller
 				conversationfacetalker
 				conversationnpc
 				conversationnpcangle
@@ -2809,6 +2829,9 @@
 				f1pic
 				face
 				fadecolor
+				fadestate
+				fadeticks
+				fadetime
 				failmessage
 				falldamage
 				fallingscreammaxspeed
@@ -2823,7 +2846,7 @@
 				ffloor
 				filename
 				fillcolor
-				finished
+				finishedp
 				finishedpatch
 				finished_ep
 				firedamage
@@ -2833,6 +2856,7 @@
 				fixedlightlevel
 				fixedorigin
 				fixmapthingpos
+				flag
 				flags
 				flags2
 				flags3
@@ -3014,6 +3038,8 @@
 				itemcount
 				itemflashfade
 				items
+				jobs
+				jobstate
 				jumpdown
 				jumptics
 				jumpz
@@ -3038,6 +3064,7 @@
 				lastlookactor
 				lastlookplayernumber
 				lastpush
+				last_paused_tic
 				laxtelefragdmg
 				leakydamage
 				left
@@ -3638,6 +3665,7 @@
 				scaley
 				score
 				scoreicon
+				screenfade
 				screenseeker
 				secacttarget
 				secret
@@ -3647,6 +3675,7 @@
 				sectorportals
 				sectors
 				sector_list
+				seefriendlymonsters
 				seeinvisible
 				seekermissile
 				seesdaggers
@@ -3681,6 +3710,8 @@
 				skills
 				skinname
 				skins
+				skipall
+				skipover
 				skip_super
 				skullfly
 				sky
@@ -3760,6 +3791,7 @@
 				stamina
 				standstill
 				start
+				started
 				starthealth
 				startitem
 				starttime
@@ -3794,9 +3826,11 @@
 				teleport
 				teleportfreezetime
 				telestomp
+				terminatestate
 				terrainname
 				terrainnum
 				terrains
+				texid
 				textbackground
 				textbackgroundbrightness
 				textcolor
@@ -3815,11 +3849,13 @@
 				thrughost
 				thrureflect
 				thruspecies
+				ticks
 				ticrange
 				tics
 				tid
 				tidtohate
 				tier
+				tilenum
 				time
 				timefreezer
 				timepic
@@ -3838,6 +3874,7 @@
 				touchmidtex
 				touchy
 				tracer
+				trans
 				transfer
 				turnticks
 				type
@@ -3891,6 +3928,7 @@
 				vspeed
 				vulnerable
 				waiting
+				waittime
 				walksteptics
 				wallbouncefactor
 				wallbouncesound
@@ -3951,6 +3989,7 @@
 				addarmortoslot
 				addchoice
 				addexistingammo
+				addgenericvideo
 				addinventory
 				additemtolist
 				addlineid
@@ -3967,6 +4006,7 @@
 				adjustfloorclip
 				adjustplayerangle
 				adjustposition
+				advancejob
 				aimbulletmissile
 				aimlineattack
 				aimtarget
@@ -4685,6 +4725,7 @@
 				bobweapon
 				breaklines
 				bringupweapon
+				buildmaptransition
 				bulletslope
 				byteat
 				calcheight
@@ -4835,9 +4876,12 @@
 				createfloor
 				createfrompos
 				createlineiditerator
+				createnamed
 				createnobox
 				createsectortagiterator
 				createtossable
+				createwithsound
+				createwithsoundinfo
 				crouchmove
 				cursorspace
 				c_midprint
@@ -4847,6 +4891,7 @@
 				deactivate
 				deaththink
 				delete
+				deletejobs
 				deletelastcharacter
 				deltaangle
 				depleteammo
@@ -4859,6 +4904,7 @@
 				detachmessageid
 				die
 				dim
+				displayframe
 				displaynametag
 				distance2d
 				distance2dsquared
@@ -4988,6 +5034,7 @@
 				explodemissile
 				extractsavedata
 				facemovementdirection
+				fadeoutframe
 				fill
 				fillsavemenu
 				fillselectmenu
@@ -5056,6 +5103,7 @@
 				getallkeysforcommand
 				getalpha
 				getaltatkstate
+				getammocapacity
 				getammotag
 				getammotextlengths
 				getamount
@@ -5115,6 +5163,7 @@
 				getdownstate
 				getdropitems
 				geteffectticsforitem
+				getfadestate
 				getflags
 				getflechetteitem
 				getfloat
@@ -5241,6 +5290,7 @@
 				getteleportfreezetime
 				getterrain
 				gettext
+				gettextscreensize
 				gettexture
 				gettextureflags
 				gettexturexoffset
@@ -5321,6 +5371,7 @@
 				initallpowerupeffects
 				initdirect
 				initeffect
+				initnamed
 				initnostate
 				initshownextloc
 				initspawneditem
@@ -5437,6 +5488,7 @@
 				moveplayer
 				mstaffspawn2
 				mstime
+				mstimef
 				multiplytexturexscale
 				multiplytextureyscale
 				musicenabled
@@ -5452,7 +5504,9 @@
 				nexthighestceilingat
 				nextinv
 				nextlowestfloorat
+				nextpage
 				nextspecialsector
+				nextstage
 				normalize180
 				now
 				obtaininventory
@@ -5465,13 +5519,16 @@
 				ondrain
 				ondrop
 				onendpage
+				onevent
 				ongivesecret
 				oninputevent
 				onmenucreated
 				onregister
 				onrespawn
 				onreturn
+				onskip
 				onstartpage
+				ontick
 				onuievent
 				onunregister
 				open
@@ -5543,6 +5600,7 @@
 				previnv
 				printf
 				printpickupmessage
+				processinput
 				processmidprint
 				processnotify
 				projectilehitlinedef
@@ -5588,6 +5646,7 @@
 				resettodefault
 				resize
 				resolvestate
+				responder
 				restoredamage
 				restorerenderstyle
 				resurrect
@@ -5597,6 +5656,7 @@
 				rotatevector
 				roughmonstersearch
 				round
+				runframe
 				savegamecount
 				scanforloop
 				screensizechanged
@@ -5610,6 +5670,7 @@
 				sendpitchlimits
 				setadditivecolor
 				setalpha
+				setammocapacity
 				setangle
 				setaxisdeadzone
 				setaxismap
@@ -5706,6 +5767,7 @@
 				setthingxy
 				setthingz
 				settransform
+				settransition
 				setuniform1f
 				setuniform1i
 				setuniform2f
@@ -5859,6 +5921,7 @@
 				usehealthitems
 				useinventory
 				usepuzzleitem
+				validate
 				validateinvfirst
 				validatespriteframe
 				value
@@ -6211,10 +6274,13 @@
 				blockf_creatures
 				blockf_everything
 				blockf_floaters
+				blockf_hitscan
 				blockf_monsters
 				blockf_players
 				blockf_projectiles
 				blockf_railing
+				blockf_sight
+				blockf_sound
 				blockf_use
 				bluefountain
 				bob_alpha
@@ -6440,6 +6506,7 @@
 				compatf_stairindex
 				compatf_trace
 				compatf_useblocking
+				compatf_vileghosts
 				compatf_wallrun
 				cpf_dagger
 				cpf_norandompuffz
@@ -6694,6 +6761,8 @@
 				dummylight
 				eitherfire
 				environment
+				fadein
+				fadeout
 				faf_bottom
 				faf_middle
 				faf_nodistfactor
@@ -6747,10 +6816,12 @@
 				ff_thisinside
 				ff_translucent
 				ff_uppertexture
+				finished
 				finish_nexthub
 				finish_nohub
 				finish_samehub
 				firedemon_attack_range
+				fixedviewport
 				flag_inskybox
 				flag_no_change
 				flag_skyflatonly
@@ -7349,6 +7420,7 @@
 				noalias
 				nofixedcolormap
 				nogradient
+				nosoundcutoff
 				nostate
 				noteam
 				notrans
@@ -7503,6 +7575,7 @@
 				ptrop_unsafetarget
 				pulselight
 				purplefountain
+				qf_3d
 				qf_fullintensity
 				qf_max
 				qf_relative
@@ -7574,6 +7647,7 @@
 				rtf_noimpactdamage
 				rtf_notmissile
 				rtf_thrustz
+				running
 				sawrange
 				secf_damageflags
 				secf_dmgterrainfx
@@ -7672,6 +7746,7 @@
 				skillp_spawnfilter
 				skillp_spawnmulti
 				skills_all
+				skipped
 				smf_curspeed
 				smf_look
 				smf_precise
@@ -7729,7 +7804,10 @@
 				standard
 				statcount
 				state_actor
+				state_clear
+				state_fadeout
 				state_psprite
+				state_run
 				state_statechain
 				stat_actormover
 				stat_autodecal
@@ -7757,6 +7835,9 @@
 				stat_user
 				stat_user_max
 				steepslope
+				stopped
+				stopping
+				stopsound
 				strifehands
 				style_add
 				style_addshaded
@@ -7919,6 +8000,11 @@
 				trace_reportportals
 				trace_skip
 				trace_stop
+				transition_burn
+				transition_crossfade
+				transition_mask
+				transition_melt
+				transition_shift
 				translation_blood
 				translation_custom
 				translation_decals
@@ -7998,6 +8084,7 @@
 				useownadditivecolor
 				useownspecialcolors
 				vaf_dmgtypeapplytodirect
+				visible
 				vpsf_absoluteoffset
 				vpsf_absolutepos
 				vrf_noangle

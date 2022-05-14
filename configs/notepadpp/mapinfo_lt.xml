@@ -104,6 +104,7 @@
 				allowjump
 				allowmonstertelefrags
 				allowrespawn
+				attenuatelights
 				author
 				autosequences
 				avoidmelee
@@ -164,6 +165,7 @@
 				compat_teleport
 				compat_trace
 				compat_useblocking
+				compat_vileghosts
 				cyberdemonspecial
 				deathsequence
 				defaultenvironment
