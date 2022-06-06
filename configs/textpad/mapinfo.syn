@@ -106,6 +106,15 @@ true
 [Keywords 2]
 
 [Keywords 3]
+clear
+delete
+fps
+function
+sound
+soundid
+video
+
+
 activateowndeathspecials
 additive_scrollers
 aircontrol
@@ -219,6 +228,7 @@ infiniteflightpowerup
 intermission
 intermusic
 interpic
+intro
 ironlichspecial
 keepfullinventory
 killeractivatesdeathspecials
@@ -259,6 +269,7 @@ nostatistics
 notexturefill
 no_grinding_polyobj
 oldfallingdamage
+outro
 outsidefog
 outsidefogdensity
 par
@@ -321,6 +332,7 @@ entertext
 entertextislump
 exittextislump
 flat
+gameover
 hub
 name
 pic
@@ -461,7 +473,6 @@ background
 cdmusic
 draw
 drawconditional
-sound
 subtitle
 time
 

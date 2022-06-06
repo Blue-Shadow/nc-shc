@@ -2056,6 +2056,7 @@
 				additivepoisondamage
 				additivepoisonduration
 				additivetime
+				addlightlevel
 				advance
 				aimreflect
 				aircapacity
@@ -2152,6 +2153,7 @@
 				badditivepoisondamage
 				badditivepoisonduration
 				badditivetime
+				baddlightlevel
 				baddweapon
 				baimreflect
 				ballangle
@@ -2226,6 +2228,7 @@
 				bcountsecret
 				bcrashed
 				bcreatecopymoved
+				bcrosslinecheck
 				bcrouchablemorph
 				bcvarfast
 				bdeflect
@@ -2250,6 +2253,8 @@
 				bdontharmspecies
 				bdontinterpolate
 				bdontlightactors
+				bdontlightmap
+				bdontlightothers
 				bdontlightself
 				bdontmorph
 				bdontoverlap
@@ -2367,6 +2372,7 @@
 				bmap07boss1
 				bmap07boss2
 				bmaskrotation
+				bmasternosee
 				bmbfbouncer
 				bmeleeweapon
 				bmirror
@@ -2681,6 +2687,7 @@
 				crossedwaterpos
 				crosshair
 				crosshairsize
+				crosslinecheck
 				crouchablemorph
 				crouchdir
 				crouchfactor
@@ -2784,6 +2791,8 @@
 				donthurtspecies
 				dontinterpolate
 				dontlightactors
+				dontlightmap
+				dontlightothers
 				dontlightself
 				dontmorph
 				dontoverlap
@@ -3120,6 +3129,7 @@
 				maskrotation
 				mass
 				master
+				masternosee
 				mautoselect
 				maxabsorb
 				maxamount
@@ -3933,6 +3943,7 @@
 				wallbouncefactor
 				wallbouncesound
 				wallsprite
+				waterdepth
 				waterlevel
 				wbs
 				weaponclass
@@ -3950,6 +3961,7 @@
 				wimpy_weapon
 				windowsize
 				windthrust
+				worldoffset
 				woundhealth
 				wp_nochange
 				wrapwidth
@@ -4735,6 +4747,7 @@
 				callstatechain
 				calltrypickup
 				cancollidewith
+				cancrossline
 				cancrouch
 				canpickup
 				canprint
@@ -5035,6 +5048,7 @@
 				extractsavedata
 				facemovementdirection
 				fadeoutframe
+				fallandsink
 				fill
 				fillsavemenu
 				fillselectmenu
@@ -7280,6 +7294,8 @@
 				lf_additive
 				lf_attenuate
 				lf_dontlightactors
+				lf_dontlightmap
+				lf_dontlightothers
 				lf_dontlightself
 				lf_noshadowmap
 				lf_spot
