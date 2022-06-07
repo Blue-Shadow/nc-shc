@@ -3490,6 +3490,7 @@ notrail
 notrigger
 noverticalmeleerange
 nowallbouncesnd
+nowipe
 no_auto_switch
 no_dlg_freeze
 number
@@ -4766,6 +4767,7 @@ canresurrect
 canseek
 cantouchitem
 cantrigger
+canwipe
 castsorcererspell
 ceil
 centerceiling
