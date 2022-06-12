@@ -823,6 +823,8 @@ fswordflame
 fswordmissile
 fs_mapspot
 ftranslatedlinetarget
+fvector2
+fvector3
 fweapaxe
 fweapfist
 fweaphammer
@@ -2853,6 +2855,7 @@ fadestate
 fadeticks
 fadetime
 failmessage
+failsound
 falldamage
 fallingscreammaxspeed
 fallingscreamminspeed
@@ -3605,6 +3608,7 @@ pushable
 pushfactor
 pushtime
 puzzfailmessage
+puzzfailsound
 puzzleitemnumber
 p_secret
 quartergravity
