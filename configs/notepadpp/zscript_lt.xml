@@ -2337,6 +2337,7 @@
 				bintrymove
 				binvbar
 				binvisible
+				binvisibleinmirrors
 				binvulnerable
 				bisarmor
 				bishealth
@@ -2460,6 +2461,7 @@
 				bobstyle
 				boldradiusdmg
 				boldversion
+				bonlyvisibleinmirrors
 				bonmobj
 				bonuscount
 				bonushealth
@@ -3028,6 +3030,7 @@
 				invgem_left
 				invgem_right
 				invisible
+				invisibleinmirrors
 				invsel
 				invulmode
 				invulnerabilitymode
@@ -3496,6 +3499,7 @@
 				oldx
 				oldy
 				onground
+				onlyvisibleinmirrors
 				optionmenusettings
 				order
 				orderedammos
