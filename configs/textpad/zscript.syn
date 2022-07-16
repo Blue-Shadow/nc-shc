@@ -600,6 +600,7 @@ ecolor
 ecolorpos
 ecolorrange
 ecompatflags
+econsolestate
 ecopyspriteframeflags
 ecrushmode
 ecustombulletattackflags
@@ -1744,6 +1745,8 @@ stealthhellknight
 stealthrevenant
 stealthshotgunguy
 stealthzombieman
+stencilflags
+stencilop
 stickinwater
 stimpack
 stool
@@ -2679,6 +2682,7 @@ compatflags2
 completeborder
 confont
 consoleplayer
+consolestate
 content
 controller
 conversationfacetalker
@@ -4888,6 +4892,8 @@ clearsavestuff
 clearscreen
 clearsecret
 clearsectortags
+clearstencil
+cleartransform
 close
 closesound
 codepointcount
@@ -5030,6 +5036,7 @@ drawsavepic
 drawselector
 drawshader
 drawshape
+drawshapefill
 drawshownextloc
 drawslider
 drawspeakertext
@@ -5056,6 +5063,7 @@ dsparilteleport
 effect
 enable
 enableadditivecolor
+enablestencil
 end
 endallpowerupeffects
 endeffect
@@ -5124,6 +5132,7 @@ forwardthrust
 fragsum
 frandom
 frandompick
+from2d
 fromstring
 genderchanged
 geometrylineattack
@@ -5784,6 +5793,7 @@ setspecialcolor
 setsprite
 setstate
 setstatelabel
+setstencil
 setstring
 setsubtitlenumber
 settag
@@ -6608,7 +6618,11 @@ cvar_string
 cvf_relative
 cvf_replace
 c_coords
+c_down
+c_falling
 c_indices
+c_rising
+c_up
 c_verts
 default_health
 defmeleerange
@@ -7735,6 +7749,9 @@ secspac_hitfloor
 secspac_use
 secspac_usewall
 sectorlight
+sf_allon
+sf_colormaskoff
+sf_depthmaskoff
 sf_ignorevisibility
 sf_ignorewaterboundary
 sf_nopullin
@@ -7788,6 +7805,9 @@ skipped
 smf_curspeed
 smf_look
 smf_precise
+sop_decrement
+sop_increment
+sop_keep
 sorcball_initial_speed
 sorcball_speed_rotations
 sorcball_terminal_speed
