@@ -308,6 +308,7 @@ chaingun
 chaingunguy
 chainsaw
 chandelier
+changemodelflags
 chapelkey
 chexappletree
 chexarmor
@@ -4133,6 +4134,7 @@ a_cflamerotate
 a_changecountflags
 a_changeflag
 a_changelinkflags
+a_changemodel
 a_changevelocity
 a_chase
 a_checkblock
@@ -6500,6 +6502,9 @@ cloff_skipobject
 cloff_skipobstacles
 cloff_skiptarget
 cluster_hub
+cmdl_hidemodel
+cmdl_usesurfaceskin
+cmdl_weapontoplayer
 cmf_absoluteangle
 cmf_absolutepitch
 cmf_aimdirection
