@@ -277,6 +277,7 @@
 				candelabra
 				candle
 				candlestick
+				canvas
 				catacombkey
 				cavepillarbottom
 				cavepillartop
@@ -5163,6 +5164,7 @@
 				getbottomalignoffset
 				getbuttonstateflags
 				getcameraheight
+				getcanvas
 				getceilinglight
 				getchangedheight
 				getcharactername

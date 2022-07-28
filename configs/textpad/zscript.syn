@@ -288,6 +288,7 @@ cajuntrace
 candelabra
 candle
 candlestick
+canvas
 catacombkey
 cavepillarbottom
 cavepillartop
@@ -5174,6 +5175,7 @@ getbool
 getbottomalignoffset
 getbuttonstateflags
 getcameraheight
+getcanvas
 getceilinglight
 getchangedheight
 getcharactername
