@@ -5091,6 +5091,7 @@
 				findlowestceilingsurrounding
 				findlowestfloorsurrounding
 				findlump
+				findlumpfullname
 				findminsurroundinglight
 				findmodelceilingsector
 				findmodelfloorsector
