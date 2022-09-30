@@ -5198,6 +5198,7 @@
 				getdigitcount
 				getdisplacement
 				getdisplaycolor
+				getdisplaytopoffset
 				getdistance
 				getdouble
 				getdoubleui
@@ -5358,6 +5359,7 @@
 				getupstate
 				getusername
 				getvalue
+				getvertexz
 				getviewwindow
 				getvisflags
 				getwbobfire
@@ -5674,6 +5676,7 @@
 				removenewsavenode
 				removesaveslot
 				removespot
+				removevertexz
 				renderoverlay
 				renderunderlay
 				replace
@@ -5776,6 +5779,7 @@
 				setsafeflash
 				setscreenfade
 				setsectorlight
+				setsectorplane
 				setsectorspecial
 				setsectortexture
 				setsectortextureid
@@ -5818,6 +5822,7 @@
 				setupweaponslots
 				setvalue
 				setvertex
+				setvertexz
 				setviewpos
 				setwalltexture
 				setwalltextureid
@@ -6318,6 +6323,7 @@
 				blockf_everything
 				blockf_floaters
 				blockf_hitscan
+				blockf_landmonsters
 				blockf_monsters
 				blockf_players
 				blockf_projectiles

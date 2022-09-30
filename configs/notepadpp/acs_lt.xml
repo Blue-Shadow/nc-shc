@@ -778,6 +778,7 @@
 				APROP_Dropped
 				APROP_Friction
 				APROP_Friendly
+				APROP_FriendlySeeBlocks
 				APROP_Frightened
 				APROP_Gravity
 				APROP_Health
@@ -829,6 +830,7 @@
 				BLOCKF_EVERYTHING
 				BLOCKF_FLOATERS
 				BLOCKF_HITSCAN
+				BLOCKF_LANDMONSTERS
 				BLOCKF_MONSTERS
 				BLOCKF_PLAYERS
 				BLOCKF_PROJECTILES
