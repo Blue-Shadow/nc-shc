@@ -355,7 +355,6 @@
 				conversationmenu
 				coopstatusscreen
 				corekey
-				corona
 				corpsebit
 				corpseblooddrip
 				crateofmissiles
@@ -7478,6 +7477,7 @@
 				noalias
 				nofixedcolormap
 				nogradient
+				nomusiccutoff
 				nosoundcutoff
 				nostate
 				noteam
@@ -7634,11 +7634,14 @@
 				pulselight
 				purplefountain
 				qf_3d
+				qf_affectactors
 				qf_fullintensity
+				qf_groundonly
 				qf_max
 				qf_relative
 				qf_scaledown
 				qf_scaleup
+				qf_shakeonly
 				qf_wave
 				radf_hurtsource
 				radf_nodamage
