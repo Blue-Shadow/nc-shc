@@ -4642,6 +4642,7 @@
 				a_spawnitem
 				a_spawnitemex
 				a_spawnparticle
+				a_spawnparticleex
 				a_spawnprogrammerbase
 				a_spawnprojectile
 				a_spawnrippers
@@ -5177,6 +5178,7 @@
 				getclassicflight
 				getclassname
 				getcliprect
+				getclustername
 				getcolor
 				getcolorset
 				getcolorsetname
@@ -5204,6 +5206,7 @@
 				getdownstate
 				getdropitems
 				geteffectticsforitem
+				getepisodename
 				getfadestate
 				getflags
 				getflechetteitem
@@ -7855,6 +7858,7 @@
 				spf_relative
 				spf_relpos
 				spf_relvel
+				spf_roll
 				sprites
 				sp_frags
 				sp_items
