@@ -2477,6 +2477,7 @@ bobstate
 bobstyle
 boldradiusdmg
 boldversion
+bonlyslamsolid
 bonlyvisibleinmirrors
 bonmobj
 bonuscount
@@ -3517,6 +3518,7 @@ oldradiusdmg
 oldx
 oldy
 onground
+onlyslamsolid
 onlyvisibleinmirrors
 optionmenusettings
 order
@@ -5484,6 +5486,7 @@ lookformonsters
 lookforplayers
 lookfortid
 lookuplevelname
+lookupstring
 lowestfloorat
 makeautosave
 makeid

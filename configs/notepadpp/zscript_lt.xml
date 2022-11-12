@@ -2466,6 +2466,7 @@
 				bobstyle
 				boldradiusdmg
 				boldversion
+				bonlyslamsolid
 				bonlyvisibleinmirrors
 				bonmobj
 				bonuscount
@@ -3506,6 +3507,7 @@
 				oldx
 				oldy
 				onground
+				onlyslamsolid
 				onlyvisibleinmirrors
 				optionmenusettings
 				order
@@ -5473,6 +5475,7 @@
 				lookforplayers
 				lookfortid
 				lookuplevelname
+				lookupstring
 				lowestfloorat
 				makeautosave
 				makeid
