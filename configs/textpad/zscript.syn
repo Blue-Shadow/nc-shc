@@ -59,6 +59,7 @@ fast
 final
 flagdef
 for
+foreach
 goto
 if
 in
@@ -74,6 +75,7 @@ mixin
 native
 nodelay
 null
+nullptr
 offset
 optional
 out
@@ -819,6 +821,7 @@ fogspawner
 font
 foptionmenusettings
 forcefieldguard
+fquat
 frailparams
 frostmissile
 fstateparaminfo
@@ -828,6 +831,7 @@ fs_mapspot
 ftranslatedlinetarget
 fvector2
 fvector3
+fvector4
 fweapaxe
 fweapfist
 fweaphammer
@@ -1417,6 +1421,7 @@ puzzgemred
 puzzleitem
 puzzmweapon
 puzzskull
+quat
 questitem
 questitem1
 questitem10
@@ -1883,6 +1888,7 @@ vavoomlightcolor
 vavoomlightwhite
 vector2
 vector3
+vector4
 vertex
 videomodemenu
 viewposition
@@ -3619,6 +3625,7 @@ puffgetsowner
 puffonactors
 pushable
 pushfactor
+pushsound
 pushtime
 puzzfailmessage
 puzzfailsound
@@ -3967,6 +3974,7 @@ visibletoplayerclass
 visibletoteam
 vspeed
 vulnerable
+w
 waiting
 waittime
 walksteptics
@@ -3999,6 +4007,7 @@ x
 xflip
 xscale
 xy
+xyz
 y
 yadjust
 yaw
@@ -5438,6 +5447,7 @@ inputprocess
 insert
 insertnewsavenode
 instatesequence
+interfaceprocess
 interpolate
 invnext
 invprev
@@ -5471,6 +5481,7 @@ isvisualportal
 iszerodamage
 koraxfire
 lastindexof
+lengthsquared
 lerp
 lineattack
 linetrace
@@ -5629,10 +5640,12 @@ playerspawned
 playerthink
 playidle
 playpickupsound
+playpushsound
 playrunning
 playsound
 playspawnsound
 playupsound
+plusz
 pointinsector
 pointonside
 pointtodist
@@ -5725,6 +5738,7 @@ search
 secretexitlevel
 selectable
 sendconversationreply
+sendinterfaceevent
 sendkey
 sendnetworkevent
 sendnewcolor
@@ -5907,6 +5921,7 @@ stringat
 stringwidth
 stripright
 substitute
+sum
 switchonpickupchanged
 s_changemusic
 s_getlength
@@ -5937,6 +5952,7 @@ tossitem
 tostring
 touch
 toupper
+tovector
 trace
 tracebleed
 tracebleedangle
@@ -7872,6 +7888,7 @@ spf_relang
 spf_relative
 spf_relpos
 spf_relvel
+spf_replace
 spf_roll
 sprites
 sp_frags
