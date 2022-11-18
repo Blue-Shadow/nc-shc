@@ -375,6 +375,7 @@
 				cstaffpuff
 				custombridge
 				custominventory
+				custommessageboxmenubase
 				customsprite
 				cvar
 				cweapflame
@@ -5592,9 +5593,13 @@
 				onunregister
 				open
 				opentextenter
+				optioncount
 				optionfont
+				optionforshortcut
 				optionheight
+				optionname
 				optionwidth
+				optionxoffset
 				overlayalpha
 				overlayid
 				overlayx
@@ -5611,6 +5616,7 @@
 				pickupforammo
 				pickweapon
 				pitchfromvel
+				pitchto
 				planemoving
 				playactivesound
 				playattacking
