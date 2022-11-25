@@ -1423,6 +1423,7 @@ puzzleitem
 puzzmweapon
 puzzskull
 quat
+quatstruct
 questitem
 questitem1
 questitem10
@@ -3215,6 +3216,7 @@ mdestination
 mdialoguelines
 mdisplacement
 mdisplaytop
+mdontblur
 mdontdim
 mdrawtop
 mdrawx
@@ -4086,6 +4088,7 @@ autoaimchanged
 autoskip
 autousehealth
 autousestrifehealth
+axisangle
 a_accelballs
 a_accteleglitter
 a_acolytebits
@@ -4917,6 +4920,7 @@ closesound
 codepointcount
 colorchanged
 colorsetchanged
+conjugate
 consoleprocess
 copy
 copybloodcolor
@@ -5152,6 +5156,7 @@ fragsum
 frandom
 frandompick
 from2d
+fromangles
 fromstring
 genderchanged
 geometrylineattack
@@ -5450,6 +5455,7 @@ insertnewsavenode
 instatesequence
 interfaceprocess
 interpolate
+inverse
 invnext
 invprev
 isabstract
@@ -5578,6 +5584,7 @@ nextlowestfloorat
 nextpage
 nextspecialsector
 nextstage
+nlerp
 normalize180
 now
 obtaininventory
@@ -5883,6 +5890,7 @@ sinh
 sinkmobj
 skinchanged
 slam
+slerp
 slotsize
 sorcupdateballangle
 soundalert
