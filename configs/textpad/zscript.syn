@@ -825,6 +825,7 @@ forcefieldguard
 fquat
 frailparams
 frostmissile
+fspawnparticleparams
 fstateparaminfo
 fswordflame
 fswordmissile
@@ -2062,6 +2063,7 @@ absmaskpitch
 absorbcount
 absviewangles
 acc
+accel
 acceleratestage
 accuracy
 actionspecial
@@ -2869,6 +2871,7 @@ f1pic
 face
 fadecolor
 fadestate
+fadestep
 fadeticks
 fadetime
 failmessage
@@ -3115,6 +3118,7 @@ length
 level
 levelname
 levelnum
+lifetime
 lightcolor
 lightingdata
 lightlevel
@@ -3692,8 +3696,10 @@ riplevelmin
 ripperlevel
 ripsound
 roll
+rollacc
 rollcenter
 rollsprite
+rollvel
 rotation
 rowheight
 runhealth
@@ -3755,6 +3761,7 @@ sisterweapon
 sisterweapontype
 sitems
 size
+sizestep
 skillrespawncount
 skills
 skinname
@@ -3840,9 +3847,11 @@ stairlock
 stamina
 standstill
 start
+startalpha
 started
 starthealth
 startitem
+startroll
 starttime
 statspace
 statusbar
@@ -3860,6 +3869,7 @@ stoprails
 strafecount
 strength
 strifedamage
+style
 subtractive
 sucks
 sucktime
@@ -3886,6 +3896,7 @@ textcolor
 textfont
 textnegone
 textscale
+texture
 textzero
 thing
 thinglist
@@ -5310,6 +5321,7 @@ getpointer
 getportalalignment
 getportaldestination
 getportaldisplacement
+getportalgroupcount
 getportalplanez
 getportaltype
 getpowerupicon
@@ -5908,6 +5920,7 @@ spawnmissileanglezspeed
 spawnmissilexyz
 spawnmissilez
 spawnmissilezaimed
+spawnparticle
 spawnplayermissile
 spawnpuff
 spawnspirittail
@@ -6464,12 +6477,14 @@ cf_godmode
 cf_godmode2
 cf_instantweapswitch
 cf_interpview
+cf_interpviewangles
 cf_noclip
 cf_noclip2
 cf_notarget
 cf_novelocity
 cf_predicting
 cf_revertplease
+cf_scalednolerp
 cf_stepleft
 cf_totallyfrozen
 chanf_default
@@ -7897,6 +7912,7 @@ spf_forceclamp
 spf_fullbright
 spf_interpolate
 spf_notimefreeze
+spf_no_xy_billboard
 spf_relaccel
 spf_relang
 spf_relative
@@ -7904,6 +7920,7 @@ spf_relpos
 spf_relvel
 spf_replace
 spf_roll
+spf_scalednolerp
 sprites
 sp_frags
 sp_items

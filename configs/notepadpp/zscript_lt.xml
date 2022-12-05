@@ -814,6 +814,7 @@
 				fquat
 				frailparams
 				frostmissile
+				fspawnparticleparams
 				fstateparaminfo
 				fswordflame
 				fswordmissile
@@ -2051,6 +2052,7 @@
 				absorbcount
 				absviewangles
 				acc
+				accel
 				acceleratestage
 				accuracy
 				actionspecial
@@ -2858,6 +2860,7 @@
 				face
 				fadecolor
 				fadestate
+				fadestep
 				fadeticks
 				fadetime
 				failmessage
@@ -3104,6 +3107,7 @@
 				level
 				levelname
 				levelnum
+				lifetime
 				lightcolor
 				lightingdata
 				lightlevel
@@ -3681,8 +3685,10 @@
 				ripperlevel
 				ripsound
 				roll
+				rollacc
 				rollcenter
 				rollsprite
+				rollvel
 				rotation
 				rowheight
 				runhealth
@@ -3744,6 +3750,7 @@
 				sisterweapontype
 				sitems
 				size
+				sizestep
 				skillrespawncount
 				skills
 				skinname
@@ -3829,9 +3836,11 @@
 				stamina
 				standstill
 				start
+				startalpha
 				started
 				starthealth
 				startitem
+				startroll
 				starttime
 				statspace
 				statusbar
@@ -3849,6 +3858,7 @@
 				strafecount
 				strength
 				strifedamage
+				style
 				subtractive
 				sucks
 				sucktime
@@ -3875,6 +3885,7 @@
 				textfont
 				textnegone
 				textscale
+				texture
 				textzero
 				thing
 				thinglist
@@ -5299,6 +5310,7 @@
 				getportalalignment
 				getportaldestination
 				getportaldisplacement
+				getportalgroupcount
 				getportalplanez
 				getportaltype
 				getpowerupicon
@@ -5897,6 +5909,7 @@
 				spawnmissilexyz
 				spawnmissilez
 				spawnmissilezaimed
+				spawnparticle
 				spawnplayermissile
 				spawnpuff
 				spawnspirittail
@@ -6453,12 +6466,14 @@
 				cf_godmode2
 				cf_instantweapswitch
 				cf_interpview
+				cf_interpviewangles
 				cf_noclip
 				cf_noclip2
 				cf_notarget
 				cf_novelocity
 				cf_predicting
 				cf_revertplease
+				cf_scalednolerp
 				cf_stepleft
 				cf_totallyfrozen
 				chanf_default
@@ -7886,6 +7901,7 @@
 				spf_fullbright
 				spf_interpolate
 				spf_notimefreeze
+				spf_no_xy_billboard
 				spf_relaccel
 				spf_relang
 				spf_relative
@@ -7893,6 +7909,7 @@
 				spf_relvel
 				spf_replace
 				spf_roll
+				spf_scalednolerp
 				sprites
 				sp_frags
 				sp_items
