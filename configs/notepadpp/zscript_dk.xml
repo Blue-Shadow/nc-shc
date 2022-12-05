@@ -59,6 +59,8 @@
 				let
 				light
 				loop
+				map
+				mapiterator
 				meta
 				mixin
 				native
@@ -1087,6 +1089,22 @@
 				maprevealer
 				mapspot
 				mapspotgravity
+				map_i32_f32
+				map_i32_f64
+				map_i32_i16
+				map_i32_i32
+				map_i32_i8
+				map_i32_obj
+				map_i32_ptr
+				map_i32_str
+				map_str_f32
+				map_str_f64
+				map_str_i16
+				map_str_i32
+				map_str_i8
+				map_str_obj
+				map_str_ptr
+				map_str_str
 				marineberserk
 				marinebfg
 				marinechaingun
@@ -4857,6 +4875,7 @@
 				checkiftargetinlos
 				checkinventory
 				checkjump
+				checkkey
 				checkkeys
 				checklinedefvulnerable
 				checklocalview
@@ -4931,6 +4950,7 @@
 				countinv
 				countproximity
 				countsaskill
+				countused
 				create
 				createactoriterator
 				createceiling
@@ -5265,6 +5285,7 @@
 				getintui
 				getinventoryicon
 				getitem
+				getkey
 				getkeycount
 				getkeysforcommand
 				getkeytype
@@ -5452,6 +5473,7 @@
 				initstats
 				inputprocess
 				insert
+				insertnew
 				insertnewsavenode
 				instatesequence
 				interfaceprocess
@@ -5938,6 +5960,7 @@
 				stripright
 				substitute
 				sum
+				swap
 				switchonpickupchanged
 				s_changemusic
 				s_getlength
@@ -6017,6 +6040,7 @@
 				usehealthitems
 				useinventory
 				usepuzzleitem
+				valid
 				validate
 				validateinvfirst
 				validatespriteframe
