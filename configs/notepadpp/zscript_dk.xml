@@ -4056,6 +4056,7 @@
 				activate
 				activatemenu
 				activatemorphweapon
+				actoronlineside
 				addammo
 				addammotolist
 				addarmortoslot
@@ -4798,6 +4799,7 @@
 				bestweapon
 				bobsin
 				bobweapon
+				boxonlineside
 				breaklines
 				bringupweapon
 				buildmaptransition
@@ -5683,6 +5685,7 @@
 				playupsound
 				plusz
 				pointinsector
+				pointonlineside
 				pointonside
 				pointtodist
 				poisonmobj

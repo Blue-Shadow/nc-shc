@@ -4067,6 +4067,7 @@ acs_scriptcall
 activate
 activatemenu
 activatemorphweapon
+actoronlineside
 addammo
 addammotolist
 addarmortoslot
@@ -4809,6 +4810,7 @@ beginstatusbar
 bestweapon
 bobsin
 bobweapon
+boxonlineside
 breaklines
 bringupweapon
 buildmaptransition
@@ -5694,6 +5696,7 @@ playspawnsound
 playupsound
 plusz
 pointinsector
+pointonlineside
 pointonside
 pointtodist
 poisonmobj
