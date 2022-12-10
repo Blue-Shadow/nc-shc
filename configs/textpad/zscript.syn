@@ -2498,6 +2498,7 @@ bnoverticalmeleerange
 bnowallbouncesnd
 bno_auto_switch
 bob
+bobpivot3d
 bobrangex
 bobrangey
 bobspeed
@@ -4810,6 +4811,7 @@ beginstatusbar
 bestweapon
 bobsin
 bobweapon
+bobweapon3d
 boxonlineside
 breaklines
 bringupweapon

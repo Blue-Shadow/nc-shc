@@ -2487,6 +2487,7 @@
 				bnowallbouncesnd
 				bno_auto_switch
 				bob
+				bobpivot3d
 				bobrangex
 				bobrangey
 				bobspeed
@@ -4799,6 +4800,7 @@
 				bestweapon
 				bobsin
 				bobweapon
+				bobweapon3d
 				boxonlineside
 				breaklines
 				bringupweapon
