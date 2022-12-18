@@ -4926,6 +4926,7 @@
 				clearbounce
 				clearcliprect
 				clearcounters
+				clearfovinterpolation
 				clearinterpolation
 				clearinventory
 				clearlastripped
@@ -5268,6 +5269,7 @@
 				getfont
 				getfriction
 				getfullscreenrect
+				getfviewbob
 				getgender
 				getgibhealth
 				getglobalacsarraystring
@@ -6498,6 +6500,7 @@
 				cf_interpviewangles
 				cf_noclip
 				cf_noclip2
+				cf_nofovinterp
 				cf_notarget
 				cf_novelocity
 				cf_predicting
