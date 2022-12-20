@@ -5975,6 +5975,8 @@ stopmusic
 stopsoundsequence
 stringat
 stringwidth
+stripleft
+stripleftright
 stripright
 substitute
 sum
