@@ -5305,6 +5305,8 @@
 				getlumpname
 				getlumpnamespace
 				getmanager
+				getmapcolorforkey
+				getmapcolorforlock
 				getmaxamount
 				getmaxascender
 				getmaxhealth
@@ -5502,6 +5504,7 @@
 				isjumpingallowed
 				islineportal
 				islinked
+				islockdefined
 				ismakingloopingsound
 				isnull
 				ispointerequal
