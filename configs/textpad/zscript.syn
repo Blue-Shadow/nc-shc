@@ -2938,6 +2938,7 @@ floorplane
 floorsector
 floorterrain
 floorz
+flybob
 fogdensity
 foilbuddha
 foilinvul
@@ -4014,6 +4015,7 @@ walksteptics
 wallbouncefactor
 wallbouncesound
 wallsprite
+waterclimbspeed
 waterdepth
 waterlevel
 wbs
