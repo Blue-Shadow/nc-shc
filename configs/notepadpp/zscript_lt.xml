@@ -4926,6 +4926,7 @@
 				checksplash
 				checkundomorph
 				checkuse
+				checkvalue
 				checkweaponbuttons
 				checkweaponchange
 				checkweaponfire
@@ -5299,6 +5300,7 @@
 				gethudscale
 				geticon
 				getid
+				getifexists
 				getindent
 				getint
 				getintui

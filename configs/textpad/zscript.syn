@@ -4937,6 +4937,7 @@ checksoundsequence
 checksplash
 checkundomorph
 checkuse
+checkvalue
 checkweaponbuttons
 checkweaponchange
 checkweaponfire
@@ -5310,6 +5311,7 @@ getheightsec
 gethudscale
 geticon
 getid
+getifexists
 getindent
 getint
 getintui
