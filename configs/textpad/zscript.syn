@@ -5657,6 +5657,7 @@ ondestroy
 ondrain
 ondrop
 onendpage
+onengineinitialize
 onevent
 ongivesecret
 oninputevent
