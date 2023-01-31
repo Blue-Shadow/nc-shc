@@ -386,10 +386,15 @@ crusadermissile
 crystalvial
 cstaffmissile
 cstaffpuff
+customboolcvar
 custombridge
+customcolorcvar
+customfloatcvar
+customintcvar
 custominventory
 custommessageboxmenubase
 customsprite
+customstringcvar
 cvar
 cweapflame
 cweapmace
@@ -5611,6 +5616,7 @@ min
 minotaurslam
 modifydamage
 modifydropamount
+modifyvalue
 monstermove
 morph
 morpheddeath
