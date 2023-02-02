@@ -186,6 +186,7 @@ compat_teleport
 compat_trace
 compat_useblocking
 compat_vileghosts
+cvar_redirect
 cyberdemonspecial
 deathsequence
 defaultenvironment
