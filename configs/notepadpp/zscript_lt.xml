@@ -2116,6 +2116,7 @@
 				allowrespawn
 				allowthrubits
 				allowthruflags
+				allservices
 				alpha
 				alternative
 				alternativebigfont
@@ -2418,6 +2419,7 @@
 				bmasternosee
 				bmbfbouncer
 				bmeleeweapon
+				bminvisible
 				bmirror
 				bmirrorreflect
 				bmissile
@@ -2426,6 +2428,7 @@
 				bmissingwads
 				bmovewithsector
 				bmthruspecies
+				bmvisblocked
 				bneverfast
 				bneverrespawn
 				bnevertarget
@@ -3304,6 +3307,7 @@
 				minselammo2
 				minselectionammo1
 				minselectionammo2
+				minvisible
 				mirrorreflect
 				misc1
 				misc2
@@ -3441,6 +3445,7 @@
 				mvalues
 				mvirtheight
 				mvirtwidth
+				mvisblocked
 				mwaiting
 				mwleft
 				mwright
@@ -5274,6 +5279,7 @@
 				getdisplaytopoffset
 				getdistance
 				getdouble
+				getdoubledata
 				getdoubleui
 				getdownstate
 				getdropitems
@@ -5308,6 +5314,7 @@
 				getifexists
 				getindent
 				getint
+				getintdata
 				getintui
 				getinventoryicon
 				getitem
@@ -5344,6 +5351,7 @@
 				getnumlumps
 				getobituary
 				getobject
+				getobjectdata
 				getobjectui
 				getoppositeportalgroup
 				getpainflash
@@ -5408,6 +5416,7 @@
 				getspritetexture
 				getstillbob
 				getstring
+				getstringdata
 				getstringui
 				gettag
 				getteam
