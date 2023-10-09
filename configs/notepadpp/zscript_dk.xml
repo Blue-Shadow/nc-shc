@@ -79,6 +79,7 @@
 				readonly
 				replaces
 				return
+				sealed
 				self
 				slow
 				stateinfo
@@ -693,6 +694,7 @@
 				epointeroperations
 				epop
 				eprintlevel
+				eprivateplayerflags
 				eproximityflags
 				epsplayers
 				epspritealign
@@ -1247,6 +1249,7 @@
 				optionmenuitemstatictextswitchable
 				optionmenuitemsubmenu
 				optionmenuitemtextfield
+				optionmenujoyenable
 				optionmenusliderbase
 				optionmenusliderjoydeadzone
 				optionmenusliderjoyscale
@@ -2309,6 +2312,7 @@
 				bdontthrust
 				bdonttranslate
 				bdormant
+				bdoshadowblock
 				bdropoff
 				bdropped
 				be1m8boss
@@ -2470,6 +2474,7 @@
 				bnonshootable
 				bnopain
 				bnoradiusdmg
+				bnosavegame
 				bnoscreenblink
 				bnoscreenflash
 				bnosector
@@ -2566,6 +2571,9 @@
 				bseekermissile
 				bseesdaggers
 				bshadow
+				bshadowaim
+				bshadowaimvert
+				bshadowblock
 				bshattering
 				bshieldreflect
 				bshootable
@@ -2856,6 +2864,7 @@
 				doombounce
 				doripping
 				dormant
+				doshadowblock
 				downpieces
 				drawclip
 				drawoffset
@@ -3371,6 +3380,7 @@
 				movecount
 				movedir
 				movefactor
+				movementblockingline
 				movewithsector
 				mowner
 				mparam
@@ -3520,6 +3530,7 @@
 				normal
 				normforwardmove
 				normsidemove
+				nosavegame
 				noscreenblink
 				noscreenflash
 				nosector
@@ -3774,7 +3785,12 @@
 				sequence
 				settings_controller
 				shadow
+				shadowaim
+				shadowaimfactor
+				shadowaimvert
 				shadowalpha
+				shadowblock
+				shadowpenaltyfactor
 				shieldreflect
 				shootable
 				shortmissilerange
@@ -3996,6 +4012,7 @@
 				verticalresolution
 				viewangle
 				viewbob
+				viewbobspeed
 				viewheight
 				viewpitch
 				viewpos
@@ -4240,6 +4257,7 @@
 				a_countdown
 				a_countdownarg
 				a_cposattack
+				a_cposattackdehacked
 				a_cposrefire
 				a_crispyplayer
 				a_crusaderchoose
@@ -4977,9 +4995,11 @@
 				cos
 				cosh
 				count
+				countids
 				countinv
 				countproximity
 				countsaskill
+				counttags
 				countused
 				create
 				createactoriterator
@@ -5285,6 +5305,7 @@
 				getdownstate
 				getdropitems
 				geteffectticsforitem
+				getenabled
 				getepisodename
 				getfadestate
 				getflags
@@ -5343,6 +5364,8 @@
 				getmovebob
 				getmugshot
 				getname
+				getnamedata
+				getnameui
 				getneverswitch
 				getnextcodepoint
 				getnextinlist
@@ -5613,6 +5636,11 @@
 				midprint
 				min
 				minotaurslam
+				modifybob
+				modifybob3d
+				modifyboblayer
+				modifyboblayer3d
+				modifybobpivotlayer3d
 				modifydamage
 				modifydropamount
 				modifyvalue
@@ -5775,6 +5803,7 @@
 				readlump
 				readsavestrings
 				receivedweapon
+				reflectoffactor
 				reinit
 				releasefocus
 				remoteactivate
@@ -5983,6 +6012,7 @@
 				spawnsubmissile
 				spawnteleportfog
 				specialblasthandling
+				specialbouncehit
 				specialdropaction
 				specialkeyevent
 				specialmissilehit
@@ -5990,6 +6020,7 @@
 				splerp
 				split
 				sqrt
+				startgamedirect
 				startintermission
 				startmessage
 				startmusic
@@ -6229,6 +6260,7 @@
 				generic_ceiling
 				generic_crusher
 				generic_crusher2
+				generic_crusherdist
 				generic_door
 				generic_floor
 				generic_lift
@@ -6583,6 +6615,7 @@
 				chan_weapon
 				chars
 				chf_dontidle
+				chf_dontlookallaround
 				chf_dontmove
 				chf_dontturn
 				chf_fastchase
@@ -6638,17 +6671,22 @@
 				cmf_trackowner
 				colorflickerlight
 				colorpulselight
+				compatf2_avoid_hazards
 				compatf2_badangles
 				compatf2_checkswitchrange
 				compatf2_explode1
 				compatf2_explode2
 				compatf2_floormove
 				compatf2_multiexit
+				compatf2_nombf21
 				compatf2_pointonline
 				compatf2_pushwindow
 				compatf2_railing
+				compatf2_scriptwait
 				compatf2_soundcutoff
+				compatf2_stayonlift
 				compatf2_teleport
+				compatf2_voodoo_zombies
 				compatf_anybossdeath
 				compatf_boomscroll
 				compatf_corpsegibs
@@ -6903,6 +6941,7 @@
 				dta_leftoffset
 				dta_leftoffsetf
 				dta_legacyrenderstyle
+				dta_localize
 				dta_masked
 				dta_monospace
 				dta_nooffset
@@ -7677,6 +7716,7 @@
 				pf_norandomz
 				pf_poison
 				pf_temporary
+				pf_voodoo_zombie
 				platform
 				playerdisplay_h
 				playerdisplay_space
@@ -7779,6 +7819,7 @@
 				purplefountain
 				qf_3d
 				qf_affectactors
+				qf_damagefalloff
 				qf_fullintensity
 				qf_groundonly
 				qf_max
@@ -7787,11 +7828,14 @@
 				qf_scaleup
 				qf_shakeonly
 				qf_wave
+				radf_circular
 				radf_hurtsource
+				radf_noallies
 				radf_nodamage
 				radf_noimpactdamage
 				radf_oldradiusdamage
 				radf_sourceisspot
+				radf_thrustless
 				radf_thrustz
 				randomcolorflickerlight
 				randomflickerlight
@@ -8338,6 +8382,10 @@
 				warpf_usecallerangle
 				warpf_usetid
 				warpf_warpinterpolation
+				water_jump_speed
+				water_sink_factor
+				water_sink_small_factor
+				water_sink_speed
 				weaponbottom
 				weapontop
 				weapon_berserkfist
@@ -8384,10 +8432,13 @@
 				wrf_nosecondary
 				wrf_noswitch
 				xdeathface
+				xf_circular
 				xf_explicitdamagetype
 				xf_hurtsource
+				xf_noallies
 				xf_nosplash
 				xf_notmissile
+				xf_thrustless
 				xf_thrustz
 				xhairpickupsize
 				xhairshrinksize

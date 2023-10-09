@@ -175,6 +175,7 @@
 				compat_trace
 				compat_useblocking
 				compat_vileghosts
+				compat_voodoozombies
 				cvar_redirect
 				cyberdemonspecial
 				deathsequence
@@ -255,6 +256,7 @@
 				nojump
 				nolightfade
 				nomonsterfallingdamage
+				nopassover
 				normalinfighting
 				nostatistics
 				notexturefill
@@ -265,6 +267,7 @@
 				outsidefogdensity
 				par
 				partime
+				passover
 				pausemusicinmenus
 				pixelratio
 				precacheclasses
@@ -629,6 +632,7 @@
 				Generic_Ceiling
 				Generic_Crusher
 				Generic_Crusher2
+				Generic_CrusherDist
 				Generic_Door
 				Generic_Floor
 				Generic_Lift

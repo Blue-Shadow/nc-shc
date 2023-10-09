@@ -199,6 +199,7 @@
 				Generic_Ceiling
 				Generic_Crusher
 				Generic_Crusher2
+				Generic_CrusherDist
 				Generic_Door
 				Generic_Floor
 				Generic_Lift
@@ -1216,6 +1217,7 @@
 				PTROP_UNSAFETARGET
 				QF_3D
 				QF_AFFECTACTORS
+				QF_DAMAGEFALLOFF
 				QF_FULLINTENSITY
 				QF_GROUNDONLY
 				QF_MAX
