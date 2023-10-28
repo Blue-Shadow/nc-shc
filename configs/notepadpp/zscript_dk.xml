@@ -49,6 +49,7 @@
 				flagdef
 				for
 				foreach
+				function
 				goto
 				if
 				in
@@ -4852,6 +4853,7 @@
 				byteat
 				calcheight
 				calcindent
+				call
 				callacs
 				callhandler
 				callstatechain
@@ -5181,6 +5183,7 @@
 				findfloorceiling
 				findfont
 				findfontcolor
+				findfunction
 				findhealthgroup
 				findhighestceilingsurrounding
 				findhighestfloorpoint
@@ -5352,6 +5355,7 @@
 				getlevelspawntime
 				getlightlevel
 				getlumpfullname
+				getlumplength
 				getlumpname
 				getlumpnamespace
 				getmanager
@@ -5360,6 +5364,7 @@
 				getmaxamount
 				getmaxascender
 				getmaxhealth
+				getmidtextureposition
 				getmissiledamage
 				getmodifieddamage
 				getmovebob
