@@ -142,6 +142,7 @@ cd_title_track
 checkswitchrange
 clipmidtextures
 cluster
+colormap
 compat_anybossdeath
 compat_avoidhazards
 compat_badangles

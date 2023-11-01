@@ -131,6 +131,7 @@
 				checkswitchrange
 				clipmidtextures
 				cluster
+				colormap
 				compat_anybossdeath
 				compat_avoidhazards
 				compat_badangles
