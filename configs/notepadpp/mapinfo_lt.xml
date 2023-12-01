@@ -250,6 +250,7 @@
 				nocrouch
 				nofallingdamage
 				nofreelook
+				nogravity
 				noinfighting
 				noinfiniteflightpowerup
 				nointermission

@@ -720,6 +720,7 @@
 				eseekermissileflags
 				eselectweaponflags
 				eseqtype
+				esetanimationflags
 				eshade
 				eside
 				esightflags
@@ -1890,6 +1891,7 @@
 				traceresults
 				translate
 				translation
+				translationid
 				tray
 				treedestructible
 				treestub
@@ -1914,6 +1916,7 @@
 				videomodemenu
 				viewposition
 				visstyle
+				visualthinker
 				vmfunction
 				voidptr
 				volcano
@@ -2279,6 +2282,7 @@
 				bcrosslinecheck
 				bcrouchablemorph
 				bcvarfast
+				bdecoupledanimations
 				bdeflect
 				bdehacked
 				bdehammo
@@ -2798,6 +2802,7 @@
 				deathsound
 				deathtype
 				decalgenerator
+				decoupledanimations
 				defaultalpha
 				defaultbloodcolor
 				defaultdropstyle
@@ -3658,6 +3663,7 @@
 				prevhealth
 				previous
 				prevnode
+				prevroll
 				prevsec
 				primary_uses_both
 				printamount
@@ -3759,6 +3765,7 @@
 				scalemode
 				scalex
 				scaley
+				scolor
 				score
 				scoreicon
 				screenfade
@@ -5863,6 +5870,10 @@
 				setalpha
 				setammocapacity
 				setangle
+				setanimation
+				setanimationframerate
+				setanimationframerateui
+				setanimationui
 				setaxisdeadzone
 				setaxismap
 				setaxisscale
@@ -5922,6 +5933,7 @@
 				setplayertranslation
 				setpsprite
 				setrandomseed
+				setrenderstyle
 				setsafeflash
 				setscreenfade
 				setsectorlight
@@ -5961,6 +5973,7 @@
 				setthingz
 				settransform
 				settransition
+				settranslation
 				setuniform1f
 				setuniform1i
 				setuniform2f
@@ -6017,6 +6030,7 @@
 				spawnspirittail
 				spawnsubmissile
 				spawnteleportfog
+				spawnvisualthinker
 				specialblasthandling
 				specialbouncehit
 				specialdropaction
@@ -7903,6 +7917,8 @@
 				rtf_notmissile
 				rtf_thrustz
 				running
+				saf_instant
+				saf_loop
 				sawrange
 				secf_damageflags
 				secf_dmgterrainfx
