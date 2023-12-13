@@ -2235,6 +2235,8 @@
 				bavoidmelee
 				baxeblood
 				bbigpowerup
+				bbillboardfacecamera
+				bbillboardnofacecamera
 				bblasted
 				bblockasplayer
 				bblockedbysolidactors
@@ -2377,6 +2379,8 @@
 				bigfont
 				bignoreskill
 				bigpowerup
+				billboardfacecamera
+				billboardnofacecamera
 				binchase
 				bincombat
 				binconversation
