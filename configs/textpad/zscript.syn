@@ -674,6 +674,7 @@ emaskrotationflags
 emenukey
 emenumouse
 emenustate
+emissilehitresult
 emonospacing
 emorphflags
 emovementflags
@@ -7560,6 +7561,9 @@ max_gen_pods
 max_randomspawners_recursion
 max_statnum
 meleedelta
+mhit_default
+mhit_destroy
+mhit_pass
 minotaur_look_dist
 minvel
 missilerange
