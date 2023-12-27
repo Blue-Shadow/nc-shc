@@ -1557,6 +1557,8 @@ screen
 screenjob
 screenjobrunner
 scriptedmarine
+scriptsavedpos
+scriptscanner
 scriptutil
 secactdamage3d
 secactdamageceiling
@@ -2761,6 +2763,7 @@ countkill
 countsecret
 cplayer
 cr
+crossed
 crossed3dwater
 crossed3dwaterpos
 crossedwater
@@ -2906,6 +2909,7 @@ e3m8boss
 e4m6boss
 e4m8boss
 effecttics
+end
 entering
 enteringpatch
 explocount
@@ -3613,6 +3617,7 @@ painsound
 painthreshold
 paintype
 par
+parseerror
 partime
 paused
 pendingpop
@@ -3769,6 +3774,8 @@ runhealth
 runsteptics
 saveamount
 savecommentstring
+savedscriptline
+savedscriptptr
 savepercent
 savepicheight
 savepicleft
@@ -4132,6 +4139,9 @@ additemtolist
 addlineid
 addsectortag
 addspot
+addsymbol
+addsymbolfloat
+addsymbolunsigned
 addtexturexoffset
 addtextureyoffset
 addthing
@@ -4923,6 +4933,7 @@ checkammo
 checkarmortype
 checkaspectratio
 checkblock
+checkbooltoken
 checkbossdeath
 checkcheats
 checkclass
@@ -4932,6 +4943,7 @@ checkdegeneration
 checkdisplayname
 checkenvironment
 checkfakefloortriggers
+checkfloat
 checkfocus
 checkfor3dceilinghit
 checkfor3dfloorhit
@@ -4961,6 +4973,7 @@ checkmove
 checkmoveupdown
 checkmusicchange
 checknodelay
+checknumber
 checknumforfullname
 checknumforname
 checkpitch
@@ -4979,6 +4992,7 @@ checksightorrange
 checkskin
 checksoundsequence
 checksplash
+checkstring
 checkundomorph
 checkuse
 checkvalue
@@ -5182,7 +5196,6 @@ effect
 enable
 enableadditivecolor
 enablestencil
-end
 endallpowerupeffects
 endeffect
 endpowerup
@@ -5249,6 +5262,7 @@ formatreplies
 formatspeakermessage
 formchain
 forwardthrust
+foundendbrace
 fragsum
 frandom
 frandompick
@@ -5387,6 +5401,7 @@ getmapcolorforlock
 getmaxamount
 getmaxascender
 getmaxhealth
+getmessageline
 getmidtextureposition
 getmissiledamage
 getmodifieddamage
@@ -5401,6 +5416,7 @@ getnextinlist
 getnoautostartmap
 getnoteleportfreeze
 getnumaxes
+getnumber
 getnumlumps
 getobituary
 getobject
@@ -5469,6 +5485,7 @@ getspriterotation
 getspritetexture
 getstillbob
 getstring
+getstringcontents
 getstringdata
 getstringui
 gettag
@@ -5597,6 +5614,7 @@ ispointinmap
 issecret
 isslope
 isteammate
+istext
 istotallyfrozen
 isvalid
 isvisible
@@ -5692,6 +5710,12 @@ multiplytexturexscale
 multiplytextureyscale
 musicenabled
 mustdrawlog
+mustgetbooltoken
+mustgetfloat
+mustgetnumber
+mustgetstring
+mustgetstringname
+mustgetvalue
 nameallkeys
 namekeys
 networkprocess
@@ -5733,6 +5757,8 @@ ontick
 onuievent
 onunregister
 open
+openlumpnum
+openstring
 opentextenter
 optioncount
 optionfont
@@ -5861,6 +5887,7 @@ resize
 resolvestate
 responder
 restoredamage
+restorepos
 restorerenderstyle
 resurrect
 revive
@@ -5871,8 +5898,11 @@ roughmonstersearch
 round
 runframe
 savegamecount
+savepos
 scanforloop
 screensizechanged
+scripterror
+scriptmessage
 search
 secretexitlevel
 selectable
@@ -5901,6 +5931,7 @@ setcameratextureaspectratio
 setcameratotexture
 setcapture
 setcliprect
+setcmode
 setcolor
 setcolorization
 setcontroller
@@ -5908,6 +5939,7 @@ setdamage
 setenabled
 setenvironment
 setenvironmentid
+setescape
 setfade
 setfileinfo
 setfloat
@@ -5939,6 +5971,8 @@ setmenu
 setmousecapture
 setmugshotstate
 setmusicvolume
+setnofatalerrors
+setnooctals
 setnull
 setoffset
 setorder
@@ -5947,6 +5981,7 @@ setplanelight
 setplanetexz
 setplayerclass
 setplayertranslation
+setprependmessage
 setpsprite
 setrandomseed
 setrenderstyle
@@ -6021,6 +6056,7 @@ sin
 sinh
 sinkmobj
 skinchanged
+skiptoendofblock
 slam
 slerp
 slotsize
@@ -6056,6 +6092,7 @@ sphericalcoords
 splerp
 split
 sqrt
+startbraces
 startgamedirect
 startintermission
 startmessage
@@ -6130,6 +6167,7 @@ unbindacommand
 uncrouch
 undomonstermorph
 undoplayermorph
+unget
 unit
 unlinkfromworld
 unloadsavedata
