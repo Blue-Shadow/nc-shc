@@ -6895,11 +6895,13 @@ di_item_hmask
 di_item_hoffset
 di_item_left
 di_item_left_bottom
+di_item_left_center
 di_item_left_top
 di_item_offsets
 di_item_relcenter
 di_item_right
 di_item_right_bottom
+di_item_right_center
 di_item_right_top
 di_item_top
 di_item_vcenter
