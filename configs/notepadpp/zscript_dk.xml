@@ -4031,6 +4031,7 @@
 				velz
 				vertexes
 				verticalresolution
+				viewactive
 				viewangle
 				viewbob
 				viewbobspeed
@@ -4885,6 +4886,7 @@
 				cancrouch
 				canpickup
 				canprint
+				canreceive
 				canresurrect
 				canseek
 				cantouchitem
@@ -5014,6 +5016,7 @@
 				close
 				closesound
 				codepointcount
+				collidedwith
 				colorchanged
 				colorsetchanged
 				conjugate
@@ -5549,6 +5552,7 @@
 				handlepickup
 				handleresult
 				handlespawnflags
+				hasreceived
 				hasweaponsinslot
 				heightdiff
 				hide
