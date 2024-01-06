@@ -675,6 +675,7 @@
 				enchantedshield
 				energypack
 				energypod
+				enetcmd
 				enterkey
 				entityboss
 				entitynest
@@ -1202,6 +1203,8 @@
 				mweaponpiece3
 				mweapwand
 				name
+				networkbuffer
+				networkcommand
 				newkey5
 				newplayermenu
 				nonsolidmeat2
@@ -2724,6 +2727,7 @@
 				colors
 				colorset
 				colorsetfile
+				command
 				commentheight
 				commentleft
 				commentrows
@@ -3166,6 +3170,7 @@
 				lightcolor
 				lightingdata
 				lightlevel
+				lightningsound
 				limit
 				linedef
 				lineheight
@@ -4120,15 +4125,29 @@
 				actoronlineside
 				addammo
 				addammotolist
+				addangle
 				addarmortoslot
 				addchoice
+				adddouble
+				adddoublearray
 				addexistingammo
+				addfloat
 				addgenericvideo
+				addint
+				addint16
+				addint8
+				addintarray
+				addinventory
 				addinventory
 				additemtolist
 				addlineid
+				addmapunit
+				addname
+				addquat
 				addsectortag
 				addspot
+				addstring
+				addstringarray
 				addsymbol
 				addsymbolfloat
 				addsymbolunsigned
@@ -4136,6 +4155,9 @@
 				addtextureyoffset
 				addthing
 				addtranslation
+				addvector2
+				addvector3
+				addvector4
 				addweapon
 				addxoffset
 				addyoffset
@@ -5247,6 +5269,7 @@
 				fliplinesiderefs
 				fliplinevertexes
 				flushnotify
+				forcelightning
 				format
 				formatmapname
 				formatnumber
@@ -5711,6 +5734,7 @@
 				mustgetvalue
 				nameallkeys
 				namekeys
+				networkcommandprocess
 				networkprocess
 				new
 				newchasedir
@@ -5848,8 +5872,24 @@
 				random2
 				randomchasedir
 				randompick
+				readangle
+				readdouble
+				readdoublearray
+				readfloat
+				readint
+				readint16
+				readint8
+				readintarray
 				readlump
+				readmapunit
+				readname
+				readquat
 				readsavestrings
+				readstring
+				readstringarray
+				readvector2
+				readvector3
+				readvector4
 				receivedweapon
 				reflectoffactor
 				reinit
@@ -5902,6 +5942,8 @@
 				sendconversationreply
 				sendinterfaceevent
 				sendkey
+				sendnetworkbuffer
+				sendnetworkcommand
 				sendnetworkevent
 				sendnewcolor
 				sendpitchlimits
@@ -7707,6 +7749,12 @@
 				m_pi_4
 				m_sqrt1_2
 				m_sqrt2
+				net_double
+				net_float
+				net_int
+				net_int16
+				net_int8
+				net_string
 				ng_statsy
 				noalias
 				nofixedcolormap
