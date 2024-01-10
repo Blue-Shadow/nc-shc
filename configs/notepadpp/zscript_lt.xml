@@ -8159,6 +8159,7 @@
 				spf_forceclamp
 				spf_fullbright
 				spf_interpolate
+				spf_local_anim
 				spf_notimefreeze
 				spf_no_xy_billboard
 				spf_relaccel
