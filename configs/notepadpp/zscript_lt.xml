@@ -4106,19 +4106,22 @@
 				zonenumber
 			</Keywords>
 			<Keywords name="Keywords4">
-				abs
 				absangle
 				absorbdamage
 				accuracyfactor
-				acos
+				acs_execute
+				acs_executealways
+				acs_lockedexecute
+				acs_lockedexecutedoor
 				acs_namedexecute
 				acs_namedexecutealways
 				acs_namedexecutewithresult
 				acs_namedlockedexecute
-				acs_namedlockedexecutedoor
 				acs_namedsuspend
 				acs_namedterminate
 				acs_scriptcall
+				acs_suspend
+				acs_terminate
 				activate
 				activatemenu
 				activatemorphweapon
@@ -4138,17 +4141,13 @@
 				addint8
 				addintarray
 				addinventory
-				addinventory
 				additemtolist
 				addlineid
 				addmapunit
 				addname
 				addquat
 				addsectortag
-				addspot
 				addstring
-				addstringarray
-				addsymbol
 				addsymbolfloat
 				addsymbolunsigned
 				addtexturexoffset
@@ -4160,7 +4159,6 @@
 				addvector4
 				addweapon
 				addxoffset
-				addyoffset
 				addz
 				adjustfloorclip
 				adjustplayerangle
@@ -4179,18 +4177,14 @@
 				apply
 				applydamagefactor
 				applydamagefactors
-				applykickback
 				aremodessame
-				aremodessameid
 				asin
 				at
 				atan
-				atan2
-				attachmessage
 				attachtoowner
 				attachtoplayer
 				autoaimchanged
-				autoskip
+				autosave
 				autousehealth
 				autousestrifehealth
 				axisangle
@@ -4213,9 +4207,7 @@
 				a_batspawn
 				a_batspawninit
 				a_beacon
-				a_beakattackpl1
 				a_beakattackpl2
-				a_beakraise
 				a_bellreset1
 				a_bellreset2
 				a_beshadowyfoe
@@ -4226,21 +4218,16 @@
 				a_bishopattack2
 				a_bishopchase
 				a_bishopdecide
-				a_bishopdoblur
-				a_bishopmissileweave
 				a_bishoppainblur
 				a_bishopspawnblur
-				a_blast
 				a_bluespark
 				a_bossdeath
-				a_bouncecheck
 				a_brainawake
 				a_braindie
 				a_brainexplode
 				a_brainpain
 				a_brainscream
 				a_brainspit
-				a_bridgeinit
 				a_bridgeorbit
 				a_bruisattack
 				a_bspiattack
@@ -4251,7 +4238,6 @@
 				a_callspecial
 				a_centaurdefend
 				a_cflameattack
-				a_cflamemissile
 				a_cflamepuff
 				a_cflamerotate
 				a_changecountflags
@@ -4259,7 +4245,6 @@
 				a_changelinkflags
 				a_changemodel
 				a_changevelocity
-				a_chase
 				a_checkblock
 				a_checkceiling
 				a_checkflag
@@ -4285,8 +4270,6 @@
 				a_cholyseek
 				a_cholytail
 				a_classbosshealth
-				a_clearflash
-				a_clearlastheard
 				a_clearoverlays
 				a_clearrefire
 				a_clearshadow
@@ -4317,7 +4300,6 @@
 				a_cstaffcheckblink
 				a_cstaffinitblink
 				a_cstaffmissileslither
-				a_custombulletattack
 				a_customcomboattack
 				a_custommeleeattack
 				a_custommissile
@@ -4338,16 +4320,13 @@
 				a_die
 				a_dragonattack
 				a_dragoncheckcrash
-				a_dragonflap
 				a_dragonflight
 				a_dragonfx2
 				a_dragoninitflight
-				a_dragonpain
 				a_dripblood
 				a_dropfire
 				a_dropinventory
 				a_dropitem
-				a_dropweaponpieces
 				a_dualpainattack
 				a_entityattack
 				a_entitydeath
@@ -4376,8 +4355,6 @@
 				a_faxecheckreadyg
 				a_faxecheckup
 				a_faxecheckupg
-				a_feathers
-				a_fhammerattack
 				a_fhammerthrow
 				a_fighterattack
 				a_findtracer
@@ -4395,7 +4372,6 @@
 				a_firecustommissile
 				a_firedattack
 				a_firedchase
-				a_firedrocks
 				a_firedsplotch
 				a_fireflamer
 				a_firegoldwandpl1
@@ -4414,14 +4390,12 @@
 				a_firepistol
 				a_fireplasma
 				a_fireprojectile
-				a_firerailgun
 				a_firerailgunleft
 				a_firerailgunright
 				a_fireshotgun
 				a_fireshotgun2
 				a_firesigil1
 				a_firesigil2
-				a_firesigil3
 				a_firesigil4
 				a_firesigil5
 				a_fireskullrodpl1
@@ -4437,36 +4411,28 @@
 				a_fogmove
 				a_fogspawn
 				a_fpunchattack
-				a_freezedeath
 				a_freezedeathchunks
 				a_fswordattack
 				a_fswordflames
 				a_gauntletattack
-				a_genericfreezedeath
 				a_genwizard
 				a_gethurt
 				a_ghostoff
 				a_giveinventory
-				a_givequestitem
 				a_givetochildren
-				a_givetosiblings
-				a_givetotarget
 				a_gravity
 				a_gunflash
 				a_handlower
 				a_headattack
 				a_hidedecepticon
-				a_hideinceiling
 				a_hidething
 				a_hoof
 				a_iceguyattack
 				a_iceguychase
 				a_iceguydie
-				a_iceguylook
 				a_iceguymissileexplode
 				a_icesettics
 				a_impdeath
-				a_impexplode
 				a_impmsattack
 				a_impxdeath1
 				a_initphoenixpl2
@@ -4481,12 +4447,9 @@
 				a_jumpif
 				a_jumpifarmortype
 				a_jumpifcloser
-				a_jumpifhealthlower
 				a_jumpifhigherorlower
 				a_jumpifintargetinventory
-				a_jumpifintargetlos
 				a_jumpifinventory
-				a_jumpifmastercloser
 				a_jumpifnoammo
 				a_jumpiftargetinlos
 				a_jumpiftargetinsidemeleerange
@@ -4494,17 +4457,12 @@
 				a_jumpiftracercloser
 				a_kbolt
 				a_kboltraise
-				a_keendie
-				a_killchildren
 				a_killmaster
 				a_killsiblings
 				a_killtarget
-				a_killtracer
 				a_klaxonblare
 				a_knightattack
 				a_koraxbonepop
-				a_koraxchase
-				a_koraxcommand
 				a_koraxdecide
 				a_koraxmissile
 				a_koraxstep
@@ -4516,7 +4474,6 @@
 				a_lichattack
 				a_lichfiregrow
 				a_lichiceimpact
-				a_light
 				a_light0
 				a_light1
 				a_light2
@@ -4525,10 +4482,8 @@
 				a_lightningclip
 				a_lightningready
 				a_lightningremove
-				a_lightningzap
 				a_lineeffect
 				a_loadshotgun2
-				a_log
 				a_logfloat
 				a_logint
 				a_look
@@ -4536,18 +4491,14 @@
 				a_lookex
 				a_loopactivesound
 				a_loremasterchain
-				a_lower
 				a_lowgravity
 				a_maceballimpact
 				a_maceballimpact2
 				a_macepl1check
 				a_mageattack
-				a_makepod
 				a_marinechase
 				a_marinelook
-				a_marinenoise
 				a_maulertorpedowave
-				a_meleeattack
 				a_metal
 				a_minotauratk1
 				a_minotauratk2
@@ -4573,7 +4524,6 @@
 				a_m_firebfg
 				a_m_firecgun
 				a_m_firemissile
-				a_m_firepistol
 				a_m_fireplasma
 				a_m_firerailgun
 				a_m_fireshotgun
@@ -4582,7 +4532,6 @@
 				a_m_refire
 				a_m_saw
 				a_m_sawrefire
-				a_nailbomb
 				a_noblocking
 				a_nogravity
 				a_noisealert
@@ -4601,22 +4550,18 @@
 				a_overlayvertexoffset
 				a_pain
 				a_painattack
-				a_paindie
 				a_painshootskull
 				a_phoenixpuff
 				a_pigpain
 				a_playerscream
 				a_playerskincheck
 				a_playsound
-				a_playsoundex
 				a_playweaponsound
-				a_podpain
 				a_poisonbagcheck
 				a_poisonbagdamage
 				a_poisonbaginit
 				a_poisonshroom
 				a_posattack
-				a_potterycheck
 				a_potterychoosebit
 				a_potteryexplode
 				a_print
@@ -4634,7 +4579,6 @@
 				a_railattack
 				a_railwait
 				a_rainimpact
-				a_raise
 				a_raisechildren
 				a_raisemaster
 				a_raiseself
@@ -4660,16 +4604,13 @@
 				a_restorespecialthing1
 				a_restorespecialthing2
 				a_rocketinflight
-				a_sargattack
 				a_saw
 				a_scalevelocity
 				a_scream
 				a_screamandunblock
 				a_seekermissile
-				a_selectpiece
 				a_selectsigilattack
 				a_selectsigildown
-				a_selectsigilview
 				a_selectweapon
 				a_sentinelattack
 				a_sentinelbob
@@ -4680,15 +4621,12 @@
 				a_serpenthide
 				a_serpenthumpdecide
 				a_serpentlowerhump
-				a_serpentmeleeattack
 				a_serpentraisehump
 				a_serpentspawngibs
-				a_serpentunhide
 				a_setangle
 				a_setarg
 				a_setblend
 				a_setchasethreshold
-				a_setcrosshair
 				a_setdamagetype
 				a_setfloat
 				a_setfloatbobphase
@@ -4696,14 +4634,11 @@
 				a_setfloorclip
 				a_setfriendly
 				a_setgravity
-				a_sethealth
 				a_setinventory
 				a_setinvulnerable
 				a_setmass
-				a_setmugshotstate
 				a_setpainthreshold
 				a_setpitch
-				a_setreflective
 				a_setreflectiveinvulnerable
 				a_setrenderstyle
 				a_setripmax
@@ -4717,7 +4652,6 @@
 				a_setsolid
 				a_setspecial
 				a_setspecies
-				a_setspeed
 				a_setspriteangle
 				a_setspriterotation
 				a_settelefog
@@ -4727,7 +4661,6 @@
 				a_setuserarray
 				a_setuserarrayfloat
 				a_setuservar
-				a_setuservarfloat
 				a_setviewangle
 				a_setviewpitch
 				a_setviewroll
@@ -4745,7 +4678,6 @@
 				a_skullpop
 				a_skullrodstorm
 				a_slowballs
-				a_smbounce
 				a_snoutattack
 				a_soaexplode
 				a_sor1chase
@@ -4753,12 +4685,10 @@
 				a_sor2dthinit
 				a_sor2dthloop
 				a_sorcballexplode
-				a_sorcballorbit
 				a_sorcballpop
 				a_sorcbossattack
 				a_sorcererbishopentry
 				a_sorcererrise
-				a_sorcfx1seek
 				a_sorcfx2orbit
 				a_sorcfx2split
 				a_sorcfx4check
@@ -4769,7 +4699,6 @@
 				a_spawnbishop
 				a_spawndebris
 				a_spawnentity
-				a_spawnfizzle
 				a_spawnfly
 				a_spawnitem
 				a_spawnitemex
@@ -4783,29 +4712,24 @@
 				a_spectralbigballlightning
 				a_spectrallightning
 				a_spectrallightningtail
-				a_spectre3attack
 				a_spectrechunklarge
 				a_spectrechunksmall
 				a_speedballs
 				a_spidrefire
 				a_sposattack
-				a_sposattackuseatksound
 				a_spotlightning
 				a_spraydecal
 				a_spriteoffset
 				a_srcr1attack
 				a_srcr2attack
 				a_srcr2decide
-				a_staffattack
 				a_stalkerattack
 				a_stalkerchasedecide
 				a_stalkerdrop
-				a_stalkerlookinit
 				a_stalkerwalk
 				a_startfire
 				a_startsound
 				a_startsoundifnotsame
-				a_stop
 				a_stopallsounds
 				a_stopballs
 				a_stopsound
@@ -4816,7 +4740,6 @@
 				a_swaptelefog
 				a_takefromchildren
 				a_takefromsiblings
-				a_takefromtarget
 				a_takeinventory
 				a_teleport
 				a_telospawna
@@ -4826,7 +4749,6 @@
 				a_templarattack
 				a_throwgrenade
 				a_thrustimpale
-				a_thrustinitdn
 				a_thrustinitup
 				a_thrustlower
 				a_thrustraise
@@ -4835,22 +4757,17 @@
 				a_tossgib
 				a_tracer
 				a_tracer2
-				a_transferpointer
 				a_troopattack
 				a_turn
 				a_turretlook
 				a_unhidething
 				a_unsetfloat
 				a_unsetfloorclip
-				a_unsetinvulnerable
 				a_unsetreflective
 				a_unsetreflectiveinvulnerable
 				a_unsetshootable
 				a_unsetsolid
-				a_vileattack
 				a_vilechase
-				a_vilestart
-				a_viletarget
 				a_volcanoblast
 				a_volcanoset
 				a_volcballimpact
@@ -4868,7 +4785,6 @@
 				a_wolfattack
 				a_wraithchase
 				a_wraithfx2
-				a_wraithfx3
 				a_wraithfx4
 				a_wraithinit
 				a_wraithmelee
@@ -4885,14 +4801,12 @@
 				beginstatusbar
 				bestweapon
 				bobsin
-				bobweapon
 				bobweapon3d
 				bounceactor
 				bounceplane
 				bouncewall
 				boxonlineside
 				breaklines
-				bringupweapon
 				buildmaptransition
 				bulletslope
 				byteat
@@ -4910,29 +4824,59 @@
 				canprint
 				canreceive
 				canresurrect
-				canseek
 				cantouchitem
 				cantrigger
 				canwipe
 				castsorcererspell
 				ceil
-				centerceiling
+				ceiling_crushandraise
+				ceiling_crushandraisea
+				ceiling_crushandraisedist
+				ceiling_crushandraisesilentdist
+				ceiling_crushraiseandstay
+				ceiling_crushraiseandstaysila
+				ceiling_crushstop
+				ceiling_lowerandcrush
+				ceiling_lowerandcrushdist
+				ceiling_lowerbytexture
+				ceiling_lowerbyvalue
+				ceiling_lowerbyvaluetimes8
+				ceiling_lowerinstant
+				ceiling_lowertofloor
+				ceiling_lowertohighestfloor
+				ceiling_lowertolowest
+				ceiling_lowertonearest
+				ceiling_movetovalue
+				ceiling_movetovalueandcrush
+				ceiling_movetovaluetimes8
+				ceiling_raisebytexture
+				ceiling_raisebyvalue
+				ceiling_raisebyvaluetimes8
+				ceiling_raiseinstant
+				ceiling_raisetohighest
+				ceiling_raisetohighestfloor
+				ceiling_raisetolowest
+				ceiling_raisetonearest
+				ceiling_stop
+				ceiling_tofloorinstant
+				ceiling_tohighestinstant
+				ceiling_waggle
 				centerfloor
+				changecamera
 				changeclass
 				changeflags
 				changeheight
 				changelevel
 				changelightlevel
 				changelinespacing
+				changeskill
 				changeskin
-				changesky
 				changestatnum
 				changetextureflags
 				changetid
 				charat
 				charcodeat
 				charlower
-				charupper
 				cheatgive
 				cheatmorph
 				cheatsetinv
@@ -4941,7 +4885,6 @@
 				cheattaketype
 				cheattakeweaps
 				checkaddtoslots
-				checkairsupply
 				checkammo
 				checkarmortype
 				checkaspectratio
@@ -4950,10 +4893,8 @@
 				checkbossdeath
 				checkcheats
 				checkclass
-				checkcoordinate
 				checkcrouch
 				checkdegeneration
-				checkdisplayname
 				checkenvironment
 				checkfakefloortriggers
 				checkfloat
@@ -4994,7 +4935,6 @@
 				checkportalplane
 				checkportaltransition
 				checkposition
-				checkproximity
 				checkrange
 				checkrealheight
 				checkreplacee
@@ -5022,8 +4962,8 @@
 				clearbounce
 				clearcliprect
 				clearcounters
+				clearforcefield
 				clearfovinterpolation
-				clearinterpolation
 				clearinventory
 				clearlastripped
 				clearlineids
@@ -5036,15 +4976,12 @@
 				clearstencil
 				cleartransform
 				close
-				closesound
 				codepointcount
 				collidedwith
 				colorchanged
 				colorsetchanged
 				conjugate
 				consoleprocess
-				copy
-				copybloodcolor
 				copyfriendliness
 				cos
 				cosh
@@ -5062,11 +4999,8 @@
 				createfloor
 				createfrompos
 				createlineiditerator
-				createnamed
 				createnobox
-				createsectortagiterator
 				createtossable
-				createwithsound
 				createwithsoundinfo
 				crouchmove
 				cursorspace
@@ -5074,9 +5008,9 @@
 				daggeralert
 				damagelinedef
 				damagemobj
+				damagething
 				deactivate
 				deaththink
-				delete
 				deletejobs
 				deletelastcharacter
 				deltaangle
@@ -5084,7 +5018,6 @@
 				depleteordestroy
 				destroy
 				destroyallinventory
-				detachallmessages
 				detachfromowner
 				detachmessage
 				detachmessageid
@@ -5098,11 +5031,17 @@
 				distance3dsquared
 				distancebyspeed
 				distanceto
-				dodrawautomaphud
 				doeffect
 				dofirespell
 				dogiveinventory
 				domissiledamage
+				door_animated
+				door_animatedclose
+				door_close
+				door_closewaitopen
+				door_lockedraise
+				door_waitclose
+				door_waitraise
 				dopickupspecial
 				doreadyweapondisableswitch
 				doreadyweapontobob
@@ -5118,7 +5057,6 @@
 				drawauthor
 				drawautomap
 				drawautomaphud
-				drawbackdrop
 				drawbackground
 				drawbar
 				drawbarammo
@@ -5135,7 +5073,6 @@
 				drawel
 				drawer
 				drawfrags
-				drawframe
 				drawfullscreenkeys
 				drawfullscreenstuff
 				drawgem
@@ -5143,7 +5080,6 @@
 				drawhealth
 				drawhealthbar
 				drawhexenarmor
-				drawhudnumber
 				drawhudtext
 				drawhudtexture
 				drawimage
@@ -5159,19 +5095,14 @@
 				drawlf
 				drawline
 				drawlineframe
-				drawmainbar
 				drawmypos
 				drawname
 				drawnostate
 				drawnum
 				drawnumscaled
-				drawonekey
-				drawoneweapon
 				drawoptiontext
-				drawpatchortext
 				drawpatchtext
 				drawpaused
-				drawpercent
 				drawpercentscaled
 				drawpopscreen
 				drawpowerup
@@ -5186,7 +5117,6 @@
 				drawshownextloc
 				drawslider
 				drawspeakertext
-				drawsplash
 				drawstatline
 				drawstats
 				drawstatus
@@ -5207,26 +5137,27 @@
 				dropweapon
 				dsparilteleport
 				effect
+				elevator_lowertonearest
+				elevator_movetofloor
+				elevator_raisetonearest
 				enable
 				enableadditivecolor
 				enablestencil
-				endallpowerupeffects
 				endeffect
 				endpowerup
 				enumcolorsets
 				executespecial
 				exists
 				exitlevel
+				exit_normal
+				exit_secret
 				exp
-				explodemissile
 				extractsavedata
 				facemovementdirection
 				fadeoutframe
-				fallandsink
 				fill
 				fillsavemenu
 				fillselectmenu
-				filter
 				filtercooprespawninventory
 				find
 				findcvar
@@ -5241,7 +5172,6 @@
 				findinventory
 				findlevelbynum
 				findlevelinfo
-				findlowestceilingpoint
 				findlowestceilingsurrounding
 				findlowestfloorsurrounding
 				findlump
@@ -5268,7 +5198,39 @@
 				fliplinecompletely
 				fliplinesiderefs
 				fliplinevertexes
-				flushnotify
+				floorandceiling_lowerbyvalue
+				floorandceiling_lowerraise
+				floorandceiling_raisebyvalue
+				floor_crushstop
+				floor_lowerbytexture
+				floor_lowerbyvalue
+				floor_lowerbyvaluetimes8
+				floor_lowertohighest
+				floor_lowertohighestee
+				floor_lowertolowest
+				floor_lowertolowestceiling
+				floor_lowertolowesttxty
+				floor_lowertonearest
+				floor_movetovalue
+				floor_movetovalueandcrush
+				floor_movetovaluetimes8
+				floor_raiseandcrush
+				floor_raiseandcrushdoom
+				floor_raisebytexture
+				floor_raisebyvalue
+				floor_raisebyvaluetimes8
+				floor_raisebyvaluetxty
+				floor_raiseinstant
+				floor_raisetoceiling
+				floor_raisetohighest
+				floor_raisetolowest
+				floor_raisetolowestceiling
+				floor_stop
+				floor_toceilinginstant
+				floor_transfernumeric
+				floor_transfertrigger
+				floor_waggle
+				forcefield
 				forcelightning
 				format
 				formatmapname
@@ -5284,11 +5246,17 @@
 				from2d
 				fromangles
 				fromstring
+				fs_execute
 				genderchanged
-				geometrylineattack
+				generic_ceiling
+				generic_crusher
+				generic_crusher2
+				generic_crusherdist
+				generic_door
+				generic_floor
+				generic_stairs
 				geometryradiusattack
 				get
-				get3dfloor
 				get3dfloorcount
 				getaction
 				getadditivecolor
@@ -5317,10 +5285,8 @@
 				getbinding
 				getblend
 				getbloodtype
-				getboboffset
 				getbool
 				getbottomalignoffset
-				getbuttonstateflags
 				getcameraheight
 				getcanvas
 				getceilinglight
@@ -5330,14 +5296,11 @@
 				getchecksum
 				getclass
 				getclassicflight
-				getclassname
 				getcliprect
 				getclustername
 				getcolor
-				getcolorset
 				getcolorsetname
 				getcount
-				getcrouchfactor
 				getcurrentammo
 				getcurrentmenu
 				getcursor
@@ -5356,9 +5319,7 @@
 				getdisplaytopoffset
 				getdistance
 				getdouble
-				getdoubledata
 				getdoubleui
-				getdownstate
 				getdropitems
 				geteffectticsforitem
 				getenabled
@@ -5372,7 +5333,6 @@
 				getfont
 				getfriction
 				getfullscreenrect
-				getfviewbob
 				getgender
 				getgibhealth
 				getglobalacsarraystring
@@ -5402,12 +5362,9 @@
 				getkeytype
 				getkeytypecount
 				getlatency
-				getlevelinfo
 				getlevelinfocount
 				getlevelspawntime
 				getlightlevel
-				getlumpfullname
-				getlumplength
 				getlumpname
 				getlumpnamespace
 				getmanager
@@ -5423,7 +5380,6 @@
 				getmovebob
 				getmugshot
 				getname
-				getnamedata
 				getnameui
 				getneverswitch
 				getnextcodepoint
@@ -5442,7 +5398,6 @@
 				getparentammo
 				getparentclass
 				getplanelight
-				getplanetexz
 				getplayerclassindex
 				getplayerclassnum
 				getplayerinput
@@ -5454,28 +5409,22 @@
 				getportaldisplacement
 				getportalflags
 				getportalgroupcount
-				getportalplanez
 				getportaltype
 				getpowerupicon
 				getprintabledisplayname
-				getprotrusion
 				getpsprite
 				getradiusdamage
 				getrandomspot
 				getreadystate
 				getrealtype
-				getrenderstyle
 				getreplacee
 				getreplacement
 				getreplynum
-				getrowcolor
-				getsaveamount
 				getsavegame
 				getsaveselection
 				getscaledoffset
 				getscaledsize
 				getsector
-				getselectedenvironment
 				getselectedinventoryamount
 				getselectedinventorytag
 				getselection
@@ -5486,11 +5435,9 @@
 				getskin
 				getskyboxportal
 				getslidervalue
-				getsortedplayers
 				getspawnabletype
 				getspawnhealth
 				getspecial
-				getspecies
 				getspeedfactor
 				getspotstate
 				getspotwithminmaxdistance
@@ -5509,7 +5456,6 @@
 				getterrain
 				gettext
 				gettextscreensize
-				gettexture
 				gettextureflags
 				gettexturexoffset
 				gettexturexscale
@@ -5532,7 +5478,6 @@
 				getudmffloat
 				getudmfint
 				getudmfstring
-				getupstate
 				getusername
 				getvalue
 				getvertexz
@@ -5548,11 +5493,9 @@
 				getxoffset
 				getxscale
 				gety
-				getyoffset
 				getyscale
 				getzat
 				giveammo
-				givebody
 				givedeathmatchinventory
 				givedefaultinventory
 				giveinventory
@@ -5560,6 +5503,7 @@
 				givequestitem
 				givesecret
 				givesigilpiece
+				glassbreak
 				goaway
 				goawayanddie
 				graycheck
@@ -5572,14 +5516,13 @@
 				g_skillpropertyfloat
 				g_skillpropertyint
 				handlemovement
-				handlepickup
 				handleresult
 				handlespawnflags
 				hasreceived
 				hasweaponsinslot
+				healthing
 				heightdiff
 				hide
-				hideconsole
 				highestceilingat
 				hitfloor
 				hitfriend
@@ -5587,14 +5530,12 @@
 				howl
 				ignorearmor
 				indexof
-				init
 				initallpowerupeffects
 				initdirect
 				initeffect
 				initnamed
 				initnostate
 				initshownextloc
-				initspawneditem
 				initstats
 				inputprocess
 				insert
@@ -5602,7 +5543,6 @@
 				insertnewsavenode
 				instatesequence
 				interfaceprocess
-				interpolate
 				inverse
 				invnext
 				invprev
@@ -5612,7 +5552,6 @@
 				iscrouchingallowed
 				isequal
 				isfreelookallowed
-				isfriend
 				isfrozen
 				isgrayed
 				ishostile
@@ -5623,14 +5562,11 @@
 				islinked
 				islockdefined
 				ismakingloopingsound
-				isnull
 				ispointerequal
 				ispointinlevel
 				ispointinmap
 				issecret
-				isslope
 				isteammate
-				istext
 				istotallyfrozen
 				isvalid
 				isvisible
@@ -5640,8 +5576,27 @@
 				lastindexof
 				lengthsquared
 				lerp
+				light_changetovalue
+				light_fade
+				light_flicker
+				light_forcelightning
+				light_glow
+				light_lowerbyvalue
+				light_maxneighbor
+				light_minneighbor
+				light_raisebyvalue
+				light_stop
+				light_strobe
 				lineattack
 				linetrace
+				line_alignceiling
+				line_alignfloor
+				line_setautomapflags
+				line_setautomapstyle
+				line_setblocking
+				line_setportaltarget
+				line_settextureoffset
+				line_settexturescale
 				linktoworld
 				loadbackground
 				loadsavegame
@@ -5659,7 +5614,6 @@
 				makeautosave
 				makeid
 				makelower
-				makescreenshot
 				makeupper
 				mapchecksum
 				mapexists
@@ -5668,9 +5622,7 @@
 				markprecachesounds
 				marksound
 				matches
-				max
 				mbf21_addflags
-				mbf21_checkammo
 				mbf21_consumeammo
 				mbf21_gunflashto
 				mbf21_healchase
@@ -5693,7 +5645,6 @@
 				mbf21_weaponprojectile
 				menudismissed
 				menuevent
-				menusound
 				menutime
 				mid
 				midprint
@@ -5706,7 +5657,6 @@
 				modifybobpivotlayer3d
 				modifydamage
 				modifydropamount
-				modifyvalue
 				monstermove
 				morph
 				morpheddeath
@@ -5714,12 +5664,10 @@
 				morphplayer
 				morphplayerthink
 				mouseevent
-				mouseeventback
 				move
 				moveceiling
 				movefloor
 				moveplayer
-				mstaffspawn2
 				mstime
 				mstimef
 				multiplytexturexscale
@@ -5733,7 +5681,6 @@
 				mustgetstringname
 				mustgetvalue
 				nameallkeys
-				namekeys
 				networkcommandprocess
 				networkprocess
 				new
@@ -5748,6 +5695,7 @@
 				nextspecialsector
 				nextstage
 				nlerp
+				noisealert
 				normalize180
 				now
 				obtaininventory
@@ -5765,16 +5713,12 @@
 				ongivesecret
 				oninputevent
 				onmenucreated
-				onregister
 				onrespawn
 				onreturn
 				onskip
 				onstartpage
 				ontick
-				onuievent
 				onunregister
-				open
-				openlumpnum
 				openstring
 				opentextenter
 				optioncount
@@ -5791,17 +5735,26 @@
 				ownerdied
 				palettecolor
 				pickdeathmatchstart
-				pickfont
 				picknewweapon
-				picknextweapon
 				pickplayerclass
 				pickplayerstart
-				pickprevweapon
 				pickupforammo
-				pickweapon
+				pillar_build
+				pillar_buildandcrush
+				pillar_open
 				pitchfromvel
 				pitchto
 				planemoving
+				plat_downbyvalue
+				plat_downwaitupstay
+				plat_downwaitupstaylip
+				plat_perpetualraiselip
+				plat_raiseandstaytx0
+				plat_stop
+				plat_toggleceiling
+				plat_upbyvalue
+				plat_upbyvaluestaytx
+				plat_upnearestwaitdownstay
 				playactivesound
 				playattacking
 				playattacking2
@@ -5818,20 +5771,31 @@
 				playerskincheck
 				playerspawned
 				playerthink
+				player_giveitem
+				player_removeitem
+				player_setteam
 				playidle
 				playpickupsound
-				playpushsound
 				playrunning
 				playsound
 				playspawnsound
-				playupsound
 				plusz
 				pointinsector
 				pointonlineside
 				pointonside
-				pointtodist
 				poisonmobj
-				poisonplayer
+				polyobj_doorslide
+				polyobj_doorswing
+				polyobj_move
+				polyobj_movetimes8
+				polyobj_moveto
+				polyobj_movetospot
+				polyobj_or_move
+				polyobj_or_movetimes8
+				polyobj_or_moveto
+				polyobj_or_rotateright
+				polyobj_stop
+				polyobj_stopsound
 				pop
 				portalblocksmovement
 				portalblockssight
@@ -5865,14 +5829,12 @@
 				pushv
 				pushvertex
 				radiusattack
+				radius_quake
 				railattack
 				raiseactor
 				raisemobj
-				random
-				random2
 				randomchasedir
 				randompick
-				readangle
 				readdouble
 				readdoublearray
 				readfloat
@@ -5912,16 +5874,13 @@
 				reserve
 				reset
 				resetairsupply
-				resetcolor
 				resetinterpolation
 				resetpsprite
 				resettodefault
 				resize
 				resolvestate
 				responder
-				restoredamage
 				restorepos
-				restorerenderstyle
 				resurrect
 				revive
 				rightindexof
@@ -5936,17 +5895,42 @@
 				screensizechanged
 				scripterror
 				scriptmessage
+				scroll_ceiling
+				scroll_floor
+				scroll_texture_both
+				scroll_wall
 				search
 				secretexitlevel
+				sector_changeflags
+				sector_changesound
+				sector_setceilingglow
+				sector_setceilingpanning
+				sector_setceilingscale
+				sector_setceilingscale2
+				sector_setcolor
+				sector_setdamage
+				sector_setfade
+				sector_setfloorglow
+				sector_setfloorpanning
+				sector_setfloorscale
+				sector_setfloorscale2
+				sector_setfriction
+				sector_setgravity
+				sector_sethealth
+				sector_setlink
+				sector_setplanereflection
+				sector_setrotation
+				sector_settranslucent
+				sector_setwind
 				selectable
 				sendconversationreply
 				sendinterfaceevent
-				sendkey
 				sendnetworkbuffer
 				sendnetworkcommand
 				sendnetworkevent
 				sendnewcolor
 				sendpitchlimits
+				sendtocommunicator
 				setadditivecolor
 				setalpha
 				setammocapacity
@@ -5956,20 +5940,15 @@
 				setanimationframerateui
 				setanimationui
 				setaxisdeadzone
-				setaxismap
-				setaxisscale
 				setbase
 				setbind
 				setbool
 				setcamera
-				setcameratextureaspectratio
 				setcameratotexture
 				setcapture
 				setcliprect
 				setcmode
 				setcolor
-				setcolorization
-				setcontroller
 				setdamage
 				setenabled
 				setenvironment
@@ -5980,25 +5959,19 @@
 				setfloat
 				setfocus
 				setfogdensity
-				setfov
 				setfriendplayer
 				setfrozen
 				setgiveamount
+				setglobalfogparameter
 				setglowcolor
 				setglowheight
 				sethealth
 				setidle
-				setint
-				setintermusic
-				setinvalid
-				setinventory
 				setlightlevel
-				setlineactivation
 				setlineflags
 				setlinesectorref
 				setlinespecial
 				setlinevertexes
-				setlognumber
 				setlogtext
 				setmarinesprite
 				setmarineweapon
@@ -6014,11 +5987,10 @@
 				setorigin
 				setplanelight
 				setplanetexz
-				setplayerclass
+				setplayerproperty
 				setplayertranslation
 				setprependmessage
 				setpsprite
-				setrandomseed
 				setrenderstyle
 				setsafeflash
 				setscreenfade
@@ -6042,7 +6014,6 @@
 				setstring
 				setsubtitlenumber
 				settag
-				settexture
 				settexturexoffset
 				settexturexscale
 				settextureyoffset
@@ -6058,15 +6029,10 @@
 				setthingxy
 				setthingz
 				settransform
-				settransition
-				settranslation
 				setuniform1f
-				setuniform1i
 				setuniform2f
 				setuniform3f
-				setupweaponslots
 				setvalue
-				setvertex
 				setvertexz
 				setviewpos
 				setwalltexture
@@ -6074,13 +6040,11 @@
 				setwallyscale
 				setweapon
 				setx
-				setxoffset
 				setxscale
 				setxyz
 				sety
 				setyoffset
 				setyscale
-				setz
 				shouldrespawn
 				shouldskipreply
 				shouldspawn
@@ -6091,7 +6055,6 @@
 				sinh
 				sinkmobj
 				skinchanged
-				skiptoendofblock
 				slam
 				slerp
 				slotsize
@@ -6104,10 +6067,8 @@
 				spawndirt
 				spawnhealth
 				spawnlineattackblood
-				spawnmissile
 				spawnmissileangle
 				spawnmissileanglez
-				spawnmissileanglezspeed
 				spawnmissilexyz
 				spawnmissilez
 				spawnmissilezaimed
@@ -6124,16 +6085,24 @@
 				specialkeyevent
 				specialmissilehit
 				sphericalcoords
-				splerp
 				split
 				sqrt
+				stairs_builddown
+				stairs_builddowndoom
+				stairs_builddowndoomsync
+				stairs_builddownsync
+				stairs_buildup
+				stairs_buildupdoom
+				stairs_buildupdoomcrush
+				stairs_buildupdoomsync
+				stairs_buildupsync
 				startbraces
+				startconversation
 				startgamedirect
 				startintermission
 				startmessage
 				startmusic
 				startslideshow
-				startsoundsequence
 				startsoundsequenceid
 				statusbartorealcoords
 				stopallsounds
@@ -6148,22 +6117,47 @@
 				sum
 				swap
 				switchonpickupchanged
-				s_changemusic
 				s_getlength
 				s_pausesound
-				s_resumesound
-				s_sound
-				s_startsound
 				takeinventory
 				takespecialdamage
 				tan
 				tanh
-				teamchanged
+				team_givepoints
+				teleportgroup
+				teleportinsector
 				teleportmove
+				teleportother
+				teleportspecial
+				teleport_endgame
+				teleport_newmap
+				teleport_nofog
+				teleport_nostop
 				testmobjlocation
 				testmobjz
+				thing_activate
+				thing_changetid
+				thing_damage
+				thing_deactivate
+				thing_destroy
+				thing_hate
+				thing_move
+				thing_projectile
+				thing_projectileaimed
+				thing_projectileintercept
+				thing_raise
+				thing_remove
+				thing_setconversation
+				thing_setspecial
+				thing_settranslation
+				thing_spawn
+				thing_spawnfacing
+				thing_spawnnofog
+				thing_stop
 				throwabortexception
 				thrust
+				thrustthing
+				thrustthingz
 				tick
 				ticker
 				tickpsprites
@@ -6172,7 +6166,6 @@
 				todouble
 				togglesaveselection
 				toint
-				tolower
 				tossitem
 				tostring
 				touch
@@ -6185,6 +6178,7 @@
 				transferspecial
 				transformrect
 				translatekeyboardevents
+				translucentline
 				travelled
 				triggeraction
 				triggerpainchance
@@ -6209,10 +6203,8 @@
 				unmorph
 				update
 				updateanimatedback
-				updatecolorsets
 				updatenostate
 				updateplayerclass
-				updatesavecomment
 				updatescreengeometry
 				updateshownextloc
 				updateskinoptions
@@ -6228,8 +6220,6 @@
 				useinventory
 				usepuzzleitem
 				valid
-				validate
-				validateinvfirst
 				validatespriteframe
 				value
 				vec2angle
@@ -6249,7 +6239,6 @@
 				warp
 				wassecret
 				weaponusesammo
-				weaponusesammotype
 				worlddone
 				worldlightning
 				worldlineactivated
@@ -6262,252 +6251,263 @@
 				worldthingdied
 				worldthingground
 				worldthingrevived
-				worldthingspawned
 				worldtick
 				worldunloaded
 				zatpoint
 				zatpointdist
 			</Keywords>
 			<Keywords name="Keywords5">
-				acs_execute
-				acs_executealways
+				abs
+				acos
 				acs_executewithresult
-				acs_lockedexecute
-				acs_lockedexecutedoor
-				acs_suspend
-				acs_terminate
-				autosave
-				ceiling_crushandraise
-				ceiling_crushandraisea
-				ceiling_crushandraisedist
+				acs_namedlockedexecutedoor
+				addinventory
+				addspot
+				addstringarray
+				addsymbol
+				addyoffset
+				applykickback
+				aremodessameid
+				atan2
+				attachmessage
+				autoskip
+				a_beakattackpl1
+				a_beakraise
+				a_bishopdoblur
+				a_bishopmissileweave
+				a_blast
+				a_bouncecheck
+				a_bridgeinit
+				a_cflamemissile
+				a_chase
+				a_clearflash
+				a_clearlastheard
+				a_custombulletattack
+				a_dragonflap
+				a_dragonpain
+				a_dropweaponpieces
+				a_feathers
+				a_fhammerattack
+				a_firedrocks
+				a_firerailgun
+				a_firesigil3
+				a_freezedeath
+				a_genericfreezedeath
+				a_givequestitem
+				a_givetosiblings
+				a_givetotarget
+				a_hideinceiling
+				a_iceguylook
+				a_impexplode
+				a_jumpifhealthlower
+				a_jumpifintargetlos
+				a_jumpifmastercloser
+				a_keendie
+				a_killchildren
+				a_killtracer
+				a_koraxchase
+				a_koraxcommand
+				a_light
+				a_lightningzap
+				a_log
+				a_lower
+				a_makepod
+				a_marinenoise
+				a_meleeattack
+				a_m_firepistol
+				a_nailbomb
+				a_paindie
+				a_playsoundex
+				a_podpain
+				a_potterycheck
+				a_raise
+				a_sargattack
+				a_selectpiece
+				a_selectsigilview
+				a_serpentmeleeattack
+				a_serpentunhide
+				a_setcrosshair
+				a_sethealth
+				a_setmugshotstate
+				a_setreflective
+				a_setspeed
+				a_setuservarfloat
+				a_smbounce
+				a_sorcballorbit
+				a_sorcfx1seek
+				a_spawnfizzle
+				a_spectre3attack
+				a_sposattackuseatksound
+				a_staffattack
+				a_stalkerlookinit
+				a_stop
+				a_takefromtarget
+				a_thrustinitdn
+				a_transferpointer
+				a_unsetinvulnerable
+				a_vileattack
+				a_vilestart
+				a_viletarget
+				a_wraithfx3
+				bobweapon
+				bringupweapon
+				canseek
 				ceiling_crushandraisesilenta
-				ceiling_crushandraisesilentdist
-				ceiling_crushraiseandstay
 				ceiling_crushraiseandstaya
-				ceiling_crushraiseandstaysila
-				ceiling_crushstop
-				ceiling_lowerandcrush
-				ceiling_lowerandcrushdist
-				ceiling_lowerbytexture
-				ceiling_lowerbyvalue
-				ceiling_lowerbyvaluetimes8
-				ceiling_lowerinstant
-				ceiling_lowertofloor
-				ceiling_lowertohighestfloor
-				ceiling_lowertolowest
-				ceiling_lowertonearest
-				ceiling_movetovalue
-				ceiling_movetovalueandcrush
-				ceiling_movetovaluetimes8
-				ceiling_raisebytexture
-				ceiling_raisebyvalue
-				ceiling_raisebyvaluetimes8
-				ceiling_raiseinstant
-				ceiling_raisetohighest
-				ceiling_raisetohighestfloor
-				ceiling_raisetolowest
-				ceiling_raisetonearest
-				ceiling_stop
-				ceiling_tofloorinstant
-				ceiling_tohighestinstant
-				ceiling_waggle
-				changecamera
-				changeskill
-				clearforcefield
-				damagething
-				door_animated
-				door_animatedclose
-				door_close
-				door_closewaitopen
-				door_lockedraise
+				centerceiling
+				changesky
+				charupper
+				checkairsupply
+				checkcoordinate
+				checkdisplayname
+				checkproximity
+				clearinterpolation
+				closesound
+				copy
+				copybloodcolor
+				createnamed
+				createsectortagiterator
+				createwithsound
+				delete
+				detachallmessages
+				dodrawautomaphud
 				door_open
 				door_raise
-				door_waitclose
-				door_waitraise
-				elevator_lowertonearest
-				elevator_movetofloor
-				elevator_raisetonearest
-				exit_normal
-				exit_secret
-				floorandceiling_lowerbyvalue
-				floorandceiling_lowerraise
-				floorandceiling_raisebyvalue
-				floor_crushstop
+				drawbackdrop
+				drawframe
+				drawhudnumber
+				drawmainbar
+				drawonekey
+				drawoneweapon
+				drawpatchortext
+				drawpercent
+				drawsplash
+				endallpowerupeffects
+				explodemissile
+				fallandsink
+				filter
+				findlowestceilingpoint
 				floor_donut
-				floor_lowerbytexture
-				floor_lowerbyvalue
-				floor_lowerbyvaluetimes8
 				floor_lowerinstant
-				floor_lowertohighest
-				floor_lowertohighestee
-				floor_lowertolowest
-				floor_lowertolowestceiling
-				floor_lowertolowesttxty
-				floor_lowertonearest
-				floor_movetovalue
-				floor_movetovalueandcrush
-				floor_movetovaluetimes8
-				floor_raiseandcrush
-				floor_raiseandcrushdoom
-				floor_raisebytexture
-				floor_raisebyvalue
-				floor_raisebyvaluetimes8
-				floor_raisebyvaluetxty
-				floor_raiseinstant
-				floor_raisetoceiling
-				floor_raisetohighest
-				floor_raisetolowest
-				floor_raisetolowestceiling
 				floor_raisetonearest
-				floor_stop
-				floor_toceilinginstant
-				floor_transfernumeric
-				floor_transfertrigger
-				floor_waggle
-				forcefield
-				fs_execute
-				generic_ceiling
-				generic_crusher
-				generic_crusher2
-				generic_crusherdist
-				generic_door
-				generic_floor
+				flushnotify
 				generic_lift
-				generic_stairs
-				glassbreak
-				healthing
-				light_changetovalue
-				light_fade
-				light_flicker
-				light_forcelightning
-				light_glow
-				light_lowerbyvalue
-				light_maxneighbor
-				light_minneighbor
-				light_raisebyvalue
-				light_stop
-				light_strobe
+				geometrylineattack
+				get3dfloor
+				getboboffset
+				getbuttonstateflags
+				getclassname
+				getcolorset
+				getcrouchfactor
+				getdoubledata
+				getdownstate
+				getfviewbob
+				getlevelinfo
+				getlumpfullname
+				getlumplength
+				getnamedata
+				getplanetexz
+				getportalplanez
+				getprotrusion
+				getrenderstyle
+				getrowcolor
+				getsaveamount
+				getselectedenvironment
+				getsortedplayers
+				getspecies
+				gettexture
+				getupstate
+				getyoffset
+				givebody
+				handlepickup
+				hideconsole
+				init
+				initspawneditem
+				interpolate
+				isfriend
+				isnull
+				isslope
+				istext
 				light_strobedoom
-				line_alignceiling
-				line_alignfloor
-				line_setautomapflags
-				line_setautomapstyle
-				line_setblocking
 				line_sethealth
-				line_setportaltarget
-				line_settextureoffset
-				line_settexturescale
-				noisealert
-				pillar_build
-				pillar_buildandcrush
-				pillar_open
-				plat_downbyvalue
-				plat_downwaitupstay
-				plat_downwaitupstaylip
+				makescreenshot
+				max
+				mbf21_checkammo
+				menusound
+				modifyvalue
+				mouseeventback
+				mstaffspawn2
+				namekeys
+				onregister
+				onuievent
+				open
+				openlumpnum
+				pickfont
+				picknextweapon
+				pickprevweapon
+				pickweapon
 				plat_perpetualraise
-				plat_perpetualraiselip
-				plat_raiseandstaytx0
-				plat_stop
-				plat_toggleceiling
-				plat_upbyvalue
-				plat_upbyvaluestaytx
-				plat_upnearestwaitdownstay
 				plat_upwaitdownstay
-				player_giveitem
-				player_removeitem
-				player_setteam
-				polyobj_doorslide
-				polyobj_doorswing
-				polyobj_move
-				polyobj_movetimes8
-				polyobj_moveto
-				polyobj_movetospot
-				polyobj_or_move
-				polyobj_or_movetimes8
-				polyobj_or_moveto
+				playpushsound
+				playupsound
+				pointtodist
+				poisonplayer
 				polyobj_or_movetospot
 				polyobj_or_rotateleft
-				polyobj_or_rotateright
 				polyobj_rotateleft
 				polyobj_rotateright
-				polyobj_stop
-				polyobj_stopsound
-				radius_quake
-				scroll_ceiling
-				scroll_floor
-				scroll_texture_both
-				scroll_wall
-				sector_changeflags
-				sector_changesound
-				sector_setceilingglow
-				sector_setceilingpanning
-				sector_setceilingscale
-				sector_setceilingscale2
-				sector_setcolor
+				random
+				random2
+				readangle
+				resetcolor
+				restoredamage
+				restorerenderstyle
 				sector_setcurrent
-				sector_setdamage
-				sector_setfade
-				sector_setfloorglow
-				sector_setfloorpanning
-				sector_setfloorscale
-				sector_setfloorscale2
-				sector_setfriction
-				sector_setgravity
-				sector_sethealth
-				sector_setlink
-				sector_setplanereflection
-				sector_setrotation
-				sector_settranslucent
-				sector_setwind
-				sendtocommunicator
-				setglobalfogparameter
-				setplayerproperty
-				stairs_builddown
-				stairs_builddowndoom
-				stairs_builddowndoomsync
-				stairs_builddownsync
-				stairs_buildup
-				stairs_buildupdoom
-				stairs_buildupdoomcrush
-				stairs_buildupdoomsync
-				stairs_buildupsync
-				startconversation
-				team_givepoints
+				sendkey
+				setaxismap
+				setaxisscale
+				setcameratextureaspectratio
+				setcolorization
+				setcontroller
+				setfov
+				setint
+				setintermusic
+				setinvalid
+				setinventory
+				setlineactivation
+				setlognumber
+				setplayerclass
+				setrandomseed
+				settexture
+				settransition
+				settranslation
+				setuniform1i
+				setupweaponslots
+				setvertex
+				setxoffset
+				setz
+				skiptoendofblock
+				spawnmissile
+				spawnmissileanglezspeed
+				splerp
+				startsoundsequence
+				s_changemusic
+				s_resumesound
+				s_sound
+				s_startsound
+				teamchanged
 				team_score
-				teleportgroup
-				teleportinsector
-				teleportother
-				teleportspecial
-				teleport_endgame
 				teleport_line
-				teleport_newmap
-				teleport_nofog
-				teleport_nostop
 				teleport_zombiechanger
-				thing_activate
-				thing_changetid
-				thing_damage
-				thing_deactivate
-				thing_destroy
-				thing_hate
-				thing_move
-				thing_projectile
-				thing_projectileaimed
 				thing_projectilegravity
-				thing_projectileintercept
-				thing_raise
-				thing_remove
-				thing_setconversation
 				thing_setgoal
-				thing_setspecial
-				thing_settranslation
-				thing_spawn
-				thing_spawnfacing
-				thing_spawnnofog
-				thing_stop
-				thrustthing
-				thrustthingz
-				translucentline
+				tolower
+				updatecolorsets
+				updatesavecomment
+				validate
+				validateinvfirst
+				weaponusesammotype
+				worldthingspawned
 			</Keywords>
 			<Keywords name="Keywords6">
 				aaptr_default
