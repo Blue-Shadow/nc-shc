@@ -664,6 +664,7 @@
 				emenumouse
 				emenustate
 				emissilehitresult
+				emodelflags
 				emonospacing
 				emorphflags
 				emovementflags
@@ -2346,6 +2347,10 @@
 				bfixmapthingpos
 				bflatsprite
 				bflip
+				bflipoffsetx
+				bflipoffsety
+				bflipspriteoffsetx
+				bflipspriteoffsety
 				bfloat
 				bfloatbob
 				bfloorclip
@@ -2953,6 +2958,8 @@
 				flagssave
 				flatsprite
 				flechettetype
+				flipspriteoffsetx
+				flipspriteoffsety
 				floatbob
 				floatbobphase
 				floatbobstrength
@@ -6282,6 +6289,7 @@
 				a_chase
 				a_clearflash
 				a_clearlastheard
+				a_clearmodelflag
 				a_custombulletattack
 				a_dragonflap
 				a_dragonpain
@@ -6321,13 +6329,17 @@
 				a_podpain
 				a_potterycheck
 				a_raise
+				a_resetmodelflags
 				a_sargattack
 				a_selectpiece
 				a_selectsigilview
 				a_serpentmeleeattack
 				a_serpentunhide
+				a_setanimation
+				a_setanimationframerate
 				a_setcrosshair
 				a_sethealth
+				a_setmodelflag
 				a_setmugshotstate
 				a_setreflective
 				a_setspeed
@@ -6362,6 +6374,7 @@
 				checkdisplayname
 				checkproximity
 				clearinterpolation
+				clearmodelflag
 				closesound
 				copy
 				copybloodcolor
@@ -6460,6 +6473,7 @@
 				random2
 				readangle
 				resetcolor
+				resetmodelflags
 				restoredamage
 				restorerenderstyle
 				sector_setcurrent
@@ -6476,6 +6490,7 @@
 				setinventory
 				setlineactivation
 				setlognumber
+				setmodelflag
 				setplayerclass
 				setrandomseed
 				settexture
@@ -7635,6 +7650,10 @@
 				max_gen_pods
 				max_randomspawners_recursion
 				max_statnum
+				mdl_ignoretranslation
+				mdl_interpolatedoubledframes
+				mdl_pitchfrommomentum
+				mdl_rotating
 				meleedelta
 				mhit_default
 				mhit_destroy
@@ -8570,7 +8589,19 @@
 				zoom_instant
 				zoom_noscaleturning
 			</Keywords>
-			<Keywords name="Keywords7"></Keywords>
+			<Keywords name="Keywords7">
+				mdl_badrotation
+				mdl_correctpixelstretch
+				mdl_dontcullbackfaces
+				mdl_forcecullbackfaces
+				mdl_modelsareattachments
+				mdl_nointerpolation
+				mdl_noperpixellighting
+				mdl_scaleweaponfov
+				mdl_useactorpitch
+				mdl_useactorroll
+				mdl_userotationcenter
+			</Keywords>
 			<Keywords name="Keywords8">
 				#include
 			</Keywords>
@@ -8587,7 +8618,7 @@
 			<WordsStyle name="KEYWORDS4" fgColor="A578E7" bgColor="000000" fontName="" fontStyle="0" nesting="0" />
 			<WordsStyle name="KEYWORDS5" fgColor="A578E7" bgColor="000000" fontName="" fontStyle="0" nesting="0" />
 			<WordsStyle name="KEYWORDS6" fgColor="C03D7D" bgColor="000000" fontName="" fontStyle="0" nesting="0" />
-			<WordsStyle name="KEYWORDS7" fgColor="A0A0A0" bgColor="000000" fontName="" fontStyle="0" nesting="0" />
+			<WordsStyle name="KEYWORDS7" fgColor="C03D7D" bgColor="000000" fontName="" fontStyle="0" nesting="0" />
 			<WordsStyle name="KEYWORDS8" fgColor="5AA05A" bgColor="000000" fontName="" fontStyle="0" nesting="0" />
 			<WordsStyle name="OPERATORS" fgColor="A0A0A0" bgColor="000000" fontName="" fontStyle="0" nesting="0" />
 			<WordsStyle name="FOLDER IN CODE1" fgColor="A0A0A0" bgColor="000000" fontName="" fontStyle="0" nesting="0" />
