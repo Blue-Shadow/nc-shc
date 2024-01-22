@@ -222,6 +222,10 @@
 				interpic
 				intro
 				ironlichspecial
+				isocam_pitch
+				isometricmode
+				isometricsprites
+				iso_dist
 				keepfullinventory
 				killeractivatesdeathspecials
 				laxmonsteractivation
@@ -265,6 +269,7 @@
 				notexturefill
 				no_grinding_polyobj
 				oldfallingdamage
+				orthographic
 				outro
 				outsidefog
 				outsidefogdensity

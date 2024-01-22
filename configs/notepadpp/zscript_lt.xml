@@ -3128,6 +3128,7 @@
 				isliquid
 				ismanual
 				ismonster
+				isoyaw
 				isreopen
 				isreturn
 				issavegame
@@ -6438,6 +6439,7 @@
 				initspawneditem
 				interpolate
 				isfriend
+				isisometricmode
 				isnull
 				isslope
 				istext
