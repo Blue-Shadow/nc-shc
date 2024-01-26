@@ -6412,6 +6412,7 @@ explodemissile
 fallandsink
 filter
 findlowestceilingpoint
+findstatebystring
 floor_donut
 floor_lowerinstant
 floor_raisetonearest
@@ -6468,6 +6469,7 @@ onregister
 onuievent
 open
 openlumpnum
+performshadowchecks
 pickfont
 picknextweapon
 pickprevweapon
