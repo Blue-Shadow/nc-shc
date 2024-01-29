@@ -2197,6 +2197,7 @@ authortexts
 autoactivate
 automapactive
 automapbindings
+automapoffsets
 autouse
 autousemode
 avoidhazards
