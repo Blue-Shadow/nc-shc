@@ -1713,6 +1713,7 @@ spawnfire
 spawnshot
 speakericon
 specialspot
+spectatorcamera
 spectrallightningball1
 spectrallightningball2
 spectrallightningbase
@@ -2419,6 +2420,7 @@ binvisibleinmirrors
 binvulnerable
 bisarmor
 bishealth
+biskeyitem
 bismonster
 bjumpdown
 bjustattacked
@@ -2467,6 +2469,7 @@ bmovewithsector
 bmthruspecies
 bmvisblocked
 bneverfast
+bneverlocal
 bneverrespawn
 bnevertarget
 bnoalert
@@ -2699,6 +2702,8 @@ ceilingz
 center
 centering
 centerspot
+chasemode
+chasingtracer
 cheatnotweapon
 cheats
 checkswitchrange
@@ -3137,10 +3142,10 @@ isarmor
 isctrl
 isfinal
 ishealth
+iskeyitem
 isliquid
 ismanual
 ismonster
-isoyaw
 isreopen
 isreturn
 issavegame
@@ -3169,6 +3174,7 @@ kickback
 killcount
 killed_monsters
 kills
+lagdistance
 lastbump
 lastdamagetype
 lastenemy
@@ -3512,6 +3518,7 @@ negic
 netgame
 net_arbitrator
 neverfast
+neverlocal
 neverrespawn
 nevertarget
 newconsolefont
@@ -6377,6 +6384,7 @@ a_viletarget
 a_wraithfx3
 bobweapon
 bringupweapon
+canpickuplocally
 canseek
 ceiling_crushandraisesilenta
 ceiling_crushraiseandstaya
@@ -6388,6 +6396,7 @@ checkcoordinate
 checkdisplayname
 checkproximity
 clearinterpolation
+clearlocalpickups
 clearmodelflag
 closesound
 copy
@@ -6397,6 +6406,7 @@ createsectortagiterator
 createwithsound
 delete
 detachallmessages
+disablelocalrendering
 dodrawautomaphud
 door_open
 door_raise
@@ -6448,17 +6458,18 @@ getupstate
 getyoffset
 givebody
 handlepickup
+haspickeduplocally
 hideconsole
 init
 initspawneditem
 interpolate
 isfriend
-isisometricmode
 isnull
 isslope
 istext
 light_strobedoom
 line_sethealth
+lookatself
 makescreenshot
 max
 mbf21_checkammo
@@ -6475,6 +6486,7 @@ performshadowchecks
 pickfont
 picknextweapon
 pickprevweapon
+pickuplocally
 pickweapon
 plat_perpetualraise
 plat_upwaitdownstay
@@ -6518,6 +6530,8 @@ setupweaponslots
 setvertex
 setxoffset
 setz
+shareitemwithplayers
+shouldrenderlocally
 skiptoendofblock
 spawnmissile
 spawnmissileanglezspeed
@@ -8618,3 +8632,6 @@ mdl_scaleweaponfov
 mdl_useactorpitch
 mdl_useactorroll
 mdl_userotationcenter
+vpsf_allowoutofbounds
+vpsf_isometricsprites
+vpsf_orthographic
