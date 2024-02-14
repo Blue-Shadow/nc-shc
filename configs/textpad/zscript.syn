@@ -1713,7 +1713,6 @@ spawnfire
 spawnshot
 speakericon
 specialspot
-spectatorcamera
 spectrallightningball1
 spectrallightningball2
 spectrallightningbase
@@ -2702,8 +2701,6 @@ ceilingz
 center
 centering
 centerspot
-chasemode
-chasingtracer
 cheatnotweapon
 cheats
 checkswitchrange
@@ -3174,7 +3171,6 @@ kickback
 killcount
 killed_monsters
 kills
-lagdistance
 lastbump
 lastdamagetype
 lastenemy
@@ -6469,7 +6465,6 @@ isslope
 istext
 light_strobedoom
 line_sethealth
-lookatself
 makescreenshot
 max
 mbf21_checkammo
@@ -8632,6 +8627,3 @@ mdl_scaleweaponfov
 mdl_useactorpitch
 mdl_useactorroll
 mdl_userotationcenter
-vpsf_allowoutofbounds
-vpsf_isometricsprites
-vpsf_orthographic

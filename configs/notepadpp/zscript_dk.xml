@@ -1702,7 +1702,6 @@
 				spawnshot
 				speakericon
 				specialspot
-				spectatorcamera
 				spectrallightningball1
 				spectrallightningball2
 				spectrallightningbase
@@ -2691,8 +2690,6 @@
 				center
 				centering
 				centerspot
-				chasemode
-				chasingtracer
 				cheatnotweapon
 				cheats
 				checkswitchrange
@@ -3163,7 +3160,6 @@
 				killcount
 				killed_monsters
 				kills
-				lagdistance
 				lastbump
 				lastdamagetype
 				lastenemy
@@ -6458,7 +6454,6 @@
 				istext
 				light_strobedoom
 				line_sethealth
-				lookatself
 				makescreenshot
 				max
 				mbf21_checkammo
@@ -8621,9 +8616,6 @@
 				mdl_useactorpitch
 				mdl_useactorroll
 				mdl_userotationcenter
-				vpsf_allowoutofbounds
-				vpsf_isometricsprites
-				vpsf_orthographic
 			</Keywords>
 			<Keywords name="Keywords8">
 				#include
