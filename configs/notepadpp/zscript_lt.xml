@@ -2266,6 +2266,7 @@
 				bbright
 				bbuddha
 				bbumpspecial
+				bcamfollowsplayer
 				bcanblast
 				bcanbouncewater
 				bcanjump
@@ -2665,6 +2666,7 @@
 				camera
 				camerafov
 				cameraheight
+				camfollowsplayer
 				canblast
 				canbouncewater
 				canjump
@@ -4878,7 +4880,6 @@
 				changecamera
 				changeclass
 				changeflags
-				changeheight
 				changelevel
 				changelightlevel
 				changelinespacing
@@ -6404,7 +6405,9 @@
 				drawpatchortext
 				drawpercent
 				drawsplash
+				enablenetworking
 				endallpowerupeffects
+				endofstream
 				explodemissile
 				fallandsink
 				filter
@@ -6429,6 +6432,8 @@
 				getlumpfullname
 				getlumplength
 				getnamedata
+				getnetworkentity
+				getnetworkid
 				getplanetexz
 				getportalplanez
 				getprotrusion
