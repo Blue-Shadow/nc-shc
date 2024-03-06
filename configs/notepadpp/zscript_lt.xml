@@ -697,6 +697,7 @@
 				epointerflags
 				epointeroperations
 				epop
+				epremorphproperty
 				eprintlevel
 				eprivateplayerflags
 				eproximityflags
@@ -1279,6 +1280,7 @@
 				passcard
 				patchinfo
 				pathfollower
+				pathnode
 				patrolpoint
 				patrolspecial
 				peasant
@@ -2416,6 +2418,7 @@
 				bjusthit
 				bjuststepped
 				bkeepdepleted
+				bkeeppath
 				bkilled
 				blasted
 				blaxtelefragdmg
@@ -2498,6 +2501,7 @@
 				bnomenu
 				bnonshootable
 				bnopain
+				bnopathing
 				bnoradiusdmg
 				bnosavegame
 				bnoscreenblink
@@ -2561,6 +2565,7 @@
 				boxofs
 				boxsize
 				bpainless
+				bpathing
 				bpersistentpower
 				bpickup
 				bpickupgood
@@ -3153,6 +3158,7 @@
 				justhit
 				keepdepleted
 				keepfullinventory
+				keeppath
 				keychar
 				keypoppos
 				keypopscroll
@@ -3406,6 +3412,7 @@
 				morphedplayer
 				morphedplayerclass
 				morphexitflash
+				morphflags
 				morphflash
 				morphstyle
 				morphtics
@@ -3502,6 +3509,7 @@
 				namespc
 				needsgold
 				negic
+				neighbors
 				netgame
 				net_arbitrator
 				neverfast
@@ -3561,6 +3569,7 @@
 				nomonsters
 				nonshootable
 				nopain
+				nopathing
 				noradiusdmg
 				norandomplayerclass
 				normal
@@ -3628,6 +3637,9 @@
 				par
 				parseerror
 				partime
+				path
+				pathing
+				pathnodes
 				paused
 				pendingpop
 				pendingweapon
@@ -3687,6 +3699,7 @@
 				powered_up
 				poweruptype
 				preferredskin
+				premorphproperties
 				premorphweapon
 				prev
 				prevbob
@@ -6370,6 +6383,7 @@
 				a_wraithfx3
 				bobweapon
 				bringupweapon
+				canpathfind
 				canpickuplocally
 				canseek
 				ceiling_crushandraisesilenta
@@ -6381,9 +6395,11 @@
 				checkcoordinate
 				checkdisplayname
 				checkproximity
+				checkunmorph
 				clearinterpolation
 				clearlocalpickups
 				clearmodelflag
+				clearpath
 				closesound
 				copy
 				copybloodcolor
@@ -6408,10 +6424,12 @@
 				enablenetworking
 				endallpowerupeffects
 				endofstream
+				excludenode
 				explodemissile
 				fallandsink
 				filter
 				findlowestceilingpoint
+				findpath
 				findstatebystring
 				floor_donut
 				floor_lowerinstant
@@ -6431,6 +6449,9 @@
 				getlevelinfo
 				getlumpfullname
 				getlumplength
+				getmorphexitflash
+				getmorphstyle
+				getmorphtics
 				getnamedata
 				getnetworkentity
 				getnetworkid
@@ -6447,6 +6468,7 @@
 				getupstate
 				getyoffset
 				givebody
+				handlepathnode
 				handlepickup
 				haspickeduplocally
 				hideconsole
@@ -6464,6 +6486,7 @@
 				mbf21_checkammo
 				menusound
 				modifyvalue
+				morphinto
 				mouseeventback
 				mstaffspawn2
 				namekeys
@@ -6489,6 +6512,7 @@
 				polyobj_rotateright
 				random
 				random2
+				reachednode
 				readangle
 				resetcolor
 				resetmodelflags
@@ -6500,6 +6524,8 @@
 				setaxisscale
 				setcameratextureaspectratio
 				setcolorization
+				setconnection
+				setconnectionglobal
 				setcontroller
 				setfov
 				setint
@@ -6509,6 +6535,9 @@
 				setlineactivation
 				setlognumber
 				setmodelflag
+				setmorphexitflash
+				setmorphstyle
+				setmorphtics
 				setplayerclass
 				setrandomseed
 				settexture
@@ -8621,6 +8650,15 @@
 				mdl_useactorpitch
 				mdl_useactorroll
 				mdl_userotationcenter
+				mprop_invis
+				mprop_no_blockmap
+				mprop_no_interaction
+				mprop_no_sector
+				mprop_shootable
+				mprop_solid
+				mrf_ignoreinvuln
+				mrf_keeparmor
+				secmf_nopathing
 			</Keywords>
 			<Keywords name="Keywords8">
 				#include

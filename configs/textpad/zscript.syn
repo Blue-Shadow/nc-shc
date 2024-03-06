@@ -708,6 +708,7 @@ eplayerstate
 epointerflags
 epointeroperations
 epop
+epremorphproperty
 eprintlevel
 eprivateplayerflags
 eproximityflags
@@ -1290,6 +1291,7 @@ particlefountain
 passcard
 patchinfo
 pathfollower
+pathnode
 patrolpoint
 patrolspecial
 peasant
@@ -2427,6 +2429,7 @@ bjustattacked
 bjusthit
 bjuststepped
 bkeepdepleted
+bkeeppath
 bkilled
 blasted
 blaxtelefragdmg
@@ -2509,6 +2512,7 @@ bnoliftdrop
 bnomenu
 bnonshootable
 bnopain
+bnopathing
 bnoradiusdmg
 bnosavegame
 bnoscreenblink
@@ -2572,6 +2576,7 @@ box
 boxofs
 boxsize
 bpainless
+bpathing
 bpersistentpower
 bpickup
 bpickupgood
@@ -3164,6 +3169,7 @@ justattacked
 justhit
 keepdepleted
 keepfullinventory
+keeppath
 keychar
 keypoppos
 keypopscroll
@@ -3417,6 +3423,7 @@ morigin
 morphedplayer
 morphedplayerclass
 morphexitflash
+morphflags
 morphflash
 morphstyle
 morphtics
@@ -3513,6 +3520,7 @@ m_sector
 namespc
 needsgold
 negic
+neighbors
 netgame
 net_arbitrator
 neverfast
@@ -3572,6 +3580,7 @@ nomenu
 nomonsters
 nonshootable
 nopain
+nopathing
 noradiusdmg
 norandomplayerclass
 normal
@@ -3639,6 +3648,9 @@ paintype
 par
 parseerror
 partime
+path
+pathing
+pathnodes
 paused
 pendingpop
 pendingweapon
@@ -3698,6 +3710,7 @@ position
 powered_up
 poweruptype
 preferredskin
+premorphproperties
 premorphweapon
 prev
 prevbob
@@ -6381,6 +6394,7 @@ a_viletarget
 a_wraithfx3
 bobweapon
 bringupweapon
+canpathfind
 canpickuplocally
 canseek
 ceiling_crushandraisesilenta
@@ -6392,9 +6406,11 @@ checkairsupply
 checkcoordinate
 checkdisplayname
 checkproximity
+checkunmorph
 clearinterpolation
 clearlocalpickups
 clearmodelflag
+clearpath
 closesound
 copy
 copybloodcolor
@@ -6419,10 +6435,12 @@ drawsplash
 enablenetworking
 endallpowerupeffects
 endofstream
+excludenode
 explodemissile
 fallandsink
 filter
 findlowestceilingpoint
+findpath
 findstatebystring
 floor_donut
 floor_lowerinstant
@@ -6442,6 +6460,9 @@ getfviewbob
 getlevelinfo
 getlumpfullname
 getlumplength
+getmorphexitflash
+getmorphstyle
+getmorphtics
 getnamedata
 getnetworkentity
 getnetworkid
@@ -6458,6 +6479,7 @@ gettexture
 getupstate
 getyoffset
 givebody
+handlepathnode
 handlepickup
 haspickeduplocally
 hideconsole
@@ -6475,6 +6497,7 @@ max
 mbf21_checkammo
 menusound
 modifyvalue
+morphinto
 mouseeventback
 mstaffspawn2
 namekeys
@@ -6500,6 +6523,7 @@ polyobj_rotateleft
 polyobj_rotateright
 random
 random2
+reachednode
 readangle
 resetcolor
 resetmodelflags
@@ -6511,6 +6535,8 @@ setaxismap
 setaxisscale
 setcameratextureaspectratio
 setcolorization
+setconnection
+setconnectionglobal
 setcontroller
 setfov
 setint
@@ -6520,6 +6546,9 @@ setinventory
 setlineactivation
 setlognumber
 setmodelflag
+setmorphexitflash
+setmorphstyle
+setmorphtics
 setplayerclass
 setrandomseed
 settexture
@@ -8632,3 +8661,12 @@ mdl_scaleweaponfov
 mdl_useactorpitch
 mdl_useactorroll
 mdl_userotationcenter
+mprop_invis
+mprop_no_blockmap
+mprop_no_interaction
+mprop_no_sector
+mprop_shootable
+mprop_solid
+mrf_ignoreinvuln
+mrf_keeparmor
+secmf_nopathing
