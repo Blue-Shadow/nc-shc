@@ -1291,7 +1291,6 @@ particlefountain
 passcard
 patchinfo
 pathfollower
-pathnode
 patrolpoint
 patrolspecial
 peasant
@@ -2429,7 +2428,6 @@ bjustattacked
 bjusthit
 bjuststepped
 bkeepdepleted
-bkeeppath
 bkilled
 blasted
 blaxtelefragdmg
@@ -2512,7 +2510,6 @@ bnoliftdrop
 bnomenu
 bnonshootable
 bnopain
-bnopathing
 bnoradiusdmg
 bnosavegame
 bnoscreenblink
@@ -2576,7 +2573,6 @@ box
 boxofs
 boxsize
 bpainless
-bpathing
 bpersistentpower
 bpickup
 bpickupgood
@@ -3169,7 +3165,6 @@ justattacked
 justhit
 keepdepleted
 keepfullinventory
-keeppath
 keychar
 keypoppos
 keypopscroll
@@ -3521,7 +3516,6 @@ m_sector
 namespc
 needsgold
 negic
-neighbors
 netgame
 net_arbitrator
 neverfast
@@ -3581,7 +3575,6 @@ nomenu
 nomonsters
 nonshootable
 nopain
-nopathing
 noradiusdmg
 norandomplayerclass
 normal
@@ -3649,9 +3642,6 @@ paintype
 par
 parseerror
 partime
-path
-pathing
-pathnodes
 paused
 pendingpop
 pendingweapon
@@ -6395,7 +6385,6 @@ a_viletarget
 a_wraithfx3
 bobweapon
 bringupweapon
-canpathfind
 canpickuplocally
 canseek
 ceiling_crushandraisesilenta
@@ -6411,7 +6400,6 @@ checkunmorph
 clearinterpolation
 clearlocalpickups
 clearmodelflag
-clearpath
 closesound
 copy
 copybloodcolor
@@ -6436,12 +6424,10 @@ drawsplash
 enablenetworking
 endallpowerupeffects
 endofstream
-excludenode
 explodemissile
 fallandsink
 filter
 findlowestceilingpoint
-findpath
 findstatebystring
 floor_donut
 floor_lowerinstant
@@ -6480,7 +6466,6 @@ gettexture
 getupstate
 getyoffset
 givebody
-handlepathnode
 handlepickup
 haspickeduplocally
 hideconsole
@@ -6524,7 +6509,6 @@ polyobj_rotateleft
 polyobj_rotateright
 random
 random2
-reachednode
 readangle
 resetcolor
 resetmodelflags
@@ -6536,8 +6520,6 @@ setaxismap
 setaxisscale
 setcameratextureaspectratio
 setcolorization
-setconnection
-setconnectionglobal
 setcontroller
 setfov
 setint
@@ -8670,4 +8652,3 @@ mprop_shootable
 mprop_solid
 mrf_ignoreinvuln
 mrf_keeparmor
-secmf_nopathing

@@ -1280,7 +1280,6 @@
 				passcard
 				patchinfo
 				pathfollower
-				pathnode
 				patrolpoint
 				patrolspecial
 				peasant
@@ -2418,7 +2417,6 @@
 				bjusthit
 				bjuststepped
 				bkeepdepleted
-				bkeeppath
 				bkilled
 				blasted
 				blaxtelefragdmg
@@ -2501,7 +2499,6 @@
 				bnomenu
 				bnonshootable
 				bnopain
-				bnopathing
 				bnoradiusdmg
 				bnosavegame
 				bnoscreenblink
@@ -2565,7 +2562,6 @@
 				boxofs
 				boxsize
 				bpainless
-				bpathing
 				bpersistentpower
 				bpickup
 				bpickupgood
@@ -3158,7 +3154,6 @@
 				justhit
 				keepdepleted
 				keepfullinventory
-				keeppath
 				keychar
 				keypoppos
 				keypopscroll
@@ -3510,7 +3505,6 @@
 				namespc
 				needsgold
 				negic
-				neighbors
 				netgame
 				net_arbitrator
 				neverfast
@@ -3570,7 +3564,6 @@
 				nomonsters
 				nonshootable
 				nopain
-				nopathing
 				noradiusdmg
 				norandomplayerclass
 				normal
@@ -3638,9 +3631,6 @@
 				par
 				parseerror
 				partime
-				path
-				pathing
-				pathnodes
 				paused
 				pendingpop
 				pendingweapon
@@ -6384,7 +6374,6 @@
 				a_wraithfx3
 				bobweapon
 				bringupweapon
-				canpathfind
 				canpickuplocally
 				canseek
 				ceiling_crushandraisesilenta
@@ -6400,7 +6389,6 @@
 				clearinterpolation
 				clearlocalpickups
 				clearmodelflag
-				clearpath
 				closesound
 				copy
 				copybloodcolor
@@ -6425,12 +6413,10 @@
 				enablenetworking
 				endallpowerupeffects
 				endofstream
-				excludenode
 				explodemissile
 				fallandsink
 				filter
 				findlowestceilingpoint
-				findpath
 				findstatebystring
 				floor_donut
 				floor_lowerinstant
@@ -6469,7 +6455,6 @@
 				getupstate
 				getyoffset
 				givebody
-				handlepathnode
 				handlepickup
 				haspickeduplocally
 				hideconsole
@@ -6513,7 +6498,6 @@
 				polyobj_rotateright
 				random
 				random2
-				reachednode
 				readangle
 				resetcolor
 				resetmodelflags
@@ -6525,8 +6509,6 @@
 				setaxisscale
 				setcameratextureaspectratio
 				setcolorization
-				setconnection
-				setconnectionglobal
 				setcontroller
 				setfov
 				setint
@@ -8659,7 +8641,6 @@
 				mprop_solid
 				mrf_ignoreinvuln
 				mrf_keeparmor
-				secmf_nopathing
 			</Keywords>
 			<Keywords name="Keywords8">
 				#include
